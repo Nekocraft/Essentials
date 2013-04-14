@@ -54,17 +54,17 @@ public class BookPager
 
 			while (pointer < lineLength)
 			{
-				if (length >= max)
+				Character letter = pageLine.charAt(pointer);
+				
+				if (length >= max || (letter == '\u00a7' && length + 1 >= max))
 				{
 					tempLine = pageLine.substring(start, pointer);
 					pageLines.add(tempLine);
 					start = pointer;
 					length = 0;
-				}
+				}	
 
-				Character letter = pageLine.charAt(pointer);
-
-				if (letter == '\u00a7')
+				if (letter == '\u00a7' && pointer + 1 < lineLength)
 				{
 					Character nextLetter = pageLine.charAt(pointer + 1);
 					if (nextLetter == 'l' || nextLetter == 'L')

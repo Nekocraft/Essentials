@@ -11,1392 +11,1392 @@ public class timeZone {
     }
     if (country.equals("US") == true) {
       if (region.equals("AL") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("AK") == true) {
-        timezone = "America/Anchorage";
+        timezone = "美洲/停泊";
       } else if (region.equals("AZ") == true) {
-        timezone = "America/Phoenix";
+        timezone = "美洲/凤凰";
       } else if (region.equals("AR") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("CA") == true) {
-        timezone = "America/Los_Angeles";
+        timezone = "美洲/洛杉矶";
       } else if (region.equals("CO") == true) {
-        timezone = "America/Denver";
+        timezone = "美洲/丹佛";
       } else if (region.equals("CT") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("DE") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("DC") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("FL") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("GA") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("HI") == true) {
-        timezone = "Pacific/Honolulu";
+        timezone = "大洋洲/檀香山";
       } else if (region.equals("ID") == true) {
-        timezone = "America/Denver";
+        timezone = "美洲/丹佛";
       } else if (region.equals("IL") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("IN") == true) {
-        timezone = "America/Indianapolis";
+        timezone = "美洲/印第安纳波利斯";
       } else if (region.equals("IA") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("KS") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("KY") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("LA") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("ME") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("MD") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("MA") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("MI") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("MN") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("MS") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("MO") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("MT") == true) {
-        timezone = "America/Denver";
+        timezone = "美洲/丹佛";
       } else if (region.equals("NE") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("NV") == true) {
-        timezone = "America/Los_Angeles";
+        timezone = "美洲/洛杉矶";
       } else if (region.equals("NH") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("NJ") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("NM") == true) {
-        timezone = "America/Denver";
+        timezone = "美洲/丹佛";
       } else if (region.equals("NY") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("NC") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("ND") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("OH") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("OK") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("OR") == true) {
-        timezone = "America/Los_Angeles";
+        timezone = "美洲/洛杉矶";
       } else if (region.equals("PA") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("RI") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("SC") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("SD") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("TN") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("TX") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("UT") == true) {
-        timezone = "America/Denver";
+        timezone = "美洲/丹佛";
       } else if (region.equals("VT") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("VA") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("WA") == true) {
-        timezone = "America/Los_Angeles";
+        timezone = "美洲/洛杉矶";
       } else if (region.equals("WV") == true) {
-        timezone = "America/New_York";
+        timezone = "美洲/纽约";
       } else if (region.equals("WI") == true) {
-        timezone = "America/Chicago";
+        timezone = "美洲/芝加哥";
       } else if (region.equals("WY") == true) {
-        timezone = "America/Denver";
+        timezone = "美洲/丹佛";
       }
     } else if (country.equals("CA") == true) {
       if (region.equals("AB") == true) {
-        timezone = "America/Edmonton";
+        timezone = "美洲/埃德蒙顿";
       } else if (region.equals("BC") == true) {
-        timezone = "America/Vancouver";
+        timezone = "美洲/温哥华";
       } else if (region.equals("MB") == true) {
-        timezone = "America/Winnipeg";
+        timezone = "美洲/温尼伯";
       } else if (region.equals("NB") == true) {
-        timezone = "America/Halifax";
+        timezone = "美洲/哈利法克斯";
       } else if (region.equals("NL") == true) {
-        timezone = "America/St_Johns";
+        timezone = "美洲/圣约翰";
       } else if (region.equals("NT") == true) {
-        timezone = "America/Yellowknife";
+        timezone = "美洲/耶洛奈夫";
       } else if (region.equals("NS") == true) {
-        timezone = "America/Halifax";
+        timezone = "美洲/哈利法克斯";
       } else if (region.equals("NU") == true) {
-        timezone = "America/Rankin_Inlet";
+        timezone = "美洲/Rankin入口";
       } else if (region.equals("ON") == true) {
-        timezone = "America/Rainy_River";
+        timezone = "美洲/雷尼河";
       } else if (region.equals("PE") == true) {
-        timezone = "America/Halifax";
+        timezone = "美洲/哈利法克斯";
       } else if (region.equals("QC") == true) {
-        timezone = "America/Montreal";
+        timezone = "美洲/蒙特利尔";
       } else if (region.equals("SK") == true) {
-        timezone = "America/Regina";
+        timezone = "美洲/里贾纳";
       } else if (region.equals("YT") == true) {
-        timezone = "America/Whitehorse";
+        timezone = "美洲/白马";
       }
     } else if (country.equals("AU") == true) {
       if (region.equals("01") == true) {
-        timezone = "Australia/Canberra";
+        timezone = "澳大利亚/堪培拉";
       } else if (region.equals("02") == true) {
-        timezone = "Australia/NSW";
+        timezone = "澳大利亚/新南威尔士州";
       } else if (region.equals("03") == true) {
-        timezone = "Australia/North";
+        timezone = "澳大利亚/北";
       } else if (region.equals("04") == true) {
-        timezone = "Australia/Queensland";
+        timezone = "澳大利亚/昆士兰";
       } else if (region.equals("05") == true) {
-        timezone = "Australia/South";
+        timezone = "澳大利亚/南";
       } else if (region.equals("06") == true) {
-        timezone = "Australia/Tasmania";
+        timezone = "澳大利亚/塔斯马尼亚";
       } else if (region.equals("07") == true) {
-        timezone = "Australia/Victoria";
+        timezone = "澳大利亚/维多利亚";
       } else if (region.equals("08") == true) {
-        timezone = "Australia/West";
+        timezone = "澳大利亚/西方";
       }
     } else if (country.equals("AS") == true) {
-      timezone = "US/Samoa";
+      timezone = "美洲/萨摩亚";
     } else if (country.equals("CI") == true) {
-      timezone = "Africa/Abidjan";
+      timezone = "非洲/阿比让";
     } else if (country.equals("GH") == true) {
-      timezone = "Africa/Accra";
+      timezone = "非洲/阿克拉";
     } else if (country.equals("DZ") == true) {
-      timezone = "Africa/Algiers";
+      timezone = "非洲/阿尔及尔";
     } else if (country.equals("ER") == true) {
-      timezone = "Africa/Asmera";
+      timezone = "非洲/阿斯马拉";
     } else if (country.equals("ML") == true) {
-      timezone = "Africa/Bamako";
+      timezone = "非洲/巴马科";
     } else if (country.equals("CF") == true) {
-      timezone = "Africa/Bangui";
+      timezone = "非洲/班吉";
     } else if (country.equals("GM") == true) {
-      timezone = "Africa/Banjul";
+      timezone = "非洲/班珠尔";
     } else if (country.equals("GW") == true) {
-      timezone = "Africa/Bissau";
+      timezone = "非洲/几内亚比绍";
     } else if (country.equals("CG") == true) {
-      timezone = "Africa/Brazzaville";
+      timezone = "非洲/布";
     } else if (country.equals("BI") == true) {
-      timezone = "Africa/Bujumbura";
+      timezone = "非洲/布琼布拉";
     } else if (country.equals("EG") == true) {
-      timezone = "Africa/Cairo";
+      timezone = "非洲/开罗";
     } else if (country.equals("MA") == true) {
-      timezone = "Africa/Casablanca";
+      timezone = "非洲/卡萨布兰卡";
     } else if (country.equals("GN") == true) {
-      timezone = "Africa/Conakry";
+      timezone = "非洲/科纳克里";
     } else if (country.equals("SN") == true) {
-      timezone = "Africa/Dakar";
+      timezone = "非洲/达喀尔";
     } else if (country.equals("DJ") == true) {
-      timezone = "Africa/Djibouti";
+      timezone = "非洲/吉布提";
     } else if (country.equals("SL") == true) {
-      timezone = "Africa/Freetown";
+      timezone = "非洲/弗里敦";
     } else if (country.equals("BW") == true) {
-      timezone = "Africa/Gaborone";
+      timezone = "非洲/哈博罗内";
     } else if (country.equals("ZW") == true) {
-      timezone = "Africa/Harare";
+      timezone = "非洲/哈拉雷";
     } else if (country.equals("ZA") == true) {
-      timezone = "Africa/Johannesburg";
+      timezone = "非洲/约翰内斯堡";
     } else if (country.equals("UG") == true) {
-      timezone = "Africa/Kampala";
+      timezone = "非洲/坎帕拉";
     } else if (country.equals("SD") == true) {
-      timezone = "Africa/Khartoum";
+      timezone = "非洲/喀土穆";
     } else if (country.equals("RW") == true) {
-      timezone = "Africa/Kigali";
+      timezone = "非洲/基加利";
     } else if (country.equals("NG") == true) {
-      timezone = "Africa/Lagos";
+      timezone = "非洲/拉各斯";
     } else if (country.equals("GA") == true) {
-      timezone = "Africa/Libreville";
+      timezone = "非洲/利伯维尔";
     } else if (country.equals("TG") == true) {
-      timezone = "Africa/Lome";
+      timezone = "非洲/洛美";
     } else if (country.equals("AO") == true) {
-      timezone = "Africa/Luanda";
+      timezone = "非洲/罗安达";
     } else if (country.equals("ZM") == true) {
-      timezone = "Africa/Lusaka";
+      timezone = "非洲/卢萨卡";
     } else if (country.equals("GQ") == true) {
-      timezone = "Africa/Malabo";
+      timezone = "非洲/马拉博";
     } else if (country.equals("MZ") == true) {
-      timezone = "Africa/Maputo";
+      timezone = "非洲/马普托";
     } else if (country.equals("LS") == true) {
-      timezone = "Africa/Maseru";
+      timezone = "非洲/马塞卢";
     } else if (country.equals("SZ") == true) {
-      timezone = "Africa/Mbabane";
+      timezone = "非洲/姆巴巴内";
     } else if (country.equals("SO") == true) {
-      timezone = "Africa/Mogadishu";
+      timezone = "非洲/摩加迪沙";
     } else if (country.equals("LR") == true) {
-      timezone = "Africa/Monrovia";
+      timezone = "非洲/蒙罗维亚";
     } else if (country.equals("KE") == true) {
-      timezone = "Africa/Nairobi";
+      timezone = "非洲/内罗毕";
     } else if (country.equals("TD") == true) {
-      timezone = "Africa/Ndjamena";
+      timezone = "非洲/恩贾梅纳";
     } else if (country.equals("NE") == true) {
-      timezone = "Africa/Niamey";
+      timezone = "非洲/尼亚美";
     } else if (country.equals("MR") == true) {
-      timezone = "Africa/Nouakchott";
+      timezone = "非洲/努瓦克肖特";
     } else if (country.equals("BF") == true) {
-      timezone = "Africa/Ouagadougou";
+      timezone = "非洲/瓦加杜古";
     } else if (country.equals("ST") == true) {
-      timezone = "Africa/Sao_Tome";
+      timezone = "非洲/圣多美和普林西比";
     } else if (country.equals("LY") == true) {
-      timezone = "Africa/Tripoli";
+      timezone = "非洲/的黎波里";
     } else if (country.equals("TN") == true) {
-      timezone = "Africa/Tunis";
+      timezone = "非洲/突尼斯";
     } else if (country.equals("AI") == true) {
-      timezone = "America/Anguilla";
+      timezone = "美洲/安圭拉";
     } else if (country.equals("AG") == true) {
-      timezone = "America/Antigua";
+      timezone = "美洲/安提瓜";
     } else if (country.equals("AW") == true) {
-      timezone = "America/Aruba";
+      timezone = "美洲/阿鲁巴";
     } else if (country.equals("BB") == true) {
-      timezone = "America/Barbados";
+      timezone = "美洲/巴巴多斯";
     } else if (country.equals("BZ") == true) {
-      timezone = "America/Belize";
+      timezone = "美洲/伯利兹";
     } else if (country.equals("CO") == true) {
-      timezone = "America/Bogota";
+      timezone = "美洲/波哥大";
     } else if (country.equals("VE") == true) {
-      timezone = "America/Caracas";
+      timezone = "美洲/加拉加斯";
     } else if (country.equals("KY") == true) {
-      timezone = "America/Cayman";
+      timezone = "美洲/鳄鱼";
     } else if (country.equals("CR") == true) {
-      timezone = "America/Costa_Rica";
+      timezone = "美洲/哥斯达黎加";
     } else if (country.equals("DM") == true) {
-      timezone = "America/Dominica";
+      timezone = "美洲/多米尼加";
     } else if (country.equals("SV") == true) {
-      timezone = "America/El_Salvador";
+      timezone = "美洲/萨尔瓦多";
     } else if (country.equals("GD") == true) {
-      timezone = "America/Grenada";
+      timezone = "美洲/格林纳达";
     } else if (country.equals("FR") == true) {
-      timezone = "Europe/Paris";
+      timezone = "欧洲/巴黎";
     } else if (country.equals("GP") == true) {
-      timezone = "America/Guadeloupe";
+      timezone = "美洲/瓜德罗普岛";
     } else if (country.equals("GT") == true) {
-      timezone = "America/Guatemala";
+      timezone = "美洲/危地马拉";
     } else if (country.equals("GY") == true) {
-      timezone = "America/Guyana";
+      timezone = "美洲/圭亚那";
     } else if (country.equals("CU") == true) {
-      timezone = "America/Havana";
+      timezone = "美洲/哈瓦那";
     } else if (country.equals("JM") == true) {
-      timezone = "America/Jamaica";
+      timezone = "美洲/牙买加";
     } else if (country.equals("BO") == true) {
-      timezone = "America/La_Paz";
+      timezone = "美洲/拉巴斯";
     } else if (country.equals("PE") == true) {
-      timezone = "America/Lima";
+      timezone = "美洲/利马";
     } else if (country.equals("NI") == true) {
-      timezone = "America/Managua";
+      timezone = "美洲/马那瓜";
     } else if (country.equals("MQ") == true) {
-      timezone = "America/Martinique";
+      timezone = "美洲/马提尼克岛";
     } else if (country.equals("UY") == true) {
-      timezone = "America/Montevideo";
+      timezone = "美洲/蒙得维的亚";
     } else if (country.equals("MS") == true) {
-      timezone = "America/Montserrat";
+      timezone = "美洲/蒙特塞拉特";
     } else if (country.equals("BS") == true) {
-      timezone = "America/Nassau";
+      timezone = "美洲/拿骚";
     } else if (country.equals("PA") == true) {
-      timezone = "America/Panama";
+      timezone = "美洲/巴拿马";
     } else if (country.equals("SR") == true) {
-      timezone = "America/Paramaribo";
+      timezone = "美洲/帕拉马里博";
     } else if (country.equals("PR") == true) {
-      timezone = "America/Puerto_Rico";
+      timezone = "美洲/波多黎各";
     } else if (country.equals("KN") == true) {
-      timezone = "America/St_Kitts";
+      timezone = "美洲/圣基茨";
     } else if (country.equals("LC") == true) {
-      timezone = "America/St_Lucia";
+      timezone = "美洲/圣露西亚";
     } else if (country.equals("VC") == true) {
-      timezone = "America/St_Vincent";
+      timezone = "美洲/圣文森";
     } else if (country.equals("HN") == true) {
-      timezone = "America/Tegucigalpa";
+      timezone = "美洲/特古西加尔巴";
     } else if (country.equals("YE") == true) {
-      timezone = "Asia/Aden";
+      timezone = "亚洲/亚丁";
     } else if (country.equals("JO") == true) {
-      timezone = "Asia/Amman";
+      timezone = "亚洲/安曼";
     } else if (country.equals("TM") == true) {
-      timezone = "Asia/Ashgabat";
+      timezone = "亚洲/阿什哈巴德";
     } else if (country.equals("IQ") == true) {
-      timezone = "Asia/Baghdad";
+      timezone = "亚洲/巴格达";
     } else if (country.equals("BH") == true) {
-      timezone = "Asia/Bahrain";
+      timezone = "亚洲/巴林";
     } else if (country.equals("AZ") == true) {
-      timezone = "Asia/Baku";
+      timezone = "亚洲/巴库";
     } else if (country.equals("TH") == true) {
-      timezone = "Asia/Bangkok";
+      timezone = "亚洲/曼谷";
     } else if (country.equals("LB") == true) {
-      timezone = "Asia/Beirut";
+      timezone = "亚洲/贝鲁特";
     } else if (country.equals("KG") == true) {
-      timezone = "Asia/Bishkek";
+      timezone = "亚洲/比什凯克";
     } else if (country.equals("BN") == true) {
-      timezone = "Asia/Brunei";
+      timezone = "亚洲/文莱";
     } else if (country.equals("IN") == true) {
-      timezone = "Asia/Calcutta";
+      timezone = "亚洲/加尔各答";
     } else if (country.equals("MN") == true) {
-      timezone = "Asia/Choibalsan";
+      timezone = "亚洲/乔巴山";
     } else if (country.equals("LK") == true) {
-      timezone = "Asia/Colombo";
+      timezone = "亚洲/科伦坡";
     } else if (country.equals("BD") == true) {
-      timezone = "Asia/Dhaka";
+      timezone = "亚洲/达卡";
     } else if (country.equals("AE") == true) {
-      timezone = "Asia/Dubai";
+      timezone = "亚洲/迪拜";
     } else if (country.equals("TJ") == true) {
-      timezone = "Asia/Dushanbe";
+      timezone = "亚洲/杜尚别";
     } else if (country.equals("HK") == true) {
-      timezone = "Asia/Hong_Kong";
+      timezone = "亚洲/香港";
     } else if (country.equals("TR") == true) {
-      timezone = "Asia/Istanbul";
+      timezone = "亚洲/伊斯坦布尔";
     } else if (country.equals("IL") == true) {
-      timezone = "Asia/Jerusalem";
+      timezone = "亚洲/耶路撒冷";
     } else if (country.equals("AF") == true) {
-      timezone = "Asia/Kabul";
+      timezone = "亚洲/喀布尔";
     } else if (country.equals("PK") == true) {
-      timezone = "Asia/Karachi";
+      timezone = "亚洲/卡拉奇";
     } else if (country.equals("NP") == true) {
-      timezone = "Asia/Katmandu";
+      timezone = "亚洲/加德满都";
     } else if (country.equals("KW") == true) {
-      timezone = "Asia/Kuwait";
+      timezone = "亚洲/科威特";
     } else if (country.equals("MO") == true) {
-      timezone = "Asia/Macao";
+      timezone = "亚洲/澳门";
     } else if (country.equals("PH") == true) {
-      timezone = "Asia/Manila";
+      timezone = "亚洲/马尼拉";
     } else if (country.equals("OM") == true) {
-      timezone = "Asia/Muscat";
+      timezone = "亚洲/马斯喀特";
     } else if (country.equals("CY") == true) {
-      timezone = "Asia/Nicosia";
+      timezone = "亚洲/尼科西亚";
     } else if (country.equals("KP") == true) {
-      timezone = "Asia/Pyongyang";
+      timezone = "亚洲/平壤";
     } else if (country.equals("QA") == true) {
-      timezone = "Asia/Qatar";
+      timezone = "亚洲/卡塔尔";
     } else if (country.equals("MM") == true) {
-      timezone = "Asia/Rangoon";
+      timezone = "亚洲/仰光";
     } else if (country.equals("SA") == true) {
-      timezone = "Asia/Riyadh";
+      timezone = "亚洲/利雅得";
     } else if (country.equals("KR") == true) {
-      timezone = "Asia/Seoul";
+      timezone = "亚洲/汉城";
     } else if (country.equals("SG") == true) {
-      timezone = "Asia/Singapore";
+      timezone = "亚洲/新加坡";
     } else if (country.equals("TW") == true) {
-      timezone = "Asia/Taipei";
+      timezone = "亚洲/台北";
     } else if (country.equals("GE") == true) {
-      timezone = "Asia/Tbilisi";
+      timezone = "亚洲/第比利斯";
     } else if (country.equals("BT") == true) {
-      timezone = "Asia/Thimphu";
+      timezone = "亚洲/廷布";
     } else if (country.equals("JP") == true) {
-      timezone = "Asia/Tokyo";
+      timezone = "亚洲/东京";
     } else if (country.equals("LA") == true) {
-      timezone = "Asia/Vientiane";
+      timezone = "亚洲/万象";
     } else if (country.equals("AM") == true) {
-      timezone = "Asia/Yerevan";
+      timezone = "亚洲/埃里温";
     } else if (country.equals("BM") == true) {
-      timezone = "Atlantic/Bermuda";
+      timezone = "大西洋/百慕大";
     } else if (country.equals("CV") == true) {
-      timezone = "Atlantic/Cape_Verde";
+      timezone = "大西洋/佛得角";
     } else if (country.equals("FO") == true) {
-      timezone = "Atlantic/Faeroe";
+      timezone = "大西洋/法罗";
     } else if (country.equals("IS") == true) {
-      timezone = "Atlantic/Reykjavik";
+      timezone = "大西洋/雷克雅未克";
     } else if (country.equals("GS") == true) {
-      timezone = "Atlantic/South_Georgia";
+      timezone = "大西洋/南乔治亚岛";
     } else if (country.equals("SH") == true) {
-      timezone = "Atlantic/St_Helena";
+      timezone = "大西洋/圣赫勒拿岛";
     } else if (country.equals("CL") == true) {
-      timezone = "Chile/Continental";
+      timezone = "智利/欧洲大陆";
     } else if (country.equals("NL") == true) {
-      timezone = "Europe/Amsterdam";
+      timezone = "欧洲/阿姆斯特丹";
     } else if (country.equals("AD") == true) {
-      timezone = "Europe/Andorra";
+      timezone = "欧洲/安道??尔";
     } else if (country.equals("GR") == true) {
-      timezone = "Europe/Athens";
+      timezone = "欧洲/雅典";
     } else if (country.equals("YU") == true) {
-      timezone = "Europe/Belgrade";
+      timezone = "欧洲/贝尔格莱德";
     } else if (country.equals("DE") == true) {
-      timezone = "Europe/Berlin";
+      timezone = "欧洲/柏林";
     } else if (country.equals("SK") == true) {
-      timezone = "Europe/Bratislava";
+      timezone = "欧洲/布拉迪斯拉发";
     } else if (country.equals("BE") == true) {
-      timezone = "Europe/Brussels";
+      timezone = "欧洲/布鲁塞尔";
     } else if (country.equals("RO") == true) {
-      timezone = "Europe/Bucharest";
+      timezone = "欧洲/布加勒斯特";
     } else if (country.equals("HU") == true) {
-      timezone = "Europe/Budapest";
+      timezone = "欧洲/布达佩斯";
     } else if (country.equals("DK") == true) {
-      timezone = "Europe/Copenhagen";
+      timezone = "欧洲/哥本哈根";
     } else if (country.equals("IE") == true) {
-      timezone = "Europe/Dublin";
+      timezone = "欧洲/都柏林";
     } else if (country.equals("GI") == true) {
-      timezone = "Europe/Gibraltar";
+      timezone = "欧洲/直布罗陀";
     } else if (country.equals("FI") == true) {
-      timezone = "Europe/Helsinki";
+      timezone = "欧洲/赫尔辛基";
     } else if (country.equals("SI") == true) {
-      timezone = "Europe/Ljubljana";
+      timezone = "欧洲/卢布尔雅那";
     } else if (country.equals("GB") == true) {
-      timezone = "Europe/London";
+      timezone = "欧洲/伦敦";
     } else if (country.equals("LU") == true) {
-      timezone = "Europe/Luxembourg";
+      timezone = "欧洲/卢森堡";
     } else if (country.equals("MT") == true) {
-      timezone = "Europe/Malta";
+      timezone = "欧洲/马耳他";
     } else if (country.equals("BY") == true) {
-      timezone = "Europe/Minsk";
+      timezone = "欧洲/明斯克";
     } else if (country.equals("MC") == true) {
-      timezone = "Europe/Monaco";
+      timezone = "欧洲/摩纳哥";
     } else if (country.equals("NO") == true) {
-      timezone = "Europe/Oslo";
+      timezone = "欧洲/奥斯陆";
     } else if (country.equals("CZ") == true) {
-      timezone = "Europe/Prague";
+      timezone = "欧洲/布拉格";
     } else if (country.equals("LV") == true) {
-      timezone = "Europe/Riga";
+      timezone = "欧洲/里加";
     } else if (country.equals("IT") == true) {
-      timezone = "Europe/Rome";
+      timezone = "欧洲/罗马";
     } else if (country.equals("SM") == true) {
-      timezone = "Europe/San_Marino";
+      timezone = "欧洲/圣马力诺";
     } else if (country.equals("BA") == true) {
-      timezone = "Europe/Sarajevo";
+      timezone = "欧洲/萨拉热窝";
     } else if (country.equals("MK") == true) {
-      timezone = "Europe/Skopje";
+      timezone = "欧洲/斯科普里";
     } else if (country.equals("BG") == true) {
-      timezone = "Europe/Sofia";
+      timezone = "欧洲/索菲亚";
     } else if (country.equals("SE") == true) {
-      timezone = "Europe/Stockholm";
+      timezone = "欧洲/斯德哥尔摩";
     } else if (country.equals("EE") == true) {
-      timezone = "Europe/Tallinn";
+      timezone = "欧洲/塔林";
     } else if (country.equals("AL") == true) {
-      timezone = "Europe/Tirane";
+      timezone = "欧洲/地拉那";
     } else if (country.equals("LI") == true) {
-      timezone = "Europe/Vaduz";
+      timezone = "欧洲/瓦杜兹";
     } else if (country.equals("VA") == true) {
-      timezone = "Europe/Vatican";
+      timezone = "欧洲/教廷";
     } else if (country.equals("AT") == true) {
-      timezone = "Europe/Vienna";
+      timezone = "欧洲/维也纳";
     } else if (country.equals("LT") == true) {
-      timezone = "Europe/Vilnius";
+      timezone = "欧洲/维尔纽斯";
     } else if (country.equals("PL") == true) {
-      timezone = "Europe/Warsaw";
+      timezone = "欧洲/华沙";
     } else if (country.equals("HR") == true) {
-      timezone = "Europe/Zagreb";
+      timezone = "欧洲/萨格勒布";
     } else if (country.equals("IR") == true) {
-      timezone = "Asia/Tehran";
+      timezone = "亚洲/德黑兰";
     } else if (country.equals("MG") == true) {
-      timezone = "Indian/Antananarivo";
+      timezone = "印度人/塔那那利佛";
     } else if (country.equals("CX") == true) {
-      timezone = "Indian/Christmas";
+      timezone = "印度人/圣诞节";
     } else if (country.equals("CC") == true) {
-      timezone = "Indian/Cocos";
+      timezone = "印度人/科科斯";
     } else if (country.equals("KM") == true) {
-      timezone = "Indian/Comoro";
+      timezone = "印度人/科摩罗";
     } else if (country.equals("MV") == true) {
-      timezone = "Indian/Maldives";
+      timezone = "印度人/马尔代夫";
     } else if (country.equals("MU") == true) {
-      timezone = "Indian/Mauritius";
+      timezone = "印度人/毛里求斯";
     } else if (country.equals("YT") == true) {
-      timezone = "Indian/Mayotte";
+      timezone = "印度人/马约特岛";
     } else if (country.equals("RE") == true) {
-      timezone = "Indian/Reunion";
+      timezone = "印度人/团圆";
     } else if (country.equals("FJ") == true) {
-      timezone = "Pacific/Fiji";
+      timezone = "大洋洲/斐";
     } else if (country.equals("TV") == true) {
-      timezone = "Pacific/Funafuti";
+      timezone = "大洋洲/富纳富提";
     } else if (country.equals("GU") == true) {
-      timezone = "Pacific/Guam";
+      timezone = "大洋洲/关岛";
     } else if (country.equals("NR") == true) {
-      timezone = "Pacific/Nauru";
+      timezone = "大洋洲/瑙鲁";
     } else if (country.equals("NU") == true) {
-      timezone = "Pacific/Niue";
+      timezone = "大洋洲/纽埃";
     } else if (country.equals("NF") == true) {
-      timezone = "Pacific/Norfolk";
+      timezone = "大洋洲/诺福克";
     } else if (country.equals("PW") == true) {
-      timezone = "Pacific/Palau";
+      timezone = "大洋洲/帕劳";
     } else if (country.equals("PN") == true) {
-      timezone = "Pacific/Pitcairn";
+      timezone = "大洋洲/皮特凯恩";
     } else if (country.equals("CK") == true) {
-      timezone = "Pacific/Rarotonga";
+      timezone = "大洋洲/拉罗汤加岛";
     } else if (country.equals("WS") == true) {
-      timezone = "Pacific/Samoa";
+      timezone = "大洋洲/萨摩亚";
     } else if (country.equals("KI") == true) {
-      timezone = "Pacific/Tarawa";
+      timezone = "大洋洲/塔拉瓦";
     } else if (country.equals("TO") == true) {
-      timezone = "Pacific/Tongatapu";
+      timezone = "大洋洲/汤加塔布";
     } else if (country.equals("WF") == true) {
-      timezone = "Pacific/Wallis";
+      timezone = "大洋洲/瓦利斯";
     } else if (country.equals("TZ") == true) {
-      timezone = "Africa/Dar_es_Salaam";
+      timezone = "非洲/达累斯萨拉姆";
     } else if (country.equals("VN") == true) {
-      timezone = "Asia/Phnom_Penh";
+      timezone = "亚洲/金边";
     } else if (country.equals("KH") == true) {
-      timezone = "Asia/Phnom_Penh";
+      timezone = "亚洲/金边";
     } else if (country.equals("CM") == true) {
-      timezone = "Africa/Lagos";
+      timezone = "非洲/拉各斯";
     } else if (country.equals("DO") == true) {
-      timezone = "America/Santo_Domingo";
+      timezone = "美洲/圣多明各";
     } else if (country.equals("ET") == true) {
-      timezone = "Africa/Addis_Ababa";
+      timezone = "非洲/亚的斯亚贝巴";
     } else if (country.equals("FX") == true) {
-      timezone = "Europe/Paris";
+      timezone = "欧洲/巴黎";
     } else if (country.equals("HT") == true) {
-      timezone = "America/Port-au-Prince";
+      timezone = "美洲/太子港";
     } else if (country.equals("CH") == true) {
-      timezone = "Europe/Zurich";
+      timezone = "欧洲/苏黎世";
     } else if (country.equals("AN") == true) {
-      timezone = "America/Curacao";
+      timezone = "美洲/库拉索";
     } else if (country.equals("BJ") == true) {
-      timezone = "Africa/Porto-Novo";
+      timezone = "非洲/波多诺伏";
     } else if (country.equals("EH") == true) {
-      timezone = "Africa/El_Aaiun";
+      timezone = "非洲/阿尤恩";
     } else if (country.equals("FK") == true) {
-      timezone = "Atlantic/Stanley";
+      timezone = "大西洋/斯坦利";
     } else if (country.equals("GF") == true) {
-      timezone = "America/Cayenne";
+      timezone = "美洲/辣椒";
     } else if (country.equals("IO") == true) {
-      timezone = "Indian/Chagos";
+      timezone = "印度人/查戈斯群岛";
     } else if (country.equals("MD") == true) {
-      timezone = "Europe/Chisinau";
+      timezone = "欧洲/基希讷乌";
     } else if (country.equals("MP") == true) {
-      timezone = "Pacific/Saipan";
+      timezone = "大洋洲/塞班";
     } else if (country.equals("MW") == true) {
-      timezone = "Africa/Blantyre";
+      timezone = "非洲/布兰太尔";
     } else if (country.equals("NA") == true) {
-      timezone = "Africa/Windhoek";
+      timezone = "非洲/温得和克";
     } else if (country.equals("NC") == true) {
-      timezone = "Pacific/Noumea";
+      timezone = "大洋洲/努美阿";
     } else if (country.equals("PG") == true) {
-      timezone = "Pacific/Port_Moresby";
+      timezone = "大洋洲/莫尔斯比港";
     } else if (country.equals("PM") == true) {
-      timezone = "America/Miquelon";
+      timezone = "美洲/密克隆岛";
     } else if (country.equals("PS") == true) {
-      timezone = "Asia/Gaza";
+      timezone = "亚洲/加沙";
     } else if (country.equals("PY") == true) {
-      timezone = "America/Asuncion";
+      timezone = "美洲/亚松森";
     } else if (country.equals("SB") == true) {
-      timezone = "Pacific/Guadalcanal";
+      timezone = "大洋洲/瓜达尔卡纳尔岛";
     } else if (country.equals("SC") == true) {
-      timezone = "Indian/Mahe";
+      timezone = "印度人/马埃";
     } else if (country.equals("SJ") == true) {
-      timezone = "Arctic/Longyearbyen";
+      timezone = "北极/朗伊尔城";
     } else if (country.equals("SY") == true) {
-      timezone = "Asia/Damascus";
+      timezone = "亚洲/大马士革";
     } else if (country.equals("TC") == true) {
-      timezone = "America/Grand_Turk";
+      timezone = "美洲/大特克";
     } else if (country.equals("TF") == true) {
-      timezone = "Indian/Kerguelen";
+      timezone = "印度人/凯尔盖朗";
     } else if (country.equals("TK") == true) {
-      timezone = "Pacific/Fakaofo";
+      timezone = "大洋洲/法考福";
     } else if (country.equals("TT") == true) {
-      timezone = "America/Port_of_Spain";
+      timezone = "美洲/西班牙港";
     } else if (country.equals("VG") == true) {
-      timezone = "America/Tortola";
+      timezone = "美洲/英属维尔京群岛";
     } else if (country.equals("VI") == true) {
-      timezone = "America/St_Thomas";
+      timezone = "美洲/圣托马斯";
     } else if (country.equals("VU") == true) {
-      timezone = "Pacific/Efate";
+      timezone = "大洋洲/埃法特岛";
     } else if (country.equals("RS") == true) {
-      timezone = "Europe/Belgrade";
+      timezone = "欧洲/贝尔格莱德";
     } else if (country.equals("ME") == true) {
-      timezone = "Europe/Podgorica";
+      timezone = "欧洲/波德戈里察";
     } else if (country.equals("AX") == true) {
-      timezone = "Europe/Mariehamn";
+      timezone = "欧洲/玛丽港";
     } else if (country.equals("GG") == true) {
-      timezone = "Europe/Guernsey";
+      timezone = "欧洲/根西岛";
     } else if (country.equals("IM") == true) {
-      timezone = "Europe/Isle_of_Man";
+      timezone = "欧洲/马恩岛";
     } else if (country.equals("JE") == true) {
-      timezone = "Europe/Jersey";
+      timezone = "欧洲/新泽西州";
     } else if (country.equals("BL") == true) {
-      timezone = "America/St_Barthelemy";
+      timezone = "美洲/St Barthelemy的";
     } else if (country.equals("MF") == true) {
-      timezone = "America/Marigot";
+      timezone = "美洲/马里戈特";
     } else if (country.equals("AR") == true) {
       if (region.equals("01") == true) {
-        timezone = "America/Argentina/Buenos_Aires";
+        timezone = "美洲/阿根廷/布宜诺斯艾利斯";
       } else if (region.equals("02") == true) {
-        timezone = "America/Argentina/Catamarca";
+        timezone = "美洲/阿根廷/卡塔马卡";
       } else if (region.equals("03") == true) {
-        timezone = "America/Argentina/Tucuman";
+        timezone = "美洲/阿根廷/图库曼";
       } else if (region.equals("04") == true) {
-        timezone = "America/Argentina/Rio_Gallegos";
+        timezone = "美洲/阿根廷/里奥加耶戈斯";
       } else if (region.equals("05") == true) {
-        timezone = "America/Argentina/Cordoba";
+        timezone = "美洲/阿根廷/科尔多瓦";
       } else if (region.equals("06") == true) {
-        timezone = "America/Argentina/Tucuman";
+        timezone = "美洲/阿根廷/图库曼";
       } else if (region.equals("07") == true) {
-        timezone = "America/Argentina/Buenos_Aires";
+        timezone = "美洲/阿根廷/布宜诺斯艾利斯";
       } else if (region.equals("08") == true) {
-        timezone = "America/Argentina/Buenos_Aires";
+        timezone = "美洲/阿根廷/布宜诺斯艾利斯";
       } else if (region.equals("09") == true) {
-        timezone = "America/Argentina/Tucuman";
+        timezone = "美洲/阿根廷/图库曼";
       } else if (region.equals("10") == true) {
-        timezone = "America/Argentina/Jujuy";
+        timezone = "美洲/阿根廷/胡胡伊";
       } else if (region.equals("11") == true) {
-        timezone = "America/Argentina/San_Luis";
+        timezone = "美洲/阿根廷/圣路易斯";
       } else if (region.equals("12") == true) {
-        timezone = "America/Argentina/La_Rioja";
+        timezone = "美洲/阿根廷/拉里奥哈";
       } else if (region.equals("13") == true) {
-        timezone = "America/Argentina/Mendoza";
+        timezone = "美洲/阿根廷/门多萨";
       } else if (region.equals("14") == true) {
-        timezone = "America/Argentina/Buenos_Aires";
+        timezone = "美洲/阿根廷/布宜诺斯艾利斯";
       } else if (region.equals("15") == true) {
-        timezone = "America/Argentina/San_Luis";
+        timezone = "美洲/阿根廷/圣路易斯";
       } else if (region.equals("16") == true) {
-        timezone = "America/Argentina/Buenos_Aires";
+        timezone = "美洲/阿根廷/布宜诺斯艾利斯";
       } else if (region.equals("17") == true) {
-        timezone = "America/Argentina/Salta";
+        timezone = "美洲/阿根廷/萨尔塔";
       } else if (region.equals("18") == true) {
-        timezone = "America/Argentina/San_Juan";
+        timezone = "美洲/阿根廷/圣胡安";
       } else if (region.equals("19") == true) {
-        timezone = "America/Argentina/San_Luis";
+        timezone = "美洲/阿根廷/圣路易斯";
       } else if (region.equals("20") == true) {
-        timezone = "America/Argentina/Rio_Gallegos";
+        timezone = "美洲/阿根廷/里奥加耶戈斯";
       } else if (region.equals("21") == true) {
-        timezone = "America/Argentina/Buenos_Aires";
+        timezone = "美洲/阿根廷/布宜诺斯艾利斯";
       } else if (region.equals("22") == true) {
-        timezone = "America/Argentina/Catamarca";
+        timezone = "美洲/阿根廷/卡塔马卡";
       } else if (region.equals("23") == true) {
-        timezone = "America/Argentina/Ushuaia";
+        timezone = "美洲/阿根廷/乌斯怀亚";
       } else if (region.equals("24") == true) {
-        timezone = "America/Argentina/Tucuman";
+        timezone = "美洲/阿根廷/图库曼";
       }
     } else if (country.equals("BR") == true) {
       if (region.equals("01") == true) {
-        timezone = "America/Rio_Branco";
+        timezone = "美洲/里奥布朗库";
       } else if (region.equals("02") == true) {
-        timezone = "America/Maceio";
+        timezone = "美洲/马塞约";
       } else if (region.equals("03") == true) {
-        timezone = "America/Sao_Paulo";
+        timezone = "美洲/圣保罗";
       } else if (region.equals("04") == true) {
-        timezone = "America/Manaus";
+        timezone = "美洲/马瑙斯";
       } else if (region.equals("05") == true) {
-        timezone = "America/Bahia";
+        timezone = "美洲/巴伊亚";
       } else if (region.equals("06") == true) {
-        timezone = "America/Fortaleza";
+        timezone = "美洲/福塔雷萨";
       } else if (region.equals("07") == true) {
-        timezone = "America/Sao_Paulo";
+        timezone = "美洲/圣保罗";
       } else if (region.equals("08") == true) {
-        timezone = "America/Sao_Paulo";
+        timezone = "美洲/圣保罗";
       } else if (region.equals("11") == true) {
-        timezone = "America/Campo_Grande";
+        timezone = "美洲/大坎普";
       } else if (region.equals("13") == true) {
-        timezone = "America/Belem";
+        timezone = "美洲/贝伦";
       } else if (region.equals("14") == true) {
-        timezone = "America/Cuiaba";
+        timezone = "美洲/库亚巴";
       } else if (region.equals("15") == true) {
-        timezone = "America/Sao_Paulo";
+        timezone = "美洲/圣保罗";
       } else if (region.equals("16") == true) {
-        timezone = "America/Belem";
+        timezone = "美洲/贝伦";
       } else if (region.equals("17") == true) {
-        timezone = "America/Recife";
+        timezone = "美洲/累西腓";
       } else if (region.equals("18") == true) {
-        timezone = "America/Sao_Paulo";
+        timezone = "美洲/圣保罗";
       } else if (region.equals("20") == true) {
-        timezone = "America/Fortaleza";
+        timezone = "美洲/福塔雷萨";
       } else if (region.equals("21") == true) {
-        timezone = "America/Sao_Paulo";
+        timezone = "美洲/圣保罗";
       } else if (region.equals("22") == true) {
-        timezone = "America/Recife";
+        timezone = "美洲/累西腓";
       } else if (region.equals("23") == true) {
-        timezone = "America/Sao_Paulo";
+        timezone = "美洲/圣保罗";
       } else if (region.equals("24") == true) {
-        timezone = "America/Porto_Velho";
+        timezone = "美洲/波多韦柳";
       } else if (region.equals("25") == true) {
-        timezone = "America/Boa_Vista";
+        timezone = "美洲/博阿维斯塔";
       } else if (region.equals("26") == true) {
-        timezone = "America/Sao_Paulo";
+        timezone = "美洲/圣保罗";
       } else if (region.equals("27") == true) {
-        timezone = "America/Sao_Paulo";
+        timezone = "美洲/圣保罗";
       } else if (region.equals("28") == true) {
-        timezone = "America/Maceio";
+        timezone = "美洲/马塞约";
       } else if (region.equals("29") == true) {
-        timezone = "America/Sao_Paulo";
+        timezone = "美洲/圣保罗";
       } else if (region.equals("30") == true) {
-        timezone = "America/Recife";
+        timezone = "美洲/累西腓";
       } else if (region.equals("31") == true) {
-        timezone = "America/Araguaina";
+        timezone = "美洲/阿拉瓜伊纳";
       }
     } else if (country.equals("CD") == true) {
       if (region.equals("02") == true) {
-        timezone = "Africa/Kinshasa";
+        timezone = "非洲/金沙萨";
       } else if (region.equals("05") == true) {
-        timezone = "Africa/Lubumbashi";
+        timezone = "非洲/卢本巴希";
       } else if (region.equals("06") == true) {
-        timezone = "Africa/Kinshasa";
+        timezone = "非洲/金沙萨";
       } else if (region.equals("08") == true) {
-        timezone = "Africa/Kinshasa";
+        timezone = "非洲/金沙萨";
       } else if (region.equals("10") == true) {
-        timezone = "Africa/Lubumbashi";
+        timezone = "非洲/卢本巴希";
       } else if (region.equals("11") == true) {
-        timezone = "Africa/Lubumbashi";
+        timezone = "非洲/卢本巴希";
       } else if (region.equals("12") == true) {
-        timezone = "Africa/Lubumbashi";
+        timezone = "非洲/卢本巴希";
       }
     } else if (country.equals("CN") == true) {
       if (region.equals("01") == true) {
-        timezone = "Asia/Shanghai";
+        timezone = "亚洲/上海";
       } else if (region.equals("02") == true) {
-        timezone = "Asia/Shanghai";
+        timezone = "亚洲/上海";
       } else if (region.equals("03") == true) {
-        timezone = "Asia/Shanghai";
+        timezone = "亚洲/上海";
       } else if (region.equals("04") == true) {
-        timezone = "Asia/Shanghai";
+        timezone = "亚洲/上海";
       } else if (region.equals("05") == true) {
-        timezone = "Asia/Harbin";
+        timezone = "亚洲/哈尔滨";
       } else if (region.equals("06") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("07") == true) {
-        timezone = "Asia/Shanghai";
+        timezone = "亚洲/上海";
       } else if (region.equals("08") == true) {
-        timezone = "Asia/Harbin";
+        timezone = "亚洲/哈尔滨";
       } else if (region.equals("09") == true) {
-        timezone = "Asia/Shanghai";
+        timezone = "亚洲/上海";
       } else if (region.equals("10") == true) {
-        timezone = "Asia/Shanghai";
+        timezone = "亚洲/上海";
       } else if (region.equals("11") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("12") == true) {
-        timezone = "Asia/Shanghai";
+        timezone = "亚洲/上海";
       } else if (region.equals("13") == true) {
-        timezone = "Asia/Urumqi";
+        timezone = "亚洲/乌鲁木齐";
       } else if (region.equals("14") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("15") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("16") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("18") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("19") == true) {
-        timezone = "Asia/Harbin";
+        timezone = "亚洲/哈尔滨";
       } else if (region.equals("20") == true) {
-        timezone = "Asia/Harbin";
+        timezone = "亚洲/哈尔滨";
       } else if (region.equals("21") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("22") == true) {
-        timezone = "Asia/Harbin";
+        timezone = "亚洲/哈尔滨";
       } else if (region.equals("23") == true) {
-        timezone = "Asia/Shanghai";
+        timezone = "亚洲/上海";
       } else if (region.equals("24") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("25") == true) {
-        timezone = "Asia/Shanghai";
+        timezone = "亚洲/上海";
       } else if (region.equals("26") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("28") == true) {
-        timezone = "Asia/Shanghai";
+        timezone = "亚洲/上海";
       } else if (region.equals("29") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("30") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("31") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("32") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       } else if (region.equals("33") == true) {
-        timezone = "Asia/Chongqing";
+        timezone = "亚洲/渝";
       }
     } else if (country.equals("EC") == true) {
       if (region.equals("01") == true) {
-        timezone = "Pacific/Galapagos";
+        timezone = "大洋洲/加拉帕戈斯";
       } else if (region.equals("02") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("03") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("04") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("05") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("06") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("07") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("08") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("09") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("10") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("11") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("12") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("13") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("14") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("15") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("17") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("18") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("19") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("20") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       } else if (region.equals("22") == true) {
-        timezone = "America/Guayaquil";
+        timezone = "美洲/瓜亚基尔";
       }
     } else if (country.equals("ES") == true) {
       if (region.equals("07") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("27") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("29") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("31") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("32") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("34") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("39") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("51") == true) {
-        timezone = "Africa/Ceuta";
+        timezone = "非洲/休达";
       } else if (region.equals("52") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("53") == true) {
-        timezone = "Atlantic/Canary";
+        timezone = "大西洋/加那利";
       } else if (region.equals("54") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("55") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("56") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("57") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("58") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("59") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       } else if (region.equals("60") == true) {
-        timezone = "Europe/Madrid";
+        timezone = "欧洲/马德里";
       }
     } else if (country.equals("GL") == true) {
       if (region.equals("01") == true) {
-        timezone = "America/Thule";
+        timezone = "美洲/图勒";
       } else if (region.equals("02") == true) {
-        timezone = "America/Godthab";
+        timezone = "美洲/哥特哈布";
       } else if (region.equals("03") == true) {
-        timezone = "America/Godthab";
+        timezone = "美洲/哥特哈布";
       }
     } else if (country.equals("ID") == true) {
       if (region.equals("01") == true) {
-        timezone = "Asia/Pontianak";
+        timezone = "亚洲/坤甸市";
       } else if (region.equals("02") == true) {
-        timezone = "Asia/Makassar";
+        timezone = "亚洲/望加锡";
       } else if (region.equals("03") == true) {
-        timezone = "Asia/Jakarta";
+        timezone = "亚洲/雅加达";
       } else if (region.equals("04") == true) {
-        timezone = "Asia/Jakarta";
+        timezone = "亚洲/雅加达";
       } else if (region.equals("05") == true) {
-        timezone = "Asia/Jakarta";
+        timezone = "亚洲/雅加达";
       } else if (region.equals("06") == true) {
-        timezone = "Asia/Jakarta";
+        timezone = "亚洲/雅加达";
       } else if (region.equals("07") == true) {
-        timezone = "Asia/Jakarta";
+        timezone = "亚洲/雅加达";
       } else if (region.equals("08") == true) {
-        timezone = "Asia/Jakarta";
+        timezone = "亚洲/雅加达";
       } else if (region.equals("09") == true) {
-        timezone = "Asia/Jayapura";
+        timezone = "亚洲/查亚普拉";
       } else if (region.equals("10") == true) {
-        timezone = "Asia/Jakarta";
+        timezone = "亚洲/雅加达";
       } else if (region.equals("11") == true) {
-        timezone = "Asia/Pontianak";
+        timezone = "亚洲/坤甸市";
       } else if (region.equals("12") == true) {
-        timezone = "Asia/Makassar";
+        timezone = "亚洲/望加锡";
       } else if (region.equals("13") == true) {
-        timezone = "Asia/Makassar";
+        timezone = "亚洲/望加锡";
       } else if (region.equals("14") == true) {
-        timezone = "Asia/Makassar";
+        timezone = "亚洲/望加锡";
       } else if (region.equals("15") == true) {
-        timezone = "Asia/Jakarta";
+        timezone = "亚洲/雅加达";
       } else if (region.equals("16") == true) {
-        timezone = "Asia/Makassar";
+        timezone = "亚洲/望加锡";
       } else if (region.equals("17") == true) {
-        timezone = "Asia/Makassar";
+        timezone = "亚洲/望加锡";
       } else if (region.equals("18") == true) {
-        timezone = "Asia/Makassar";
+        timezone = "亚洲/望加锡";
       } else if (region.equals("19") == true) {
-        timezone = "Asia/Pontianak";
+        timezone = "亚洲/坤甸市";
       } else if (region.equals("20") == true) {
-        timezone = "Asia/Makassar";
+        timezone = "亚洲/望加锡";
       } else if (region.equals("21") == true) {
-        timezone = "Asia/Makassar";
+        timezone = "亚洲/望加锡";
       } else if (region.equals("22") == true) {
-        timezone = "Asia/Makassar";
+        timezone = "亚洲/望加锡";
       } else if (region.equals("23") == true) {
-        timezone = "Asia/Makassar";
+        timezone = "亚洲/望加锡";
       } else if (region.equals("24") == true) {
-        timezone = "Asia/Jakarta";
+        timezone = "亚洲/雅加达";
       } else if (region.equals("25") == true) {
-        timezone = "Asia/Pontianak";
+        timezone = "亚洲/坤甸市";
       } else if (region.equals("26") == true) {
-        timezone = "Asia/Pontianak";
+        timezone = "亚洲/坤甸市";
       } else if (region.equals("30") == true) {
-        timezone = "Asia/Jakarta";
+        timezone = "亚洲/雅加达";
       } else if (region.equals("31") == true) {
-        timezone = "Asia/Makassar";
+        timezone = "亚洲/望加锡";
       } else if (region.equals("33") == true) {
-        timezone = "Asia/Jakarta";
+        timezone = "亚洲/雅加达";
       }
     } else if (country.equals("KZ") == true) {
       if (region.equals("01") == true) {
-        timezone = "Asia/Almaty";
+        timezone = "亚洲/阿拉木图";
       } else if (region.equals("02") == true) {
-        timezone = "Asia/Almaty";
+        timezone = "亚洲/阿拉木图";
       } else if (region.equals("03") == true) {
-        timezone = "Asia/Qyzylorda";
+        timezone = "亚洲/克孜勒奥尔达";
       } else if (region.equals("04") == true) {
-        timezone = "Asia/Aqtobe";
+        timezone = "亚洲/阿克托别";
       } else if (region.equals("05") == true) {
-        timezone = "Asia/Qyzylorda";
+        timezone = "亚洲/克孜勒奥尔达";
       } else if (region.equals("06") == true) {
-        timezone = "Asia/Aqtau";
+        timezone = "亚洲/阿克套";
       } else if (region.equals("07") == true) {
-        timezone = "Asia/Oral";
+        timezone = "亚洲/口服";
       } else if (region.equals("08") == true) {
-        timezone = "Asia/Qyzylorda";
+        timezone = "亚洲/克孜勒奥尔达";
       } else if (region.equals("09") == true) {
-        timezone = "Asia/Aqtau";
+        timezone = "亚洲/阿克套";
       } else if (region.equals("10") == true) {
-        timezone = "Asia/Qyzylorda";
+        timezone = "亚洲/克孜勒奥尔达";
       } else if (region.equals("11") == true) {
-        timezone = "Asia/Almaty";
+        timezone = "亚洲/阿拉木图";
       } else if (region.equals("12") == true) {
-        timezone = "Asia/Qyzylorda";
+        timezone = "亚洲/克孜勒奥尔达";
       } else if (region.equals("13") == true) {
-        timezone = "Asia/Aqtobe";
+        timezone = "亚洲/阿克托别";
       } else if (region.equals("14") == true) {
-        timezone = "Asia/Qyzylorda";
+        timezone = "亚洲/克孜勒奥尔达";
       } else if (region.equals("15") == true) {
-        timezone = "Asia/Almaty";
+        timezone = "亚洲/阿拉木图";
       } else if (region.equals("16") == true) {
-        timezone = "Asia/Aqtobe";
+        timezone = "亚洲/阿克托别";
       } else if (region.equals("17") == true) {
-        timezone = "Asia/Almaty";
+        timezone = "亚洲/阿拉木图";
       }
     } else if (country.equals("MX") == true) {
       if (region.equals("01") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("02") == true) {
-        timezone = "America/Tijuana";
+        timezone = "美洲/蒂华纳";
       } else if (region.equals("03") == true) {
-        timezone = "America/Hermosillo";
+        timezone = "美洲/埃莫西约";
       } else if (region.equals("04") == true) {
-        timezone = "America/Merida";
+        timezone = "美洲/梅里达";
       } else if (region.equals("05") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("06") == true) {
-        timezone = "America/Chihuahua";
+        timezone = "美洲/吉娃娃";
       } else if (region.equals("07") == true) {
-        timezone = "America/Monterrey";
+        timezone = "美洲/蒙特雷";
       } else if (region.equals("08") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("09") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("10") == true) {
-        timezone = "America/Mazatlan";
+        timezone = "美洲/马萨特兰";
       } else if (region.equals("11") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("12") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("13") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("14") == true) {
-        timezone = "America/Mazatlan";
+        timezone = "美洲/马萨特兰";
       } else if (region.equals("15") == true) {
-        timezone = "America/Chihuahua";
+        timezone = "美洲/吉娃娃";
       } else if (region.equals("16") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("17") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("18") == true) {
-        timezone = "America/Mazatlan";
+        timezone = "美洲/马萨特兰";
       } else if (region.equals("19") == true) {
-        timezone = "America/Monterrey";
+        timezone = "美洲/蒙特雷";
       } else if (region.equals("20") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("21") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("22") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("23") == true) {
-        timezone = "America/Cancun";
+        timezone = "美洲/坎昆";
       } else if (region.equals("24") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("25") == true) {
-        timezone = "America/Mazatlan";
+        timezone = "美洲/马萨特兰";
       } else if (region.equals("26") == true) {
-        timezone = "America/Hermosillo";
+        timezone = "美洲/埃莫西约";
       } else if (region.equals("27") == true) {
-        timezone = "America/Merida";
+        timezone = "美洲/梅里达";
       } else if (region.equals("28") == true) {
-        timezone = "America/Monterrey";
+        timezone = "美洲/蒙特雷";
       } else if (region.equals("29") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("30") == true) {
-        timezone = "America/Mexico_City";
+        timezone = "美洲/墨西哥城";
       } else if (region.equals("31") == true) {
-        timezone = "America/Merida";
+        timezone = "美洲/梅里达";
       } else if (region.equals("32") == true) {
-        timezone = "America/Monterrey";
+        timezone = "美洲/蒙特雷";
       }
     } else if (country.equals("MY") == true) {
       if (region.equals("01") == true) {
-        timezone = "Asia/Kuala_Lumpur";
+        timezone = "亚洲/吉隆坡";
       } else if (region.equals("02") == true) {
-        timezone = "Asia/Kuala_Lumpur";
+        timezone = "亚洲/吉隆坡";
       } else if (region.equals("03") == true) {
-        timezone = "Asia/Kuala_Lumpur";
+        timezone = "亚洲/吉隆坡";
       } else if (region.equals("04") == true) {
-        timezone = "Asia/Kuala_Lumpur";
+        timezone = "亚洲/吉隆坡";
       } else if (region.equals("05") == true) {
-        timezone = "Asia/Kuala_Lumpur";
+        timezone = "亚洲/吉隆坡";
       } else if (region.equals("06") == true) {
-        timezone = "Asia/Kuala_Lumpur";
+        timezone = "亚洲/吉隆坡";
       } else if (region.equals("07") == true) {
-        timezone = "Asia/Kuala_Lumpur";
+        timezone = "亚洲/吉隆坡";
       } else if (region.equals("08") == true) {
-        timezone = "Asia/Kuala_Lumpur";
+        timezone = "亚洲/吉隆坡";
       } else if (region.equals("09") == true) {
-        timezone = "Asia/Kuala_Lumpur";
+        timezone = "亚洲/吉隆坡";
       } else if (region.equals("11") == true) {
-        timezone = "Asia/Kuching";
+        timezone = "亚洲/古晋";
       } else if (region.equals("12") == true) {
-        timezone = "Asia/Kuala_Lumpur";
+        timezone = "亚洲/吉隆坡";
       } else if (region.equals("13") == true) {
-        timezone = "Asia/Kuala_Lumpur";
+        timezone = "亚洲/吉隆坡";
       } else if (region.equals("14") == true) {
-        timezone = "Asia/Kuala_Lumpur";
+        timezone = "亚洲/吉隆坡";
       } else if (region.equals("15") == true) {
-        timezone = "Asia/Kuching";
+        timezone = "亚洲/古晋";
       } else if (region.equals("16") == true) {
-        timezone = "Asia/Kuching";
+        timezone = "亚洲/古晋";
       }
     } else if (country.equals("NZ") == true) {
       if (region.equals("85") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("E7") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("E8") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("E9") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("F1") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("F2") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("F3") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("F4") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("F5") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("F7") == true) {
-        timezone = "Pacific/Chatham";
+        timezone = "大洋洲/查塔姆";
       } else if (region.equals("F8") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("F9") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("G1") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("G2") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       } else if (region.equals("G3") == true) {
-        timezone = "Pacific/Auckland";
+        timezone = "大洋洲/奥克兰";
       }
     } else if (country.equals("PT") == true) {
       if (region.equals("02") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("03") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("04") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("05") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("06") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("07") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("08") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("09") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("10") == true) {
-        timezone = "Atlantic/Madeira";
+        timezone = "大西洋/马德拉";
       } else if (region.equals("11") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("13") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("14") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("16") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("17") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("18") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("19") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("20") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("21") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       } else if (region.equals("22") == true) {
-        timezone = "Europe/Lisbon";
+        timezone = "欧洲/里斯本";
       }
     } else if (country.equals("RU") == true) {
       if (region.equals("01") == true) {
-        timezone = "Europe/Volgograd";
+        timezone = "欧洲/伏尔加格勒";
       } else if (region.equals("02") == true) {
-        timezone = "Asia/Irkutsk";
+        timezone = "亚洲/伊尔库次克";
       } else if (region.equals("03") == true) {
-        timezone = "Asia/Novokuznetsk";
+        timezone = "亚洲/新库兹涅茨克";
       } else if (region.equals("04") == true) {
-        timezone = "Asia/Novosibirsk";
+        timezone = "亚洲/新西伯利亚";
       } else if (region.equals("05") == true) {
-        timezone = "Asia/Vladivostok";
+        timezone = "亚洲/符拉迪沃斯托克";
       } else if (region.equals("06") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("07") == true) {
-        timezone = "Europe/Volgograd";
+        timezone = "欧洲/伏尔加格勒";
       } else if (region.equals("08") == true) {
-        timezone = "Europe/Samara";
+        timezone = "欧洲/萨马拉";
       } else if (region.equals("09") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("10") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("11") == true) {
-        timezone = "Asia/Irkutsk";
+        timezone = "亚洲/伊尔库次克";
       } else if (region.equals("13") == true) {
-        timezone = "Asia/Yekaterinburg";
+        timezone = "亚洲/叶卡捷琳堡";
       } else if (region.equals("14") == true) {
-        timezone = "Asia/Irkutsk";
+        timezone = "亚洲/伊尔库次克";
       } else if (region.equals("15") == true) {
-        timezone = "Asia/Anadyr";
+        timezone = "亚洲/阿纳德尔";
       } else if (region.equals("16") == true) {
-        timezone = "Europe/Samara";
+        timezone = "欧洲/萨马拉";
       } else if (region.equals("17") == true) {
-        timezone = "Europe/Volgograd";
+        timezone = "欧洲/伏尔加格勒";
       } else if (region.equals("18") == true) {
-        timezone = "Asia/Krasnoyarsk";
+        timezone = "亚洲/克拉斯诺亚尔斯克";
       } else if (region.equals("20") == true) {
-        timezone = "Asia/Irkutsk";
+        timezone = "亚洲/伊尔库次克";
       } else if (region.equals("21") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("22") == true) {
-        timezone = "Europe/Volgograd";
+        timezone = "欧洲/伏尔加格勒";
       } else if (region.equals("23") == true) {
-        timezone = "Europe/Kaliningrad";
+        timezone = "欧洲/加里宁格勒";
       } else if (region.equals("24") == true) {
-        timezone = "Europe/Volgograd";
+        timezone = "欧洲/伏尔加格勒";
       } else if (region.equals("25") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("26") == true) {
-        timezone = "Asia/Kamchatka";
+        timezone = "亚洲/堪察加半岛";
       } else if (region.equals("27") == true) {
-        timezone = "Europe/Volgograd";
+        timezone = "欧洲/伏尔加格勒";
       } else if (region.equals("28") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("29") == true) {
-        timezone = "Asia/Novokuznetsk";
+        timezone = "亚洲/新库兹涅茨克";
       } else if (region.equals("30") == true) {
-        timezone = "Asia/Vladivostok";
+        timezone = "亚洲/符拉迪沃斯托克";
       } else if (region.equals("31") == true) {
-        timezone = "Asia/Krasnoyarsk";
+        timezone = "亚洲/克拉斯诺亚尔斯克";
       } else if (region.equals("32") == true) {
-        timezone = "Asia/Omsk";
+        timezone = "亚洲/鄂木斯克";
       } else if (region.equals("33") == true) {
-        timezone = "Asia/Yekaterinburg";
+        timezone = "亚洲/叶卡捷琳堡";
       } else if (region.equals("34") == true) {
-        timezone = "Asia/Yekaterinburg";
+        timezone = "亚洲/叶卡捷琳堡";
       } else if (region.equals("35") == true) {
-        timezone = "Asia/Yekaterinburg";
+        timezone = "亚洲/叶卡捷琳堡";
       } else if (region.equals("36") == true) {
-        timezone = "Asia/Anadyr";
+        timezone = "亚洲/阿纳德尔";
       } else if (region.equals("37") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("38") == true) {
-        timezone = "Europe/Volgograd";
+        timezone = "欧洲/伏尔加格勒";
       } else if (region.equals("39") == true) {
-        timezone = "Asia/Krasnoyarsk";
+        timezone = "亚洲/克拉斯诺亚尔斯克";
       } else if (region.equals("40") == true) {
-        timezone = "Asia/Yekaterinburg";
+        timezone = "亚洲/叶卡捷琳堡";
       } else if (region.equals("41") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("42") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("43") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("44") == true) {
-        timezone = "Asia/Magadan";
+        timezone = "亚洲/马加丹";
       } else if (region.equals("45") == true) {
-        timezone = "Europe/Samara";
+        timezone = "欧洲/萨马拉";
       } else if (region.equals("46") == true) {
-        timezone = "Europe/Samara";
+        timezone = "欧洲/萨马拉";
       } else if (region.equals("47") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("48") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("49") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("50") == true) {
-        timezone = "Asia/Yekaterinburg";
+        timezone = "亚洲/叶卡捷琳堡";
       } else if (region.equals("51") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("52") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("53") == true) {
-        timezone = "Asia/Novosibirsk";
+        timezone = "亚洲/新西伯利亚";
       } else if (region.equals("54") == true) {
-        timezone = "Asia/Omsk";
+        timezone = "亚洲/鄂木斯克";
       } else if (region.equals("55") == true) {
-        timezone = "Europe/Samara";
+        timezone = "欧洲/萨马拉";
       } else if (region.equals("56") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("57") == true) {
-        timezone = "Europe/Samara";
+        timezone = "欧洲/萨马拉";
       } else if (region.equals("58") == true) {
-        timezone = "Asia/Yekaterinburg";
+        timezone = "亚洲/叶卡捷琳堡";
       } else if (region.equals("59") == true) {
-        timezone = "Asia/Vladivostok";
+        timezone = "亚洲/符拉迪沃斯托克";
       } else if (region.equals("60") == true) {
-        timezone = "Europe/Kaliningrad";
+        timezone = "欧洲/加里宁格勒";
       } else if (region.equals("61") == true) {
-        timezone = "Europe/Volgograd";
+        timezone = "欧洲/伏尔加格勒";
       } else if (region.equals("62") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("63") == true) {
-        timezone = "Asia/Yakutsk";
+        timezone = "亚洲/雅库茨克";
       } else if (region.equals("64") == true) {
-        timezone = "Asia/Sakhalin";
+        timezone = "亚洲/库页岛";
       } else if (region.equals("65") == true) {
-        timezone = "Europe/Samara";
+        timezone = "欧洲/萨马拉";
       } else if (region.equals("66") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("67") == true) {
-        timezone = "Europe/Samara";
+        timezone = "欧洲/萨马拉";
       } else if (region.equals("68") == true) {
-        timezone = "Europe/Volgograd";
+        timezone = "欧洲/伏尔加格勒";
       } else if (region.equals("69") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("70") == true) {
-        timezone = "Europe/Volgograd";
+        timezone = "欧洲/伏尔加格勒";
       } else if (region.equals("71") == true) {
-        timezone = "Asia/Yekaterinburg";
+        timezone = "亚洲/叶卡捷琳堡";
       } else if (region.equals("72") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("73") == true) {
-        timezone = "Europe/Samara";
+        timezone = "欧洲/萨马拉";
       } else if (region.equals("74") == true) {
-        timezone = "Asia/Krasnoyarsk";
+        timezone = "亚洲/克拉斯诺亚尔斯克";
       } else if (region.equals("75") == true) {
-        timezone = "Asia/Novosibirsk";
+        timezone = "亚洲/新西伯利亚";
       } else if (region.equals("76") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("77") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("78") == true) {
-        timezone = "Asia/Yekaterinburg";
+        timezone = "亚洲/叶卡捷琳堡";
       } else if (region.equals("79") == true) {
-        timezone = "Asia/Irkutsk";
+        timezone = "亚洲/伊尔库次克";
       } else if (region.equals("80") == true) {
-        timezone = "Asia/Yekaterinburg";
+        timezone = "亚洲/叶卡捷琳堡";
       } else if (region.equals("81") == true) {
-        timezone = "Europe/Samara";
+        timezone = "欧洲/萨马拉";
       } else if (region.equals("82") == true) {
-        timezone = "Asia/Irkutsk";
+        timezone = "亚洲/伊尔库次克";
       } else if (region.equals("83") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("84") == true) {
-        timezone = "Europe/Volgograd";
+        timezone = "欧洲/伏尔加格勒";
       } else if (region.equals("85") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("86") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("87") == true) {
-        timezone = "Asia/Novosibirsk";
+        timezone = "亚洲/新西伯利亚";
       } else if (region.equals("88") == true) {
-        timezone = "Europe/Moscow";
+        timezone = "欧洲/莫斯科";
       } else if (region.equals("89") == true) {
-        timezone = "Asia/Vladivostok";
+        timezone = "亚洲/符拉迪沃斯托克";
       }
     } else if (country.equals("UA") == true) {
       if (region.equals("01") == true) {
-        timezone = "Europe/Kiev";
+        timezone = "欧洲/基辅";
       } else if (region.equals("02") == true) {
-        timezone = "Europe/Kiev";
+        timezone = "欧洲/基辅";
       } else if (region.equals("03") == true) {
-        timezone = "Europe/Uzhgorod";
+        timezone = "欧洲/乌日哥罗德";
       } else if (region.equals("04") == true) {
-        timezone = "Europe/Zaporozhye";
+        timezone = "欧洲/扎波罗热";
       } else if (region.equals("05") == true) {
-        timezone = "Europe/Zaporozhye";
+        timezone = "欧洲/扎波罗热";
       } else if (region.equals("06") == true) {
-        timezone = "Europe/Uzhgorod";
+        timezone = "欧洲/乌日哥罗德";
       } else if (region.equals("07") == true) {
-        timezone = "Europe/Zaporozhye";
+        timezone = "欧洲/扎波罗热";
       } else if (region.equals("08") == true) {
-        timezone = "Europe/Simferopol";
+        timezone = "欧洲/辛菲罗波尔";
       } else if (region.equals("09") == true) {
-        timezone = "Europe/Kiev";
+        timezone = "欧洲/基辅";
       } else if (region.equals("10") == true) {
-        timezone = "Europe/Zaporozhye";
+        timezone = "欧洲/扎波罗热";
       } else if (region.equals("11") == true) {
-        timezone = "Europe/Simferopol";
+        timezone = "欧洲/辛菲罗波尔";
       } else if (region.equals("13") == true) {
-        timezone = "Europe/Kiev";
+        timezone = "欧洲/基辅";
       } else if (region.equals("14") == true) {
-        timezone = "Europe/Zaporozhye";
+        timezone = "欧洲/扎波罗热";
       } else if (region.equals("15") == true) {
-        timezone = "Europe/Uzhgorod";
+        timezone = "欧洲/乌日哥罗德";
       } else if (region.equals("16") == true) {
-        timezone = "Europe/Zaporozhye";
+        timezone = "欧洲/扎波罗热";
       } else if (region.equals("17") == true) {
-        timezone = "Europe/Simferopol";
+        timezone = "欧洲/辛菲罗波尔";
       } else if (region.equals("18") == true) {
-        timezone = "Europe/Zaporozhye";
+        timezone = "欧洲/扎波罗热";
       } else if (region.equals("19") == true) {
-        timezone = "Europe/Kiev";
+        timezone = "欧洲/基辅";
       } else if (region.equals("20") == true) {
-        timezone = "Europe/Simferopol";
+        timezone = "欧洲/辛菲罗波尔";
       } else if (region.equals("21") == true) {
-        timezone = "Europe/Kiev";
+        timezone = "欧洲/基辅";
       } else if (region.equals("22") == true) {
-        timezone = "Europe/Uzhgorod";
+        timezone = "欧洲/乌日哥罗德";
       } else if (region.equals("23") == true) {
-        timezone = "Europe/Kiev";
+        timezone = "欧洲/基辅";
       } else if (region.equals("24") == true) {
-        timezone = "Europe/Uzhgorod";
+        timezone = "欧洲/乌日哥罗德";
       } else if (region.equals("25") == true) {
-        timezone = "Europe/Uzhgorod";
+        timezone = "欧洲/乌日哥罗德";
       } else if (region.equals("26") == true) {
-        timezone = "Europe/Zaporozhye";
+        timezone = "欧洲/扎波罗热";
       } else if (region.equals("27") == true) {
-        timezone = "Europe/Kiev";
+        timezone = "欧洲/基辅";
       }
     } else if (country.equals("UZ") == true) {
       if (region.equals("01") == true) {
-        timezone = "Asia/Tashkent";
+        timezone = "亚洲/塔什干";
       } else if (region.equals("02") == true) {
-        timezone = "Asia/Samarkand";
+        timezone = "亚洲/撒马尔罕";
       } else if (region.equals("03") == true) {
-        timezone = "Asia/Tashkent";
+        timezone = "亚洲/塔什干";
       } else if (region.equals("06") == true) {
-        timezone = "Asia/Tashkent";
+        timezone = "亚洲/塔什干";
       } else if (region.equals("07") == true) {
-        timezone = "Asia/Samarkand";
+        timezone = "亚洲/撒马尔罕";
       } else if (region.equals("08") == true) {
-        timezone = "Asia/Samarkand";
+        timezone = "亚洲/撒马尔罕";
       } else if (region.equals("09") == true) {
-        timezone = "Asia/Samarkand";
+        timezone = "亚洲/撒马尔罕";
       } else if (region.equals("10") == true) {
-        timezone = "Asia/Samarkand";
+        timezone = "亚洲/撒马尔罕";
       } else if (region.equals("12") == true) {
-        timezone = "Asia/Samarkand";
+        timezone = "亚洲/撒马尔罕";
       } else if (region.equals("13") == true) {
-        timezone = "Asia/Tashkent";
+        timezone = "亚洲/塔什干";
       } else if (region.equals("14") == true) {
-        timezone = "Asia/Tashkent";
+        timezone = "亚洲/塔什干";
       }
     } else if (country.equals("TL") == true) {
-      timezone = "Asia/Dili";
+      timezone = "亚洲/帝力";
     } else if (country.equals("PF") == true) {
-      timezone = "Pacific/Marquesas";
+      timezone = "大洋洲/马克萨斯";
     }
     return timezone;
   }

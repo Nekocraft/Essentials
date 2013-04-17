@@ -10,8 +10,8 @@ import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
-import org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason;
 import org.bukkit.event.entity.*;
+import org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason;
 import org.bukkit.inventory.ItemStack;
 
 
@@ -197,6 +197,18 @@ public class EssentialsEntityListener implements Listener
 			if (entity instanceof Player && ess.getUser(entity).isGodModeEnabled())
 			{
 				event.setIntensity(entity, 0d);
+			}
+		}
+	}
+	@EventHandler(priority = EventPriority.LOW, ignoreCancelled = true)
+	public void onEntityShootBow (EntityShootBowEvent event)
+	{
+		if (event.getEntity() instanceof Player)
+		{
+			final User user = ess.getUser(event.getEntity());
+			if (user.isAfk())
+			{
+				user.updateActivity(true);
 			}
 		}
 	}

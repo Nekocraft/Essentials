@@ -37,10 +37,10 @@ public class Commandremove extends EssentialsCommand
 			throw new NotEnoughArgumentsException();
 		}
 		ToRemove toRemove;
-		final World world = user.getWorld();
+		World world = user.getWorld();
 		int radius = 0;
 
-		if (args.length < 2)
+		if (args.length >= 2)
 		{
 			try
 			{
@@ -52,13 +52,25 @@ public class Commandremove extends EssentialsCommand
 			}
 		}
 
+		if (args.length >= 3)
+		{
+			world = ess.getWorld(args[2]);
+		}
+
 		try
 		{
 			toRemove = ToRemove.valueOf(args[0].toUpperCase(Locale.ENGLISH));
 		}
 		catch (IllegalArgumentException e)
 		{
-			throw new NotEnoughArgumentsException(e); //TODO: translate and list types
+			try
+			{
+				toRemove = ToRemove.valueOf(args[0].concat("S").toUpperCase(Locale.ENGLISH));
+			}
+			catch (IllegalArgumentException ee)
+			{
+				throw new NotEnoughArgumentsException(ee); //TODO: translate and list types
+			}
 		}
 
 		removeEntities(user, world, toRemove, radius);
@@ -71,13 +83,8 @@ public class Commandremove extends EssentialsCommand
 		{
 			throw new NotEnoughArgumentsException();
 		}
-		World world;
-		world = ess.getWorld(args[1]);
+		World world = ess.getWorld(args[1]);
 
-		if (world == null)
-		{
-			throw new Exception(_("invalidWorld"));
-		}
 		ToRemove toRemove;
 		try
 		{
@@ -85,7 +92,14 @@ public class Commandremove extends EssentialsCommand
 		}
 		catch (IllegalArgumentException e)
 		{
-			throw new NotEnoughArgumentsException(e); //TODO: translate and list types
+			try
+			{
+				toRemove = ToRemove.valueOf(args[0].concat("S").toUpperCase(Locale.ENGLISH));
+			}
+			catch (IllegalArgumentException ee)
+			{
+				throw new NotEnoughArgumentsException(ee); //TODO: translate and list types
+			}
 		}
 		removeEntities(sender, world, toRemove, 0);
 	}

@@ -45,3 +45,5 @@
 /EssentialsAntiBuild/build/
 /jars
 /out
+/*.ipr
+/*.iws

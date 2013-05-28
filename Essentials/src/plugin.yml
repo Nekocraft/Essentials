@@ -12,7 +12,7 @@ commands:
     usage: /<command> [player]
     aliases: [eafk]
   antioch:
-    description: '给OP的一个小惊喜“
+    description: 给OP的一个小惊喜
     usage: /<command> [message]
     aliases: [eantioch,grenade,egrenade,tnt,etnt]
   back:
@@ -148,7 +148,7 @@ commands:
     usage: /<command> [remove]
     aliases: [ehat]
   heal:
-    description: 治愈一个玩家咻〜
+    description: 治愈一个玩家.
     usage: /<command> [player]
     aliases: [eheal]
   help:
@@ -188,7 +188,7 @@ commands:
     usage: /<command>
     aliases: [ejails]
   jump:
-    description: 视点飞跃〜
+    description: 视点飞跃.
     usage: /<command>
     aliases: [j,ej,ejump,jumpto,ejumpto]
   kick:

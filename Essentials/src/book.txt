@@ -1,13 +1,17 @@
 This is the book file.
+这是book文件。
 
 This file format works similar to the info.txt, motd.txt and rules.txt
+此文件格式与info.txt, motd.txt, rules.txt相同
 
 Place content in here that you would like to be used by books ingame.
+在这里输入内容然后玩家就能在游戏里看见相应内容的书.
 
 You can use this content by using the book:<section> meta option in kits or item spawning.
+你可以使用这里的内容使用对kit设置目标为 book:<#后面的名字> 同样适用于/give或/item的物品生成
 
 #Colors
-Minecraft colors:
+Minecraft 颜色表:
 &0 &&0  &1 &&1  &2 &&2  &3 &&3
 &4 &&4  &5 &&5  &6 &&6  &7 &&7
 &8 &&8  &9 &&9  &a &&a  &b &&b

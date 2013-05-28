@@ -1,11 +1,16 @@
 This is the info file.
+这是info文件。
 
 This file format works for the info.txt, motd.txt and rules.txt
+此文件格式与book.txt, motd.txt, rules.txt相同
 
 You can create a specific file for a user or a group:
 Name it info_username.txt or info_groupname.txt
+您可以创建一个用户或一组特定的文件：
+info_groupname.txt 以及 info_username.txt
 
 This also works with motd and rules.
+这也适用于MOTD和规则。
 
 Extra pages:
 Type /info Colors
@@ -13,18 +18,21 @@ Type /info Tags
 
 If you have problem viewing this file ingame, try using /einfo.
 If this works, it means another command is blocking /info.
+如果在游戏中使用出现问题 尝试使用/einfo
+如果他能工作 那么意味着其他插件占用了这个指令
 
 It can contain chapters like the Chapter1 below:
+你可以如下定义一个名为Chapter1的内容块
 
 #Chapter1
-Lines starting with # begin a new chapter
-The user has to type /info Chapter1 to read this chapter
+每个区块以一个以#开头的行开始
+当玩家输入 /info Chapter1 就能看到这个
 
 If the file starts with a # then the user is shown a chapter selection, 
 when he does not select a chapter.
 
 #Colors
-Minecraft colors:
+Minecraft 颜色列表:
 &0 &&0  &1 &&1  &2 &&2  &3 &&3
 &4 &&4  &5 &&5  &6 &&6  &7 &&7
 &8 &&8  &9 &&9  &a &&a  &b &&b
@@ -35,20 +43,20 @@ Minecraft colors:
 &&o &oItalic&r   &&r &rReset
 
 #Tags
-&6Player name:&r {PLAYER}
+&6玩家名:&r {PLAYER}
 &6IP:&r {IP}
-&6Address:&r {ADDRESS}
-&6Balance:&r {BALANCE}
-&6Unread mails:&r {MAILS}
-&6Current world:&r {WORLD}
-&6Worlds list:&r {WORLDS}
-&6Number of online players:&r {ONLINE}
-&6Number of unique players who joined the server:&r {UNIQUE}
-&6Player list:&r {PLAYERLIST}
-&6Time of server:&r {TIME}
-&6Date of server:&r {DATE}
-&6Time of world PM/AM:&r {WORLDTIME12}
-&6Time of world:&r {WORLDTIME24}
-&6Date of world:&r {WORLDDATE}
-&6Plugin list:&r {PLUGINS}
-&6Version of Craftbukkit:&r {VERSION}
+&6地址:&r {ADDRESS}
+&6金钱:&r {BALANCE}
+&6未读邮件:&r {MAILS}
+&6当前世界:&r {WORLD}
+&6世界列表:&r {WORLDS}
+&6在线人数:&r {ONLINE}
+&6所有玩家统计:&r {UNIQUE}
+&6玩家列表:&r {PLAYERLIST}
+&6服务器时间:&r {TIME}
+&6服务器日期:&r {DATE}
+&6世界时间 PM/AM:&r {WORLDTIME12}
+&6世界时间:&r {WORLDTIME24}
+&6世界日期:&r {WORLDDATE}
+&6插件列表:&r {PLUGINS}
+&6Craftbukkit版本:&r {VERSION}

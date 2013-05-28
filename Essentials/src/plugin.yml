@@ -4,474 +4,474 @@ main: com.earth2me.essentials.Essentials
 # Note to developers: This next line cannot change, or the automatic versioning system will break.
 version: TeamCity
 website: http://tiny.cc/EssentialsCommands
-description: Provides an essential, core set of commands for Bukkit.
+description: 给Bukkit提供了一个重要的核心命令集. 
 authors: [Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, md_5, Iaccidentally]
 commands:
   afk:
-    description: Marks you as away-from-keyboard.
+    description: 表示自己暂时离开
     usage: /<command> [player]
     aliases: [eafk]
   antioch:
-    description: 'A little surprise for operators.'
+    description: '给OP的一个小惊喜“
     usage: /<command> [message]
     aliases: [eantioch,grenade,egrenade,tnt,etnt]
   back:
-    description: Teleports you to your location prior to tp/spawn/warp.
+    description: 把你传送到上回传送之前的地点
     usage: /<command>
     aliases: [eback,return,ereturn]
   backup:
-    description: Runs the backup if configured.
+    description: 运行配置中的备​​份方法
     usage: /<command>
     aliases: [ebackup]
   balance:
-    description: States the current balance of a player.
+    description: 统计玩家的金钱数
     usage: /<command> [player]
     aliases: [bal,ebal,ebalance,money,emoney]
   balancetop:
-    description: Gets the top balance values.
+    description: 获取金钱排行. 
     usage: /<command> <page>
     aliases: [ebalancetop,baltop,ebaltop]
   ban:
-    description: Bans a player.
+    description: 封禁一个玩家. 
     usage: /<command> <player> [reason]
     aliases: [eban]
   banip:
-    description: Bans an IP address.
+    description: 封禁一个IP地址. 
     usage: /<command> <address>
     aliases: [ebanip]
   book:
-    description: Allows reopening and editing of sealed books.
+    description: 重新打开并编辑已经签名过的书. 
     usage: /<command> [title|author [name]]
     aliases: [ebook]
   break:
-    description: Breaks the block you are looking at.
+    description: 破坏你所看向的方块. 
     usage: /<command>
     aliases: [ebreak]
   broadcast:
-    description: Broadcasts a message to the entire server.
+    description: 对整个服务器广播消息. 
     usage: /<command> <msg>
     aliases: [bc,ebc,bcast,ebcast,ebroadcast,shout,eshout]
   bigtree:
-    description: Spawn a big tree where you are looking.
+    description: 在你看向的地点生成一个大树. 
     usage: /<command> <tree|redwood|jungle>
     aliases: [ebigtree]
   burn:
-    description: Set a player on fire.
+    description: 点燃一个玩家. 
     usage: /<command> <player> <seconds>
     aliases: [eburn]
   clearinventory:
-    description: Clear all items in your inventory.
+    description: 清除玩家的包裹. 
     usage: /<command> [player|*] [item[:<data>]|*|**]
     aliases: [ci,eci,clean,eclean,clear,eclear,clearinvent,eclearinvent,eclearinventory]
   compass:
-    description: Describes your current bearing.
+    description: 描述你目前的朝向. 
     usage: /<command>
     aliases: [ecompass,direction,edirection]
   delhome:
-    description: Removes a home.
+    description: 删除一个家. 
     usage: /<command> [player:]<name>
     aliases: [edelhome,remhome,eremhome,rmhome,ermhome]
   deljail:
-    description: Removes a jail.
+    description: 删除一个监狱. 
     usage: /<command> <jailname>
     aliases: [edeljail]
   delwarp:
-    description: Deletes the specified warp.
+    description: 删除指定的传送点. 
     usage: /<command> <warp>
     aliases: [edelwarp,remwarp,eremwarp,rmwarp,ermwarp]
   depth:
-    description: States current depth, relative to sea level.
+    description: 显示目前所出的深度. 
     usage: /depth
     aliases: [edepth]
   eco:
-    description: Manages the server economy.
+    description: 管理服务器的金钱. 
     usage: /<command> <give|take|set|reset> <player> <amount>
     aliases: [eeco,economy,eeconomy]
   enchant:
-    description: Enchants the item the user is holding.
+    description: 对手中物品附魔. 
     usage: /<command> <enchantmentname> [level]
     aliases: [eenchant,enchantment,eenchantment]
   enderchest:
-    description: Lets you see inside an enderchest.
+    description: 打开一个末影箱. 
     usage: /<command> [player]
     aliases: [echest,eechest,eenderchest,endersee,eendersee]
   essentials:
-    description: Reloads essentials.
+    description: 重新载入要点. 
     usage: /<command>
     aliases: [eessentials, ess, eess, essversion]
   exp:
-    description: Give, set or look at a players exp.
+    description: 设置增加或者查看一个玩家的经验值. 
     usage: /<command> [show|set|give] [playername [amount]]
     aliases: [eexp,xp]
   ext:
-    description: Extinguish players.
+    description: 熄灭一个着火的玩家. 
     usage: /<command> [player]
     aliases: [eext,extinguish,eextinguish]
   feed:
-    description: Satisfy the hunger.
+    description: 填满玩家饥饿的肚子. 
     usage: /<command> [player]
     aliases: [eat,eeat,efeed]
   fly:
-    description: Take off, and soar!
+    description: 飞行! 
     usage: /<command> [player [on|off]]
     aliases: [efly]
   fireball:
-    description: Throw a fireball.
+    description: 扔出一个FFF火球术〜
     usage: /<command> [small|skull]
     aliases: [efireball,fireentity,efireentity,fireskull,efireskull]
   firework:
-    description: Allows you to modify a stack of fireworks.
+    description: 修改烟花的参数. 
     usage: /<command> <<meta param>|power [amount]|clear|fire [amount]>
     aliases: [efirework]
   gamemode:
-    description: Change player gamemode.
+    description: 改变玩家的游戏模式. 
     usage: /<command> <survival|creative|adventure> [player]
     aliases: [adventure,eadventure,adventuremode,eadventuremode,creative,eecreative,creativemode,ecreativemode,egamemode,gm,egm,gma,egma,gmc,egmc,gms,egms,gmt,egmt,survival,esurvival,survivalmode,esurvivalmode]
   gc:
-    description: Reports memory, uptime and tick info.
+    description: 报告内存占用启动时间和TPS. 
     usage: /<command> [all]
     aliases: [lag,elag,egc,mem,emem,memory,ememory,uptime,euptime]
   getpos:
-    description: Get your current coordinates or those of a player.
+    description: 获取玩家所在的坐标. 
     usage: /<command> [player]
     aliases: [coords,egetpos,position,eposition,whereami,ewhereami]
   give:
-    description: Give a player an item.
+    description: 给玩家一个物品. 
     usage: /<command> <player> <item|numeric> [amount [itemmeta...]]
     aliases: [egive]
   god:
-    description: Enables your godly powers.
+    description: 启用上帝模式. 
     usage: /<command> [player [on|off]]
     aliases: [egod,godmode,egodmode,tgm,etgm]
   hat:
-    description: Get some cool new headgear.
+    description: 戴上很酷的帽子. 
     usage: /<command> [remove]
     aliases: [ehat]
   heal:
-    description: Heals you or the given player.
+    description: 治愈一个玩家咻〜
     usage: /<command> [player]
     aliases: [eheal]
   help:
-    description: Views a list of available commands.
+    description: 查看可用的指令. 
     usage: /<command> [search term] [page]
     aliases: [ehelp]
   helpop:
-    description: Message online admins.
+    description: 查看在线的任择议定书. 
     usage: /<command> <message>
     aliases: [ac,eac,amsg,eamsg,ehelpop]
   home:
-    description: Teleport to your home.
+    description: 回家咯. 
     usage: /<command> [player:][name]
     aliases: [ehome,homes,ehomes]
   ignore:
-    description: Ignore other players.
+    description: 无视一个玩家. 
     usage: /<command> <player>
     aliases: [eignore]
   info:
-    description: Shows information set by the server owner.
+    description: 查看服务器的信息. 
     usage: /<command> [chapter] [page]
     aliases: [about,eabout,ifo,eifo,einfo,inform,einform,news,enews]
   invsee:
-    description: See the inventory of other players.
+    description: 查看其他玩家的包裹. 
     usage: /<command> <player>
     aliases: [einvsee]
   item:
-    description: Spawn an item.
+    description: 生成一个物品. 
     usage: /<command> <item|numeric> [amount [itemmeta...]]
     aliases: [i,eitem]
   itemdb:
-    description: Searches for an item.
+    description: 搜索一个物品. 
     usage: /<command> <item>
     aliases: [dura,edura,durability,edurability,eitemdb,itemno,eitemno]
   jails:
-    description: List all jails.
+    description: 监狱列表. 
     usage: /<command>
     aliases: [ejails]
   jump:
-    description: Jumps to the nearest block in the line of sight.
+    description: 视点飞跃〜
     usage: /<command>
     aliases: [j,ej,ejump,jumpto,ejumpto]
   kick:
-    description: Kicks a specified player with a reason.
+    description: 从服务器中踢出指定玩家. 
     usage: /<command> <player> [reason]
     aliases: [ekick]
   kickall:
-    description: Kicks all players off the server except the issuer.
+    description: 踢出所有玩家. 
     usage: /<command> [reason]
     aliases: [ekickall]
   kill:
-    description: Kills specified player.
+    description: 杀死指定玩家. 
     usage: /<command> <player>
     aliases: [ekill]
   killall:
-    description: Kill all mobs in a world.
+    description: 杀死所有怪物. 
     usage: /<command> [mobType] [radius] [world]
     aliases: [butcher,ebutcher,ekillall,mobkill,emobkill]
   kit:
-    description: Obtains the specified kit or views all available kits.
+    description: 获得指定的套件或查看所有可用的工具包. 
     usage: /<command> [kit] [player]
     aliases: [ekit,kits,ekits]
   kittycannon:
-    description: Throw an exploding kitten at your opponent.
+    description: 用爆炸的小猫扔扔对方. 
     usage: /<command>
   lightning:
-    description: The power of Thor. Strike at cursor or player.
+    description: 雷神的力量. 罢工的光标或玩家. 
     usage: /<command> [player] [power]
     aliases: [elightning,shock,eshock,smite,esmite,strike,estrike,thor,ethor]
   list:
-    description: List all online players.
+    description: 列出所有在线玩家. 
     usage: /<command> [group]
     aliases: [elist,online,eonline,playerlist,eplayerlist,plist,eplist,who,ewho]
   mail:
-    description: Manages inter-player, intra-server mail.
+    description: 管理服务器内的邮件. 
     usage: /<command> [read|clear|send [to] [message]|sendall [message]]
     aliases: [email]
   me:
-    description: Describes an action in the context of the player.
+    description: 描述了玩家的动作. 
     usage: /<command> <description>
     aliases: [action,eaction,describe,edescribe,eme]
   more:
-    description: Fills the item stack in hand to maximum size.
+    description: 填充物品堆叠在手的最大尺寸. 
     usage: /<command>
     aliases: [emore]
   motd:
-    description: Views the Message Of The Day.
+    description: 查看当日消息. 
     usage: /<command>
     aliases: [emotd]
   msg:
-    description: Sends a private message to the specified player.
+    description: 发送悄悄话到指定的玩家. 
     usage: /<command> <to> <message>
     aliases: [w,m,t,emsg,tell,etell,whisper,ewhisper]
   mute:
-    description: Mutes or unmutes a player.
+    description: 对玩家禁言或解除禁言. 
     usage: /<command> <player> [datediff]
     aliases: [emute]
   near:
-    description: Lists the players near by or around a player.
+    description: 列出附近或周围的玩家. 
     usage: /<command> [playername] [radius]
     aliases: [enear,nearby,enearby]
   nick:
-    description: Change your nickname or that of another player.
+    description: 更改昵称. 
     usage: /<command> [player] <nickname|off>
     aliases: [enick]
   nuke:
-    description: May death rain upon them.
+    description: 降下死亡之雨. 
     usage: /<command> [player]
     aliases: [enuke]
   pay:
-    description: Pays another player from your balance.
+    description: 付钱给其他玩家
     usage: /<command> <player> <amount>
     aliases: [epay]
   ping:
-    description: Pong!
+    description: 啪! 
     usage: /<command>
     aliases: [echo,eecho,eping,pong,epong]
   potion:
-    description: Adds custom potion effects to a potion.
+    description: 添加自定义药水效果的药水. 
     usage: /<command> <clear|apply|effect:<effect> power:<power> duration:<duration>>
     aliases: [epotion,elixer,eelixer]
   powertool:
-    description: Assigns a command to the item in hand.
+    description: 指定一个命令，以在手的产品. 
     usage: /<command> [l:|a:|r:|c:|d:][command] [arguments] - {player} can be replaced by name of a clicked player.
     aliases: [epowertool,pt,ept]
   powertooltoggle:
-    description: Enables or disables all current powertools.
+    description: 启用或禁用当前​​所有的电动工具. 
     usage: /<command>
     aliases: [epowertooltoggle,ptt,eptt,pttoggle,epttoggle]
   ptime:
-    description: Adjust player's client time. Add @ prefix to fix.
+    description: 调整玩家的客户端时间. 添加@前缀来解决. 
     usage: /<command> [list|reset|day|night|dawn|17:30|4pm|4000ticks] [player|*]
     aliases: [playertime,eplayertime,eptime]
   pweather:
-    description: Adjust a player's weather
+    description: 调整玩家的天气
     usage: /<command> [list|reset|storm|sun|clear] [player|*]
     aliases: [playerweather,eplayerweather,epweather]
   r:
-    description: Quickly reply to the last player to message you.
+    description: 快速回复给最后给你发信息的玩家. 
     usage: /<command> <message>
     aliases: [er,reply,ereply]
   realname:
-    description: Displays the username of a user based on nick.
+    description: 显示用户名的用户基于缺口. 
     usage: /<command> <nickname>
     aliases: [erealname]
   recipe:
-    description: Displays how to craft items.
+    description: 显示如何制作物品. 
     usage: /<command> <item> [number]
     aliases: [formula,eformula,method,emethod,erecipe,recipes,erecipes]
   remove:
-    description: Removes entities in your world.
+    description: 在你的世界中删除实体. 
     usage: /<command> <drops|arrows|boats|minecarts|xp|paintings> [radius] [world]
     aliases: [eremove]
   repair:
-    description: Repairs the durability of one or all items.
+    description: 维修一个或所有物品. 
     usage: /<command> [hand|all]
     aliases: [fix,efix,erepair]
   rules:
-    description: Views the server rules.
+    description: 查看服务器的规则. 
     usage: /<command>
     aliases: [erules]
   seen:
-    description: Shows the last logout time of a player.
+    description: 显示最后一名玩家退出时间. 
     usage: /<command> <playername>
     aliases: [eseen]
   sell:
-    description: Sells the item currently in your hand.
+    description: 出售你手中的物品. 
     usage: /<command> <itemname|id|hand|inventory|blocks> [-][amount]
     aliases: [esell]
   sethome:
-    description: Set your home to your current location.
+    description: 在当前位置设置你的家. 
     usage: /<command> [[player:]name]
     aliases: [esethome]
   setjail:
-    description: Creates a jail where you specified named [jailname].
+    description: 建立一个监狱您指定命名[jailname].
     usage: /<command> <jailname>
     aliases: [esetjail]
   setwarp:
-    description: Creates a new warp.
+    description: 创建一个新的经线. 
     usage: /<command> <warp>
     aliases: [createwarp,ecreatewarp,esetwarp]
   setworth:
-    description: Set the sell value of an item.
+    description: 设置一个物品的销售产值. 
     usage: /<command> [itemname|id] <price>
     aliases: [esetworth]
   socialspy:
-    description: Toggles if you can see msg/mail commands in chat.
+    description: 如果你能看到的切换聊天消息/邮件中的命令. 
     usage: /<command> [player]
     aliases: [esocialspy]
   spawner:
-    description: Change the mob type of a spawner.
+    description: 更改刷怪箱类型. 
     usage: /<command> <mob>
     aliases: [changems,echangems,espawner]
   spawnmob:
-    description: Spawns a mob.
+    description: 生成一个怪物. 
     usage: /<command> <mob>[:data][,<mount>[:data]] [amount] [player]
     aliases: [mob,emob,spawnentity,espawnentity,espawnmob]
   speed:
-    description: Change your speed limits.
+    description: 更改你的速度极限. 
     usage: /<command> [type] <speed> [player]
     aliases: [flyspeed,eflyspeed,fspeed,efspeed,espeed,walkspeed,ewalkspeed,wspeed,ewspeed]
   sudo:
-    description: Make another user perform a command.
+    description: 使其他用户执行命令. 
     usage: /<command> <player> <command [args]>
     aliases: [esudo]
   suicide:
-    description: Causes you to perish.
+    description: 自杀. 
     usage: /<command>
     aliases: [esuicide]
   tempban:
-    description: Temporary ban a user.
+    description: 临时封禁一个用户. 
     usage: /<command> <playername> <datediff>
     aliases: [etempban]
   thunder:
-    description: Enable/disable thunder.
+    description: 启用/禁用打雷. 
     usage: /<command> <true/false> [duration]
     aliases: [ethunder]
   time:
-    description: Display/Change the world time. Defaults to current world.
+    description: 世界时间显示/更改. 默认为当前世界. 
     usage: /<command> [day|night|dawn|17:30|4pm|4000ticks] [worldname|all]
     aliases: [day,eday,night,enight,etime]
   togglejail:
-    description: Jails/Unjails a player, TPs them to the jail specified.
+    description: 监禁或释放玩家，到指定的监狱. 
     usage: /<command> <player> <jailname> [datediff]
     aliases: [jail,ejail,tjail,etjail,etogglejail,unjail,eunjail]
   top:
-    description: Teleport to the highest block at your current position.
+    description: 瞬移到你的当前位置最高的块. 
     usage: /<command>
     aliases: [etop]
   tp:
-    description: Teleport to a player.
+    description: 瞬移到玩家. 
     usage: /<command> <player> [otherplayer]
     aliases: [tele,etele,teleport,eteleport,etp,tp2p,etp2p]
   tpa:
-    description: Request to teleport to the specified player.
+    description: 请求传送到指定的玩家. 
     usage: /<command> <player>
     aliases: [call,ecall,etpa,tpask,etpask]
   tpaall:
-    description: Requests all players online to teleport to you.
+    description: 请所有在线玩家传送到你. 
     usage: /<command> <player>
     aliases: [etpaall]
   tpaccept:
-    description: Accepts a teleport request.
+    description: 接受一个传送请求. 
     usage: /<command> [otherplayer]
     aliases: [etpaccept,tpyes,etpyes]
   tpahere:
-    description: Request that the specified player teleport to you.
+    description: 指定的玩家传送到你的请求. 
     usage: /<command> <player>
     aliases: [etpahere]
   tpall:
-    description: Teleport all online players to another player.
+    description: 所有在线玩家瞬移到另一名玩家. 
     usage: /<command> <player>
     aliases: [etpall]
   tpdeny:
-    description: Reject a teleport request.
+    description: 拒绝一个传送请求. 
     usage: /<command>
     aliases: [etpdeny,tpno,etpno]
   tphere:
-    description: Teleport a player to you.
+    description: 瞬移玩家到这里. 
     usage: /<command> <player>
     aliases: [s,etphere]
   tpo:
-    description: Teleport override for tptoggle.
+    description: 传送点覆盖tptoggle. 
     usage: /<command> <player> [otherplayer]
     aliases: [etpo]
   tpohere:
-    description: Teleport here override for tptoggle.
+    description: 瞬移这里覆盖tptoggle. 
     usage: /<command> <player>
     aliases: [etpohere]
   tppos:
-    description: Teleport to coordinates.
+    description: 坐标传送. 
     usage: /<command> <x> <y> <z> [yaw] [pitch]
     aliases: [etppos]
   tptoggle:
-    description: Blocks all forms of teleportation.
+    description: 切换隐形传输. 
     usage: /<command> [player [on|off]]
     aliases: [etptoggle]
   tree:
-    description: Spawn a tree where you are looking.
+    description: 产生一棵树. 
     usage: /<command> <tree|birch|redwood|redmushroom|brownmushroom|jungle|junglebush|swamp>
     aliases: [etree]
   unban:
-    description: Unbans the specified player.
+    description: 取消封禁指定的玩家. 
     usage: /<command> <player>
     aliases: [pardon,eunban,epardon]
   unbanip:
-    description: Unbans the specified IP address.
+    description: 取消封禁指定的IP地址. 
     usage: /<command> <address>
     aliases: [eunbanip,pardonip,epardonip]
   unlimited:
-    description: Allows the unlimited placing of items.
+    description: 允许无限出售物品. 
     usage: /<command> <list|item|clear> [player]
     aliases: [eunlimited,ul,unl,eul,eunl]
   vanish:
-    description: Hide yourself from other players.
+    description: 隐身! 
     usage: /<command> [on|off]
     aliases: [v,ev,evanish]
   warp:
-    description: List all warps or warp to the specified location.
+    description: 列出所有传送点. 
     usage: /<command> <pagenumber|warp> [player]
     aliases: [ewarp,warps,ewarps]
   weather:
-    description: Sets the weather.
+    description: 设置天气. 
     usage: /<command> <storm/sun> [duration]
     aliases: [rain,erain,sky,esky,storm,estorm,sun,esun,eweather]
   whois:
-    description: Determine the username behind a nickname.
+    description: 确定一个昵称的真实用户名. 
     usage: /<command> <nickname>
     aliases: [ewhois]
   workbench:
-    description: Opens up a workbench.
+    description: 打开一个工作台. 
     usage: /<command>
     aliases: [craft,ecraft,wb,ewb,wbench,ewbench,eworkbench]
   world:
-    description: Switch between worlds.
+    description: 在世界之间切换. 
     usage: /<command> [world]
     aliases: [eworld]
   worth:
-    description: Calculates the worth of items in hand or as specified.
+    description: 计算手中或指定物品的价值. 
     usage: /<command> [item] [amount]
     aliases: [eprice,price,eworth]
 
 permissions:
   essentials.*:
     default: op
-    description: Give players with op everything by default
+    description: 给玩家essentials的所有权限

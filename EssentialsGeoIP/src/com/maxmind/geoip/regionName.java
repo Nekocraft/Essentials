@@ -26,13372 +26,13372 @@ static public String regionNameByCode(String country_code,String region_code) {
     if (country_code.equals("CA") == true) {
       switch (region_code2) {
         case 849:
-        name = "Alberta";
+        name = "阿尔伯塔 ";
         break;
         case 893:
-        name = "British Columbia";
+        name = "不列颠哥伦比亚省 ";
         break;
         case 1365:
-        name = "Manitoba";
+        name = "马尼托巴 ";
         break;
         case 1408:
-        name = "New Brunswick";
+        name = "新不伦瑞克 ";
         break;
         case 1418:
-        name = "Newfoundland";
+        name = "纽芬兰 ";
         break;
         case 1425:
-        name = "Nova Scotia";
+        name = "新斯科舍省 ";
         break;
         case 1427:
-        name = "Nunavut";
+        name = "努纳武特地区 ";
         break;
         case 1463:
-        name = "Ontario";
+        name = "安大略省 ";
         break;
         case 1497:
-        name = "Prince Edward Island";
+        name = "爱德华王子岛 ";
         break;
         case 1538:
-        name = "Quebec";
+        name = "魁北克 ";
         break;
         case 1632:
-        name = "Saskatchewan";
+        name = "萨斯喀彻温省 ";
         break;
         case 1426:
-        name = "Northwest Territories";
+        name = "西北地区 ";
         break;
         case 1899:
-        name = "Yukon Territory";
+        name = "育空地区 ";
         break;
       }
     }
     if (country_code.equals("US") == true) {
       switch (region_code2) {
         case 848:
-        name = "Armed Forces Americas";
+        name = "武装部队美洲 ";
         break;
         case 852:
-        name = "Armed Forces Europe";
+        name = "欧洲武装部队 ";
         break;
         case 858:
-        name = "Alaska";
+        name = "阿拉斯加州 ";
         break;
         case 859:
-        name = "Alabama";
+        name = "阿拉巴马州 ";
         break;
         case 863:
-        name = "Armed Forces Pacific";
+        name = "武装部队太平洋 ";
         break;
         case 865:
-        name = "Arkansas";
+        name = "阿肯色州 ";
         break;
         case 866:
-        name = "American Samoa";
+        name = "美国萨摩亚 ";
         break;
         case 873:
-        name = "Arizona";
+        name = "亚利桑那 ";
         break;
         case 934:
-        name = "California";
+        name = "加州 ";
         break;
         case 948:
-        name = "Colorado";
+        name = "科罗拉多州 ";
         break;
         case 953:
-        name = "Connecticut";
+        name = "康涅狄格 ";
         break;
         case 979:
-        name = "District of Columbia";
+        name = "哥伦比亚特区 ";
         break;
         case 981:
-        name = "Delaware";
+        name = "特拉华州 ";
         break;
         case 1074:
-        name = "Florida";
+        name = "佛罗里达 ";
         break;
         case 1075:
-        name = "Federated States of Micronesia";
+        name = "密克罗尼西亚联邦 ";
         break;
         case 1106:
-        name = "Georgia";
+        name = "格鲁吉亚 ";
         break;
         case 1126:
-        name = "Guam";
+        name = "关岛 ";
         break;
         case 1157:
-        name = "Hawaii";
+        name = "夏威夷 ";
         break;
         case 1192:
-        name = "Iowa";
+        name = "爱荷华州 ";
         break;
         case 1195:
-        name = "Idaho";
+        name = "爱达荷州 ";
         break;
         case 1203:
-        name = "Illinois";
+        name = "伊利诺伊州 ";
         break;
         case 1205:
-        name = "Indiana";
+        name = "印地安那 ";
         break;
         case 1296:
-        name = "Kansas";
+        name = "堪萨斯 ";
         break;
         case 1302:
-        name = "Kentucky";
+        name = "肯塔基州 ";
         break;
         case 1321:
-        name = "Louisiana";
+        name = "路易斯安那州 ";
         break;
         case 1364:
-        name = "Massachusetts";
+        name = "马萨诸塞州 ";
         break;
         case 1367:
-        name = "Maryland";
+        name = "马里兰 ";
         break;
         case 1368:
-        name = "Maine";
+        name = "缅因州 ";
         break;
         case 1371:
-        name = "Marshall Islands";
+        name = "马绍尔群岛 ";
         break;
         case 1372:
-        name = "Michigan";
+        name = "密歇根州 ";
         break;
         case 1377:
-        name = "Minnesota";
+        name = "明尼苏达州 ";
         break;
         case 1378:
-        name = "Missouri";
+        name = "密苏里州 ";
         break;
         case 1379:
-        name = "Northern Mariana Islands";
+        name = "北马里亚纳群岛 ";
         break;
         case 1382:
-        name = "Mississippi";
+        name = "密西西比 ";
         break;
         case 1383:
-        name = "Montana";
+        name = "蒙大拿 ";
         break;
         case 1409:
-        name = "North Carolina";
+        name = "北卡罗莱纳州 ";
         break;
         case 1410:
-        name = "North Dakota";
+        name = "北达科他州 ";
         break;
         case 1411:
-        name = "Nebraska";
+        name = "内布拉斯加州 ";
         break;
         case 1414:
-        name = "New Hampshire";
+        name = "新罕布什尔州 ";
         break;
         case 1416:
-        name = "New Jersey";
+        name = "新泽西州 ";
         break;
         case 1419:
-        name = "New Mexico";
+        name = "新墨西哥州 ";
         break;
         case 1428:
-        name = "Nevada";
+        name = "内华达州 ";
         break;
         case 1431:
-        name = "New York";
+        name = "纽约 ";
         break;
         case 1457:
-        name = "Ohio";
+        name = "俄亥俄州 ";
         break;
         case 1460:
-        name = "Oklahoma";
+        name = "俄克拉何马州 ";
         break;
         case 1467:
-        name = "Oregon";
+        name = "俄勒冈州 ";
         break;
         case 1493:
-        name = "Pennsylvania";
+        name = "宾夕法尼亚 ";
         break;
         case 1510:
-        name = "Puerto Rico";
+        name = "波多黎各 ";
         break;
         case 1515:
-        name = "Palau";
+        name = "帕劳 ";
         break;
         case 1587:
-        name = "Rhode Island";
+        name = "罗德岛 ";
         break;
         case 1624:
-        name = "South Carolina";
+        name = "南卡罗来纳州 ";
         break;
         case 1625:
-        name = "South Dakota";
+        name = "南达科他州 ";
         break;
         case 1678:
-        name = "Tennessee";
+        name = "田纳西州 ";
         break;
         case 1688:
-        name = "Texas";
+        name = "德州 ";
         break;
         case 1727:
-        name = "Utah";
+        name = "犹他州 ";
         break;
         case 1751:
-        name = "Virginia";
+        name = "弗吉尼亚州 ";
         break;
         case 1759:
-        name = "Virgin Islands";
+        name = "维尔京群岛 ";
         break;
         case 1770:
-        name = "Vermont";
+        name = "佛蒙特 ";
         break;
         case 1794:
-        name = "Washington";
+        name = "华盛顿 ";
         break;
         case 1815:
-        name = "West Virginia";
+        name = "西弗吉尼亚州 ";
         break;
         case 1802:
-        name = "Wisconsin";
+        name = "威斯康星州的 ";
         break;
         case 1818:
-        name = "Wyoming";
+        name = "怀俄明州 ";
         break;
       }
     }
     if (country_code.equals("AD") == true) {
       switch (region_code2) {
         case 2:
-        name = "Canillo";
+        name = "卡尼 ";
         break;
         case 3:
-        name = "Encamp";
+        name = "扎营 ";
         break;
         case 4:
-        name = "La Massana";
+        name = "马萨纳 ";
         break;
         case 5:
-        name = "Ordino";
+        name = "奥尔迪诺 ";
         break;
         case 6:
-        name = "Sant Julia de Loria";
+        name = "圣利亚洛里亚 ";
         break;
         case 7:
-        name = "Andorra la Vella";
+        name = "安道​​尔城 ";
         break;
         case 8:
-        name = "Escaldes-Engordany";
+        name = "埃斯桑德 - 恩戈尔达 ";
         break;
       }
     }
     if (country_code.equals("AE") == true) {
       switch (region_code2) {
         case 1:
-        name = "Abu Dhabi";
+        name = "阿布扎比 ";
         break;
         case 2:
-        name = "Ajman";
+        name = "阿吉曼 ";
         break;
         case 3:
-        name = "Dubai";
+        name = "迪拜 ";
         break;
         case 4:
-        name = "Fujairah";
+        name = "富查伊拉 ";
         break;
         case 5:
-        name = "Ras Al Khaimah";
+        name = "哈伊马角 ";
         break;
         case 6:
-        name = "Sharjah";
+        name = "沙迦 ";
         break;
         case 7:
-        name = "Umm Al Quwain";
+        name = "乌姆盖万 ";
         break;
       }
     }
     if (country_code.equals("AF") == true) {
       switch (region_code2) {
         case 1:
-        name = "Badakhshan";
+        name = "巴达赫尚 ";
         break;
         case 2:
-        name = "Badghis";
+        name = "巴德吉斯 ";
         break;
         case 3:
-        name = "Baghlan";
+        name = "巴格兰 ";
         break;
         case 5:
-        name = "Bamian";
+        name = "八面 ";
         break;
         case 6:
-        name = "Farah";
+        name = "法拉 ";
         break;
         case 7:
-        name = "Faryab";
+        name = "法里亚布 ";
         break;
         case 8:
-        name = "Ghazni";
+        name = "加兹尼 ";
         break;
         case 9:
-        name = "Ghowr";
+        name = "古尔 ";
         break;
         case 10:
-        name = "Helmand";
+        name = "赫尔曼德 ";
         break;
         case 11:
-        name = "Herat";
+        name = "赫拉特 ";
         break;
         case 13:
-        name = "Kabol";
+        name = "Kabol ";
         break;
         case 14:
-        name = "Kapisa";
+        name = "卡皮萨 ";
         break;
         case 15:
-        name = "Konar";
+        name = "库纳尔 ";
         break;
         case 16:
-        name = "Laghman";
+        name = "拉格曼 ";
         break;
         case 17:
-        name = "Lowgar";
+        name = "洛加尔 ";
         break;
         case 18:
-        name = "Nangarhar";
+        name = "楠格哈尔 ";
         break;
         case 19:
-        name = "Nimruz";
+        name = "尼姆鲁兹 ";
         break;
         case 21:
-        name = "Paktia";
+        name = "帕克蒂亚 ";
         break;
         case 22:
-        name = "Parvan";
+        name = "帕尔旺 ";
         break;
         case 23:
-        name = "Kandahar";
+        name = "坎大哈 ";
         break;
         case 24:
-        name = "Kondoz";
+        name = "昆都士 ";
         break;
         case 26:
-        name = "Takhar";
+        name = "塔哈尔 ";
         break;
         case 27:
-        name = "Vardak";
+        name = "瓦尔达克 ";
         break;
         case 28:
-        name = "Zabol";
+        name = "扎布尔 ";
         break;
         case 29:
-        name = "Paktika";
+        name = "帕克提卡 ";
         break;
         case 30:
-        name = "Balkh";
+        name = "巴尔赫 ";
         break;
         case 31:
-        name = "Jowzjan";
+        name = "朱兹詹 ";
         break;
         case 32:
-        name = "Samangan";
+        name = "萨曼甘 ";
         break;
         case 33:
-        name = "Sar-e Pol";
+        name = "萨尔普勒 ";
         break;
         case 34:
-        name = "Konar";
+        name = "库纳尔 ";
         break;
         case 35:
-        name = "Laghman";
+        name = "拉格曼 ";
         break;
         case 36:
-        name = "Paktia";
+        name = "帕克蒂亚 ";
         break;
         case 37:
-        name = "Khowst";
+        name = "霍斯特省 ";
         break;
         case 38:
-        name = "Nurestan";
+        name = "努里斯坦 ";
         break;
         case 39:
-        name = "Oruzgan";
+        name = "乌鲁兹甘 ";
         break;
         case 40:
-        name = "Parvan";
+        name = "帕尔旺 ";
         break;
         case 41:
-        name = "Daykondi";
+        name = "戴孔迪 ";
         break;
         case 42:
-        name = "Panjshir";
+        name = "潘杰希尔 ";
         break;
       }
     }
     if (country_code.equals("AG") == true) {
       switch (region_code2) {
         case 1:
-        name = "Barbuda";
+        name = "巴布达 ";
         break;
         case 3:
-        name = "Saint George";
+        name = "圣乔治 ";
         break;
         case 4:
-        name = "Saint John";
+        name = "圣约翰 ";
         break;
         case 5:
-        name = "Saint Mary";
+        name = "圣玛丽 ";
         break;
         case 6:
-        name = "Saint Paul";
+        name = "圣保罗 ";
         break;
         case 7:
-        name = "Saint Peter";
+        name = "圣彼得 ";
         break;
         case 8:
-        name = "Saint Philip";
+        name = "圣菲利普 ";
         break;
       }
     }
     if (country_code.equals("AL") == true) {
       switch (region_code2) {
         case 40:
-        name = "Berat";
+        name = "培拉特 ";
         break;
         case 41:
-        name = "Diber";
+        name = "迪勃拉 ";
         break;
         case 42:
-        name = "Durres";
+        name = "杜勒斯 ";
         break;
         case 43:
-        name = "Elbasan";
+        name = "爱尔巴桑 ";
         break;
         case 44:
-        name = "Fier";
+        name = "费里 ";
         break;
         case 45:
-        name = "Gjirokaster";
+        name = "吉诺卡斯特 ";
         break;
         case 46:
-        name = "Korce";
+        name = "科尔察 ";
         break;
         case 47:
-        name = "Kukes";
+        name = "库克斯 ";
         break;
         case 48:
-        name = "Lezhe";
+        name = "莱什 ";
         break;
         case 49:
-        name = "Shkoder";
+        name = "斯库台 ";
         break;
         case 50:
-        name = "Tirane";
+        name = "地拉那 ";
         break;
         case 51:
-        name = "Vlore";
+        name = "发罗拉 ";
         break;
       }
     }
     if (country_code.equals("AM") == true) {
       switch (region_code2) {
         case 1:
-        name = "Aragatsotn";
+        name = "阿拉加措特恩 ";
         break;
         case 2:
-        name = "Ararat";
+        name = "亚拉腊 ";
         break;
         case 3:
-        name = "Armavir";
+        name = "阿尔马维尔 ";
         break;
         case 4:
-        name = "Geghark'unik'";
+        name = "Geghark'unik' ";
         break;
         case 5:
-        name = "Kotayk'";
+        name = "科泰克 ";
         break;
         case 6:
-        name = "Lorri";
+        name = "LORRI ";
         break;
         case 7:
-        name = "Shirak";
+        name = "斯拉克 ";
         break;
         case 8:
-        name = "Syunik'";
+        name = "休尼克 ";
         break;
         case 9:
-        name = "Tavush";
+        name = "塔武什 ";
         break;
         case 10:
-        name = "Vayots' Dzor";
+        name = "瓦约茨佐尔Dzor ";
         break;
         case 11:
-        name = "Yerevan";
+        name = "埃里温 ";
         break;
       }
     }
     if (country_code.equals("AO") == true) {
       switch (region_code2) {
         case 1:
-        name = "Benguela";
+        name = "格拉 ";
         break;
         case 2:
-        name = "Bie";
+        name = "憋 ";
         break;
         case 3:
-        name = "Cabinda";
+        name = "卡宾达 ";
         break;
         case 4:
-        name = "Cuando Cubango";
+        name = "宽多库邦戈 ";
         break;
         case 5:
-        name = "Cuanza Norte";
+        name = "北宽扎 ";
         break;
         case 6:
-        name = "Cuanza Sul";
+        name = "南宽扎 ";
         break;
         case 7:
-        name = "Cunene";
+        name = "安哥拉库内纳 ";
         break;
         case 8:
-        name = "Huambo";
+        name = "万博 ";
         break;
         case 9:
-        name = "Huila";
+        name = "威拉 ";
         break;
         case 10:
-        name = "Luanda";
+        name = "罗安达 ";
         break;
         case 12:
-        name = "Malanje";
+        name = "马兰 ";
         break;
         case 13:
-        name = "Namibe";
+        name = "纳米贝 ";
         break;
         case 14:
-        name = "Moxico";
+        name = "莫西科 ";
         break;
         case 15:
-        name = "Uige";
+        name = "威热 ";
         break;
         case 16:
-        name = "Zaire";
+        name = "扎伊尔 ";
         break;
         case 17:
-        name = "Lunda Norte";
+        name = "北隆达 ";
         break;
         case 18:
-        name = "Lunda Sul";
+        name = "南隆达 ";
         break;
         case 19:
-        name = "Bengo";
+        name = "戈 ";
         break;
         case 20:
-        name = "Luanda";
+        name = "罗安达 ";
         break;
       }
     }
     if (country_code.equals("AR") == true) {
       switch (region_code2) {
         case 1:
-        name = "Buenos Aires";
+        name = "布宜诺斯艾利斯 ";
         break;
         case 2:
-        name = "Catamarca";
+        name = "卡塔马卡 ";
         break;
         case 3:
-        name = "Chaco";
+        name = "查科 ";
         break;
         case 4:
-        name = "Chubut";
+        name = "丘布特 ";
         break;
         case 5:
-        name = "Cordoba";
+        name = "科尔多瓦 ";
         break;
         case 6:
-        name = "Corrientes";
+        name = "科连特斯 ";
         break;
         case 7:
-        name = "Distrito Federal";
+        name = "联邦首都区 ";
         break;
         case 8:
-        name = "Entre Rios";
+        name = "恩特雷里奥斯 ";
         break;
         case 9:
-        name = "Formosa";
+        name = "台塑 ";
         break;
         case 10:
-        name = "Jujuy";
+        name = "胡胡伊 ";
         break;
         case 11:
-        name = "La Pampa";
+        name = "拉潘帕 ";
         break;
         case 12:
-        name = "La Rioja";
+        name = "拉里奥哈 ";
         break;
         case 13:
-        name = "Mendoza";
+        name = "门多萨 ";
         break;
         case 14:
-        name = "Misiones";
+        name = "米西奥内斯 ";
         break;
         case 15:
-        name = "Neuquen";
+        name = "内乌肯 ";
         break;
         case 16:
-        name = "Rio Negro";
+        name = "里奥内格罗 ";
         break;
         case 17:
-        name = "Salta";
+        name = "萨尔塔 ";
         break;
         case 18:
-        name = "San Juan";
+        name = "圣胡安 ";
         break;
         case 19:
-        name = "San Luis";
+        name = "圣路易斯 ";
         break;
         case 20:
-        name = "Santa Cruz";
+        name = "圣克鲁斯 ";
         break;
         case 21:
-        name = "Santa Fe";
+        name = "圣达菲 ";
         break;
         case 22:
-        name = "Santiago del Estero";
+        name = "圣地亚哥 - 德尔埃斯特罗 ";
         break;
         case 23:
-        name = "Tierra del Fuego";
+        name = "火地岛 ";
         break;
         case 24:
-        name = "Tucuman";
+        name = "图库曼 ";
         break;
       }
     }
     if (country_code.equals("AT") == true) {
       switch (region_code2) {
         case 1:
-        name = "Burgenland";
+        name = "布尔根兰州 ";
         break;
         case 2:
-        name = "Karnten";
+        name = "卡尔顿 ";
         break;
         case 3:
-        name = "Niederosterreich";
+        name = "下奥地利 ";
         break;
         case 4:
-        name = "Oberosterreich";
+        name = "上奥地利 ";
         break;
         case 5:
-        name = "Salzburg";
+        name = "萨尔茨堡 ";
         break;
         case 6:
-        name = "Steiermark";
+        name = "施蒂利亚州 ";
         break;
         case 7:
-        name = "Tirol";
+        name = "蒂罗尔 ";
         break;
         case 8:
-        name = "Vorarlberg";
+        name = "福拉尔贝格 ";
         break;
         case 9:
-        name = "Wien";
+        name = "维也纳 ";
         break;
       }
     }
     if (country_code.equals("AU") == true) {
       switch (region_code2) {
         case 1:
-        name = "Australian Capital Territory";
+        name = "澳大利亚首都直辖区 ";
         break;
         case 2:
-        name = "New South Wales";
+        name = "新南威尔士州 ";
         break;
         case 3:
-        name = "Northern Territory";
+        name = "北领地 ";
         break;
         case 4:
-        name = "Queensland";
+        name = "昆士兰 ";
         break;
         case 5:
-        name = "South Australia";
+        name = "南澳大利亚 ";
         break;
         case 6:
-        name = "Tasmania";
+        name = "塔斯马尼亚 ";
         break;
         case 7:
-        name = "Victoria";
+        name = "维多利亚 ";
         break;
         case 8:
-        name = "Western Australia";
+        name = "西澳大利亚 ";
         break;
       }
     }
     if (country_code.equals("AZ") == true) {
       switch (region_code2) {
         case 1:
-        name = "Abseron";
+        name = "Abseron ";
         break;
         case 2:
-        name = "Agcabadi";
+        name = "阿卡巴迪 ";
         break;
         case 3:
-        name = "Agdam";
+        name = "阿格达姆 ";
         break;
         case 4:
-        name = "Agdas";
+        name = "亚格达斯 ";
         break;
         case 5:
-        name = "Agstafa";
+        name = "阿克斯塔法 ";
         break;
         case 6:
-        name = "Agsu";
+        name = "Agsu ";
         break;
         case 7:
-        name = "Ali Bayramli";
+        name = "阿里Bayramli ";
         break;
         case 8:
-        name = "Astara";
+        name = "阿斯塔拉 ";
         break;
         case 9:
-        name = "Baki";
+        name = "巴基 ";
         break;
         case 10:
-        name = "Balakan";
+        name = "巴拉坎 ";
         break;
         case 11:
-        name = "Barda";
+        name = "巴尔达 ";
         break;
         case 12:
-        name = "Beylaqan";
+        name = "贝拉甘 ";
         break;
         case 13:
-        name = "Bilasuvar";
+        name = "比拉苏瓦尔 ";
         break;
         case 14:
-        name = "Cabrayil";
+        name = "卡布拉伊 ";
         break;
         case 15:
-        name = "Calilabad";
+        name = "Calilabad ";
         break;
         case 16:
-        name = "Daskasan";
+        name = "达士卡桑 ";
         break;
         case 17:
-        name = "Davaci";
+        name = "Davaci ";
         break;
         case 18:
-        name = "Fuzuli";
+        name = "富祖里 ";
         break;
         case 19:
-        name = "Gadabay";
+        name = "加达贝依 ";
         break;
         case 20:
-        name = "Ganca";
+        name = "甘萨 ";
         break;
         case 21:
-        name = "Goranboy";
+        name = "戈兰博伊 ";
         break;
         case 22:
-        name = "Goycay";
+        name = "盖奥克恰伊 ";
         break;
         case 23:
-        name = "Haciqabul";
+        name = "哈吉卡布尔 ";
         break;
         case 24:
-        name = "Imisli";
+        name = "伊米斯里 ";
         break;
         case 25:
-        name = "Ismayilli";
+        name = "Ismayilli ";
         break;
         case 26:
-        name = "Kalbacar";
+        name = "卡尔巴卡尔 ";
         break;
         case 27:
-        name = "Kurdamir";
+        name = "丘尔达米尔 ";
         break;
         case 28:
-        name = "Lacin";
+        name = "Lacin ";
         break;
         case 29:
-        name = "Lankaran";
+        name = "Lankaran的 ";
         break;
         case 30:
-        name = "Lankaran";
+        name = "Lankaran的 ";
         break;
         case 31:
-        name = "Lerik";
+        name = "勒里克 ";
         break;
         case 32:
-        name = "Masalli";
+        name = "Masalli ";
         break;
         case 33:
-        name = "Mingacevir";
+        name = "明盖恰乌尔 ";
         break;
         case 34:
-        name = "Naftalan";
+        name = "纳弗塔兰 ";
         break;
         case 35:
-        name = "Naxcivan";
+        name = "纳希切万 ";
         break;
         case 36:
-        name = "Neftcala";
+        name = "Neftcala ";
         break;
         case 37:
-        name = "Oguz";
+        name = "奥古兹 ";
         break;
         case 38:
-        name = "Qabala";
+        name = "盖贝莱 ";
         break;
         case 39:
-        name = "Qax";
+        name = "QAX ";
         break;
         case 40:
-        name = "Qazax";
+        name = "卡扎赫 ";
         break;
         case 41:
-        name = "Qobustan";
+        name = "科布斯坦 ";
         break;
         case 42:
-        name = "Quba";
+        name = "库巴 ";
         break;
         case 43:
-        name = "Qubadli";
+        name = "Qubadli ";
         break;
         case 44:
-        name = "Qusar";
+        name = "库萨尔 ";
         break;
         case 45:
-        name = "Saatli";
+        name = "萨特雷 ";
         break;
         case 46:
-        name = "Sabirabad";
+        name = "萨比拉巴德 ";
         break;
         case 47:
-        name = "Saki";
+        name = "萨基 ";
         break;
         case 48:
-        name = "Saki";
+        name = "萨基 ";
         break;
         case 49:
-        name = "Salyan";
+        name = "萨利亚 ";
         break;
         case 50:
-        name = "Samaxi";
+        name = "Samaxi ";
         break;
         case 51:
-        name = "Samkir";
+        name = "萨米克尔 ";
         break;
         case 52:
-        name = "Samux";
+        name = "撒姆克 ";
         break;
         case 53:
-        name = "Siyazan";
+        name = "锡亚赞 ";
         break;
         case 54:
-        name = "Sumqayit";
+        name = "苏姆盖特 ";
         break;
         case 55:
-        name = "Susa";
+        name = "苏萨 ";
         break;
         case 56:
-        name = "Susa";
+        name = "苏萨 ";
         break;
         case 57:
-        name = "Tartar";
+        name = "鞑靼 ";
         break;
         case 58:
-        name = "Tovuz";
+        name = "塔乌兹 ";
         break;
         case 59:
-        name = "Ucar";
+        name = "尤卡 ";
         break;
         case 60:
-        name = "Xacmaz";
+        name = "哈奇马斯 ";
         break;
         case 61:
-        name = "Xankandi";
+        name = "尚坎迪 ";
         break;
         case 62:
-        name = "Xanlar";
+        name = "坎拉尔 ";
         break;
         case 63:
-        name = "Xizi";
+        name = "西子 ";
         break;
         case 64:
-        name = "Xocali";
+        name = "Xocali ";
         break;
         case 65:
-        name = "Xocavand";
+        name = "霍卡万 ";
         break;
         case 66:
-        name = "Yardimli";
+        name = "Yardimli ";
         break;
         case 67:
-        name = "Yevlax";
+        name = "叶夫拉赫 ";
         break;
         case 68:
-        name = "Yevlax";
+        name = "叶夫拉赫 ";
         break;
         case 69:
-        name = "Zangilan";
+        name = "赞吉兰 ";
         break;
         case 70:
-        name = "Zaqatala";
+        name = "扎卡塔雷 ";
         break;
         case 71:
-        name = "Zardab";
+        name = "扎尔达布 ";
         break;
       }
     }
     if (country_code.equals("BA") == true) {
       switch (region_code2) {
         case 1:
-        name = "Federation of Bosnia and Herzegovina";
+        name = "波斯尼亚和黑塞哥维那联邦 ";
         break;
         case 2:
-        name = "Republika Srpska";
+        name = "塞族共和国 ";
         break;
       }
     }
     if (country_code.equals("BB") == true) {
       switch (region_code2) {
         case 1:
-        name = "Christ Church";
+        name = "基督堂 ";
         break;
         case 2:
-        name = "Saint Andrew";
+        name = "圣安德鲁 ";
         break;
         case 3:
-        name = "Saint George";
+        name = "圣乔治 ";
         break;
         case 4:
-        name = "Saint James";
+        name = "圣詹姆斯 ";
         break;
         case 5:
-        name = "Saint John";
+        name = "圣约翰 ";
         break;
         case 6:
-        name = "Saint Joseph";
+        name = "圣约瑟夫 ";
         break;
         case 7:
-        name = "Saint Lucy";
+        name = "圣露西 ";
         break;
         case 8:
-        name = "Saint Michael";
+        name = "圣迈克尔 ";
         break;
         case 9:
-        name = "Saint Peter";
+        name = "圣彼得 ";
         break;
         case 10:
-        name = "Saint Philip";
+        name = "圣菲利普 ";
         break;
         case 11:
-        name = "Saint Thomas";
+        name = "圣托马斯 ";
         break;
       }
     }
     if (country_code.equals("BD") == true) {
       switch (region_code2) {
         case 1:
-        name = "Barisal";
+        name = "巴里萨尔 ";
         break;
         case 4:
-        name = "Bandarban";
+        name = "班多尔班 ";
         break;
         case 5:
-        name = "Comilla";
+        name = "库米拉 ";
         break;
         case 12:
-        name = "Mymensingh";
+        name = "迈门辛 ";
         break;
         case 13:
-        name = "Noakhali";
+        name = "诺克哈利 ";
         break;
         case 15:
-        name = "Patuakhali";
+        name = "博杜阿卡利 ";
         break;
         case 22:
-        name = "Bagerhat";
+        name = "巴格尔海 ";
         break;
         case 23:
-        name = "Bhola";
+        name = "波拉 ";
         break;
         case 24:
-        name = "Bogra";
+        name = "博格拉 ";
         break;
         case 25:
-        name = "Barguna";
+        name = "博尔古纳 ";
         break;
         case 26:
-        name = "Brahmanbaria";
+        name = "婆罗门巴里亚 ";
         break;
         case 27:
-        name = "Chandpur";
+        name = "德布尔 ";
         break;
         case 28:
-        name = "Chapai Nawabganj";
+        name = "差派Nawabganj ";
         break;
         case 29:
-        name = "Chattagram";
+        name = "Chattagram ";
         break;
         case 30:
-        name = "Chuadanga";
+        name = "Chuadanga ";
         break;
         case 31:
-        name = "Cox's Bazar";
+        name = "科克斯巴扎尔 ";
         break;
         case 32:
-        name = "Dhaka";
+        name = "达卡 ";
         break;
         case 33:
-        name = "Dinajpur";
+        name = "迪纳杰布尔 ";
         break;
         case 34:
-        name = "Faridpur";
+        name = "福里德布尔 ";
         break;
         case 35:
-        name = "Feni";
+        name = "芬尼 ";
         break;
         case 36:
-        name = "Gaibandha";
+        name = "戈伊班达 ";
         break;
         case 37:
-        name = "Gazipur";
+        name = "加济布尔 ";
         break;
         case 38:
-        name = "Gopalganj";
+        name = "戈巴尔甘杰 ";
         break;
         case 39:
-        name = "Habiganj";
+        name = "霍比甘杰 ";
         break;
         case 40:
-        name = "Jaipurhat";
+        name = "伊布尔哈德 ";
         break;
         case 41:
-        name = "Jamalpur";
+        name = "杰马勒布尔 ";
         break;
         case 42:
-        name = "Jessore";
+        name = "杰索尔 ";
         break;
         case 43:
-        name = "Jhalakati";
+        name = "贾拉卡迪 ";
         break;
         case 44:
-        name = "Jhenaidah";
+        name = "切尼达 ";
         break;
         case 45:
-        name = "Khagrachari";
+        name = "Khagrachari的 ";
         break;
         case 46:
-        name = "Khulna";
+        name = "库尔纳 ";
         break;
         case 47:
-        name = "Kishorganj";
+        name = "Kishorganj ";
         break;
         case 48:
-        name = "Kurigram";
+        name = "库里格莱姆 ";
         break;
         case 49:
-        name = "Kushtia";
+        name = "库什蒂亚 ";
         break;
         case 50:
-        name = "Laksmipur";
+        name = "Laksmipur ";
         break;
         case 51:
-        name = "Lalmonirhat";
+        name = "拉尔莫尼哈德 ";
         break;
         case 52:
-        name = "Madaripur";
+        name = "马达里布尔 ";
         break;
         case 53:
-        name = "Magura";
+        name = "马古拉 ";
         break;
         case 54:
-        name = "Manikganj";
+        name = "马尼格甘杰 ";
         break;
         case 55:
-        name = "Meherpur";
+        name = "莫赫尔普 ";
         break;
         case 56:
-        name = "Moulavibazar";
+        name = "Moulavibazar ";
         break;
         case 57:
-        name = "Munshiganj";
+        name = "蒙希甘杰 ";
         break;
         case 58:
-        name = "Naogaon";
+        name = "瑙冈 ";
         break;
         case 59:
-        name = "Narail";
+        name = "诺拉尔 ";
         break;
         case 60:
-        name = "Narayanganj";
+        name = "纳拉扬甘杰 ";
         break;
         case 61:
-        name = "Narsingdi";
+        name = "诺尔辛迪 ";
         break;
         case 62:
-        name = "Nator";
+        name = "NATOR ";
         break;
         case 63:
-        name = "Netrakona";
+        name = "奈托库纳 ";
         break;
         case 64:
-        name = "Nilphamari";
+        name = "尼尔法玛里 ";
         break;
         case 65:
-        name = "Pabna";
+        name = "巴布纳 ";
         break;
         case 66:
-        name = "Panchagar";
+        name = "Panchagar ";
         break;
         case 67:
-        name = "Parbattya Chattagram";
+        name = "Parbattya Chattagram ";
         break;
         case 68:
-        name = "Pirojpur";
+        name = "皮罗基普 ";
         break;
         case 69:
-        name = "Rajbari";
+        name = "拉杰巴里 ";
         break;
         case 70:
-        name = "Rajshahi";
+        name = "拉杰沙希 ";
         break;
         case 71:
-        name = "Rangpur";
+        name = "朗布尔 ";
         break;
         case 72:
-        name = "Satkhira";
+        name = "沙特基拉 ";
         break;
         case 73:
-        name = "Shariyatpur";
+        name = "Shariyatpur ";
         break;
         case 74:
-        name = "Sherpur";
+        name = "谢尔布尔 ";
         break;
         case 75:
-        name = "Sirajganj";
+        name = "锡拉杰甘杰 ";
         break;
         case 76:
-        name = "Sunamganj";
+        name = "苏纳姆甘杰 ";
         break;
         case 77:
-        name = "Sylhet";
+        name = "锡尔赫特 ";
         break;
         case 78:
-        name = "Tangail";
+        name = "坦盖尔 ";
         break;
         case 79:
-        name = "Thakurgaon";
+        name = "萨库尔贡 ";
         break;
         case 81:
-        name = "Dhaka";
+        name = "达卡 ";
         break;
         case 82:
-        name = "Khulna";
+        name = "库尔纳 ";
         break;
         case 83:
-        name = "Rajshahi";
+        name = "拉杰沙希 ";
         break;
         case 84:
-        name = "Chittagong";
+        name = "吉大港 ";
         break;
         case 85:
-        name = "Barisal";
+        name = "巴里萨尔 ";
         break;
         case 86:
-        name = "Sylhet";
+        name = "锡尔赫特 ";
         break;
       }
     }
     if (country_code.equals("BE") == true) {
       switch (region_code2) {
         case 1:
-        name = "Antwerpen";
+        name = "安特卫普 ";
         break;
         case 2:
-        name = "Brabant";
+        name = "布拉班特 ";
         break;
         case 3:
-        name = "Hainaut";
+        name = "埃诺 ";
         break;
         case 4:
-        name = "Liege";
+        name = "诸侯的 ";
         break;
         case 5:
-        name = "Limburg";
+        name = "林堡省 ";
         break;
         case 6:
-        name = "Luxembourg";
+        name = "卢森堡 ";
         break;
         case 7:
-        name = "Namur";
+        name = "那慕尔 ";
         break;
         case 8:
-        name = "Oost-Vlaanderen";
+        name = "东佛兰德 ";
         break;
         case 9:
-        name = "West-Vlaanderen";
+        name = "西佛兰德 ";
         break;
         case 10:
-        name = "Brabant Wallon";
+        name = "瓦隆 - 布拉班特 ";
         break;
         case 11:
-        name = "Brussels Hoofdstedelijk Gewest";
+        name = "布鲁塞尔首都行政自治区 ";
         break;
         case 12:
-        name = "Vlaams-Brabant";
+        name = "佛兰芒 - 布拉班特 ";
         break;
       }
     }
     if (country_code.equals("BF") == true) {
       switch (region_code2) {
         case 15:
-        name = "Bam";
+        name = "哄骗 ";
         break;
         case 19:
-        name = "Boulkiemde";
+        name = "布尔基恩德 ";
         break;
         case 20:
-        name = "Ganzourgou";
+        name = "冈祖尔古 ";
         break;
         case 21:
-        name = "Gnagna";
+        name = "尼亚尼亚 ";
         break;
         case 28:
-        name = "Kouritenga";
+        name = "库里滕加 ";
         break;
         case 33:
-        name = "Oudalan";
+        name = "乌达兰 ";
         break;
         case 34:
-        name = "Passore";
+        name = "帕索雷 ";
         break;
         case 36:
-        name = "Sanguie";
+        name = "桑吉 ";
         break;
         case 40:
-        name = "Soum";
+        name = "苏木 ";
         break;
         case 42:
-        name = "Tapoa";
+        name = "塔波阿 ";
         break;
         case 44:
-        name = "Zoundweogo";
+        name = "宗德韦奥戈 ";
         break;
         case 45:
-        name = "Bale";
+        name = "包 ";
         break;
         case 46:
-        name = "Banwa";
+        name = "板瓦 ";
         break;
         case 47:
-        name = "Bazega";
+        name = "巴泽加 ";
         break;
         case 48:
-        name = "Bougouriba";
+        name = "布古里巴 ";
         break;
         case 49:
-        name = "Boulgou";
+        name = "布尔古 ";
         break;
         case 50:
-        name = "Gourma";
+        name = "古尔马 ";
         break;
         case 51:
-        name = "Houet";
+        name = "乌埃 ";
         break;
         case 52:
-        name = "Ioba";
+        name = "伊奥巴 ";
         break;
         case 53:
-        name = "Kadiogo";
+        name = "卡焦戈 ";
         break;
         case 54:
-        name = "Kenedougou";
+        name = "凯内杜古 ";
         break;
         case 55:
-        name = "Komoe";
+        name = "科莫埃河 ";
         break;
         case 56:
-        name = "Komondjari";
+        name = "科蒙加里 ";
         break;
         case 57:
-        name = "Kompienga";
+        name = "孔皮恩加 ";
         break;
         case 58:
-        name = "Kossi";
+        name = "科西 ";
         break;
         case 59:
-        name = "Koulpelogo";
+        name = "库尔佩罗戈 ";
         break;
         case 60:
-        name = "Kourweogo";
+        name = "库尔维奥戈 ";
         break;
         case 61:
-        name = "Leraba";
+        name = "雷拉巴 ";
         break;
         case 62:
-        name = "Loroum";
+        name = "罗卢姆 ";
         break;
         case 63:
-        name = "Mouhoun";
+        name = "穆翁 ";
         break;
         case 64:
-        name = "Namentenga";
+        name = "纳门滕加 ";
         break;
         case 65:
-        name = "Naouri";
+        name = "Naouri ";
         break;
         case 66:
-        name = "Nayala";
+        name = "纳亚拉 ";
         break;
         case 67:
-        name = "Noumbiel";
+        name = "努姆比埃尔 ";
         break;
         case 68:
-        name = "Oubritenga";
+        name = "乌布里滕加 ";
         break;
         case 69:
-        name = "Poni";
+        name = "波尼 ";
         break;
         case 70:
-        name = "Sanmatenga";
+        name = "桑马滕加 ";
         break;
         case 71:
-        name = "Seno";
+        name = "仙翁 ";
         break;
         case 72:
-        name = "Sissili";
+        name = "锡西里 ";
         break;
         case 73:
-        name = "Sourou";
+        name = "苏鲁 ";
         break;
         case 74:
-        name = "Tuy";
+        name = "绥 ";
         break;
         case 75:
-        name = "Yagha";
+        name = "亚加 ";
         break;
         case 76:
-        name = "Yatenga";
+        name = "亚敦加 ";
         break;
         case 77:
-        name = "Ziro";
+        name = "济罗 ";
         break;
         case 78:
-        name = "Zondoma";
+        name = "宗多马 ";
         break;
       }
     }
     if (country_code.equals("BG") == true) {
       switch (region_code2) {
         case 33:
-        name = "Mikhaylovgrad";
+        name = "Mikhaylovgrad ";
         break;
         case 38:
-        name = "Blagoevgrad";
+        name = "布拉戈耶 ";
         break;
         case 39:
-        name = "Burgas";
+        name = "布尔加斯 ";
         break;
         case 40:
-        name = "Dobrich";
+        name = "多布里奇 ";
         break;
         case 41:
-        name = "Gabrovo";
+        name = "加布罗沃 ";
         break;
         case 42:
-        name = "Grad Sofiya";
+        name = "毕业Sofiya ";
         break;
         case 43:
-        name = "Khaskovo";
+        name = "Khaskovo ";
         break;
         case 44:
-        name = "Kurdzhali";
+        name = "克尔贾利 ";
         break;
         case 45:
-        name = "Kyustendil";
+        name = "丘斯滕迪尔 ";
         break;
         case 46:
-        name = "Lovech";
+        name = "洛维奇 ";
         break;
         case 47:
-        name = "Montana";
+        name = "蒙大拿 ";
         break;
         case 48:
-        name = "Pazardzhik";
+        name = "帕扎尔吉克 ";
         break;
         case 49:
-        name = "Pernik";
+        name = "佩尔尼克 ";
         break;
         case 50:
-        name = "Pleven";
+        name = "普列文 ";
         break;
         case 51:
-        name = "Plovdiv";
+        name = "普罗夫迪夫 ";
         break;
         case 52:
-        name = "Razgrad";
+        name = "拉兹格勒 ";
         break;
         case 53:
-        name = "Ruse";
+        name = "谋略 ";
         break;
         case 54:
-        name = "Shumen";
+        name = "苏曼 ";
         break;
         case 55:
-        name = "Silistra";
+        name = "锡利斯特拉 ";
         break;
         case 56:
-        name = "Sliven";
+        name = "斯利文 ";
         break;
         case 57:
-        name = "Smolyan";
+        name = "斯莫 ";
         break;
         case 58:
-        name = "Sofiya";
+        name = "Sofiya ";
         break;
         case 59:
-        name = "Stara Zagora";
+        name = "旧扎戈拉 ";
         break;
         case 60:
-        name = "Turgovishte";
+        name = "Turgovishte ";
         break;
         case 61:
-        name = "Varna";
+        name = "瓦尔纳 ";
         break;
         case 62:
-        name = "Veliko Turnovo";
+        name = "大特尔诺沃 ";
         break;
         case 63:
-        name = "Vidin";
+        name = "维丁 ";
         break;
         case 64:
-        name = "Vratsa";
+        name = "弗拉察 ";
         break;
         case 65:
-        name = "Yambol";
+        name = "扬博尔 ";
         break;
       }
     }
     if (country_code.equals("BH") == true) {
       switch (region_code2) {
         case 1:
-        name = "Al Hadd";
+        name = "Al哈特贾南的 ";
         break;
         case 2:
-        name = "Al Manamah";
+        name = "麦纳麦 ";
         break;
         case 3:
-        name = "Al Muharraq";
+        name = "Al木海拉格的 ";
         break;
         case 5:
-        name = "Jidd Hafs";
+        name = "Jidd哈夫斯 ";
         break;
         case 6:
-        name = "Sitrah";
+        name = "锡特拉 ";
         break;
         case 7:
-        name = "Ar Rifa' wa al Mintaqah al Janubiyah";
+        name = "AR日发'WA人Mintaqah加努巴亚 ";
         break;
         case 8:
-        name = "Al Mintaqah al Gharbiyah";
+        name = "铝Mintaqah人比亚 ";
         break;
         case 9:
-        name = "Mintaqat Juzur Hawar";
+        name = "Mintaqat Juzur哈瓦尔 ";
         break;
         case 10:
-        name = "Al Mintaqah ash Shamaliyah";
+        name = "铝灰Mintaqah Shamaliyah ";
         break;
         case 11:
-        name = "Al Mintaqah al Wusta";
+        name = "铝Mintaqah人Wusta ";
         break;
         case 12:
-        name = "Madinat";
+        name = "古城 ";
         break;
         case 13:
-        name = "Ar Rifa";
+        name = "氩日发 ";
         break;
         case 14:
-        name = "Madinat Hamad";
+        name = "哈马德古城 ";
         break;
         case 15:
-        name = "Al Muharraq";
+        name = "Al木海拉格的 ";
         break;
         case 16:
-        name = "Al Asimah";
+        name = "Al Asimah的 ";
         break;
         case 17:
-        name = "Al Janubiyah";
+        name = "哈加奴比亚 ";
         break;
         case 18:
-        name = "Ash Shamaliyah";
+        name = "北部省 ";
         break;
         case 19:
-        name = "Al Wusta";
+        name = "Al Wusta的 ";
         break;
       }
     }
     if (country_code.equals("BI") == true) {
       switch (region_code2) {
         case 2:
-        name = "Bujumbura";
+        name = "布琼布拉 ";
         break;
         case 9:
-        name = "Bubanza";
+        name = "布班扎 ";
         break;
         case 10:
-        name = "Bururi";
+        name = "布鲁 ";
         break;
         case 11:
-        name = "Cankuzo";
+        name = "坎库佐 ";
         break;
         case 12:
-        name = "Cibitoke";
+        name = "锡比托克 ";
         break;
         case 13:
-        name = "Gitega";
+        name = "基特加 ";
         break;
         case 14:
-        name = "Karuzi";
+        name = "卡鲁 ";
         break;
         case 15:
-        name = "Kayanza";
+        name = "卡扬扎 ";
         break;
         case 16:
-        name = "Kirundo";
+        name = "基隆 ";
         break;
         case 17:
-        name = "Makamba";
+        name = "马坎巴 ";
         break;
         case 18:
-        name = "Muyinga";
+        name = "穆因加 ";
         break;
         case 19:
-        name = "Ngozi";
+        name = "恩戈齐 ";
         break;
         case 20:
-        name = "Rutana";
+        name = "鲁塔纳 ";
         break;
         case 21:
-        name = "Ruyigi";
+        name = "鲁伊吉 ";
         break;
         case 22:
-        name = "Muramvya";
+        name = "穆朗维亚 ";
         break;
         case 23:
-        name = "Mwaro";
+        name = "穆瓦洛 ";
         break;
       }
     }
     if (country_code.equals("BJ") == true) {
       switch (region_code2) {
         case 1:
-        name = "Atakora";
+        name = "阿塔科拉 ";
         break;
         case 2:
-        name = "Atlantique";
+        name = "大西洋 ";
         break;
         case 3:
-        name = "Borgou";
+        name = "博尔古 ";
         break;
         case 4:
-        name = "Mono";
+        name = "单声道 ";
         break;
         case 5:
-        name = "Oueme";
+        name = "韦梅 ";
         break;
         case 6:
-        name = "Zou";
+        name = "邹 ";
         break;
         case 7:
-        name = "Alibori";
+        name = "阿黎博里 ";
         break;
         case 8:
-        name = "Atakora";
+        name = "阿塔科拉 ";
         break;
         case 9:
-        name = "Atlanyique";
+        name = "Atlanyique ";
         break;
         case 10:
-        name = "Borgou";
+        name = "博尔古 ";
         break;
         case 11:
-        name = "Collines";
+        name = "科林斯 ";
         break;
         case 12:
-        name = "Kouffo";
+        name = "库福 ";
         break;
         case 13:
-        name = "Donga";
+        name = "东阿 ";
         break;
         case 14:
-        name = "Littoral";
+        name = "濒海 ";
         break;
         case 15:
-        name = "Mono";
+        name = "单声道 ";
         break;
         case 16:
-        name = "Oueme";
+        name = "韦梅 ";
         break;
         case 17:
-        name = "Plateau";
+        name = "高原 ";
         break;
         case 18:
-        name = "Zou";
+        name = "邹 ";
         break;
       }
     }
     if (country_code.equals("BM") == true) {
       switch (region_code2) {
         case 1:
-        name = "Devonshire";
+        name = "德文郡 ";
         break;
         case 2:
-        name = "Hamilton";
+        name = "汉密尔顿 ";
         break;
         case 3:
-        name = "Hamilton";
+        name = "汉密尔顿 ";
         break;
         case 4:
-        name = "Paget";
+        name = "佩吉特 ";
         break;
         case 5:
-        name = "Pembroke";
+        name = "彭布罗克 ";
         break;
         case 6:
-        name = "Saint George";
+        name = "圣乔治 ";
         break;
         case 7:
-        name = "Saint George's";
+        name = "圣乔治 ";
         break;
         case 8:
-        name = "Sandys";
+        name = "桑迪斯 ";
         break;
         case 9:
-        name = "Smiths";
+        name = "史密斯 ";
         break;
         case 10:
-        name = "Southampton";
+        name = "南安普敦 ";
         break;
         case 11:
-        name = "Warwick";
+        name = "华威 ";
         break;
       }
     }
     if (country_code.equals("BN") == true) {
       switch (region_code2) {
         case 7:
-        name = "Alibori";
+        name = "阿黎博里 ";
         break;
         case 8:
-        name = "Belait";
+        name = "奕 ";
         break;
         case 9:
-        name = "Brunei and Muara";
+        name = "文莱和穆阿拉 ";
         break;
         case 10:
-        name = "Temburong";
+        name = "淡布隆 ";
         break;
         case 11:
-        name = "Collines";
+        name = "科林斯 ";
         break;
         case 12:
-        name = "Kouffo";
+        name = "库福 ";
         break;
         case 13:
-        name = "Donga";
+        name = "东阿 ";
         break;
         case 14:
-        name = "Littoral";
+        name = "濒海 ";
         break;
         case 15:
-        name = "Tutong";
+        name = "都东 ";
         break;
         case 16:
-        name = "Oueme";
+        name = "韦梅 ";
         break;
         case 17:
-        name = "Plateau";
+        name = "高原 ";
         break;
         case 18:
-        name = "Zou";
+        name = "邹 ";
         break;
       }
     }
     if (country_code.equals("BO") == true) {
       switch (region_code2) {
         case 1:
-        name = "Chuquisaca";
+        name = "丘基萨卡 ";
         break;
         case 2:
-        name = "Cochabamba";
+        name = "科恰班巴 ";
         break;
         case 3:
-        name = "El Beni";
+        name = "贝尼 ";
         break;
         case 4:
-        name = "La Paz";
+        name = "拉巴斯 ";
         break;
         case 5:
-        name = "Oruro";
+        name = "奥鲁罗 ";
         break;
         case 6:
-        name = "Pando";
+        name = "潘多 ";
         break;
         case 7:
-        name = "Potosi";
+        name = "波托西 ";
         break;
         case 8:
-        name = "Santa Cruz";
+        name = "圣克鲁斯 ";
         break;
         case 9:
-        name = "Tarija";
+        name = "塔里哈 ";
         break;
       }
     }
     if (country_code.equals("BR") == true) {
       switch (region_code2) {
         case 1:
-        name = "Acre";
+        name = "英亩 ";
         break;
         case 2:
-        name = "Alagoas";
+        name = "阿拉戈斯 ";
         break;
         case 3:
-        name = "Amapa";
+        name = "阿玛帕 ";
         break;
         case 4:
-        name = "Amazonas";
+        name = "亚马孙 ";
         break;
         case 5:
-        name = "Bahia";
+        name = "巴伊亚 ";
         break;
         case 6:
-        name = "Ceara";
+        name = "塞阿拉 ";
         break;
         case 7:
-        name = "Distrito Federal";
+        name = "联邦首都区 ";
         break;
         case 8:
-        name = "Espirito Santo";
+        name = "圣埃斯皮里图 ";
         break;
         case 11:
-        name = "Mato Grosso do Sul";
+        name = "南马托格罗索 ";
         break;
         case 13:
-        name = "Maranhao";
+        name = "马拉尼昂 ";
         break;
         case 14:
-        name = "Mato Grosso";
+        name = "马托格罗索 ";
         break;
         case 15:
-        name = "Minas Gerais";
+        name = "米纳斯吉拉斯州 ";
         break;
         case 16:
-        name = "Para";
+        name = "帕拉 ";
         break;
         case 17:
-        name = "Paraiba";
+        name = "帕拉伊巴 ";
         break;
         case 18:
-        name = "Parana";
+        name = "巴拉那 ";
         break;
         case 20:
-        name = "Piaui";
+        name = "皮奥伊 ";
         break;
         case 21:
-        name = "Rio de Janeiro";
+        name = "里约热内卢 ";
         break;
         case 22:
-        name = "Rio Grande do Norte";
+        name = "北里奥格兰德州 ";
         break;
         case 23:
-        name = "Rio Grande do Sul";
+        name = "南里奥格兰德州 ";
         break;
         case 24:
-        name = "Rondonia";
+        name = "朗多尼亚州 ";
         break;
         case 25:
-        name = "Roraima";
+        name = "罗赖马 ";
         break;
         case 26:
-        name = "Santa Catarina";
+        name = "圣卡塔琳娜 ";
         break;
         case 27:
-        name = "Sao Paulo";
+        name = "圣保罗 ";
         break;
         case 28:
-        name = "Sergipe";
+        name = "塞尔希培 ";
         break;
         case 29:
-        name = "Goias";
+        name = "戈亚斯 ";
         break;
         case 30:
-        name = "Pernambuco";
+        name = "伯南布哥 ";
         break;
         case 31:
-        name = "Tocantins";
+        name = "托坎廷斯 ";
         break;
       }
     }
     if (country_code.equals("BS") == true) {
       switch (region_code2) {
         case 5:
-        name = "Bimini";
+        name = "比米尼岛 ";
         break;
         case 6:
-        name = "Cat Island";
+        name = "猫岛 ";
         break;
         case 10:
-        name = "Exuma";
+        name = "埃克苏马 ";
         break;
         case 13:
-        name = "Inagua";
+        name = "因那瓜 ";
         break;
         case 15:
-        name = "Long Island";
+        name = "长岛 ";
         break;
         case 16:
-        name = "Mayaguana";
+        name = "马亚 ";
         break;
         case 18:
-        name = "Ragged Island";
+        name = "拉吉德岛 ";
         break;
         case 22:
-        name = "Harbour Island";
+        name = "海港岛 ";
         break;
         case 23:
-        name = "New Providence";
+        name = "新普罗维登斯 ";
         break;
         case 24:
-        name = "Acklins and Crooked Islands";
+        name = "阿克林和歪群岛 ";
         break;
         case 25:
-        name = "Freeport";
+        name = "自由港 ";
         break;
         case 26:
-        name = "Fresh Creek";
+        name = "新溪 ";
         break;
         case 27:
-        name = "Governor's Harbour";
+        name = "总督的港湾 ";
         break;
         case 28:
-        name = "Green Turtle Cay";
+        name = "绿龟岛 ";
         break;
         case 29:
-        name = "High Rock";
+        name = "高岩 ";
         break;
         case 30:
-        name = "Kemps Bay";
+        name = "肯普斯贝 ";
         break;
         case 31:
-        name = "Marsh Harbour";
+        name = "马什港 ";
         break;
         case 32:
-        name = "Nichollstown and Berry Islands";
+        name = "Nichollstown和浆果群岛 ";
         break;
         case 33:
-        name = "Rock Sound";
+        name = "罗克桑德 ";
         break;
         case 34:
-        name = "Sandy Point";
+        name = "桑迪波因特 ";
         break;
         case 35:
-        name = "San Salvador and Rum Cay";
+        name = "圣萨尔瓦多和朗姆礁的 ";
         break;
       }
     }
     if (country_code.equals("BT") == true) {
       switch (region_code2) {
         case 5:
-        name = "Bumthang";
+        name = "布姆唐 ";
         break;
         case 6:
-        name = "Chhukha";
+        name = "楚卡 ";
         break;
         case 7:
-        name = "Chirang";
+        name = "Chirang ";
         break;
         case 8:
-        name = "Daga";
+        name = "达嘎 ";
         break;
         case 9:
-        name = "Geylegphug";
+        name = "Geylegphug ";
         break;
         case 10:
-        name = "Ha";
+        name = "哈 ";
         break;
         case 11:
-        name = "Lhuntshi";
+        name = "Lhuntshi ";
         break;
         case 12:
-        name = "Mongar";
+        name = "蒙加尔 ";
         break;
         case 13:
-        name = "Paro";
+        name = "帕罗 ";
         break;
         case 14:
-        name = "Pemagatsel";
+        name = "Pemagatsel ";
         break;
         case 15:
-        name = "Punakha";
+        name = "普那卡 ";
         break;
         case 16:
-        name = "Samchi";
+        name = "Samchi ";
         break;
         case 17:
-        name = "Samdrup";
+        name = "萨姆德鲁琼 ";
         break;
         case 18:
-        name = "Shemgang";
+        name = "Shemgang ";
         break;
         case 19:
-        name = "Tashigang";
+        name = "Tashigang ";
         break;
         case 20:
-        name = "Thimphu";
+        name = "廷布 ";
         break;
         case 21:
-        name = "Tongsa";
+        name = "Tongsa ";
         break;
         case 22:
-        name = "Wangdi Phodrang";
+        name = "旺地杜波德朗宗 ";
         break;
       }
     }
     if (country_code.equals("BW") == true) {
       switch (region_code2) {
         case 1:
-        name = "Central";
+        name = "中央 ";
         break;
         case 3:
-        name = "Ghanzi";
+        name = "杭济 ";
         break;
         case 4:
-        name = "Kgalagadi";
+        name = "卡拉哈迪 ";
         break;
         case 5:
-        name = "Kgatleng";
+        name = "卡特伦 ";
         break;
         case 6:
-        name = "Kweneng";
+        name = "奎嫩 ";
         break;
         case 8:
-        name = "North-East";
+        name = "东北 ";
         break;
         case 9:
-        name = "South-East";
+        name = "东南亚 ";
         break;
         case 10:
-        name = "Southern";
+        name = "南部的 ";
         break;
         case 11:
-        name = "North-West";
+        name = "西北 ";
         break;
       }
     }
     if (country_code.equals("BY") == true) {
       switch (region_code2) {
         case 1:
-        name = "Brestskaya Voblasts'";
+        name = "布列斯特Voblasts' ";
         break;
         case 2:
-        name = "Homyel'skaya Voblasts'";
+        name = "Homyel'skaya Voblasts' ";
         break;
         case 3:
-        name = "Hrodzyenskaya Voblasts'";
+        name = "Hrodzyenskaya Voblasts' ";
         break;
         case 4:
-        name = "Minsk";
+        name = "明斯克 ";
         break;
         case 5:
-        name = "Minskaya Voblasts'";
+        name = "Minskaya Voblasts' ";
         break;
         case 6:
-        name = "Mahilyowskaya Voblasts'";
+        name = "莫吉廖夫州Voblasts' ";
         break;
         case 7:
-        name = "Vitsyebskaya Voblasts'";
+        name = "Vitsyebskaya Voblasts' ";
         break;
       }
     }
     if (country_code.equals("BZ") == true) {
       switch (region_code2) {
         case 1:
-        name = "Belize";
+        name = "伯利兹 ";
         break;
         case 2:
-        name = "Cayo";
+        name = "卡约 ";
         break;
         case 3:
-        name = "Corozal";
+        name = "科罗萨尔 ";
         break;
         case 4:
-        name = "Orange Walk";
+        name = "奥兰治城 ";
         break;
         case 5:
-        name = "Stann Creek";
+        name = "斯坦克里克 ";
         break;
         case 6:
-        name = "Toledo";
+        name = "托莱多 ";
         break;
       }
     }
     if (country_code.equals("CD") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bandundu";
+        name = "杜 ";
         break;
         case 2:
-        name = "Equateur";
+        name = "赤道 ";
         break;
         case 4:
-        name = "Kasai-Oriental";
+        name = "东开赛 ";
         break;
         case 5:
-        name = "Katanga";
+        name = "加丹加 ";
         break;
         case 6:
-        name = "Kinshasa";
+        name = "金沙萨 ";
         break;
         case 7:
-        name = "Kivu";
+        name = "基伍 ";
         break;
         case 8:
-        name = "Bas-Congo";
+        name = "下刚果 ";
         break;
         case 9:
-        name = "Orientale";
+        name = "东方 ";
         break;
         case 10:
-        name = "Maniema";
+        name = "马尼埃马 ";
         break;
         case 11:
-        name = "Nord-Kivu";
+        name = "北基伍 ";
         break;
         case 12:
-        name = "Sud-Kivu";
+        name = "南基伍 ";
         break;
         case 13:
-        name = "Cuvette";
+        name = "比色皿 ";
         break;
       }
     }
     if (country_code.equals("CF") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bamingui-Bangoran";
+        name = "巴明吉 - 班 ";
         break;
         case 2:
-        name = "Basse-Kotto";
+        name = "下科托 ";
         break;
         case 3:
-        name = "Haute-Kotto";
+        name = "上科托 ";
         break;
         case 4:
-        name = "Mambere-Kadei";
+        name = "曼贝雷卡代 ";
         break;
         case 5:
-        name = "Haut-Mbomou";
+        name = "上姆博穆 ";
         break;
         case 6:
-        name = "Kemo";
+        name = "凯莫 ";
         break;
         case 7:
-        name = "Lobaye";
+        name = "洛巴耶 ";
         break;
         case 8:
-        name = "Mbomou";
+        name = "姆博穆 ";
         break;
         case 9:
-        name = "Nana-Mambere";
+        name = "娜娜曼贝雷的 ";
         break;
         case 11:
-        name = "Ouaka";
+        name = "瓦卡 ";
         break;
         case 12:
-        name = "Ouham";
+        name = "瓦姆 ";
         break;
         case 13:
-        name = "Ouham-Pende";
+        name = "瓦姆 - 彭代 ";
         break;
         case 14:
-        name = "Cuvette-Ouest";
+        name = "西盆地 ";
         break;
         case 15:
-        name = "Nana-Grebizi";
+        name = "纳纳 - 格里比齐 ";
         break;
         case 16:
-        name = "Sangha-Mbaere";
+        name = "僧伽姆巴埃雷的 ";
         break;
         case 17:
-        name = "Ombella-Mpoko";
+        name = "翁贝拉 - 姆波科 ";
         break;
         case 18:
-        name = "Bangui";
+        name = "班吉 ";
         break;
       }
     }
     if (country_code.equals("CG") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bouenza";
+        name = "布昂扎 ";
         break;
         case 3:
-        name = "Cuvette";
+        name = "比色皿 ";
         break;
         case 4:
-        name = "Kouilou";
+        name = "奎卢 ";
         break;
         case 5:
-        name = "Lekoumou";
+        name = "莱库穆 ";
         break;
         case 6:
-        name = "Likouala";
+        name = "利夸拉 ";
         break;
         case 7:
-        name = "Niari";
+        name = "尼阿里 ";
         break;
         case 8:
-        name = "Plateaux";
+        name = "高原 ";
         break;
         case 10:
-        name = "Sangha";
+        name = "僧伽 ";
         break;
         case 11:
-        name = "Pool";
+        name = "水池 ";
         break;
         case 12:
-        name = "Brazzaville";
+        name = "布拉柴维尔 ";
         break;
       }
     }
     if (country_code.equals("CH") == true) {
       switch (region_code2) {
         case 1:
-        name = "Aargau";
+        name = "阿尔 ";
         break;
         case 2:
-        name = "Ausser-Rhoden";
+        name = "Ausser罗登 ";
         break;
         case 3:
-        name = "Basel-Landschaft";
+        name = "巴塞尔乡村半州 ";
         break;
         case 4:
-        name = "Basel-Stadt";
+        name = "巴塞尔城市 ";
         break;
         case 5:
-        name = "Bern";
+        name = "伯尔尼 ";
         break;
         case 6:
-        name = "Fribourg";
+        name = "弗里堡 ";
         break;
         case 7:
-        name = "Geneve";
+        name = "日内瓦 ";
         break;
         case 8:
-        name = "Glarus";
+        name = "格拉鲁斯 ";
         break;
         case 9:
-        name = "Graubunden";
+        name = "格劳宾登 ";
         break;
         case 10:
-        name = "Inner-Rhoden";
+        name = "内蒙古罗登 ";
         break;
         case 11:
-        name = "Luzern";
+        name = "卢塞恩 ";
         break;
         case 12:
-        name = "Neuchatel";
+        name = "纳沙泰尔 ";
         break;
         case 13:
-        name = "Nidwalden";
+        name = "瓦尔登 ";
         break;
         case 14:
-        name = "Obwalden";
+        name = "瓦尔登 ";
         break;
         case 15:
-        name = "Sankt Gallen";
+        name = "圣加伦 ";
         break;
         case 16:
-        name = "Schaffhausen";
+        name = "沙夫豪森 ";
         break;
         case 17:
-        name = "Schwyz";
+        name = "施维茨 ";
         break;
         case 18:
-        name = "Solothurn";
+        name = "索洛图恩 ";
         break;
         case 19:
-        name = "Thurgau";
+        name = "高州 ";
         break;
         case 20:
-        name = "Ticino";
+        name = "提契诺 ";
         break;
         case 21:
-        name = "Uri";
+        name = "乌里 ";
         break;
         case 22:
-        name = "Valais";
+        name = "瓦莱州 ";
         break;
         case 23:
-        name = "Vaud";
+        name = "沃 ";
         break;
         case 24:
-        name = "Zug";
+        name = "祖格 ";
         break;
         case 25:
-        name = "Zurich";
+        name = "苏黎世 ";
         break;
         case 26:
-        name = "Jura";
+        name = "朱拉 ";
         break;
       }
     }
     if (country_code.equals("CI") == true) {
       switch (region_code2) {
         case 5:
-        name = "Atacama";
+        name = "阿塔卡马 ";
         break;
         case 6:
-        name = "Biobio";
+        name = "比奥比奥 ";
         break;
         case 51:
-        name = "Sassandra";
+        name = "萨桑德拉 ";
         break;
         case 61:
-        name = "Abidjan";
+        name = "阿比让 ";
         break;
         case 74:
-        name = "Agneby";
+        name = "阿涅比 ";
         break;
         case 75:
-        name = "Bafing";
+        name = "巴芬 ";
         break;
         case 76:
-        name = "Bas-Sassandra";
+        name = "BAS-萨桑德拉的 ";
         break;
         case 77:
-        name = "Denguele";
+        name = "登盖莱 ";
         break;
         case 78:
-        name = "Dix-Huit Montagnes";
+        name = "迪克斯的Huit Montagnes ";
         break;
         case 79:
-        name = "Fromager";
+        name = "弗罗马格尔 ";
         break;
         case 80:
-        name = "Haut-Sassandra";
+        name = "上萨桑德拉 ";
         break;
         case 81:
-        name = "Lacs";
+        name = "紫胶 ";
         break;
         case 82:
-        name = "Lagunes";
+        name = "泻湖 ";
         break;
         case 83:
-        name = "Marahoue";
+        name = "马拉韦 ";
         break;
         case 84:
-        name = "Moyen-Cavally";
+        name = "卡瓦利 ";
         break;
         case 85:
-        name = "Moyen-Comoe";
+        name = "中科莫埃 ";
         break;
         case 86:
-        name = "N'zi-Comoe";
+        name = "N'zi科莫埃 ";
         break;
         case 87:
-        name = "Savanes";
+        name = "萨瓦纳 ";
         break;
         case 88:
-        name = "Sud-Bandama";
+        name = "南邦达马 ";
         break;
         case 89:
-        name = "Sud-Comoe";
+        name = "南科莫埃 ";
         break;
         case 90:
-        name = "Vallee du Bandama";
+        name = "邦达马河谷 ";
         break;
         case 91:
-        name = "Worodougou";
+        name = "沃罗杜古 ";
         break;
         case 92:
-        name = "Zanzan";
+        name = "赞赞 ";
         break;
       }
     }
     if (country_code.equals("CL") == true) {
       switch (region_code2) {
         case 1:
-        name = "Valparaiso";
+        name = "瓦尔帕莱索 ";
         break;
         case 2:
-        name = "Aisen del General Carlos Ibanez del Campo";
+        name = "德尔卡洛斯·伊瓦涅斯将军艾森坎波 ";
         break;
         case 3:
-        name = "Antofagasta";
+        name = "安托法加斯塔 ";
         break;
         case 4:
-        name = "Araucania";
+        name = "阿劳卡尼亚 ";
         break;
         case 5:
-        name = "Atacama";
+        name = "阿塔卡马 ";
         break;
         case 6:
-        name = "Bio-Bio";
+        name = "比奥比奥 ";
         break;
         case 7:
-        name = "Coquimbo";
+        name = "科金博 ";
         break;
         case 8:
-        name = "Libertador General Bernardo O'Higgins";
+        name = "贝尔纳多·奥希金斯将军解放者 ";
         break;
         case 9:
-        name = "Los Lagos";
+        name = "洛杉矶拉各斯 ";
         break;
         case 10:
-        name = "Magallanes y de la Antartica Chilena";
+        name = "麦哲伦Ÿ德拉南极Chilena ";
         break;
         case 11:
-        name = "Maule";
+        name = "马乌莱 ";
         break;
         case 12:
-        name = "Region Metropolitana";
+        name = "首都大区 ";
         break;
         case 13:
-        name = "Tarapaca";
+        name = "塔拉帕卡大区 ";
         break;
         case 14:
-        name = "Los Lagos";
+        name = "洛杉矶拉各斯 ";
         break;
         case 15:
-        name = "Tarapaca";
+        name = "塔拉帕卡大区 ";
         break;
         case 16:
-        name = "Arica y Parinacota";
+        name = "阿里卡Ÿ帕里纳科塔 ";
         break;
         case 17:
-        name = "Los Rios";
+        name = "洛斯里奥斯 ";
         break;
       }
     }
     if (country_code.equals("CM") == true) {
       switch (region_code2) {
         case 4:
-        name = "Est";
+        name = "预计 ";
         break;
         case 5:
-        name = "Littoral";
+        name = "濒海 ";
         break;
         case 7:
-        name = "Nord-Ouest";
+        name = "西北省 ";
         break;
         case 8:
-        name = "Ouest";
+        name = "西部省 ";
         break;
         case 9:
-        name = "Sud-Ouest";
+        name = "SUD-Ouest酒店 ";
         break;
         case 10:
-        name = "Adamaoua";
+        name = "阿达马瓦 ";
         break;
         case 11:
-        name = "Centre";
+        name = "中心 ";
         break;
         case 12:
-        name = "Extreme-Nord";
+        name = "至尊 - 北 ";
         break;
         case 13:
-        name = "Nord";
+        name = "北 ";
         break;
         case 14:
-        name = "Sud";
+        name = "南基 ";
         break;
       }
     }
     if (country_code.equals("CN") == true) {
       switch (region_code2) {
         case 1:
-        name = "Anhui";
+        name = "安徽 ";
         break;
         case 2:
-        name = "Zhejiang";
+        name = "浙江 ";
         break;
         case 3:
-        name = "Jiangxi";
+        name = "江西 ";
         break;
         case 4:
-        name = "Jiangsu";
+        name = "江苏 ";
         break;
         case 5:
-        name = "Jilin";
+        name = "吉林 ";
         break;
         case 6:
-        name = "Qinghai";
+        name = "青海 ";
         break;
         case 7:
-        name = "Fujian";
+        name = "福建 ";
         break;
         case 8:
-        name = "Heilongjiang";
+        name = "黑龙江 ";
         break;
         case 9:
-        name = "Henan";
+        name = "河南 ";
         break;
         case 10:
-        name = "Hebei";
+        name = "河北 ";
         break;
         case 11:
-        name = "Hunan";
+        name = "湖南 ";
         break;
         case 12:
-        name = "Hubei";
+        name = "湖北 ";
         break;
         case 13:
-        name = "Xinjiang";
+        name = "新疆 ";
         break;
         case 14:
-        name = "Xizang";
+        name = "西藏 ";
         break;
         case 15:
-        name = "Gansu";
+        name = "甘肃 ";
         break;
         case 16:
-        name = "Guangxi";
+        name = "广西 ";
         break;
         case 18:
-        name = "Guizhou";
+        name = "贵州 ";
         break;
         case 19:
-        name = "Liaoning";
+        name = "辽宁 ";
         break;
         case 20:
-        name = "Nei Mongol";
+        name = "内蒙古 ";
         break;
         case 21:
-        name = "Ningxia";
+        name = "宁夏 ";
         break;
         case 22:
-        name = "Beijing";
+        name = "北京 ";
         break;
         case 23:
-        name = "Shanghai";
+        name = "上海 ";
         break;
         case 24:
-        name = "Shanxi";
+        name = "山西 ";
         break;
         case 25:
-        name = "Shandong";
+        name = "山东 ";
         break;
         case 26:
-        name = "Shaanxi";
+        name = "陕西 ";
         break;
         case 28:
-        name = "Tianjin";
+        name = "天津 ";
         break;
         case 29:
-        name = "Yunnan";
+        name = "云南 ";
         break;
         case 30:
-        name = "Guangdong";
+        name = "广东 ";
         break;
         case 31:
-        name = "Hainan";
+        name = "海南 ";
         break;
         case 32:
-        name = "Sichuan";
+        name = "四川 ";
         break;
         case 33:
-        name = "Chongqing";
+        name = "渝 ";
         break;
       }
     }
     if (country_code.equals("CO") == true) {
       switch (region_code2) {
         case 1:
-        name = "Amazonas";
+        name = "亚马孙 ";
         break;
         case 2:
-        name = "Antioquia";
+        name = "安蒂奥基亚 ";
         break;
         case 3:
-        name = "Arauca";
+        name = "阿劳卡 ";
         break;
         case 4:
-        name = "Atlantico";
+        name = "大西洋 ";
         break;
         case 5:
-        name = "Bolivar Department";
+        name = "玻利瓦尔部 ";
         break;
         case 6:
-        name = "Boyaca Department";
+        name = "博亚卡部 ";
         break;
         case 7:
-        name = "Caldas Department";
+        name = "卡尔达斯部 ";
         break;
         case 8:
-        name = "Caqueta";
+        name = "卡克塔 ";
         break;
         case 9:
-        name = "Cauca";
+        name = "考卡 ";
         break;
         case 10:
-        name = "Cesar";
+        name = "塞萨尔 ";
         break;
         case 11:
-        name = "Choco";
+        name = "乔科 ";
         break;
         case 12:
-        name = "Cordoba";
+        name = "科尔多瓦 ";
         break;
         case 14:
-        name = "Guaviare";
+        name = "瓜维亚雷 ";
         break;
         case 15:
-        name = "Guainia";
+        name = "瓜伊尼亚 ";
         break;
         case 16:
-        name = "Huila";
+        name = "威拉 ";
         break;
         case 17:
-        name = "La Guajira";
+        name = "拉瓜希拉省 ";
         break;
         case 18:
-        name = "Magdalena Department";
+        name = "马格达莱纳省 ";
         break;
         case 19:
-        name = "Meta";
+        name = "元 ";
         break;
         case 20:
-        name = "Narino";
+        name = "纳里尼奥 ";
         break;
         case 21:
-        name = "Norte de Santander";
+        name = "北桑坦德 ";
         break;
         case 22:
-        name = "Putumayo";
+        name = "普图马约 ";
         break;
         case 23:
-        name = "Quindio";
+        name = "金迪奥 ";
         break;
         case 24:
-        name = "Risaralda";
+        name = "利萨拉尔达 ";
         break;
         case 25:
-        name = "San Andres y Providencia";
+        name = "圣安德烈斯Ÿ普罗维登 ";
         break;
         case 26:
-        name = "Santander";
+        name = "桑坦德 ";
         break;
         case 27:
-        name = "Sucre";
+        name = "苏克雷 ";
         break;
         case 28:
-        name = "Tolima";
+        name = "托利马 ";
         break;
         case 29:
-        name = "Valle del Cauca";
+        name = "考卡山谷省 ";
         break;
         case 30:
-        name = "Vaupes";
+        name = "沃佩斯 ";
         break;
         case 31:
-        name = "Vichada";
+        name = "比查达 ";
         break;
         case 32:
-        name = "Casanare";
+        name = "卡萨纳雷 ";
         break;
         case 33:
-        name = "Cundinamarca";
+        name = "昆迪纳马卡 ";
         break;
         case 34:
-        name = "Distrito Especial";
+        name = "特殊DISTRITO ";
         break;
         case 35:
-        name = "Bolivar";
+        name = "玻利瓦尔 ";
         break;
         case 36:
-        name = "Boyaca";
+        name = "博亚卡 ";
         break;
         case 37:
-        name = "Caldas";
+        name = "卡尔达斯 ";
         break;
         case 38:
-        name = "Magdalena";
+        name = "马格达莱纳 ";
         break;
       }
     }
     if (country_code.equals("CR") == true) {
       switch (region_code2) {
         case 1:
-        name = "Alajuela";
+        name = "阿拉胡埃拉 ";
         break;
         case 2:
-        name = "Cartago";
+        name = "卡塔戈 ";
         break;
         case 3:
-        name = "Guanacaste";
+        name = "瓜纳卡斯特 ";
         break;
         case 4:
-        name = "Heredia";
+        name = "埃雷迪亚 ";
         break;
         case 6:
-        name = "Limon";
+        name = "利蒙 ";
         break;
         case 7:
-        name = "Puntarenas";
+        name = "蓬塔雷纳斯 ";
         break;
         case 8:
-        name = "San Jose";
+        name = "圣何塞 ";
         break;
       }
     }
     if (country_code.equals("CU") == true) {
       switch (region_code2) {
         case 1:
-        name = "Pinar del Rio";
+        name = "比那尔德里奥 ";
         break;
         case 2:
-        name = "Ciudad de la Habana";
+        name = "哈瓦那城 ";
         break;
         case 3:
-        name = "Matanzas";
+        name = "马坦萨斯 ";
         break;
         case 4:
-        name = "Isla de la Juventud";
+        name = "青年岛 ";
         break;
         case 5:
-        name = "Camaguey";
+        name = "卡马圭 ";
         break;
         case 7:
-        name = "Ciego de Avila";
+        name = "谢戈德阿维拉 ";
         break;
         case 8:
-        name = "Cienfuegos";
+        name = "西恩富戈斯 ";
         break;
         case 9:
-        name = "Granma";
+        name = "格拉玛 ";
         break;
         case 10:
-        name = "Guantanamo";
+        name = "关塔那摩 ";
         break;
         case 11:
-        name = "La Habana";
+        name = "哈瓦那 ";
         break;
         case 12:
-        name = "Holguin";
+        name = "奥尔金 ";
         break;
         case 13:
-        name = "Las Tunas";
+        name = "拉斯图纳斯 ";
         break;
         case 14:
-        name = "Sancti Spiritus";
+        name = "圣斯皮里图斯 ";
         break;
         case 15:
-        name = "Santiago de Cuba";
+        name = "古巴圣地亚哥 ";
         break;
         case 16:
-        name = "Villa Clara";
+        name = "比亚克拉拉 ";
         break;
       }
     }
     if (country_code.equals("CV") == true) {
       switch (region_code2) {
         case 1:
-        name = "Boa Vista";
+        name = "博阿维斯塔 ";
         break;
         case 2:
-        name = "Brava";
+        name = "拉瓦 ";
         break;
         case 4:
-        name = "Maio";
+        name = "马尤 ";
         break;
         case 5:
-        name = "Paul";
+        name = "保罗 ";
         break;
         case 7:
-        name = "Ribeira Grande";
+        name = "大里贝拉 ";
         break;
         case 8:
-        name = "Sal";
+        name = "萨尔 ";
         break;
         case 10:
-        name = "Sao Nicolau";
+        name = "圣尼古拉 ";
         break;
         case 11:
-        name = "Sao Vicente";
+        name = "圣维森特 ";
         break;
         case 13:
-        name = "Mosteiros";
+        name = "莫斯特罗 ";
         break;
         case 14:
-        name = "Praia";
+        name = "普拉亚 ";
         break;
         case 15:
-        name = "Santa Catarina";
+        name = "圣卡塔琳娜 ";
         break;
         case 16:
-        name = "Santa Cruz";
+        name = "圣克鲁斯 ";
         break;
         case 17:
-        name = "Sao Domingos";
+        name = "圣多明戈斯 ";
         break;
         case 18:
-        name = "Sao Filipe";
+        name = "累西腓 ";
         break;
         case 19:
-        name = "Sao Miguel";
+        name = "圣米格尔 ";
         break;
         case 20:
-        name = "Tarrafal";
+        name = "塔拉法尔 ";
         break;
       }
     }
     if (country_code.equals("CY") == true) {
       switch (region_code2) {
         case 1:
-        name = "Famagusta";
+        name = "法马古斯塔 ";
         break;
         case 2:
-        name = "Kyrenia";
+        name = "凯里尼亚 ";
         break;
         case 3:
-        name = "Larnaca";
+        name = "拉纳卡 ";
         break;
         case 4:
-        name = "Nicosia";
+        name = "尼科西亚 ";
         break;
         case 5:
-        name = "Limassol";
+        name = "利马索尔 ";
         break;
         case 6:
-        name = "Paphos";
+        name = "帕福斯 ";
         break;
       }
     }
     if (country_code.equals("CZ") == true) {
       switch (region_code2) {
         case 3:
-        name = "Blansko";
+        name = "布兰斯科 ";
         break;
         case 4:
-        name = "Breclav";
+        name = "布热茨拉夫 ";
         break;
         case 20:
-        name = "Hradec Kralove";
+        name = "克拉洛韦 ";
         break;
         case 21:
-        name = "Jablonec nad Nisou";
+        name = "尼斯河畔亚布洛内茨 ";
         break;
         case 23:
-        name = "Jicin";
+        name = "伊钦 ";
         break;
         case 24:
-        name = "Jihlava";
+        name = "伊赫拉瓦 ";
         break;
         case 30:
-        name = "Kolin";
+        name = "歌林 ";
         break;
         case 33:
-        name = "Liberec";
+        name = "利贝雷茨 ";
         break;
         case 36:
-        name = "Melnik";
+        name = "梅尔尼克 ";
         break;
         case 37:
-        name = "Mlada Boleslav";
+        name = "波利斯拉夫 ";
         break;
         case 39:
-        name = "Nachod";
+        name = "纳霍德 ";
         break;
         case 41:
-        name = "Nymburk";
+        name = "宁布尔克 ";
         break;
         case 45:
-        name = "Pardubice";
+        name = "巴尔杜比采 ";
         break;
         case 52:
-        name = "Hlavni mesto Praha";
+        name = "HLAVNI梅斯托布拉格 ";
         break;
         case 61:
-        name = "Semily";
+        name = "塞米利 ";
         break;
         case 70:
-        name = "Trutnov";
+        name = "特鲁特诺夫 ";
         break;
         case 78:
-        name = "Jihomoravsky kraj";
+        name = "南摩拉维亚州 ";
         break;
         case 79:
-        name = "Jihocesky kraj";
+        name = "南捷克州 ";
         break;
         case 80:
-        name = "Vysocina";
+        name = "维索基纳 ";
         break;
         case 81:
-        name = "Karlovarsky kraj";
+        name = "卡罗维发利亚州 ";
         break;
         case 82:
-        name = "Kralovehradecky kraj";
+        name = "克拉洛韦赫拉德茨亚州 ";
         break;
         case 83:
-        name = "Liberecky kraj";
+        name = "利贝雷克亚州 ";
         break;
         case 84:
-        name = "Olomoucky kraj";
+        name = "奥洛穆茨亚州 ";
         break;
         case 85:
-        name = "Moravskoslezsky kraj";
+        name = "摩拉维亚西里西亚亚州 ";
         break;
         case 86:
-        name = "Pardubicky kraj";
+        name = "帕尔杜比采亚州 ";
         break;
         case 87:
-        name = "Plzensky kraj";
+        name = "比尔森亚州 ";
         break;
         case 88:
-        name = "Stredocesky kraj";
+        name = "中捷克亚州 ";
         break;
         case 89:
-        name = "Ustecky kraj";
+        name = "乌斯季亚州 ";
         break;
         case 90:
-        name = "Zlinsky kraj";
+        name = "兹林亚州 ";
         break;
       }
     }
     if (country_code.equals("DE") == true) {
       switch (region_code2) {
         case 1:
-        name = "Baden-Wurttemberg";
+        name = "巴登 - 符腾堡州 ";
         break;
         case 2:
-        name = "Bayern";
+        name = "拜仁慕尼黑 ";
         break;
         case 3:
-        name = "Bremen";
+        name = "不来梅 ";
         break;
         case 4:
-        name = "Hamburg";
+        name = "汉堡 ";
         break;
         case 5:
-        name = "Hessen";
+        name = "黑森州 ";
         break;
         case 6:
-        name = "Niedersachsen";
+        name = "下萨克森州 ";
         break;
         case 7:
-        name = "Nordrhein-Westfalen";
+        name = "北莱茵 - 威斯特法伦 ";
         break;
         case 8:
-        name = "Rheinland-Pfalz";
+        name = "莱茵兰 - 普法尔茨 ";
         break;
         case 9:
-        name = "Saarland";
+        name = "萨尔 ";
         break;
         case 10:
-        name = "Schleswig-Holstein";
+        name = "石勒苏益格 - 荷尔斯泰因 ";
         break;
         case 11:
-        name = "Brandenburg";
+        name = "勃兰登堡 ";
         break;
         case 12:
-        name = "Mecklenburg-Vorpommern";
+        name = "梅克伦堡 - 前波莫瑞（Mecklenburg-Vorpommern） ";
         break;
         case 13:
-        name = "Sachsen";
+        name = "萨克森 ";
         break;
         case 14:
-        name = "Sachsen-Anhalt";
+        name = "萨克森 - 安哈尔特 ";
         break;
         case 15:
-        name = "Thuringen";
+        name = "图林根州 ";
         break;
         case 16:
-        name = "Berlin";
+        name = "柏林 ";
         break;
       }
     }
     if (country_code.equals("DJ") == true) {
       switch (region_code2) {
         case 1:
-        name = "Ali Sabieh";
+        name = "阿里萨比赫 ";
         break;
         case 4:
-        name = "Obock";
+        name = "奥博克 ";
         break;
         case 5:
-        name = "Tadjoura";
+        name = "塔朱拉 ";
         break;
         case 6:
-        name = "Dikhil";
+        name = "迪基勒 ";
         break;
         case 7:
-        name = "Djibouti";
+        name = "吉布提 ";
         break;
         case 8:
-        name = "Arta";
+        name = "阿尔塔 ";
         break;
       }
     }
     if (country_code.equals("DK") == true) {
       switch (region_code2) {
         case 17:
-        name = "Hovedstaden";
+        name = "Hovedstaden ";
         break;
         case 18:
-        name = "Midtjylland";
+        name = "米迪兰特 ";
         break;
         case 19:
-        name = "Nordjylland";
+        name = "北日德兰 ";
         break;
         case 20:
-        name = "Sjelland";
+        name = "Sjelland ";
         break;
         case 21:
-        name = "Syddanmark";
+        name = "Syddanmark ";
         break;
       }
     }
     if (country_code.equals("DM") == true) {
       switch (region_code2) {
         case 2:
-        name = "Saint Andrew";
+        name = "圣安德鲁 ";
         break;
         case 3:
-        name = "Saint David";
+        name = "圣大卫 ";
         break;
         case 4:
-        name = "Saint George";
+        name = "圣乔治 ";
         break;
         case 5:
-        name = "Saint John";
+        name = "圣约翰 ";
         break;
         case 6:
-        name = "Saint Joseph";
+        name = "圣约瑟夫 ";
         break;
         case 7:
-        name = "Saint Luke";
+        name = "圣路加 ";
         break;
         case 8:
-        name = "Saint Mark";
+        name = "圣马克 ";
         break;
         case 9:
-        name = "Saint Patrick";
+        name = "圣帕特里克节 ";
         break;
         case 10:
-        name = "Saint Paul";
+        name = "圣保罗 ";
         break;
         case 11:
-        name = "Saint Peter";
+        name = "圣彼得 ";
         break;
       }
     }
     if (country_code.equals("DO") == true) {
       switch (region_code2) {
         case 1:
-        name = "Azua";
+        name = "阿苏阿 ";
         break;
         case 2:
-        name = "Baoruco";
+        name = "Baoruco ";
         break;
         case 3:
-        name = "Barahona";
+        name = "巴拉奥纳 ";
         break;
         case 4:
-        name = "Dajabon";
+        name = "达哈翁 ";
         break;
         case 5:
-        name = "Distrito Nacional";
+        name = "国家区 ";
         break;
         case 6:
-        name = "Duarte";
+        name = "杜阿尔特 ";
         break;
         case 8:
-        name = "Espaillat";
+        name = "埃斯派拉特 ";
         break;
         case 9:
-        name = "Independencia";
+        name = "独立 ";
         break;
         case 10:
-        name = "La Altagracia";
+        name = "阿尔塔格拉西亚 ";
         break;
         case 11:
-        name = "Elias Pina";
+        name = "埃利亚斯翩 ";
         break;
         case 12:
-        name = "La Romana";
+        name = "罗马纳 ";
         break;
         case 14:
-        name = "Maria Trinidad Sanchez";
+        name = "玛丽亚·特立尼达·桑切斯 ";
         break;
         case 15:
-        name = "Monte Cristi";
+        name = "蒙特克里斯蒂 ";
         break;
         case 16:
-        name = "Pedernales";
+        name = "佩德纳莱斯 ";
         break;
         case 17:
-        name = "Peravia";
+        name = "佩拉维亚 ";
         break;
         case 18:
-        name = "Puerto Plata";
+        name = "普拉塔港 ";
         break;
         case 19:
-        name = "Salcedo";
+        name = "萨尔塞 ";
         break;
         case 20:
-        name = "Samana";
+        name = "萨马纳 ";
         break;
         case 21:
-        name = "Sanchez Ramirez";
+        name = "桑切斯拉米雷斯 ";
         break;
         case 23:
-        name = "San Juan";
+        name = "圣胡安 ";
         break;
         case 24:
-        name = "San Pedro De Macoris";
+        name = "圣佩德罗·科里斯 ";
         break;
         case 25:
-        name = "Santiago";
+        name = "圣地亚哥 ";
         break;
         case 26:
-        name = "Santiago Rodriguez";
+        name = "圣地亚哥·罗德里格斯 ";
         break;
         case 27:
-        name = "Valverde";
+        name = "巴尔韦德 ";
         break;
         case 28:
-        name = "El Seibo";
+        name = "厄尔尼诺西望 ";
         break;
         case 29:
-        name = "Hato Mayor";
+        name = "马约尔 ";
         break;
         case 30:
-        name = "La Vega";
+        name = "拉维加 ";
         break;
         case 31:
-        name = "Monsenor Nouel";
+        name = "努埃尔 ";
         break;
         case 32:
-        name = "Monte Plata";
+        name = "蒙特普拉塔 ";
         break;
         case 33:
-        name = "San Cristobal";
+        name = "圣克里斯托瓦尔 ";
         break;
         case 34:
-        name = "Distrito Nacional";
+        name = "国家区 ";
         break;
         case 35:
-        name = "Peravia";
+        name = "佩拉维亚 ";
         break;
         case 36:
-        name = "San Jose de Ocoa";
+        name = "圣约瑟de OCOA的 ";
         break;
         case 37:
-        name = "Santo Domingo";
+        name = "圣多明各 ";
         break;
       }
     }
     if (country_code.equals("DZ") == true) {
       switch (region_code2) {
         case 1:
-        name = "Alger";
+        name = "阿尔杰 ";
         break;
         case 3:
-        name = "Batna";
+        name = "巴特纳 ";
         break;
         case 4:
-        name = "Constantine";
+        name = "君士坦丁 ";
         break;
         case 6:
-        name = "Medea";
+        name = "美狄亚 ";
         break;
         case 7:
-        name = "Mostaganem";
+        name = "穆斯塔加奈姆 ";
         break;
         case 9:
-        name = "Oran";
+        name = "奥兰 ";
         break;
         case 10:
-        name = "Saida";
+        name = "赛伊达 ";
         break;
         case 12:
-        name = "Setif";
+        name = "塞提夫 ";
         break;
         case 13:
-        name = "Tiaret";
+        name = "提亚雷特 ";
         break;
         case 14:
-        name = "Tizi Ouzou";
+        name = "提济乌祖 ";
         break;
         case 15:
-        name = "Tlemcen";
+        name = "特莱姆森 ";
         break;
         case 18:
-        name = "Bejaia";
+        name = "贝贾亚 ";
         break;
         case 19:
-        name = "Biskra";
+        name = "比斯克拉 ";
         break;
         case 20:
-        name = "Blida";
+        name = "卜利达 ";
         break;
         case 21:
-        name = "Bouira";
+        name = "布维拉 ";
         break;
         case 22:
-        name = "Djelfa";
+        name = "杰勒法 ";
         break;
         case 23:
-        name = "Guelma";
+        name = "盖勒马 ";
         break;
         case 24:
-        name = "Jijel";
+        name = "Jijel的 ";
         break;
         case 25:
-        name = "Laghouat";
+        name = "Laghouat的 ";
         break;
         case 26:
-        name = "Mascara";
+        name = "睫毛膏 ";
         break;
         case 27:
-        name = "M'sila";
+        name = "姆西拉 ";
         break;
         case 29:
-        name = "Oum el Bouaghi";
+        name = "韦梅EL Bouaghi ";
         break;
         case 30:
-        name = "Sidi Bel Abbes";
+        name = "西迪贝勒阿巴斯 ";
         break;
         case 31:
-        name = "Skikda";
+        name = "斯基克达 ";
         break;
         case 33:
-        name = "Tebessa";
+        name = "泰贝萨 ";
         break;
         case 34:
-        name = "Adrar";
+        name = "阿德拉尔 ";
         break;
         case 35:
-        name = "Ain Defla";
+        name = "Ain德夫拉的 ";
         break;
         case 36:
-        name = "Ain Temouchent";
+        name = "艾因泰穆尚特 ";
         break;
         case 37:
-        name = "Annaba";
+        name = "安纳巴 ";
         break;
         case 38:
-        name = "Bechar";
+        name = "贝沙尔 ";
         break;
         case 39:
-        name = "Bordj Bou Arreridj";
+        name = "波尔吉 ";
         break;
         case 40:
-        name = "Boumerdes";
+        name = "布米尔达斯 ";
         break;
         case 41:
-        name = "Chlef";
+        name = "切尔夫的 ";
         break;
         case 42:
-        name = "El Bayadh";
+        name = "厄尔尼诺Bayadh ";
         break;
         case 43:
-        name = "El Oued";
+        name = "埃尔奎德 ";
         break;
         case 44:
-        name = "El Tarf";
+        name = "塔里夫 ";
         break;
         case 45:
-        name = "Ghardaia";
+        name = "盖尔达耶的 ";
         break;
         case 46:
-        name = "Illizi";
+        name = "伊利齐的 ";
         break;
         case 47:
-        name = "Khenchela";
+        name = "罕西拉 ";
         break;
         case 48:
-        name = "Mila";
+        name = "米拉 ";
         break;
         case 49:
-        name = "Naama";
+        name = "纳马 ";
         break;
         case 50:
-        name = "Ouargla";
+        name = "瓦尔格拉 ";
         break;
         case 51:
-        name = "Relizane";
+        name = "埃利 ";
         break;
         case 52:
-        name = "Souk Ahras";
+        name = "阿赫拉斯 ";
         break;
         case 53:
-        name = "Tamanghasset";
+        name = "塔曼拉塞特 ";
         break;
         case 54:
-        name = "Tindouf";
+        name = "廷杜夫 ";
         break;
         case 55:
-        name = "Tipaza";
+        name = "提帕萨 ";
         break;
         case 56:
-        name = "Tissemsilt";
+        name = "提塞姆西勒特 ";
         break;
       }
     }
     if (country_code.equals("EC") == true) {
       switch (region_code2) {
         case 1:
-        name = "Galapagos";
+        name = "加拉帕戈斯 ";
         break;
         case 2:
-        name = "Azuay";
+        name = "阿苏艾 ";
         break;
         case 3:
-        name = "Bolivar";
+        name = "玻利瓦尔 ";
         break;
         case 4:
-        name = "Canar";
+        name = "CANAR ";
         break;
         case 5:
-        name = "Carchi";
+        name = "卡尔奇 ";
         break;
         case 6:
-        name = "Chimborazo";
+        name = "钦博拉索 ";
         break;
         case 7:
-        name = "Cotopaxi";
+        name = "科托帕希 ";
         break;
         case 8:
-        name = "El Oro";
+        name = "埃尔奥罗 ";
         break;
         case 9:
-        name = "Esmeraldas";
+        name = "埃斯梅拉达 ";
         break;
         case 10:
-        name = "Guayas";
+        name = "瓜亚斯 ";
         break;
         case 11:
-        name = "Imbabura";
+        name = "因巴布拉 ";
         break;
         case 12:
-        name = "Loja";
+        name = "洛哈 ";
         break;
         case 13:
-        name = "Los Rios";
+        name = "洛斯里奥斯 ";
         break;
         case 14:
-        name = "Manabi";
+        name = "马纳维 ";
         break;
         case 15:
-        name = "Morona-Santiago";
+        name = "莫罗纳 - 圣地亚哥 ";
         break;
         case 17:
-        name = "Pastaza";
+        name = "帕斯塔萨 ";
         break;
         case 18:
-        name = "Pichincha";
+        name = "皮钦查 ";
         break;
         case 19:
-        name = "Tungurahua";
+        name = "通古拉瓦 ";
         break;
         case 20:
-        name = "Zamora-Chinchipe";
+        name = "萨莫拉 - 钦奇佩 ";
         break;
         case 22:
-        name = "Sucumbios";
+        name = "苏古姆比奥斯省 ";
         break;
         case 23:
-        name = "Napo";
+        name = "纳波 ";
         break;
         case 24:
-        name = "Orellana";
+        name = "奥雷利亚纳 ";
         break;
       }
     }
     if (country_code.equals("EE") == true) {
       switch (region_code2) {
         case 1:
-        name = "Harjumaa";
+        name = "哈留 ";
         break;
         case 2:
-        name = "Hiiumaa";
+        name = "希乌马 ";
         break;
         case 3:
-        name = "Ida-Virumaa";
+        name = "IDA-维鲁 ";
         break;
         case 4:
-        name = "Jarvamaa";
+        name = "雅尔瓦省 ";
         break;
         case 5:
-        name = "Jogevamaa";
+        name = "耶盖瓦省 ";
         break;
         case 6:
-        name = "Kohtla-Jarve";
+        name = "Kohtla耶尔韦 ";
         break;
         case 7:
-        name = "Laanemaa";
+        name = "莱内县 ";
         break;
         case 8:
-        name = "Laane-Virumaa";
+        name = "里亚维鲁 ";
         break;
         case 9:
-        name = "Narva";
+        name = "纳尔瓦 ";
         break;
         case 10:
-        name = "Parnu";
+        name = "帕努 ";
         break;
         case 11:
-        name = "Parnumaa";
+        name = "帕尔努 ";
         break;
         case 12:
-        name = "Polvamaa";
+        name = "贝尔瓦省 ";
         break;
         case 13:
-        name = "Raplamaa";
+        name = "拉普拉 ";
         break;
         case 14:
-        name = "Saaremaa";
+        name = "萨列马 ";
         break;
         case 15:
-        name = "Sillamae";
+        name = "SILLAMAE ";
         break;
         case 16:
-        name = "Tallinn";
+        name = "塔林 ";
         break;
         case 17:
-        name = "Tartu";
+        name = "塔尔图 ";
         break;
         case 18:
-        name = "Tartumaa";
+        name = "塔图尔 ";
         break;
         case 19:
-        name = "Valgamaa";
+        name = "瓦尔加 ";
         break;
         case 20:
-        name = "Viljandimaa";
+        name = "维良地 ";
         break;
         case 21:
-        name = "Vorumaa";
+        name = "维鲁省 ";
         break;
       }
     }
     if (country_code.equals("EG") == true) {
       switch (region_code2) {
         case 1:
-        name = "Ad Daqahliyah";
+        name = "代盖赫利耶 ";
         break;
         case 2:
-        name = "Al Bahr al Ahmar";
+        name = "铝巴哈尔人艾哈迈尔 ";
         break;
         case 3:
-        name = "Al Buhayrah";
+        name = "布海拉 ";
         break;
         case 4:
-        name = "Al Fayyum";
+        name = "法尤姆 ";
         break;
         case 5:
-        name = "Al Gharbiyah";
+        name = "阿尔比亚 ";
         break;
         case 6:
-        name = "Al Iskandariyah";
+        name = "伊斯坎德里耶 ";
         break;
         case 7:
-        name = "Al Isma'iliyah";
+        name = "Al Isma'iliyah的 ";
         break;
         case 8:
-        name = "Al Jizah";
+        name = "吉泽 ";
         break;
         case 9:
-        name = "Al Minufiyah";
+        name = "米努夫 ";
         break;
         case 10:
-        name = "Al Minya";
+        name = "明亚 ";
         break;
         case 11:
-        name = "Al Qahirah";
+        name = "开罗 ";
         break;
         case 12:
-        name = "Al Qalyubiyah";
+        name = "盖勒尤卜 ";
         break;
         case 13:
-        name = "Al Wadi al Jadid";
+        name = "铝瓦迪人贾迪德 ";
         break;
         case 14:
-        name = "Ash Sharqiyah";
+        name = "东部省 ";
         break;
         case 15:
-        name = "As Suways";
+        name = "苏伊士 ";
         break;
         case 16:
-        name = "Aswan";
+        name = "阿斯旺 ";
         break;
         case 17:
-        name = "Asyut";
+        name = "艾斯尤特 ";
         break;
         case 18:
-        name = "Bani Suwayf";
+        name = "贝尼苏韦夫 ";
         break;
         case 19:
-        name = "Bur Sa'id";
+        name = "布尔赛义德 ";
         break;
         case 20:
-        name = "Dumyat";
+        name = "杜姆亚特 ";
         break;
         case 21:
-        name = "Kafr ash Shaykh";
+        name = "谢赫村 ";
         break;
         case 22:
-        name = "Matruh";
+        name = "马特鲁 ";
         break;
         case 23:
-        name = "Qina";
+        name = "奇纳 ";
         break;
         case 24:
-        name = "Suhaj";
+        name = "索哈杰 ";
         break;
         case 26:
-        name = "Janub Sina'";
+        name = "南西奈省 ";
         break;
         case 27:
-        name = "Shamal Sina'";
+        name = "北西奈 ";
         break;
       }
     }
     if (country_code.equals("ER") == true) {
       switch (region_code2) {
         case 1:
-        name = "Anseba";
+        name = "安塞巴 ";
         break;
         case 2:
-        name = "Debub";
+        name = "德巴 ";
         break;
         case 3:
-        name = "Debubawi K'eyih Bahri";
+        name = "Debubawi K'eyih巴赫里 ";
         break;
         case 4:
-        name = "Gash Barka";
+        name = "加什 - 巴尔卡 ";
         break;
         case 5:
-        name = "Ma'akel";
+        name = "Ma'akel ";
         break;
         case 6:
-        name = "Semenawi K'eyih Bahri";
+        name = "Semenawi K'eyih巴赫里 ";
         break;
       }
     }
     if (country_code.equals("ES") == true) {
       switch (region_code2) {
         case 7:
-        name = "Islas Baleares";
+        name = "巴利阿里群岛 ";
         break;
         case 27:
-        name = "La Rioja";
+        name = "拉里奥哈 ";
         break;
         case 29:
-        name = "Madrid";
+        name = "马德里 ";
         break;
         case 31:
-        name = "Murcia";
+        name = "穆尔西亚 ";
         break;
         case 32:
-        name = "Navarra";
+        name = "纳瓦拉 ";
         break;
         case 34:
-        name = "Asturias";
+        name = "阿斯图里亚斯 ";
         break;
         case 39:
-        name = "Cantabria";
+        name = "坎塔布里亚 ";
         break;
         case 51:
-        name = "Andalucia";
+        name = "安达卢西亚 ";
         break;
         case 52:
-        name = "Aragon";
+        name = "阿拉贡 ";
         break;
         case 53:
-        name = "Canarias";
+        name = "加那利群岛 ";
         break;
         case 54:
-        name = "Castilla-La Mancha";
+        name = "卡斯蒂利亚 - 拉曼恰 ";
         break;
         case 55:
-        name = "Castilla y Leon";
+        name = "卡斯蒂利亚 - 莱昂 ";
         break;
         case 56:
-        name = "Catalonia";
+        name = "加泰罗尼亚 ";
         break;
         case 57:
-        name = "Extremadura";
+        name = "埃斯特雷马杜拉 ";
         break;
         case 58:
-        name = "Galicia";
+        name = "加利西亚 ";
         break;
         case 59:
-        name = "Pais Vasco";
+        name = "巴斯克 ";
         break;
         case 60:
-        name = "Comunidad Valenciana";
+        name = "COMUNIDAD瓦伦西亚 ";
         break;
       }
     }
     if (country_code.equals("ET") == true) {
       switch (region_code2) {
         case 2:
-        name = "Amhara";
+        name = "阿姆哈拉 ";
         break;
         case 7:
-        name = "Somali";
+        name = "索马里 ";
         break;
         case 8:
-        name = "Gambella";
+        name = "甘贝拉 ";
         break;
         case 10:
-        name = "Addis Abeba";
+        name = "亚的斯亚贝巴 ";
         break;
         case 11:
-        name = "Southern";
+        name = "南部的 ";
         break;
         case 12:
-        name = "Tigray";
+        name = "提格雷 ";
         break;
         case 13:
-        name = "Benishangul";
+        name = "贝尼 ";
         break;
         case 14:
-        name = "Afar";
+        name = "远 ";
         break;
         case 44:
-        name = "Adis Abeba";
+        name = "阿迪斯阿贝巴 ";
         break;
         case 45:
-        name = "Afar";
+        name = "远 ";
         break;
         case 46:
-        name = "Amara";
+        name = "阿马拉 ";
         break;
         case 47:
-        name = "Binshangul Gumuz";
+        name = "宾香古尔 ";
         break;
         case 48:
-        name = "Dire Dawa";
+        name = "德雷达瓦 ";
         break;
         case 49:
-        name = "Gambela Hizboch";
+        name = "甘贝拉各族 ";
         break;
         case 50:
-        name = "Hareri Hizb";
+        name = "哈拉尔赫兹伯 ";
         break;
         case 51:
-        name = "Oromiya";
+        name = "奥罗米亚 ";
         break;
         case 52:
-        name = "Sumale";
+        name = "Sumale ";
         break;
         case 53:
-        name = "Tigray";
+        name = "提格雷 ";
         break;
         case 54:
-        name = "YeDebub Biheroch Bihereseboch na Hizboch";
+        name = "NA贝拉各族YeDebub Biheroch Bihereseboch ";
         break;
       }
     }
     if (country_code.equals("FI") == true) {
       switch (region_code2) {
         case 1:
-        name = "Aland";
+        name = "奥兰 ";
         break;
         case 6:
-        name = "Lapland";
+        name = "拉普兰 ";
         break;
         case 8:
-        name = "Oulu";
+        name = "奥卢 ";
         break;
         case 13:
-        name = "Southern Finland";
+        name = "芬兰南部 ";
         break;
         case 14:
-        name = "Eastern Finland";
+        name = "芬兰东部 ";
         break;
         case 15:
-        name = "Western Finland";
+        name = "芬兰西部 ";
         break;
       }
     }
     if (country_code.equals("FJ") == true) {
       switch (region_code2) {
         case 1:
-        name = "Central";
+        name = "中央 ";
         break;
         case 2:
-        name = "Eastern";
+        name = "东 ";
         break;
         case 3:
-        name = "Northern";
+        name = "北方 ";
         break;
         case 4:
-        name = "Rotuma";
+        name = "罗图马 ";
         break;
         case 5:
-        name = "Western";
+        name = "西 ";
         break;
       }
     }
     if (country_code.equals("FM") == true) {
       switch (region_code2) {
         case 1:
-        name = "Kosrae";
+        name = "科斯雷 ";
         break;
         case 2:
-        name = "Pohnpei";
+        name = "波纳佩 ";
         break;
         case 3:
-        name = "Chuuk";
+        name = "丘克 ";
         break;
         case 4:
-        name = "Yap";
+        name = "狺 ";
         break;
       }
     }
     if (country_code.equals("FR") == true) {
       switch (region_code2) {
         case 97:
-        name = "Aquitaine";
+        name = "阿基坦大区 ";
         break;
         case 98:
-        name = "Auvergne";
+        name = "奥弗涅 ";
         break;
         case 99:
-        name = "Basse-Normandie";
+        name = "下诺曼底 ";
         break;
         case 832:
-        name = "Bourgogne";
+        name = "勃艮第（Bourgogne） ";
         break;
         case 833:
-        name = "Bretagne";
+        name = "布列塔尼（Bretagne） ";
         break;
         case 834:
-        name = "Centre";
+        name = "中心 ";
         break;
         case 835:
-        name = "Champagne-Ardenne";
+        name = "香槟 - 阿登 ";
         break;
         case 836:
-        name = "Corse";
+        name = "CORSE ";
         break;
         case 837:
-        name = "Franche-Comte";
+        name = "弗朗什孔泰 ";
         break;
         case 838:
-        name = "Haute-Normandie";
+        name = "Haute-Normandie的 ";
         break;
         case 839:
-        name = "Ile-de-France";
+        name = "法国法兰西岛大区 ";
         break;
         case 840:
-        name = "Languedoc-Roussillon";
+        name = "朗格多克 - 鲁西永 ";
         break;
         case 875:
-        name = "Limousin";
+        name = "利木赞牛 ";
         break;
         case 876:
-        name = "Lorraine";
+        name = "洛林 ";
         break;
         case 877:
-        name = "Midi-Pyrenees";
+        name = "南比利牛斯 ";
         break;
         case 878:
-        name = "Nord-Pas-de-Calais";
+        name = "北部 - 加莱 ";
         break;
         case 879:
-        name = "Pays de la Loire";
+        name = "卢瓦尔河 ";
         break;
         case 880:
-        name = "Picardie";
+        name = "皮卡 ";
         break;
         case 881:
-        name = "Poitou-Charentes";
+        name = "普瓦图 - 夏朗德 ";
         break;
         case 882:
-        name = "Provence-Alpes-Cote d'Azur";
+        name = "普罗旺斯 - 阿尔卑斯 - 蔚蓝海岸 ";
         break;
         case 883:
-        name = "Rhone-Alpes";
+        name = "罗纳 - 阿尔卑斯 ";
         break;
         case 918:
-        name = "Alsace";
+        name = "阿尔萨斯 ";
         break;
       }
     }
     if (country_code.equals("GA") == true) {
       switch (region_code2) {
         case 1:
-        name = "Estuaire";
+        name = "Estuaire贴心 ";
         break;
         case 2:
-        name = "Haut-Ogooue";
+        name = "上奥果韦 ";
         break;
         case 3:
-        name = "Moyen-Ogooue";
+        name = "中奥果韦 ";
         break;
         case 4:
-        name = "Ngounie";
+        name = "恩古涅 ";
         break;
         case 5:
-        name = "Nyanga";
+        name = "尼扬加 ";
         break;
         case 6:
-        name = "Ogooue-Ivindo";
+        name = "奥果韦 - 伊温多 ";
         break;
         case 7:
-        name = "Ogooue-Lolo";
+        name = "奥果韦 - 洛洛 ";
         break;
         case 8:
-        name = "Ogooue-Maritime";
+        name = "滨海奥果韦 ";
         break;
         case 9:
-        name = "Woleu-Ntem";
+        name = "沃勒 - 恩特姆的 ";
         break;
       }
     }
     if (country_code.equals("GB") == true) {
       switch (region_code2) {
         case 1:
-        name = "Avon";
+        name = "雅芳 ";
         break;
         case 3:
-        name = "Berkshire";
+        name = "伯克希尔 ";
         break;
         case 7:
-        name = "Cleveland";
+        name = "克利夫兰 ";
         break;
         case 17:
-        name = "Greater London";
+        name = "大伦敦 ";
         break;
         case 18:
-        name = "Greater Manchester";
+        name = "大曼彻斯特地区 ";
         break;
         case 20:
-        name = "Hereford and Worcester";
+        name = "赫里福德和伍斯特 ";
         break;
         case 22:
-        name = "Humberside";
+        name = "亨伯赛德 ";
         break;
         case 28:
-        name = "Merseyside";
+        name = "默西塞德郡 ";
         break;
         case 37:
-        name = "South Yorkshire";
+        name = "南约克郡 ";
         break;
         case 41:
-        name = "Tyne and Wear";
+        name = "泰恩-威尔 ";
         break;
         case 43:
-        name = "West Midlands";
+        name = "西米德兰 ";
         break;
         case 45:
-        name = "West Yorkshire";
+        name = "西约克郡 ";
         break;
         case 79:
-        name = "Central";
+        name = "中央 ";
         break;
         case 82:
-        name = "Grampian";
+        name = "嘉林 ";
         break;
         case 84:
-        name = "Lothian";
+        name = "洛锡安 ";
         break;
         case 87:
-        name = "Strathclyde";
+        name = "斯特拉斯克莱德 ";
         break;
         case 88:
-        name = "Tayside";
+        name = "泰赛德 ";
         break;
         case 90:
-        name = "Clwyd";
+        name = "克卢伊德 ";
         break;
         case 91:
-        name = "Dyfed";
+        name = "迪费德 ";
         break;
         case 92:
-        name = "Gwent";
+        name = "格温特 ";
         break;
         case 94:
-        name = "Mid Glamorgan";
+        name = "中格拉摩根 ";
         break;
         case 96:
-        name = "South Glamorgan";
+        name = "南格拉摩根 ";
         break;
         case 97:
-        name = "West Glamorgan";
+        name = "西格拉摩根 ";
         break;
         case 832:
-        name = "Barking and Dagenham";
+        name = "巴金 - 达格南 ";
         break;
         case 833:
-        name = "Barnet";
+        name = "巴尼特 ";
         break;
         case 834:
-        name = "Barnsley";
+        name = "巴恩斯利 ";
         break;
         case 835:
-        name = "Bath and North East Somerset";
+        name = "巴斯和东北萨默塞特 ";
         break;
         case 836:
-        name = "Bedfordshire";
+        name = "贝德福德 ";
         break;
         case 837:
-        name = "Bexley";
+        name = "贝克斯利 ";
         break;
         case 838:
-        name = "Birmingham";
+        name = "伯明翰 ";
         break;
         case 839:
-        name = "Blackburn with Darwen";
+        name = "布莱克与达尔文 ";
         break;
         case 840:
-        name = "Blackpool";
+        name = "布莱克浦 ";
         break;
         case 875:
-        name = "Bolton";
+        name = "博尔顿 ";
         break;
         case 876:
-        name = "Bournemouth";
+        name = "伯恩茅斯 ";
         break;
         case 877:
-        name = "Bracknell Forest";
+        name = "布拉克内尔森林 ";
         break;
         case 878:
-        name = "Bradford";
+        name = "布拉德福德 ";
         break;
         case 879:
-        name = "Brent";
+        name = "黑雁 ";
         break;
         case 880:
-        name = "Brighton and Hove";
+        name = "布赖顿 ";
         break;
         case 881:
-        name = "Bristol";
+        name = "布里斯托尔 ";
         break;
         case 882:
-        name = "Bromley";
+        name = "布罗姆利 ";
         break;
         case 883:
-        name = "Buckinghamshire";
+        name = "白金汉 ";
         break;
         case 918:
-        name = "Bury";
+        name = "埋葬 ";
         break;
         case 919:
-        name = "Calderdale";
+        name = "卡尔德达尔 ";
         break;
         case 920:
-        name = "Cambridgeshire";
+        name = "剑桥 ";
         break;
         case 921:
-        name = "Camden";
+        name = "卡姆登 ";
         break;
         case 922:
-        name = "Cheshire";
+        name = "柴郡 ";
         break;
         case 923:
-        name = "Cornwall";
+        name = "康沃尔 ";
         break;
         case 924:
-        name = "Coventry";
+        name = "考文垂 ";
         break;
         case 925:
-        name = "Croydon";
+        name = "克罗伊登 ";
         break;
         case 926:
-        name = "Cumbria";
+        name = "坎布里亚郡 ";
         break;
         case 961:
-        name = "Darlington";
+        name = "达林顿 ";
         break;
         case 962:
-        name = "Derby";
+        name = "德比 ";
         break;
         case 963:
-        name = "Derbyshire";
+        name = "德比郡 ";
         break;
         case 964:
-        name = "Devon";
+        name = "德文郡 ";
         break;
         case 965:
-        name = "Doncaster";
+        name = "唐卡斯特 ";
         break;
         case 966:
-        name = "Dorset";
+        name = "赛特 ";
         break;
         case 967:
-        name = "Dudley";
+        name = "达德利 ";
         break;
         case 968:
-        name = "Durham";
+        name = "达勒姆 ";
         break;
         case 969:
-        name = "Ealing";
+        name = "伊林 ";
         break;
         case 1004:
-        name = "East Riding of Yorkshire";
+        name = "东约克郡 ";
         break;
         case 1005:
-        name = "East Sussex";
+        name = "东萨塞克斯 ";
         break;
         case 1006:
-        name = "Enfield";
+        name = "恩菲尔德 ";
         break;
         case 1007:
-        name = "Essex";
+        name = "埃塞克斯 ";
         break;
         case 1008:
-        name = "Gateshead";
+        name = "盖茨黑德 ";
         break;
         case 1009:
-        name = "Gloucestershire";
+        name = "格洛斯特 ";
         break;
         case 1010:
-        name = "Greenwich";
+        name = "格林威治 ";
         break;
         case 1011:
-        name = "Hackney";
+        name = "哈克尼 ";
         break;
         case 1012:
-        name = "Halton";
+        name = "哈尔顿 ";
         break;
         case 1047:
-        name = "Hammersmith and Fulham";
+        name = "哈默史密斯和富勒姆 ";
         break;
         case 1048:
-        name = "Hampshire";
+        name = "新罕布什尔州 ";
         break;
         case 1049:
-        name = "Haringey";
+        name = "夏灵基 ";
         break;
         case 1050:
-        name = "Harrow";
+        name = "耙 ";
         break;
         case 1051:
-        name = "Hartlepool";
+        name = "哈特尔浦 ";
         break;
         case 1052:
-        name = "Havering";
+        name = "哈佛林 ";
         break;
         case 1053:
-        name = "Herefordshire";
+        name = "赫里福 ";
         break;
         case 1054:
-        name = "Hertford";
+        name = "赫特福德 ";
         break;
         case 1055:
-        name = "Hillingdon";
+        name = "西陵 ";
         break;
         case 1090:
-        name = "Hounslow";
+        name = "豪恩斯洛 ";
         break;
         case 1091:
-        name = "Isle of Wight";
+        name = "怀特岛 ";
         break;
         case 1092:
-        name = "Islington";
+        name = "伊斯灵顿 ";
         break;
         case 1093:
-        name = "Kensington and Chelsea";
+        name = "肯辛顿和切尔西 ";
         break;
         case 1094:
-        name = "Kent";
+        name = "肯特 ";
         break;
         case 1095:
-        name = "Kingston upon Hull";
+        name = "赫尔河畔京斯敦 ";
         break;
         case 1096:
-        name = "Kingston upon Thames";
+        name = "金斯顿 ";
         break;
         case 1097:
-        name = "Kirklees";
+        name = "科克利斯 ";
         break;
         case 1098:
-        name = "Knowsley";
+        name = "诺斯利 ";
         break;
         case 1133:
-        name = "Lambeth";
+        name = "兰贝斯 ";
         break;
         case 1134:
-        name = "Lancashire";
+        name = "兰开夏郡 ";
         break;
         case 1135:
-        name = "Leeds";
+        name = "利兹 ";
         break;
         case 1136:
-        name = "Leicester";
+        name = "莱斯特 ";
         break;
         case 1137:
-        name = "Leicestershire";
+        name = "莱斯特 ";
         break;
         case 1138:
-        name = "Lewisham";
+        name = "刘易 ";
         break;
         case 1139:
-        name = "Lincolnshire";
+        name = "林肯郡 ";
         break;
         case 1140:
-        name = "Liverpool";
+        name = "利物浦 ";
         break;
         case 1141:
-        name = "London";
+        name = "伦敦 ";
         break;
         case 1176:
-        name = "Luton";
+        name = "卢顿 ";
         break;
         case 1177:
-        name = "Manchester";
+        name = "曼彻斯特 ";
         break;
         case 1178:
-        name = "Medway";
+        name = "梅德韦 ";
         break;
         case 1179:
-        name = "Merton";
+        name = "默顿 ";
         break;
         case 1180:
-        name = "Middlesbrough";
+        name = "米德尔斯堡 ";
         break;
         case 1181:
-        name = "Milton Keynes";
+        name = "米尔顿凯恩斯 ";
         break;
         case 1182:
-        name = "Newcastle upon Tyne";
+        name = "纽卡斯尔 ";
         break;
         case 1183:
-        name = "Newham";
+        name = "纽汉姆 ";
         break;
         case 1184:
-        name = "Norfolk";
+        name = "诺福克 ";
         break;
         case 1219:
-        name = "Northamptonshire";
+        name = "北安普敦郡 ";
         break;
         case 1220:
-        name = "North East Lincolnshire";
+        name = "东北林肯郡 ";
         break;
         case 1221:
-        name = "North Lincolnshire";
+        name = "北林肯郡 ";
         break;
         case 1222:
-        name = "North Somerset";
+        name = "北萨默塞特 ";
         break;
         case 1223:
-        name = "North Tyneside";
+        name = "北泰恩赛德 ";
         break;
         case 1224:
-        name = "Northumberland";
+        name = "诺森伯兰 ";
         break;
         case 1225:
-        name = "North Yorkshire";
+        name = "北约克郡 ";
         break;
         case 1226:
-        name = "Nottingham";
+        name = "诺丁汉 ";
         break;
         case 1227:
-        name = "Nottinghamshire";
+        name = "诺丁汉 ";
         break;
         case 1262:
-        name = "Oldham";
+        name = "奥尔德姆 ";
         break;
         case 1263:
-        name = "Oxfordshire";
+        name = "牛津 ";
         break;
         case 1264:
-        name = "Peterborough";
+        name = "彼得伯勒 ";
         break;
         case 1265:
-        name = "Plymouth";
+        name = "普利茅斯 ";
         break;
         case 1266:
-        name = "Poole";
+        name = "普尔 ";
         break;
         case 1267:
-        name = "Portsmouth";
+        name = "朴茨茅斯 ";
         break;
         case 1268:
-        name = "Reading";
+        name = "阅读 ";
         break;
         case 1269:
-        name = "Redbridge";
+        name = "雷德布里奇 ";
         break;
         case 1270:
-        name = "Redcar and Cleveland";
+        name = "雷德卡和克利夫兰 ";
         break;
         case 1305:
-        name = "Richmond upon Thames";
+        name = "泰晤士河畔里士满 ";
         break;
         case 1306:
-        name = "Rochdale";
+        name = "罗奇代尔 ";
         break;
         case 1307:
-        name = "Rotherham";
+        name = "罗瑟勒姆 ";
         break;
         case 1308:
-        name = "Rutland";
+        name = "拉特兰 ";
         break;
         case 1309:
-        name = "Salford";
+        name = "索尔福德 ";
         break;
         case 1310:
-        name = "Shropshire";
+        name = "什罗普 ";
         break;
         case 1311:
-        name = "Sandwell";
+        name = "桑德韦尔 ";
         break;
         case 1312:
-        name = "Sefton";
+        name = "塞夫顿 ";
         break;
         case 1313:
-        name = "Sheffield";
+        name = "谢菲尔德 ";
         break;
         case 1348:
-        name = "Slough";
+        name = "泥沼 ";
         break;
         case 1349:
-        name = "Solihull";
+        name = "索利赫尔 ";
         break;
         case 1350:
-        name = "Somerset";
+        name = "萨默塞特 ";
         break;
         case 1351:
-        name = "Southampton";
+        name = "南安普敦 ";
         break;
         case 1352:
-        name = "Southend-on-Sea";
+        name = "绍森德 ";
         break;
         case 1353:
-        name = "South Gloucestershire";
+        name = "南Gloucestershire ";
         break;
         case 1354:
-        name = "South Tyneside";
+        name = "南泰恩赛德 ";
         break;
         case 1355:
-        name = "Southwark";
+        name = "南华 ";
         break;
         case 1356:
-        name = "Staffordshire";
+        name = "斯塔福德 ";
         break;
         case 1391:
-        name = "St. Helens";
+        name = "圣海伦斯 ";
         break;
         case 1392:
-        name = "Stockport";
+        name = "斯托克波特 ";
         break;
         case 1393:
-        name = "Stockton-on-Tees";
+        name = "斯托克顿三通 ";
         break;
         case 1394:
-        name = "Stoke-on-Trent";
+        name = "特伦特河畔斯托克 ";
         break;
         case 1395:
-        name = "Suffolk";
+        name = "萨福克 ";
         break;
         case 1396:
-        name = "Sunderland";
+        name = "桑德兰 ";
         break;
         case 1397:
-        name = "Surrey";
+        name = "萨里 ";
         break;
         case 1398:
-        name = "Sutton";
+        name = "萨顿 ";
         break;
         case 1399:
-        name = "Swindon";
+        name = "斯温顿 ";
         break;
         case 1434:
-        name = "Tameside";
+        name = "泰晤士 ";
         break;
         case 1435:
-        name = "Telford and Wrekin";
+        name = "德福和Wrekin ";
         break;
         case 1436:
-        name = "Thurrock";
+        name = "瑟罗克 ";
         break;
         case 1437:
-        name = "Torbay";
+        name = "托贝 ";
         break;
         case 1438:
-        name = "Tower Hamlets";
+        name = "伦敦塔桥 ";
         break;
         case 1439:
-        name = "Trafford";
+        name = "老特拉福德 ";
         break;
         case 1440:
-        name = "Wakefield";
+        name = "韦克菲尔德 ";
         break;
         case 1441:
-        name = "Walsall";
+        name = "沃尔索尔 ";
         break;
         case 1442:
-        name = "Waltham Forest";
+        name = "沃尔瑟姆森林 ";
         break;
         case 1477:
-        name = "Wandsworth";
+        name = "旺兹沃思 ";
         break;
         case 1478:
-        name = "Warrington";
+        name = "沃灵顿 ";
         break;
         case 1479:
-        name = "Warwickshire";
+        name = "沃里克郡 ";
         break;
         case 1480:
-        name = "West Berkshire";
+        name = "西伯克希尔 ";
         break;
         case 1481:
-        name = "Westminster";
+        name = "威斯敏斯特 ";
         break;
         case 1482:
-        name = "West Sussex";
+        name = "西萨塞克斯 ";
         break;
         case 1483:
-        name = "Wigan";
+        name = "维冈 ";
         break;
         case 1484:
-        name = "Wiltshire";
+        name = "威尔特 ";
         break;
         case 1485:
-        name = "Windsor and Maidenhead";
+        name = "温莎和梅登黑德 ";
         break;
         case 1520:
-        name = "Wirral";
+        name = "威罗 ";
         break;
         case 1521:
-        name = "Wokingham";
+        name = "沃金厄姆 ";
         break;
         case 1522:
-        name = "Wolverhampton";
+        name = "伍尔弗汉普顿 ";
         break;
         case 1523:
-        name = "Worcestershire";
+        name = "伍斯特郡 ";
         break;
         case 1524:
-        name = "York";
+        name = "纽约 ";
         break;
         case 1525:
-        name = "Antrim";
+        name = "安特里姆 ";
         break;
         case 1526:
-        name = "Ards";
+        name = "阿兹 ";
         break;
         case 1527:
-        name = "Armagh";
+        name = "阿马 ";
         break;
         case 1528:
-        name = "Ballymena";
+        name = "巴利米纳 ";
         break;
         case 1563:
-        name = "Ballymoney";
+        name = "巴利马尼 ";
         break;
         case 1564:
-        name = "Banbridge";
+        name = "班布里奇 ";
         break;
         case 1565:
-        name = "Belfast";
+        name = "贝尔法斯特 ";
         break;
         case 1566:
-        name = "Carrickfergus";
+        name = "卡里克弗格斯 ";
         break;
         case 1567:
-        name = "Castlereagh";
+        name = "卡斯尔雷 ";
         break;
         case 1568:
-        name = "Coleraine";
+        name = "利宁 ";
         break;
         case 1569:
-        name = "Cookstown";
+        name = "库克斯敦 ";
         break;
         case 1570:
-        name = "Craigavon";
+        name = "克雷加文 ";
         break;
         case 1571:
-        name = "Down";
+        name = "下 ";
         break;
         case 1606:
-        name = "Dungannon";
+        name = "邓甘嫩 ";
         break;
         case 1607:
-        name = "Fermanagh";
+        name = "弗马纳 ";
         break;
         case 1608:
-        name = "Larne";
+        name = "拉恩 ";
         break;
         case 1609:
-        name = "Limavady";
+        name = "科马瓦迪 ";
         break;
         case 1610:
-        name = "Lisburn";
+        name = "利斯 ";
         break;
         case 1611:
-        name = "Derry";
+        name = "歌谣 ";
         break;
         case 1612:
-        name = "Magherafelt";
+        name = "马拉费尔特 ";
         break;
         case 1613:
-        name = "Moyle";
+        name = "莫伊尔 ";
         break;
         case 1614:
-        name = "Newry and Mourne";
+        name = "纽里和莫恩 ";
         break;
         case 1649:
-        name = "Newtownabbey";
+        name = "纽敦阿比 ";
         break;
         case 1650:
-        name = "North Down";
+        name = "北唐 ";
         break;
         case 1651:
-        name = "Omagh";
+        name = "奥马 ";
         break;
         case 1652:
-        name = "Strabane";
+        name = "斯特拉班 ";
         break;
         case 1653:
-        name = "Aberdeen City";
+        name = "阿伯丁市 ";
         break;
         case 1654:
-        name = "Aberdeenshire";
+        name = "阿伯丁 ";
         break;
         case 1655:
-        name = "Angus";
+        name = "安格斯 ";
         break;
         case 1656:
-        name = "Argyll and Bute";
+        name = "阿盖尔 ";
         break;
         case 1657:
-        name = "Scottish Borders";
+        name = "苏格兰边界 ";
         break;
         case 1692:
-        name = "Clackmannanshire";
+        name = "克拉克曼南 ";
         break;
         case 1693:
-        name = "Dumfries and Galloway";
+        name = "邓弗里斯和加洛韦 ";
         break;
         case 1694:
-        name = "Dundee City";
+        name = "邓迪市 ";
         break;
         case 1695:
-        name = "East Ayrshire";
+        name = "东艾尔郡 ";
         break;
         case 1696:
-        name = "East Dunbartonshire";
+        name = "东邓巴顿郡 ";
         break;
         case 1697:
-        name = "East Lothian";
+        name = "东洛锡安 ";
         break;
         case 1698:
-        name = "East Renfrewshire";
+        name = "东伦弗鲁 ";
         break;
         case 1699:
-        name = "Edinburgh";
+        name = "爱丁堡 ";
         break;
         case 1700:
-        name = "Falkirk";
+        name = "福尔柯克 ";
         break;
         case 1735:
-        name = "Fife";
+        name = "龠 ";
         break;
         case 1736:
-        name = "Glasgow City";
+        name = "格拉斯哥市 ";
         break;
         case 1737:
-        name = "Highland";
+        name = "高原 ";
         break;
         case 1738:
-        name = "Inverclyde";
+        name = "因弗克莱德 ";
         break;
         case 1739:
-        name = "Midlothian";
+        name = "洛锡安 ";
         break;
         case 1740:
-        name = "Moray";
+        name = "马里 ";
         break;
         case 1741:
-        name = "North Ayrshire";
+        name = "北艾尔郡 ";
         break;
         case 1742:
-        name = "North Lanarkshire";
+        name = "北拉纳克郡 ";
         break;
         case 1743:
-        name = "Orkney";
+        name = "奥克尼 ";
         break;
         case 1778:
-        name = "Perth and Kinross";
+        name = "珀斯和金罗斯 ";
         break;
         case 1779:
-        name = "Renfrewshire";
+        name = "伦弗鲁郡 ";
         break;
         case 1780:
-        name = "Shetland Islands";
+        name = "设得兰群岛 ";
         break;
         case 1781:
-        name = "South Ayrshire";
+        name = "南艾尔郡 ";
         break;
         case 1782:
-        name = "South Lanarkshire";
+        name = "苏格兰 ";
         break;
         case 1783:
-        name = "Stirling";
+        name = "斯特林 ";
         break;
         case 1784:
-        name = "West Dunbartonshire";
+        name = "西邓巴顿郡 ";
         break;
         case 1785:
-        name = "Eilean Siar";
+        name = "锡尔岛区 ";
         break;
         case 1786:
-        name = "West Lothian";
+        name = "西洛锡安 ";
         break;
         case 1821:
-        name = "Isle of Anglesey";
+        name = "安格尔西岛 ";
         break;
         case 1822:
-        name = "Blaenau Gwent";
+        name = "旅游Blaenau格温特的 ";
         break;
         case 1823:
-        name = "Bridgend";
+        name = "布里 ";
         break;
         case 1824:
-        name = "Caerphilly";
+        name = "卡菲利 ";
         break;
         case 1825:
-        name = "Cardiff";
+        name = "加的夫 ";
         break;
         case 1826:
-        name = "Ceredigion";
+        name = "锡尔迪 ";
         break;
         case 1827:
-        name = "Carmarthenshire";
+        name = "卡马森郡 ";
         break;
         case 1828:
-        name = "Conwy";
+        name = "康威 ";
         break;
         case 1829:
-        name = "Denbighshire";
+        name = "登比郡 ";
         break;
         case 1864:
-        name = "Flintshire";
+        name = "弗林特 ";
         break;
         case 1865:
-        name = "Gwynedd";
+        name = "圭内斯 ";
         break;
         case 1866:
-        name = "Merthyr Tydfil";
+        name = "麦瑟提维 ";
         break;
         case 1867:
-        name = "Monmouthshire";
+        name = "格洛斯特郡 ";
         break;
         case 1868:
-        name = "Neath Port Talbot";
+        name = "尼思塔尔伯特港 ";
         break;
         case 1869:
-        name = "Newport";
+        name = "新港 ";
         break;
         case 1870:
-        name = "Pembrokeshire";
+        name = "彭布罗克郡 ";
         break;
         case 1871:
-        name = "Powys";
+        name = "波伊斯 ";
         break;
         case 1872:
-        name = "Rhondda Cynon Taff";
+        name = "朗达卡农塔夫 ";
         break;
         case 1907:
-        name = "Swansea";
+        name = "斯旺西 ";
         break;
         case 1908:
-        name = "Torfaen";
+        name = "托法恩 ";
         break;
         case 1909:
-        name = "Vale of Glamorgan";
+        name = "格拉摩根谷 ";
         break;
         case 1910:
-        name = "Wrexham";
+        name = "雷克瑟姆 ";
         break;
       }
     }
     if (country_code.equals("GD") == true) {
       switch (region_code2) {
         case 1:
-        name = "Saint Andrew";
+        name = "圣安德鲁 ";
         break;
         case 2:
-        name = "Saint David";
+        name = "圣大卫 ";
         break;
         case 3:
-        name = "Saint George";
+        name = "圣乔治 ";
         break;
         case 4:
-        name = "Saint John";
+        name = "圣约翰 ";
         break;
         case 5:
-        name = "Saint Mark";
+        name = "圣马克 ";
         break;
         case 6:
-        name = "Saint Patrick";
+        name = "圣帕特里克节 ";
         break;
       }
     }
     if (country_code.equals("GE") == true) {
       switch (region_code2) {
         case 1:
-        name = "Abashis Raioni";
+        name = "Abashis Raioni ";
         break;
         case 2:
-        name = "Abkhazia";
+        name = "阿布哈兹 ";
         break;
         case 3:
-        name = "Adigenis Raioni";
+        name = "Adigenis Raioni ";
         break;
         case 4:
-        name = "Ajaria";
+        name = "阿扎尔 ";
         break;
         case 5:
-        name = "Akhalgoris Raioni";
+        name = "Akhalgoris Raioni ";
         break;
         case 6:
-        name = "Akhalk'alak'is Raioni";
+        name = "Akhalk'alak'is Raioni ";
         break;
         case 7:
-        name = "Akhalts'ikhis Raioni";
+        name = "Akhalts'ikhis Raioni ";
         break;
         case 8:
-        name = "Akhmetis Raioni";
+        name = "Akhmetis Raioni ";
         break;
         case 9:
-        name = "Ambrolauris Raioni";
+        name = "Ambrolauris Raioni ";
         break;
         case 10:
-        name = "Aspindzis Raioni";
+        name = "Aspindzis Raioni ";
         break;
         case 11:
-        name = "Baghdat'is Raioni";
+        name = "Baghdat'is Raioni ";
         break;
         case 12:
-        name = "Bolnisis Raioni";
+        name = "Bolnisis Raioni ";
         break;
         case 13:
-        name = "Borjomis Raioni";
+        name = "Borjomis Raioni ";
         break;
         case 14:
-        name = "Chiat'ura";
+        name = "Chiat'ura ";
         break;
         case 15:
-        name = "Ch'khorotsqus Raioni";
+        name = "Ch'khorotsqus Raioni ";
         break;
         case 16:
-        name = "Ch'okhatauris Raioni";
+        name = "Ch'okhatauris Raioni ";
         break;
         case 17:
-        name = "Dedop'listsqaros Raioni";
+        name = "Dedop'listsqaros Raioni ";
         break;
         case 18:
-        name = "Dmanisis Raioni";
+        name = "Dmanisis Raioni ";
         break;
         case 19:
-        name = "Dushet'is Raioni";
+        name = "Dushet'is Raioni ";
         break;
         case 20:
-        name = "Gardabanis Raioni";
+        name = "Gardabanis Raioni ";
         break;
         case 21:
-        name = "Gori";
+        name = "哥里 ";
         break;
         case 22:
-        name = "Goris Raioni";
+        name = "戈里斯Raioni的 ";
         break;
         case 23:
-        name = "Gurjaanis Raioni";
+        name = "Gurjaanis Raioni ";
         break;
         case 24:
-        name = "Javis Raioni";
+        name = "JAVIS Raioni的 ";
         break;
         case 25:
-        name = "K'arelis Raioni";
+        name = "K'arelis Raioni ";
         break;
         case 26:
-        name = "Kaspis Raioni";
+        name = "Kaspis Raioni ";
         break;
         case 27:
-        name = "Kharagaulis Raioni";
+        name = "Kharagaulis Raioni ";
         break;
         case 28:
-        name = "Khashuris Raioni";
+        name = "Khashuris Raioni ";
         break;
         case 29:
-        name = "Khobis Raioni";
+        name = "Khobis Raioni ";
         break;
         case 30:
-        name = "Khonis Raioni";
+        name = "Khonis Raioni ";
         break;
         case 31:
-        name = "K'ut'aisi";
+        name = "K'ut'aisi ";
         break;
         case 32:
-        name = "Lagodekhis Raioni";
+        name = "Lagodekhis Raioni ";
         break;
         case 33:
-        name = "Lanch'khut'is Raioni";
+        name = "Lanch'khut'is Raioni ";
         break;
         case 34:
-        name = "Lentekhis Raioni";
+        name = "Lentekhis Raioni ";
         break;
         case 35:
-        name = "Marneulis Raioni";
+        name = "Marneulis Raioni ";
         break;
         case 36:
-        name = "Martvilis Raioni";
+        name = "Martvilis Raioni ";
         break;
         case 37:
-        name = "Mestiis Raioni";
+        name = "Mestiis Raioni ";
         break;
         case 38:
-        name = "Mts'khet'is Raioni";
+        name = "Mts'khet'is Raioni ";
         break;
         case 39:
-        name = "Ninotsmindis Raioni";
+        name = "Ninotsmindis Raioni ";
         break;
         case 40:
-        name = "Onis Raioni";
+        name = "特里萨Raioni的 ";
         break;
         case 41:
-        name = "Ozurget'is Raioni";
+        name = "Ozurget'is Raioni ";
         break;
         case 42:
-        name = "P'ot'i";
+        name = "P'ot'i ";
         break;
         case 43:
-        name = "Qazbegis Raioni";
+        name = "Qazbegis Raioni ";
         break;
         case 44:
-        name = "Qvarlis Raioni";
+        name = "Qvarlis Raioni ";
         break;
         case 45:
-        name = "Rust'avi";
+        name = "Rust'avi ";
         break;
         case 46:
-        name = "Sach'kheris Raioni";
+        name = "Sach'kheris Raioni ";
         break;
         case 47:
-        name = "Sagarejos Raioni";
+        name = "Sagarejos Raioni ";
         break;
         case 48:
-        name = "Samtrediis Raioni";
+        name = "Samtrediis Raioni ";
         break;
         case 49:
-        name = "Senakis Raioni";
+        name = "Senakis Raioni ";
         break;
         case 50:
-        name = "Sighnaghis Raioni";
+        name = "Sighnaghis Raioni ";
         break;
         case 51:
-        name = "T'bilisi";
+        name = "第比利斯 ";
         break;
         case 52:
-        name = "T'elavis Raioni";
+        name = "T'elavis Raioni ";
         break;
         case 53:
-        name = "T'erjolis Raioni";
+        name = "T'erjolis Raioni ";
         break;
         case 54:
-        name = "T'et'ritsqaros Raioni";
+        name = "T'et'ritsqaros Raioni ";
         break;
         case 55:
-        name = "T'ianet'is Raioni";
+        name = "T'ianet'is Raioni ";
         break;
         case 56:
-        name = "Tqibuli";
+        name = "Tqibuli ";
         break;
         case 57:
-        name = "Ts'ageris Raioni";
+        name = "Ts'ageris Raioni ";
         break;
         case 58:
-        name = "Tsalenjikhis Raioni";
+        name = "Tsalenjikhis Raioni ";
         break;
         case 59:
-        name = "Tsalkis Raioni";
+        name = "Tsalkis Raioni ";
         break;
         case 60:
-        name = "Tsqaltubo";
+        name = "Tsqaltubo ";
         break;
         case 61:
-        name = "Vanis Raioni";
+        name = "Vanis Raioni ";
         break;
         case 62:
-        name = "Zestap'onis Raioni";
+        name = "Zestap'onis Raioni ";
         break;
         case 63:
-        name = "Zugdidi";
+        name = "祖格迪迪 ";
         break;
         case 64:
-        name = "Zugdidis Raioni";
+        name = "Zugdidis Raioni ";
         break;
       }
     }
     if (country_code.equals("GH") == true) {
       switch (region_code2) {
         case 1:
-        name = "Greater Accra";
+        name = "大阿克拉 ";
         break;
         case 2:
-        name = "Ashanti";
+        name = "阿散蒂 ";
         break;
         case 3:
-        name = "Brong-Ahafo";
+        name = "布朗阿哈福 ";
         break;
         case 4:
-        name = "Central";
+        name = "中央 ";
         break;
         case 5:
-        name = "Eastern";
+        name = "东 ";
         break;
         case 6:
-        name = "Northern";
+        name = "北方 ";
         break;
         case 8:
-        name = "Volta";
+        name = "沃尔 ";
         break;
         case 9:
-        name = "Western";
+        name = "西 ";
         break;
         case 10:
-        name = "Upper East";
+        name = "上东区 ";
         break;
         case 11:
-        name = "Upper West";
+        name = "上西区 ";
         break;
       }
     }
     if (country_code.equals("GL") == true) {
       switch (region_code2) {
         case 1:
-        name = "Nordgronland";
+        name = "Nordgronland ";
         break;
         case 2:
-        name = "Ostgronland";
+        name = "Ostgronland ";
         break;
         case 3:
-        name = "Vestgronland";
+        name = "Vestgronland ";
         break;
       }
     }
     if (country_code.equals("GM") == true) {
       switch (region_code2) {
         case 1:
-        name = "Banjul";
+        name = "班珠尔 ";
         break;
         case 2:
-        name = "Lower River";
+        name = "下河 ";
         break;
         case 3:
-        name = "Central River";
+        name = "环江 ";
         break;
         case 4:
-        name = "Upper River";
+        name = "上河 ";
         break;
         case 5:
-        name = "Western";
+        name = "西 ";
         break;
         case 7:
-        name = "North Bank";
+        name = "北岸 ";
         break;
       }
     }
     if (country_code.equals("GN") == true) {
       switch (region_code2) {
         case 1:
-        name = "Beyla";
+        name = "Beyla ";
         break;
         case 2:
-        name = "Boffa";
+        name = "博法 ";
         break;
         case 3:
-        name = "Boke";
+        name = "博凯 ";
         break;
         case 4:
-        name = "Conakry";
+        name = "科纳克里 ";
         break;
         case 5:
-        name = "Dabola";
+        name = "达博拉 ";
         break;
         case 6:
-        name = "Dalaba";
+        name = "达拉巴 ";
         break;
         case 7:
-        name = "Dinguiraye";
+        name = "丁吉拉伊 ";
         break;
         case 9:
-        name = "Faranah";
+        name = "法拉纳 ";
         break;
         case 10:
-        name = "Forecariah";
+        name = "福雷卡里亚 ";
         break;
         case 11:
-        name = "Fria";
+        name = "弗里亚 ";
         break;
         case 12:
-        name = "Gaoual";
+        name = "加瓦尔 ";
         break;
         case 13:
-        name = "Gueckedou";
+        name = "盖凯杜 ";
         break;
         case 15:
-        name = "Kerouane";
+        name = "凯鲁阿 ";
         break;
         case 16:
-        name = "Kindia";
+        name = "金迪亚 ";
         break;
         case 17:
-        name = "Kissidougou";
+        name = "基西杜古 ";
         break;
         case 18:
-        name = "Koundara";
+        name = "孔达拉 ";
         break;
         case 19:
-        name = "Kouroussa";
+        name = "库鲁萨 ";
         break;
         case 21:
-        name = "Macenta";
+        name = "马森塔 ";
         break;
         case 22:
-        name = "Mali";
+        name = "马里 ";
         break;
         case 23:
-        name = "Mamou";
+        name = "马木 ";
         break;
         case 25:
-        name = "Pita";
+        name = "皮塔 ";
         break;
         case 27:
-        name = "Telimele";
+        name = "泰利梅莱 ";
         break;
         case 28:
-        name = "Tougue";
+        name = "舌状 ";
         break;
         case 29:
-        name = "Yomou";
+        name = "约穆 ";
         break;
         case 30:
-        name = "Coyah";
+        name = "科亚 ";
         break;
         case 31:
-        name = "Dubreka";
+        name = "杜布雷卡 ";
         break;
         case 32:
-        name = "Kankan";
+        name = "康康 ";
         break;
         case 33:
-        name = "Koubia";
+        name = "库比亚 ";
         break;
         case 34:
-        name = "Labe";
+        name = "拉贝 ";
         break;
         case 35:
-        name = "Lelouma";
+        name = "莱卢马 ";
         break;
         case 36:
-        name = "Lola";
+        name = "萝拉 ";
         break;
         case 37:
-        name = "Mandiana";
+        name = "芒加纳 ";
         break;
         case 38:
-        name = "Nzerekore";
+        name = "恩泽雷科雷 ";
         break;
         case 39:
-        name = "Siguiri";
+        name = "锡吉里 ";
         break;
       }
     }
     if (country_code.equals("GQ") == true) {
       switch (region_code2) {
         case 3:
-        name = "Annobon";
+        name = "安诺本岛 ";
         break;
         case 4:
-        name = "Bioko Norte";
+        name = "北比奥科 ";
         break;
         case 5:
-        name = "Bioko Sur";
+        name = "南比奥科 ";
         break;
         case 6:
-        name = "Centro Sur";
+        name = "中南部地区 ";
         break;
         case 7:
-        name = "Kie-Ntem";
+        name = "祺恩特姆的 ";
         break;
         case 8:
-        name = "Litoral";
+        name = "滨海 ";
         break;
         case 9:
-        name = "Wele-Nzas";
+        name = "韦莱 - 恩萨斯的 ";
         break;
       }
     }
     if (country_code.equals("GR") == true) {
       switch (region_code2) {
         case 1:
-        name = "Evros";
+        name = "埃夫罗斯 ";
         break;
         case 2:
-        name = "Rodhopi";
+        name = "Rodhopi ";
         break;
         case 3:
-        name = "Xanthi";
+        name = "萨丁 ";
         break;
         case 4:
-        name = "Drama";
+        name = "戏剧 ";
         break;
         case 5:
-        name = "Serrai";
+        name = "塞雷 ";
         break;
         case 6:
-        name = "Kilkis";
+        name = "基尔基斯 ";
         break;
         case 7:
-        name = "Pella";
+        name = "佩拉 ";
         break;
         case 8:
-        name = "Florina";
+        name = "弗洛 ";
         break;
         case 9:
-        name = "Kastoria";
+        name = "卡斯托里亚 ";
         break;
         case 10:
-        name = "Grevena";
+        name = "格雷韦纳 ";
         break;
         case 11:
-        name = "Kozani";
+        name = "科扎尼 ";
         break;
         case 12:
-        name = "Imathia";
+        name = "伊马希亚 ";
         break;
         case 13:
-        name = "Thessaloniki";
+        name = "塞萨洛尼基 ";
         break;
         case 14:
-        name = "Kavala";
+        name = "卡瓦拉 ";
         break;
         case 15:
-        name = "Khalkidhiki";
+        name = "Khalkidhiki ";
         break;
         case 16:
-        name = "Pieria";
+        name = "皮耶利亚 ";
         break;
         case 17:
-        name = "Ioannina";
+        name = "约阿尼纳 ";
         break;
         case 18:
-        name = "Thesprotia";
+        name = "科孚 ";
         break;
         case 19:
-        name = "Preveza";
+        name = "普利维扎 ";
         break;
         case 20:
-        name = "Arta";
+        name = "阿尔塔 ";
         break;
         case 21:
-        name = "Larisa";
+        name = "拉里莎 ";
         break;
         case 22:
-        name = "Trikala";
+        name = "特里卡拉 ";
         break;
         case 23:
-        name = "Kardhitsa";
+        name = "Kardhitsa ";
         break;
         case 24:
-        name = "Magnisia";
+        name = "马格尼西亚 ";
         break;
         case 25:
-        name = "Kerkira";
+        name = "克基拉 ";
         break;
         case 26:
-        name = "Levkas";
+        name = "雷夫卡达 ";
         break;
         case 27:
-        name = "Kefallinia";
+        name = "凯法利尼亚岛的 ";
         break;
         case 28:
-        name = "Zakinthos";
+        name = "罗得 ";
         break;
         case 29:
-        name = "Fthiotis";
+        name = "弗西奥蒂斯 ";
         break;
         case 30:
-        name = "Evritania";
+        name = "Evritania ";
         break;
         case 31:
-        name = "Aitolia kai Akarnania";
+        name = "埃托利亚偕阿卡纳尼亚 ";
         break;
         case 32:
-        name = "Fokis";
+        name = "福基斯 ";
         break;
         case 33:
-        name = "Voiotia";
+        name = "Voiotia ";
         break;
         case 34:
-        name = "Evvoia";
+        name = "Evvoia ";
         break;
         case 35:
-        name = "Attiki";
+        name = "阿提卡 ";
         break;
         case 36:
-        name = "Argolis";
+        name = "阿尔戈利斯 ";
         break;
         case 37:
-        name = "Korinthia";
+        name = "科林斯 ";
         break;
         case 38:
-        name = "Akhaia";
+        name = "Akhaia ";
         break;
         case 39:
-        name = "Ilia";
+        name = "伊利亚 ";
         break;
         case 40:
-        name = "Messinia";
+        name = "麦锡尼 ";
         break;
         case 41:
-        name = "Arkadhia";
+        name = "Arkadhia ";
         break;
         case 42:
-        name = "Lakonia";
+        name = "拉科尼亚 ";
         break;
         case 43:
-        name = "Khania";
+        name = "尼亚 ";
         break;
         case 44:
-        name = "Rethimni";
+        name = "Rethimni ";
         break;
         case 45:
-        name = "Iraklion";
+        name = "伊拉克利翁 ";
         break;
         case 46:
-        name = "Lasithi";
+        name = "拉希提 ";
         break;
         case 47:
-        name = "Dhodhekanisos";
+        name = "Dhodhekanisos ";
         break;
         case 48:
-        name = "Samos";
+        name = "萨莫斯 ";
         break;
         case 49:
-        name = "Kikladhes";
+        name = "Kikladhes ";
         break;
         case 50:
-        name = "Khios";
+        name = "Khios ";
         break;
         case 51:
-        name = "Lesvos";
+        name = "莱斯沃斯 ";
         break;
       }
     }
     if (country_code.equals("GT") == true) {
       switch (region_code2) {
         case 1:
-        name = "Alta Verapaz";
+        name = "上韦拉帕斯 ";
         break;
         case 2:
-        name = "Baja Verapaz";
+        name = "下韦拉帕斯 ";
         break;
         case 3:
-        name = "Chimaltenango";
+        name = "奇马尔特南戈 ";
         break;
         case 4:
-        name = "Chiquimula";
+        name = "奇基穆拉 ";
         break;
         case 5:
-        name = "El Progreso";
+        name = "普罗格雷索 ";
         break;
         case 6:
-        name = "Escuintla";
+        name = "埃斯昆特拉 ";
         break;
         case 7:
-        name = "Guatemala";
+        name = "危地马拉 ";
         break;
         case 8:
-        name = "Huehuetenango";
+        name = "韦韦特南戈 ";
         break;
         case 9:
-        name = "Izabal";
+        name = "伊萨瓦尔 ";
         break;
         case 10:
-        name = "Jalapa";
+        name = "哈拉帕 ";
         break;
         case 11:
-        name = "Jutiapa";
+        name = "胡蒂亚帕 ";
         break;
         case 12:
-        name = "Peten";
+        name = "佩滕 ";
         break;
         case 13:
-        name = "Quetzaltenango";
+        name = "克萨尔特南 ";
         break;
         case 14:
-        name = "Quiche";
+        name = "基切 ";
         break;
         case 15:
-        name = "Retalhuleu";
+        name = "雷塔卢莱乌 ";
         break;
         case 16:
-        name = "Sacatepequez";
+        name = "萨卡特佩克斯 ";
         break;
         case 17:
-        name = "San Marcos";
+        name = "圣马科斯 ";
         break;
         case 18:
-        name = "Santa Rosa";
+        name = "圣罗莎 ";
         break;
         case 19:
-        name = "Solola";
+        name = "索洛拉 ";
         break;
         case 20:
-        name = "Suchitepequez";
+        name = "苏奇特佩克斯 ";
         break;
         case 21:
-        name = "Totonicapan";
+        name = "托托尼卡潘 ";
         break;
         case 22:
-        name = "Zacapa";
+        name = "萨卡帕 ";
         break;
       }
     }
     if (country_code.equals("GW") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bafata";
+        name = "巴法塔 ";
         break;
         case 2:
-        name = "Quinara";
+        name = "基纳拉 ";
         break;
         case 4:
-        name = "Oio";
+        name = "奥约 ";
         break;
         case 5:
-        name = "Bolama";
+        name = "博拉马 ";
         break;
         case 6:
-        name = "Cacheu";
+        name = "卡谢乌 ";
         break;
         case 7:
-        name = "Tombali";
+        name = "巴利 ";
         break;
         case 10:
-        name = "Gabu";
+        name = "加布 ";
         break;
         case 11:
-        name = "Bissau";
+        name = "几内亚比绍 ";
         break;
         case 12:
-        name = "Biombo";
+        name = "比翁博 ";
         break;
       }
     }
     if (country_code.equals("GY") == true) {
       switch (region_code2) {
         case 10:
-        name = "Barima-Waini";
+        name = "巴里马瓦伊尼 ";
         break;
         case 11:
-        name = "Cuyuni-Mazaruni";
+        name = "库尤尼马扎鲁尼 ";
         break;
         case 12:
-        name = "Demerara-Mahaica";
+        name = "德梅拉拉马海卡的 ";
         break;
         case 13:
-        name = "East Berbice-Corentyne";
+        name = "东伯比斯科兰太因 ";
         break;
         case 14:
-        name = "Essequibo Islands-West Demerara";
+        name = "埃塞奎博群岛 - 西德梅拉拉 ";
         break;
         case 15:
-        name = "Mahaica-Berbice";
+        name = "马海卡伯比斯 ";
         break;
         case 16:
-        name = "Pomeroon-Supenaam";
+        name = "波默伦苏佩纳姆 ";
         break;
         case 17:
-        name = "Potaro-Siparuni";
+        name = "波塔罗锡帕鲁尼的 ";
         break;
         case 18:
-        name = "Upper Demerara-Berbice";
+        name = "上德梅拉拉伯比斯的 ";
         break;
         case 19:
-        name = "Upper Takutu-Upper Essequibo";
+        name = "上塔库图 - 上埃塞奎博 ";
         break;
       }
     }
     if (country_code.equals("HN") == true) {
       switch (region_code2) {
         case 1:
-        name = "Atlantida";
+        name = "阿特兰蒂达 ";
         break;
         case 2:
-        name = "Choluteca";
+        name = "乔卢特卡 ";
         break;
         case 3:
-        name = "Colon";
+        name = "冒号 ";
         break;
         case 4:
-        name = "Comayagua";
+        name = "科马亚瓜 ";
         break;
         case 5:
-        name = "Copan";
+        name = "科潘 ";
         break;
         case 6:
-        name = "Cortes";
+        name = "科尔特斯 ";
         break;
         case 7:
-        name = "El Paraiso";
+        name = "帕拉伊索 ";
         break;
         case 8:
-        name = "Francisco Morazan";
+        name = "弗朗西斯科 - 莫拉桑 ";
         break;
         case 9:
-        name = "Gracias a Dios";
+        name = "格拉西亚斯奥斯 ";
         break;
         case 10:
-        name = "Intibuca";
+        name = "因蒂布卡 ";
         break;
         case 11:
-        name = "Islas de la Bahia";
+        name = "海湾群岛 ";
         break;
         case 12:
-        name = "La Paz";
+        name = "拉巴斯 ";
         break;
         case 13:
-        name = "Lempira";
+        name = "伦皮拉 ";
         break;
         case 14:
-        name = "Ocotepeque";
+        name = "奥科特佩克 ";
         break;
         case 15:
-        name = "Olancho";
+        name = "奥兰乔 ";
         break;
         case 16:
-        name = "Santa Barbara";
+        name = "圣巴巴拉 ";
         break;
         case 17:
-        name = "Valle";
+        name = "山谷 ";
         break;
         case 18:
-        name = "Yoro";
+        name = "养老 ";
         break;
       }
     }
     if (country_code.equals("HR") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bjelovarsko-Bilogorska";
+        name = "别洛瓦尔比洛戈拉的 ";
         break;
         case 2:
-        name = "Brodsko-Posavska";
+        name = "布罗德 - 波萨维纳 ";
         break;
         case 3:
-        name = "Dubrovacko-Neretvanska";
+        name = "杜布罗夫斯克 - 内雷特瓦 ";
         break;
         case 4:
-        name = "Istarska";
+        name = "伊斯特拉 ";
         break;
         case 5:
-        name = "Karlovacka";
+        name = "卡尔洛瓦茨 ";
         break;
         case 6:
-        name = "Koprivnicko-Krizevacka";
+        name = "科普里夫尼察 - 克里热夫齐 ";
         break;
         case 7:
-        name = "Krapinsko-Zagorska";
+        name = "Krapinsko Zagorska ";
         break;
         case 8:
-        name = "Licko-Senjska";
+        name = "利奇塞尼 ";
         break;
         case 9:
-        name = "Medimurska";
+        name = "梅吉穆列 ";
         break;
         case 10:
-        name = "Osjecko-Baranjska";
+        name = "奥西耶克 - 巴兰吉斯卡的 ";
         break;
         case 11:
-        name = "Pozesko-Slavonska";
+        name = "波热加 - 斯拉沃尼亚 ";
         break;
         case 12:
-        name = "Primorsko-Goranska";
+        name = "普里莫戈兰斯卡的 ";
         break;
         case 13:
-        name = "Sibensko-Kninska";
+        name = "Sibensko - 克宁 ";
         break;
         case 14:
-        name = "Sisacko-Moslavacka";
+        name = "锡萨克 - 莫斯拉维纳 ";
         break;
         case 15:
-        name = "Splitsko-Dalmatinska";
+        name = "斯普利特 - 达尔马提亚 ";
         break;
         case 16:
-        name = "Varazdinska";
+        name = "瓦拉史汀斯卡 ";
         break;
         case 17:
-        name = "Viroviticko-Podravska";
+        name = "维罗维蒂察波德拉夫 ";
         break;
         case 18:
-        name = "Vukovarsko-Srijemska";
+        name = "武科瓦尔 - 斯里耶姆 ";
         break;
         case 19:
-        name = "Zadarska";
+        name = "Zadarska ";
         break;
         case 20:
-        name = "Zagrebacka";
+        name = "Zagrebacka街 ";
         break;
         case 21:
-        name = "Grad Zagreb";
+        name = "萨格勒布 ";
         break;
       }
     }
     if (country_code.equals("HT") == true) {
       switch (region_code2) {
         case 3:
-        name = "Nord-Ouest";
+        name = "西北省 ";
         break;
         case 6:
-        name = "Artibonite";
+        name = "阿蒂博尼特 ";
         break;
         case 7:
-        name = "Centre";
+        name = "中心 ";
         break;
         case 9:
-        name = "Nord";
+        name = "北 ";
         break;
         case 10:
-        name = "Nord-Est";
+        name = "北EST ";
         break;
         case 11:
-        name = "Ouest";
+        name = "西部省 ";
         break;
         case 12:
-        name = "Sud";
+        name = "南基 ";
         break;
         case 13:
-        name = "Sud-Est";
+        name = "SUD-EST ";
         break;
         case 14:
-        name = "Grand' Anse";
+        name = "安塞 ";
         break;
         case 15:
-        name = "Nippes";
+        name = "尼佩斯 ";
         break;
       }
     }
     if (country_code.equals("HU") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bacs-Kiskun";
+        name = "巴奇 - 基什孔州 ";
         break;
         case 2:
-        name = "Baranya";
+        name = "巴兰尼 ";
         break;
         case 3:
-        name = "Bekes";
+        name = "贝凯什 ";
         break;
         case 4:
-        name = "Borsod-Abauj-Zemplen";
+        name = "包尔绍德 - 奥包乌伊 - 曾普伦州 ";
         break;
         case 5:
-        name = "Budapest";
+        name = "布达佩斯 ";
         break;
         case 6:
-        name = "Csongrad";
+        name = "琼格拉德 ";
         break;
         case 7:
-        name = "Debrecen";
+        name = "德布勒森 ";
         break;
         case 8:
-        name = "Fejer";
+        name = "费耶尔 ";
         break;
         case 9:
-        name = "Gyor-Moson-Sopron";
+        name = "杰尔 - 莫松 - 肖普朗 ";
         break;
         case 10:
-        name = "Hajdu-Bihar";
+        name = "豪伊杜 - 比 ";
         break;
         case 11:
-        name = "Heves";
+        name = "赫维什 ";
         break;
         case 12:
-        name = "Komarom-Esztergom";
+        name = "科马罗姆 - 埃斯泰尔戈姆 ";
         break;
         case 13:
-        name = "Miskolc";
+        name = "米什科尔茨 ";
         break;
         case 14:
-        name = "Nograd";
+        name = "诺格拉德 ";
         break;
         case 15:
-        name = "Pecs";
+        name = "佩奇 ";
         break;
         case 16:
-        name = "Pest";
+        name = "害虫 ";
         break;
         case 17:
-        name = "Somogy";
+        name = "绍莫吉 ";
         break;
         case 18:
-        name = "Szabolcs-Szatmar-Bereg";
+        name = "索博尔奇 - 索特马尔贝瑞格的 ";
         break;
         case 19:
-        name = "Szeged";
+        name = "塞格德 ";
         break;
         case 20:
-        name = "Jasz-Nagykun-Szolnok";
+        name = "亚斯 - 纳杰孔 - 索尔诺克 ";
         break;
         case 21:
-        name = "Tolna";
+        name = "托尔瑙 ";
         break;
         case 22:
-        name = "Vas";
+        name = "沃什 ";
         break;
         case 23:
-        name = "Veszprem";
+        name = "维斯普雷姆 ";
         break;
         case 24:
-        name = "Zala";
+        name = "砸落 ";
         break;
         case 25:
-        name = "Gyor";
+        name = "杰尔 ";
         break;
         case 26:
-        name = "Bekescsaba";
+        name = "贝凯什乔包 ";
         break;
         case 27:
-        name = "Dunaujvaros";
+        name = "多瑙新城 ";
         break;
         case 28:
-        name = "Eger";
+        name = "埃格尔 ";
         break;
         case 29:
-        name = "Hodmezovasarhely";
+        name = "霍德梅泽瓦沙海伊 ";
         break;
         case 30:
-        name = "Kaposvar";
+        name = "卡伯司瓦 ";
         break;
         case 31:
-        name = "Kecskemet";
+        name = "凯奇凯梅特 ";
         break;
         case 32:
-        name = "Nagykanizsa";
+        name = "瑙吉考尼饶 ";
         break;
         case 33:
-        name = "Nyiregyhaza";
+        name = "尼赖吉哈佐 ";
         break;
         case 34:
-        name = "Sopron";
+        name = "索普隆 ";
         break;
         case 35:
-        name = "Szekesfehervar";
+        name = "塞克什白堡 ";
         break;
         case 36:
-        name = "Szolnok";
+        name = "索尔诺克 ";
         break;
         case 37:
-        name = "Szombathely";
+        name = "松博特海伊 ";
         break;
         case 38:
-        name = "Tatabanya";
+        name = "陶陶巴尼奥 ";
         break;
         case 39:
-        name = "Veszprem";
+        name = "维斯普雷姆 ";
         break;
         case 40:
-        name = "Zalaegerszeg";
+        name = "佐洛埃格塞格 ";
         break;
         case 41:
-        name = "Salgotarjan";
+        name = "绍尔戈陶尔扬 ";
         break;
         case 42:
-        name = "Szekszard";
+        name = "赛克萨德 ";
         break;
       }
     }
     if (country_code.equals("ID") == true) {
       switch (region_code2) {
         case 1:
-        name = "Aceh";
+        name = "亚齐 ";
         break;
         case 2:
-        name = "Bali";
+        name = "巴厘岛 ";
         break;
         case 3:
-        name = "Bengkulu";
+        name = "明古鲁 ";
         break;
         case 4:
-        name = "Jakarta Raya";
+        name = "雅加达 ";
         break;
         case 5:
-        name = "Jambi";
+        name = "占碑 ";
         break;
         case 6:
-        name = "Jawa Barat";
+        name = "西爪哇 ";
         break;
         case 7:
-        name = "Jawa Tengah";
+        name = "中爪哇 ";
         break;
         case 8:
-        name = "Jawa Timur";
+        name = "东爪哇 ";
         break;
         case 9:
-        name = "Papua";
+        name = "巴布亚 ";
         break;
         case 10:
-        name = "Yogyakarta";
+        name = "日惹 ";
         break;
         case 11:
-        name = "Kalimantan Barat";
+        name = "西加里曼丹 ";
         break;
         case 12:
-        name = "Kalimantan Selatan";
+        name = "南加里曼丹 ";
         break;
         case 13:
-        name = "Kalimantan Tengah";
+        name = "中加里曼丹 ";
         break;
         case 14:
-        name = "Kalimantan Timur";
+        name = "东加里曼丹 ";
         break;
         case 15:
-        name = "Lampung";
+        name = "楠榜 ";
         break;
         case 16:
-        name = "Maluku";
+        name = "马鲁古 ";
         break;
         case 17:
-        name = "Nusa Tenggara Barat";
+        name = "西努沙登加拉 ";
         break;
         case 18:
-        name = "Nusa Tenggara Timur";
+        name = "东努沙登加拉 ";
         break;
         case 19:
-        name = "Riau";
+        name = "廖 ";
         break;
         case 20:
-        name = "Sulawesi Selatan";
+        name = "南苏拉威西 ";
         break;
         case 21:
-        name = "Sulawesi Tengah";
+        name = "中苏拉威西 ";
         break;
         case 22:
-        name = "Sulawesi Tenggara";
+        name = "东南苏拉威西 ";
         break;
         case 23:
-        name = "Sulawesi Utara";
+        name = "北苏拉威西 ";
         break;
         case 24:
-        name = "Sumatera Barat";
+        name = "西苏门答腊 ";
         break;
         case 25:
-        name = "Sumatera Selatan";
+        name = "南苏门答腊 ";
         break;
         case 26:
-        name = "Sumatera Utara";
+        name = "北苏门答腊 ";
         break;
         case 28:
-        name = "Maluku";
+        name = "马鲁古 ";
         break;
         case 29:
-        name = "Maluku Utara";
+        name = "北马鲁古 ";
         break;
         case 30:
-        name = "Jawa Barat";
+        name = "西爪哇 ";
         break;
         case 31:
-        name = "Sulawesi Utara";
+        name = "北苏拉威西 ";
         break;
         case 32:
-        name = "Sumatera Selatan";
+        name = "南苏门答腊 ";
         break;
         case 33:
-        name = "Banten";
+        name = "万丹 ";
         break;
         case 34:
-        name = "Gorontalo";
+        name = "哥伦打洛 ";
         break;
         case 35:
-        name = "Kepulauan Bangka Belitung";
+        name = "邦加勿里洞Kepulauan ";
         break;
         case 36:
-        name = "Papua";
+        name = "巴布亚 ";
         break;
         case 37:
-        name = "Riau";
+        name = "廖 ";
         break;
         case 38:
-        name = "Sulawesi Selatan";
+        name = "南苏拉威西 ";
         break;
         case 39:
-        name = "Irian Jaya Barat";
+        name = "伊里安查亚巴拉特 ";
         break;
         case 40:
-        name = "Kepulauan Riau";
+        name = "廖内群岛 ";
         break;
         case 41:
-        name = "Sulawesi Barat";
+        name = "西苏拉威西 ";
         break;
       }
     }
     if (country_code.equals("IE") == true) {
       switch (region_code2) {
         case 1:
-        name = "Carlow";
+        name = "卡洛 ";
         break;
         case 2:
-        name = "Cavan";
+        name = "卡瓦 ";
         break;
         case 3:
-        name = "Clare";
+        name = "克莱尔 ";
         break;
         case 4:
-        name = "Cork";
+        name = "软木 ";
         break;
         case 6:
-        name = "Donegal";
+        name = "多尼戈尔 ";
         break;
         case 7:
-        name = "Dublin";
+        name = "都柏林 ";
         break;
         case 10:
-        name = "Galway";
+        name = "戈尔韦 ";
         break;
         case 11:
-        name = "Kerry";
+        name = "黑色的小乳牛 ";
         break;
         case 12:
-        name = "Kildare";
+        name = "基尔代尔 ";
         break;
         case 13:
-        name = "Kilkenny";
+        name = "基尔肯尼 ";
         break;
         case 14:
-        name = "Leitrim";
+        name = "利特里姆 ";
         break;
         case 15:
-        name = "Laois";
+        name = "崂 ";
         break;
         case 16:
-        name = "Limerick";
+        name = "五行打油诗 ";
         break;
         case 18:
-        name = "Longford";
+        name = "朗福德 ";
         break;
         case 19:
-        name = "Louth";
+        name = "劳斯 ";
         break;
         case 20:
-        name = "Mayo";
+        name = "梅奥 ";
         break;
         case 21:
-        name = "Meath";
+        name = "米斯 ";
         break;
         case 22:
-        name = "Monaghan";
+        name = "莫纳汉 ";
         break;
         case 23:
-        name = "Offaly";
+        name = "奥法利 ";
         break;
         case 24:
-        name = "Roscommon";
+        name = "罗斯康 ";
         break;
         case 25:
-        name = "Sligo";
+        name = "斯莱戈 ";
         break;
         case 26:
-        name = "Tipperary";
+        name = "蒂珀雷 ";
         break;
         case 27:
-        name = "Waterford";
+        name = "沃特福德 ";
         break;
         case 29:
-        name = "Westmeath";
+        name = "西米斯 ";
         break;
         case 30:
-        name = "Wexford";
+        name = "韦克斯福德 ";
         break;
         case 31:
-        name = "Wicklow";
+        name = "威克洛 ";
         break;
       }
     }
     if (country_code.equals("IL") == true) {
       switch (region_code2) {
         case 1:
-        name = "HaDarom";
+        name = "南部区 ";
         break;
         case 2:
-        name = "HaMerkaz";
+        name = "HaMerkaz ";
         break;
         case 3:
-        name = "HaZafon";
+        name = "HAZAFON ";
         break;
         case 4:
-        name = "Hefa";
+        name = "鹤发 ";
         break;
         case 5:
-        name = "Tel Aviv";
+        name = "特拉维夫 ";
         break;
         case 6:
-        name = "Yerushalayim";
+        name = "耶路撒冷 ";
         break;
       }
     }
     if (country_code.equals("IN") == true) {
       switch (region_code2) {
         case 1:
-        name = "Andaman and Nicobar Islands";
+        name = "安达曼和尼科巴群岛 ";
         break;
         case 2:
-        name = "Andhra Pradesh";
+        name = "安德拉邦 ";
         break;
         case 3:
-        name = "Assam";
+        name = "阿萨姆邦 ";
         break;
         case 5:
-        name = "Chandigarh";
+        name = "昌迪加尔 ";
         break;
         case 6:
-        name = "Dadra and Nagar Haveli";
+        name = "达德拉和纳加尔哈维 ";
         break;
         case 7:
-        name = "Delhi";
+        name = "新德里 ";
         break;
         case 9:
-        name = "Gujarat";
+        name = "古吉拉特邦 ";
         break;
         case 10:
-        name = "Haryana";
+        name = "哈里亚纳邦 ";
         break;
         case 11:
-        name = "Himachal Pradesh";
+        name = "喜马偕尔邦 ";
         break;
         case 12:
-        name = "Jammu and Kashmir";
+        name = "查谟和克什米尔 ";
         break;
         case 13:
-        name = "Kerala";
+        name = "喀拉拉邦 ";
         break;
         case 14:
-        name = "Lakshadweep";
+        name = "拉克沙群岛 ";
         break;
         case 16:
-        name = "Maharashtra";
+        name = "马哈拉施特拉邦 ";
         break;
         case 17:
-        name = "Manipur";
+        name = "曼尼普尔邦 ";
         break;
         case 18:
-        name = "Meghalaya";
+        name = "梅加拉亚邦 ";
         break;
         case 19:
-        name = "Karnataka";
+        name = "卡纳塔克邦 ";
         break;
         case 20:
-        name = "Nagaland";
+        name = "那加兰邦 ";
         break;
         case 21:
-        name = "Orissa";
+        name = "奥里萨邦 ";
         break;
         case 22:
-        name = "Puducherry";
+        name = "本地治里 ";
         break;
         case 23:
-        name = "Punjab";
+        name = "旁遮普 ";
         break;
         case 24:
-        name = "Rajasthan";
+        name = "拉贾斯坦邦 ";
         break;
         case 25:
-        name = "Tamil Nadu";
+        name = "泰米尔纳德邦 ";
         break;
         case 26:
-        name = "Tripura";
+        name = "特里普拉邦 ";
         break;
         case 28:
-        name = "West Bengal";
+        name = "西孟加拉邦 ";
         break;
         case 29:
-        name = "Sikkim";
+        name = "锡金 ";
         break;
         case 30:
-        name = "Arunachal Pradesh";
+        name = "阿鲁纳恰尔邦 ";
         break;
         case 31:
-        name = "Mizoram";
+        name = "米佐拉姆 ";
         break;
         case 32:
-        name = "Daman and Diu";
+        name = "达曼和第乌 ";
         break;
         case 33:
-        name = "Goa";
+        name = "果阿 ";
         break;
         case 34:
-        name = "Bihar";
+        name = "比哈尔邦 ";
         break;
         case 35:
-        name = "Madhya Pradesh";
+        name = "中央邦 ";
         break;
         case 36:
-        name = "Uttar Pradesh";
+        name = "北方邦 ";
         break;
         case 37:
-        name = "Chhattisgarh";
+        name = "切蒂斯格尔 ";
         break;
         case 38:
-        name = "Jharkhand";
+        name = "恰尔肯德邦 ";
         break;
         case 39:
-        name = "Uttarakhand";
+        name = "北阿坎德邦 ";
         break;
       }
     }
     if (country_code.equals("IQ") == true) {
       switch (region_code2) {
         case 1:
-        name = "Al Anbar";
+        name = "安巴尔 ";
         break;
         case 2:
-        name = "Al Basrah";
+        name = "巴斯拉 ";
         break;
         case 3:
-        name = "Al Muthanna";
+        name = "穆萨纳 ";
         break;
         case 4:
-        name = "Al Qadisiyah";
+        name = "卡迪西亚 ";
         break;
         case 5:
-        name = "As Sulaymaniyah";
+        name = "由于苏莱曼尼亚 ";
         break;
         case 6:
-        name = "Babil";
+        name = "巴比伦 ";
         break;
         case 7:
-        name = "Baghdad";
+        name = "巴格达 ";
         break;
         case 8:
-        name = "Dahuk";
+        name = "杜胡克 ";
         break;
         case 9:
-        name = "Dhi Qar";
+        name = "济加尔 ";
         break;
         case 10:
-        name = "Diyala";
+        name = "迪亚拉 ";
         break;
         case 11:
-        name = "Arbil";
+        name = "埃尔比勒 ";
         break;
         case 12:
-        name = "Karbala'";
+        name = "卡尔巴拉 ";
         break;
         case 13:
-        name = "At Ta'mim";
+        name = "塔米姆 ";
         break;
         case 14:
-        name = "Maysan";
+        name = "米桑 ";
         break;
         case 15:
-        name = "Ninawa";
+        name = "尼尼微省 ";
         break;
         case 16:
-        name = "Wasit";
+        name = "瓦西特 ";
         break;
         case 17:
-        name = "An Najaf";
+        name = "纳杰夫 ";
         break;
         case 18:
-        name = "Salah ad Din";
+        name = "萨拉赫丁 ";
         break;
       }
     }
     if (country_code.equals("IR") == true) {
       switch (region_code2) {
         case 1:
-        name = "Azarbayjan-e Bakhtari";
+        name = "西阿塞拜疆Bakhtari ";
         break;
         case 2:
-        name = "Azarbayjan-e Khavari";
+        name = "西阿塞拜疆Khavari ";
         break;
         case 3:
-        name = "Chahar Mahall va Bakhtiari";
+        name = "恰哈马哈勒巴赫蒂亚 ";
         break;
         case 4:
-        name = "Sistan va Baluchestan";
+        name = "锡斯坦 - 俾路支斯坦 ";
         break;
         case 5:
-        name = "Kohkiluyeh va Buyer Ahmadi";
+        name = "Kohkiluyeh VA采购艾哈迈迪 ";
         break;
         case 7:
-        name = "Fars";
+        name = "法尔斯 ";
         break;
         case 8:
-        name = "Gilan";
+        name = "吉兰 ";
         break;
         case 9:
-        name = "Hamadan";
+        name = "哈马丹 ";
         break;
         case 10:
-        name = "Ilam";
+        name = "伊拉姆 ";
         break;
         case 11:
-        name = "Hormozgan";
+        name = "霍尔木兹甘 ";
         break;
         case 12:
-        name = "Kerman";
+        name = "克尔曼 ";
         break;
         case 13:
-        name = "Bakhtaran";
+        name = "巴赫塔软 ";
         break;
         case 15:
-        name = "Khuzestan";
+        name = "胡齐斯坦 ";
         break;
         case 16:
-        name = "Kordestan";
+        name = "库尔德斯坦 ";
         break;
         case 17:
-        name = "Mazandaran";
+        name = "马赞达兰 ";
         break;
         case 18:
-        name = "Semnan Province";
+        name = "塞姆南省 ";
         break;
         case 19:
-        name = "Markazi";
+        name = "马凯斯 ";
         break;
         case 21:
-        name = "Zanjan";
+        name = "赞詹 ";
         break;
         case 22:
-        name = "Bushehr";
+        name = "布什尔 ";
         break;
         case 23:
-        name = "Lorestan";
+        name = "洛雷斯坦 ";
         break;
         case 24:
-        name = "Markazi";
+        name = "马凯斯 ";
         break;
         case 25:
-        name = "Semnan";
+        name = "塞姆南 ";
         break;
         case 26:
-        name = "Tehran";
+        name = "德黑兰 ";
         break;
         case 27:
-        name = "Zanjan";
+        name = "赞詹 ";
         break;
         case 28:
-        name = "Esfahan";
+        name = "伊斯法罕 ";
         break;
         case 29:
-        name = "Kerman";
+        name = "克尔曼 ";
         break;
         case 30:
-        name = "Khorasan";
+        name = "呼罗珊 ";
         break;
         case 31:
-        name = "Yazd";
+        name = "亚兹德 ";
         break;
         case 32:
-        name = "Ardabil";
+        name = "阿尔达比勒 ";
         break;
         case 33:
-        name = "East Azarbaijan";
+        name = "东阿塞拜疆 ";
         break;
         case 34:
-        name = "Markazi";
+        name = "马凯斯 ";
         break;
         case 35:
-        name = "Mazandaran";
+        name = "马赞达兰 ";
         break;
         case 36:
-        name = "Zanjan";
+        name = "赞詹 ";
         break;
         case 37:
-        name = "Golestan";
+        name = "洛雷斯坦 ";
         break;
         case 38:
-        name = "Qazvin";
+        name = "加兹温 ";
         break;
         case 39:
-        name = "Qom";
+        name = "库姆 ";
         break;
         case 40:
-        name = "Yazd";
+        name = "亚兹德 ";
         break;
         case 41:
-        name = "Khorasan-e Janubi";
+        name = "呼罗珊-E Janubi ";
         break;
         case 42:
-        name = "Khorasan-e Razavi";
+        name = "拉扎维呼罗珊-E ";
         break;
         case 43:
-        name = "Khorasan-e Shemali";
+        name = "呼罗珊-E Shemali ";
         break;
       }
     }
     if (country_code.equals("IS") == true) {
       switch (region_code2) {
         case 3:
-        name = "Arnessysla";
+        name = "Arnessysla ";
         break;
         case 5:
-        name = "Austur-Hunavatnssysla";
+        name = "Austur Hunavatnssysla ";
         break;
         case 6:
-        name = "Austur-Skaftafellssysla";
+        name = "Austur Skaftafellssysla ";
         break;
         case 7:
-        name = "Borgarfjardarsysla";
+        name = "Borgarfjardarsysla ";
         break;
         case 9:
-        name = "Eyjafjardarsysla";
+        name = "Eyjafjardarsysla ";
         break;
         case 10:
-        name = "Gullbringusysla";
+        name = "Gullbringusysla ";
         break;
         case 15:
-        name = "Kjosarsysla";
+        name = "Kjosarsysla ";
         break;
         case 17:
-        name = "Myrasysla";
+        name = "Myrasysla ";
         break;
         case 20:
-        name = "Nordur-Mulasysla";
+        name = "Nordur Mulasysla ";
         break;
         case 21:
-        name = "Nordur-Tingeyjarsysla";
+        name = "Nordur Tingeyjarsysla ";
         break;
         case 23:
-        name = "Rangarvallasysla";
+        name = "Rangarvallasysla ";
         break;
         case 28:
-        name = "Skagafjardarsysla";
+        name = "Skagafjardarsysla ";
         break;
         case 29:
-        name = "Snafellsnes- og Hnappadalssysla";
+        name = "Snafellsnes OG Hnappadalssysla ";
         break;
         case 30:
-        name = "Strandasysla";
+        name = "Strandasysla ";
         break;
         case 31:
-        name = "Sudur-Mulasysla";
+        name = "Sudur Mulasysla ";
         break;
         case 32:
-        name = "Sudur-Tingeyjarsysla";
+        name = "Sudur Tingeyjarsysla ";
         break;
         case 34:
-        name = "Vestur-Bardastrandarsysla";
+        name = "Vestur Bardastrandarsysla ";
         break;
         case 35:
-        name = "Vestur-Hunavatnssysla";
+        name = "Vestur Hunavatnssysla ";
         break;
         case 36:
-        name = "Vestur-Isafjardarsysla";
+        name = "Vestur Isafjardarsysla ";
         break;
         case 37:
-        name = "Vestur-Skaftafellssysla";
+        name = "Vestur Skaftafellssysla ";
         break;
         case 40:
-        name = "Norourland Eystra";
+        name = "Norourland Eystra ";
         break;
         case 41:
-        name = "Norourland Vestra";
+        name = "Norourland Vestra ";
         break;
         case 42:
-        name = "Suourland";
+        name = "Suourland ";
         break;
         case 43:
-        name = "Suournes";
+        name = "Suournes ";
         break;
         case 44:
-        name = "Vestfiroir";
+        name = "Vestfiroir ";
         break;
         case 45:
-        name = "Vesturland";
+        name = "西部区 ";
         break;
       }
     }
     if (country_code.equals("IT") == true) {
       switch (region_code2) {
         case 1:
-        name = "Abruzzi";
+        name = "阿布鲁齐 ";
         break;
         case 2:
-        name = "Basilicata";
+        name = "巴西利卡塔 ";
         break;
         case 3:
-        name = "Calabria";
+        name = "卡拉布里亚 ";
         break;
         case 4:
-        name = "Campania";
+        name = "坎帕尼亚大区 ";
         break;
         case 5:
-        name = "Emilia-Romagna";
+        name = "艾米利亚 - 罗马涅大区 ";
         break;
         case 6:
-        name = "Friuli-Venezia Giulia";
+        name = "弗留利 - 威尼斯朱利亚 ";
         break;
         case 7:
-        name = "Lazio";
+        name = "拉齐奥大区 ";
         break;
         case 8:
-        name = "Liguria";
+        name = "利古里亚 ";
         break;
         case 9:
-        name = "Lombardia";
+        name = "伦巴第大区 ";
         break;
         case 10:
-        name = "Marche";
+        name = "马尔凯 ";
         break;
         case 11:
-        name = "Molise";
+        name = "莫利塞 ";
         break;
         case 12:
-        name = "Piemonte";
+        name = "皮埃蒙特大区 ";
         break;
         case 13:
-        name = "Puglia";
+        name = "普利亚大区 ";
         break;
         case 14:
-        name = "Sardegna";
+        name = "撒丁岛 ";
         break;
         case 15:
-        name = "Sicilia";
+        name = "西西里岛 ";
         break;
         case 16:
-        name = "Toscana";
+        name = "托斯卡纳 ";
         break;
         case 17:
-        name = "Trentino-Alto Adige";
+        name = "特伦蒂诺 - 上阿迪杰 ";
         break;
         case 18:
-        name = "Umbria";
+        name = "翁布里亚 ";
         break;
         case 19:
-        name = "Valle d'Aosta";
+        name = "瓦莱达奥斯塔 ";
         break;
         case 20:
-        name = "Veneto";
+        name = "威尼托 ";
         break;
       }
     }
     if (country_code.equals("JM") == true) {
       switch (region_code2) {
         case 1:
-        name = "Clarendon";
+        name = "克拉伦登 ";
         break;
         case 2:
-        name = "Hanover";
+        name = "汉诺威 ";
         break;
         case 4:
-        name = "Manchester";
+        name = "曼彻斯特 ";
         break;
         case 7:
-        name = "Portland";
+        name = "波特兰 ";
         break;
         case 8:
-        name = "Saint Andrew";
+        name = "圣安德鲁 ";
         break;
         case 9:
-        name = "Saint Ann";
+        name = "圣安 ";
         break;
         case 10:
-        name = "Saint Catherine";
+        name = "圣凯瑟琳 ";
         break;
         case 11:
-        name = "Saint Elizabeth";
+        name = "圣伊丽莎白 ";
         break;
         case 12:
-        name = "Saint James";
+        name = "圣詹姆斯 ";
         break;
         case 13:
-        name = "Saint Mary";
+        name = "圣玛丽 ";
         break;
         case 14:
-        name = "Saint Thomas";
+        name = "圣托马斯 ";
         break;
         case 15:
-        name = "Trelawny";
+        name = "特里劳尼 ";
         break;
         case 16:
-        name = "Westmoreland";
+        name = "威斯特摩兰 ";
         break;
         case 17:
-        name = "Kingston";
+        name = "金士顿 ";
         break;
       }
     }
     if (country_code.equals("JO") == true) {
       switch (region_code2) {
         case 2:
-        name = "Al Balqa'";
+        name = "巴尔卡“ ";
         break;
         case 7:
-        name = "Ma";
+        name = "妈 ";
         break;
         case 9:
-        name = "Al Karak";
+        name = "卡拉克 ";
         break;
         case 10:
-        name = "Al Mafraq";
+        name = "麦夫拉格 ";
         break;
         case 11:
-        name = "Amman Governorate";
+        name = "安曼省 ";
         break;
         case 12:
-        name = "At Tafilah";
+        name = "在塔菲拉 ";
         break;
         case 13:
-        name = "Az Zarqa";
+        name = "AZ扎尔卡 ";
         break;
         case 14:
-        name = "Irbid";
+        name = "伊尔比德 ";
         break;
         case 16:
-        name = "Amman";
+        name = "安曼 ";
         break;
       }
     }
     if (country_code.equals("JP") == true) {
       switch (region_code2) {
         case 1:
-        name = "Aichi";
+        name = "爱知 ";
         break;
         case 2:
-        name = "Akita";
+        name = "秋田 ";
         break;
         case 3:
-        name = "Aomori";
+        name = "青森 ";
         break;
         case 4:
-        name = "Chiba";
+        name = "千叶 ";
         break;
         case 5:
-        name = "Ehime";
+        name = "爱媛 ";
         break;
         case 6:
-        name = "Fukui";
+        name = "福井 ";
         break;
         case 7:
-        name = "Fukuoka";
+        name = "福冈 ";
         break;
         case 8:
-        name = "Fukushima";
+        name = "福岛 ";
         break;
         case 9:
-        name = "Gifu";
+        name = "岐阜 ";
         break;
         case 10:
-        name = "Gumma";
+        name = "群马县 ";
         break;
         case 11:
-        name = "Hiroshima";
+        name = "广岛 ";
         break;
         case 12:
-        name = "Hokkaido";
+        name = "北海道 ";
         break;
         case 13:
-        name = "Hyogo";
+        name = "兵库县 ";
         break;
         case 14:
-        name = "Ibaraki";
+        name = "茨城 ";
         break;
         case 15:
-        name = "Ishikawa";
+        name = "石川 ";
         break;
         case 16:
-        name = "Iwate";
+        name = "岩手 ";
         break;
         case 17:
-        name = "Kagawa";
+        name = "香川 ";
         break;
         case 18:
-        name = "Kagoshima";
+        name = "鹿儿岛 ";
         break;
         case 19:
-        name = "Kanagawa";
+        name = "神奈川 ";
         break;
         case 20:
-        name = "Kochi";
+        name = "高知县 ";
         break;
         case 21:
-        name = "Kumamoto";
+        name = "熊本 ";
         break;
         case 22:
-        name = "Kyoto";
+        name = "京都 ";
         break;
         case 23:
-        name = "Mie";
+        name = "三重 ";
         break;
         case 24:
-        name = "Miyagi";
+        name = "宫城 ";
         break;
         case 25:
-        name = "Miyazaki";
+        name = "宫崎 ";
         break;
         case 26:
-        name = "Nagano";
+        name = "长野 ";
         break;
         case 27:
-        name = "Nagasaki";
+        name = "长崎 ";
         break;
         case 28:
-        name = "Nara";
+        name = "奈良 ";
         break;
         case 29:
-        name = "Niigata";
+        name = "新泻 ";
         break;
         case 30:
-        name = "Oita";
+        name = "大分 ";
         break;
         case 31:
-        name = "Okayama";
+        name = "冈山 ";
         break;
         case 32:
-        name = "Osaka";
+        name = "大阪 ";
         break;
         case 33:
-        name = "Saga";
+        name = "冒险故事 ";
         break;
         case 34:
-        name = "Saitama";
+        name = "埼玉 ";
         break;
         case 35:
-        name = "Shiga";
+        name = "滋贺县 ";
         break;
         case 36:
-        name = "Shimane";
+        name = "岛根县 ";
         break;
         case 37:
-        name = "Shizuoka";
+        name = "静冈 ";
         break;
         case 38:
-        name = "Tochigi";
+        name = "枥木 ";
         break;
         case 39:
-        name = "Tokushima";
+        name = "德岛 ";
         break;
         case 40:
-        name = "Tokyo";
+        name = "东京 ";
         break;
         case 41:
-        name = "Tottori";
+        name = "鸟取 ";
         break;
         case 42:
-        name = "Toyama";
+        name = "富山 ";
         break;
         case 43:
-        name = "Wakayama";
+        name = "和歌山 ";
         break;
         case 44:
-        name = "Yamagata";
+        name = "山形 ";
         break;
         case 45:
-        name = "Yamaguchi";
+        name = "山口 ";
         break;
         case 46:
-        name = "Yamanashi";
+        name = "山梨县 ";
         break;
         case 47:
-        name = "Okinawa";
+        name = "冲绳岛 ";
         break;
       }
     }
     if (country_code.equals("KE") == true) {
       switch (region_code2) {
         case 1:
-        name = "Central";
+        name = "中央 ";
         break;
         case 2:
-        name = "Coast";
+        name = "滨 ";
         break;
         case 3:
-        name = "Eastern";
+        name = "东 ";
         break;
         case 5:
-        name = "Nairobi Area";
+        name = "内罗毕地区 ";
         break;
         case 6:
-        name = "North-Eastern";
+        name = "北东部 ";
         break;
         case 7:
-        name = "Nyanza";
+        name = "尼安萨 ";
         break;
         case 8:
-        name = "Rift Valley";
+        name = "东非大裂谷 ";
         break;
         case 9:
-        name = "Western";
+        name = "西 ";
         break;
       }
     }
     if (country_code.equals("KG") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bishkek";
+        name = "比什凯克 ";
         break;
         case 2:
-        name = "Chuy";
+        name = "丘伊 ";
         break;
         case 3:
-        name = "Jalal-Abad";
+        name = "贾拉拉巴德 ";
         break;
         case 4:
-        name = "Naryn";
+        name = "纳伦 ";
         break;
         case 5:
-        name = "Osh";
+        name = "奥什 ";
         break;
         case 6:
-        name = "Talas";
+        name = "塔拉斯 ";
         break;
         case 7:
-        name = "Ysyk-Kol";
+        name = "Ysyk KOL ";
         break;
         case 8:
-        name = "Osh";
+        name = "奥什 ";
         break;
         case 9:
-        name = "Batken";
+        name = "巴特肯 ";
         break;
       }
     }
     if (country_code.equals("KH") == true) {
       switch (region_code2) {
         case 1:
-        name = "Batdambang";
+        name = "马德望 ";
         break;
         case 2:
-        name = "Kampong Cham";
+        name = "磅湛 ";
         break;
         case 3:
-        name = "Kampong Chhnang";
+        name = "磅清扬 ";
         break;
         case 4:
-        name = "Kampong Speu";
+        name = "磅士卑省 ";
         break;
         case 5:
-        name = "Kampong Thum";
+        name = "甘榜姆 ";
         break;
         case 6:
-        name = "Kampot";
+        name = "贡布 ";
         break;
         case 7:
-        name = "Kandal";
+        name = "干丹 ";
         break;
         case 8:
-        name = "Koh Kong";
+        name = "香港岛 ";
         break;
         case 9:
-        name = "Kracheh";
+        name = "桔井 ";
         break;
         case 10:
-        name = "Mondulkiri";
+        name = "蒙多基里省 ";
         break;
         case 11:
-        name = "Phnum Penh";
+        name = "金边 ";
         break;
         case 12:
-        name = "Pursat";
+        name = "菩萨 ";
         break;
         case 13:
-        name = "Preah Vihear";
+        name = "柏威夏 ";
         break;
         case 14:
-        name = "Prey Veng";
+        name = "波萝勉 ";
         break;
         case 15:
-        name = "Ratanakiri Kiri";
+        name = "腊塔纳基里滴 ";
         break;
         case 16:
-        name = "Siem Reap";
+        name = "暹粒 ";
         break;
         case 17:
-        name = "Stung Treng";
+        name = "上丁 ";
         break;
         case 18:
-        name = "Svay Rieng";
+        name = "柴桢 ";
         break;
         case 19:
-        name = "Takeo";
+        name = "猛男 ";
         break;
         case 25:
-        name = "Banteay Meanchey";
+        name = "班迭棉吉 ";
         break;
         case 29:
-        name = "Batdambang";
+        name = "马德望 ";
         break;
         case 30:
-        name = "Pailin";
+        name = "拜林 ";
         break;
       }
     }
     if (country_code.equals("KI") == true) {
       switch (region_code2) {
         case 1:
-        name = "Gilbert Islands";
+        name = "吉尔伯特群岛 ";
         break;
         case 2:
-        name = "Line Islands";
+        name = "莱恩群岛 ";
         break;
         case 3:
-        name = "Phoenix Islands";
+        name = "凤凰岛 ";
         break;
       }
     }
     if (country_code.equals("KM") == true) {
       switch (region_code2) {
         case 1:
-        name = "Anjouan";
+        name = "昂儒昂岛 ";
         break;
         case 2:
-        name = "Grande Comore";
+        name = "大科摩罗岛 ";
         break;
         case 3:
-        name = "Moheli";
+        name = "莫埃利 ";
         break;
       }
     }
     if (country_code.equals("KN") == true) {
       switch (region_code2) {
         case 1:
-        name = "Christ Church Nichola Town";
+        name = "尼古拉镇基督教堂 ";
         break;
         case 2:
-        name = "Saint Anne Sandy Point";
+        name = "圣安娜沙角 ";
         break;
         case 3:
-        name = "Saint George Basseterre";
+        name = "圣徒乔治·巴斯特尔 ";
         break;
         case 4:
-        name = "Saint George Gingerland";
+        name = "圣乔治金哲兰的 ";
         break;
         case 5:
-        name = "Saint James Windward";
+        name = "圣詹姆斯迎风 ";
         break;
         case 6:
-        name = "Saint John Capisterre";
+        name = "圣约翰卡皮斯特莱的 ";
         break;
         case 7:
-        name = "Saint John Figtree";
+        name = "圣约翰Figtree ";
         break;
         case 8:
-        name = "Saint Mary Cayon";
+        name = "圣玛丽峡谷 ";
         break;
         case 9:
-        name = "Saint Paul Capisterre";
+        name = "圣保罗卡皮斯特莱 ";
         break;
         case 10:
-        name = "Saint Paul Charlestown";
+        name = "圣保罗查尔斯 ";
         break;
         case 11:
-        name = "Saint Peter Basseterre";
+        name = "圣彼得巴斯特尔 ";
         break;
         case 12:
-        name = "Saint Thomas Lowland";
+        name = "圣托马斯低地 ";
         break;
         case 13:
-        name = "Saint Thomas Middle Island";
+        name = "圣托马斯中东岛 ";
         break;
         case 15:
-        name = "Trinity Palmetto Point";
+        name = "三位一体棕榈点 ";
         break;
       }
     }
     if (country_code.equals("KP") == true) {
       switch (region_code2) {
         case 1:
-        name = "Chagang-do";
+        name = "慈江道 ";
         break;
         case 3:
-        name = "Hamgyong-namdo";
+        name = "咸镜北道南道 ";
         break;
         case 6:
-        name = "Hwanghae-namdo";
+        name = "黄海南道南道 ";
         break;
         case 7:
-        name = "Hwanghae-bukto";
+        name = "黄海bukto的 ";
         break;
         case 8:
-        name = "Kaesong-si";
+        name = "开城-SI ";
         break;
         case 9:
-        name = "Kangwon-do";
+        name = "江原道 ";
         break;
         case 11:
-        name = "P'yongan-bukto";
+        name = "P'yongan bukto ";
         break;
         case 12:
-        name = "P'yongyang-si";
+        name = "平壤-SI ";
         break;
         case 13:
-        name = "Yanggang-do";
+        name = "景阳岗 ";
         break;
         case 14:
-        name = "Namp'o-si";
+        name = "Namp'o-SI ";
         break;
         case 15:
-        name = "P'yongan-namdo";
+        name = "P'yongan南道 ";
         break;
         case 17:
-        name = "Hamgyong-bukto";
+        name = "咸镜道bukto的 ";
         break;
         case 18:
-        name = "Najin Sonbong-si";
+        name = "罗先直辖市 ";
         break;
       }
     }
     if (country_code.equals("KR") == true) {
       switch (region_code2) {
         case 1:
-        name = "Cheju-do";
+        name = "济州岛 ";
         break;
         case 3:
-        name = "Cholla-bukto";
+        name = "全罗bukto的 ";
         break;
         case 5:
-        name = "Ch'ungch'ong-bukto";
+        name = "Ch'ungch'ong bukto ";
         break;
         case 6:
-        name = "Kangwon-do";
+        name = "江原道 ";
         break;
         case 10:
-        name = "Pusan-jikhalsi";
+        name = "釜山jikhalsi的 ";
         break;
         case 11:
-        name = "Seoul-t'ukpyolsi";
+        name = "首尔特别市 ";
         break;
         case 12:
-        name = "Inch'on-jikhalsi";
+        name = "仁川jikhalsi的 ";
         break;
         case 13:
-        name = "Kyonggi-do";
+        name = "京畿道 ";
         break;
         case 14:
-        name = "Kyongsang-bukto";
+        name = "庆尚bukto的 ";
         break;
         case 15:
-        name = "Taegu-jikhalsi";
+        name = "大邱jikhalsi的 ";
         break;
         case 16:
-        name = "Cholla-namdo";
+        name = "全罗道南道 ";
         break;
         case 17:
-        name = "Ch'ungch'ong-namdo";
+        name = "Ch'ungch'ong南道 ";
         break;
         case 18:
-        name = "Kwangju-jikhalsi";
+        name = "光州jikhalsi的 ";
         break;
         case 19:
-        name = "Taejon-jikhalsi";
+        name = "大田jikhalsi的 ";
         break;
         case 20:
-        name = "Kyongsang-namdo";
+        name = "庆尚南道 ";
         break;
         case 21:
-        name = "Ulsan-gwangyoksi";
+        name = "蔚山广域市 ";
         break;
       }
     }
     if (country_code.equals("KW") == true) {
       switch (region_code2) {
         case 1:
-        name = "Al Ahmadi";
+        name = "艾哈迈迪 ";
         break;
         case 2:
-        name = "Al Kuwayt";
+        name = "科威特省 ";
         break;
         case 5:
-        name = "Al Jahra";
+        name = "杰赫拉 ";
         break;
         case 7:
-        name = "Al Farwaniyah";
+        name = "费尔瓦尼耶 ";
         break;
         case 8:
-        name = "Hawalli";
+        name = "哈瓦利 ";
         break;
         case 9:
-        name = "Mubarak al Kabir";
+        name = "穆巴拉克人卡比尔 ";
         break;
       }
     }
     if (country_code.equals("KY") == true) {
       switch (region_code2) {
         case 1:
-        name = "Creek";
+        name = "溪 ";
         break;
         case 2:
-        name = "Eastern";
+        name = "东 ";
         break;
         case 3:
-        name = "Midland";
+        name = "美联 ";
         break;
         case 4:
-        name = "South Town";
+        name = "南头镇 ";
         break;
         case 5:
-        name = "Spot Bay";
+        name = "现货湾 ";
         break;
         case 6:
-        name = "Stake Bay";
+        name = "放样湾 ";
         break;
         case 7:
-        name = "West End";
+        name = "西区 ";
         break;
         case 8:
-        name = "Western";
+        name = "西 ";
         break;
       }
     }
     if (country_code.equals("KZ") == true) {
       switch (region_code2) {
         case 1:
-        name = "Almaty";
+        name = "阿拉木图 ";
         break;
         case 2:
-        name = "Almaty City";
+        name = "阿拉木图市 ";
         break;
         case 3:
-        name = "Aqmola";
+        name = "阿克莫拉 ";
         break;
         case 4:
-        name = "Aqtobe";
+        name = "阿克托别 ";
         break;
         case 5:
-        name = "Astana";
+        name = "阿斯塔纳 ";
         break;
         case 6:
-        name = "Atyrau";
+        name = "阿特劳 ";
         break;
         case 7:
-        name = "West Kazakhstan";
+        name = "西哈萨克斯坦 ";
         break;
         case 8:
-        name = "Bayqonyr";
+        name = "Bayqonyr ";
         break;
         case 9:
-        name = "Mangghystau";
+        name = "曼格斯套 ";
         break;
         case 10:
-        name = "South Kazakhstan";
+        name = "南哈萨克斯坦 ";
         break;
         case 11:
-        name = "Pavlodar";
+        name = "巴甫洛达尔 ";
         break;
         case 12:
-        name = "Qaraghandy";
+        name = "卡拉干达 ";
         break;
         case 13:
-        name = "Qostanay";
+        name = "科斯塔奈 ";
         break;
         case 14:
-        name = "Qyzylorda";
+        name = "克孜勒奥尔达 ";
         break;
         case 15:
-        name = "East Kazakhstan";
+        name = "东哈萨克斯坦 ";
         break;
         case 16:
-        name = "North Kazakhstan";
+        name = "北哈萨克斯坦 ";
         break;
         case 17:
-        name = "Zhambyl";
+        name = "拾 ";
         break;
       }
     }
     if (country_code.equals("LA") == true) {
       switch (region_code2) {
         case 1:
-        name = "Attapu";
+        name = "阿速坡 ";
         break;
         case 2:
-        name = "Champasak";
+        name = "巴塞 ";
         break;
         case 3:
-        name = "Houaphan";
+        name = "华潘 ";
         break;
         case 4:
-        name = "Khammouan";
+        name = "甘蒙 ";
         break;
         case 5:
-        name = "Louang Namtha";
+        name = "琅南塔 ";
         break;
         case 7:
-        name = "Oudomxai";
+        name = "乌多姆赛 ";
         break;
         case 8:
-        name = "Phongsali";
+        name = "丰沙里 ";
         break;
         case 9:
-        name = "Saravan";
+        name = "沙拉湾 ";
         break;
         case 10:
-        name = "Savannakhet";
+        name = "沙湾拿吉 ";
         break;
         case 11:
-        name = "Vientiane";
+        name = "万象 ";
         break;
         case 13:
-        name = "Xaignabouri";
+        name = "Xaignabouri ";
         break;
         case 14:
-        name = "Xiangkhoang";
+        name = "川圹 ";
         break;
         case 17:
-        name = "Louangphrabang";
+        name = "琅勃拉邦 ";
         break;
       }
     }
     if (country_code.equals("LB") == true) {
       switch (region_code2) {
         case 1:
-        name = "Beqaa";
+        name = "贝卡 ";
         break;
         case 2:
-        name = "Al Janub";
+        name = "铝南达尔 ";
         break;
         case 3:
-        name = "Liban-Nord";
+        name = "黎巴嫩 - 北 ";
         break;
         case 4:
-        name = "Beyrouth";
+        name = "BEYROUTH ";
         break;
         case 5:
-        name = "Mont-Liban";
+        name = "黎巴嫩山 ";
         break;
         case 6:
-        name = "Liban-Sud";
+        name = "黎巴嫩-SUD ";
         break;
         case 7:
-        name = "Nabatiye";
+        name = "纳巴提耶 ";
         break;
         case 8:
-        name = "Beqaa";
+        name = "贝卡 ";
         break;
         case 9:
-        name = "Liban-Nord";
+        name = "黎巴嫩 - 北 ";
         break;
         case 10:
-        name = "Aakk";
+        name = "AAKK ";
         break;
         case 11:
-        name = "Baalbek-Hermel";
+        name = "巴勒贝克赫迈勒的 ";
         break;
       }
     }
     if (country_code.equals("LC") == true) {
       switch (region_code2) {
         case 1:
-        name = "Anse-la-Raye";
+        name = "安斯-LA-RAYE ";
         break;
         case 2:
-        name = "Dauphin";
+        name = "多芬 ";
         break;
         case 3:
-        name = "Castries";
+        name = "卡斯特里 ";
         break;
         case 4:
-        name = "Choiseul";
+        name = "舒瓦瑟尔 ";
         break;
         case 5:
-        name = "Dennery";
+        name = "登尼赖 ";
         break;
         case 6:
-        name = "Gros-Islet";
+        name = "格罗斯胰岛 ";
         break;
         case 7:
-        name = "Laborie";
+        name = "拉博 ";
         break;
         case 8:
-        name = "Micoud";
+        name = "米库 ";
         break;
         case 9:
-        name = "Soufriere";
+        name = "苏弗里耶尔 ";
         break;
         case 10:
-        name = "Vieux-Fort";
+        name = "旧堡 ";
         break;
         case 11:
-        name = "Praslin";
+        name = "普拉兰 ";
         break;
       }
     }
     if (country_code.equals("LI") == true) {
       switch (region_code2) {
         case 1:
-        name = "Balzers";
+        name = "查斯 ";
         break;
         case 2:
-        name = "Eschen";
+        name = "埃申 ";
         break;
         case 3:
-        name = "Gamprin";
+        name = "甘普林 ";
         break;
         case 4:
-        name = "Mauren";
+        name = "玛伦 ";
         break;
         case 5:
-        name = "Planken";
+        name = "伯朗肯 ";
         break;
         case 6:
-        name = "Ruggell";
+        name = "旅游Ruggell ";
         break;
         case 7:
-        name = "Schaan";
+        name = "沙恩 ";
         break;
         case 8:
-        name = "Schellenberg";
+        name = "施伦贝格 ";
         break;
         case 9:
-        name = "Triesen";
+        name = "特里森 ";
         break;
         case 10:
-        name = "Triesenberg";
+        name = "特里森贝格 ";
         break;
         case 11:
-        name = "Vaduz";
+        name = "瓦杜兹 ";
         break;
         case 21:
-        name = "Gbarpolu";
+        name = "巴波卢 ";
         break;
         case 22:
-        name = "River Gee";
+        name = "吉河 ";
         break;
       }
     }
     if (country_code.equals("LK") == true) {
       switch (region_code2) {
         case 1:
-        name = "Amparai";
+        name = "Amparai ";
         break;
         case 2:
-        name = "Anuradhapura";
+        name = "阿努拉德普勒 ";
         break;
         case 3:
-        name = "Badulla";
+        name = "巴杜拉 ";
         break;
         case 4:
-        name = "Batticaloa";
+        name = "拜蒂克洛 ";
         break;
         case 6:
-        name = "Galle";
+        name = "加勒 ";
         break;
         case 7:
-        name = "Hambantota";
+        name = "汉班托塔 ";
         break;
         case 9:
-        name = "Kalutara";
+        name = "卡卢特勒 ";
         break;
         case 10:
-        name = "Kandy";
+        name = "康提 ";
         break;
         case 11:
-        name = "Kegalla";
+        name = "克盖拉 ";
         break;
         case 12:
-        name = "Kurunegala";
+        name = "库鲁内格勒 ";
         break;
         case 14:
-        name = "Matale";
+        name = "马特莱 ";
         break;
         case 15:
-        name = "Matara";
+        name = "马特勒 ";
         break;
         case 16:
-        name = "Moneragala";
+        name = "Moneragala ";
         break;
         case 17:
-        name = "Nuwara Eliya";
+        name = "努沃勒埃利耶 ";
         break;
         case 18:
-        name = "Polonnaruwa";
+        name = "波隆纳鲁沃 ";
         break;
         case 19:
-        name = "Puttalam";
+        name = "普塔勒姆 ";
         break;
         case 20:
-        name = "Ratnapura";
+        name = "拉特纳普勒 ";
         break;
         case 21:
-        name = "Trincomalee";
+        name = "亭可马里 ";
         break;
         case 23:
-        name = "Colombo";
+        name = "科伦坡 ";
         break;
         case 24:
-        name = "Gampaha";
+        name = "加姆珀哈 ";
         break;
         case 25:
-        name = "Jaffna";
+        name = "贾夫纳 ";
         break;
         case 26:
-        name = "Mannar";
+        name = "马纳尔 ";
         break;
         case 27:
-        name = "Mullaittivu";
+        name = "穆莱蒂武 ";
         break;
         case 28:
-        name = "Vavuniya";
+        name = "瓦武尼亚 ";
         break;
         case 29:
-        name = "Central";
+        name = "中央 ";
         break;
         case 30:
-        name = "North Central";
+        name = "北环 ";
         break;
         case 31:
-        name = "Northern";
+        name = "北方 ";
         break;
         case 32:
-        name = "North Western";
+        name = "北西方 ";
         break;
         case 33:
-        name = "Sabaragamuwa";
+        name = "萨巴拉加穆瓦 ";
         break;
         case 34:
-        name = "Southern";
+        name = "南部的 ";
         break;
         case 35:
-        name = "Uva";
+        name = "乌瓦 ";
         break;
         case 36:
-        name = "Western";
+        name = "西 ";
         break;
       }
     }
     if (country_code.equals("LR") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bong";
+        name = "奉 ";
         break;
         case 4:
-        name = "Grand Cape Mount";
+        name = "大角山 ";
         break;
         case 5:
-        name = "Lofa";
+        name = "洛法 ";
         break;
         case 6:
-        name = "Maryland";
+        name = "马里兰 ";
         break;
         case 7:
-        name = "Monrovia";
+        name = "蒙罗维亚 ";
         break;
         case 9:
-        name = "Nimba";
+        name = "宁巴 ";
         break;
         case 10:
-        name = "Sino";
+        name = "中 ";
         break;
         case 11:
-        name = "Grand Bassa";
+        name = "大巴萨 ";
         break;
         case 12:
-        name = "Grand Cape Mount";
+        name = "大角山 ";
         break;
         case 13:
-        name = "Maryland";
+        name = "马里兰 ";
         break;
         case 14:
-        name = "Montserrado";
+        name = "蒙特塞拉特 ";
         break;
         case 17:
-        name = "Margibi";
+        name = "马吉 ";
         break;
         case 18:
-        name = "River Cess";
+        name = "里弗塞斯 ";
         break;
         case 19:
-        name = "Grand Gedeh";
+        name = "大吉德 ";
         break;
         case 20:
-        name = "Lofa";
+        name = "洛法 ";
         break;
         case 21:
-        name = "Gbarpolu";
+        name = "巴波卢 ";
         break;
         case 22:
-        name = "River Gee";
+        name = "吉河 ";
         break;
       }
     }
     if (country_code.equals("LS") == true) {
       switch (region_code2) {
         case 10:
-        name = "Berea";
+        name = "伯里亚 ";
         break;
         case 11:
-        name = "Butha-Buthe";
+        name = "布塔布泰 ";
         break;
         case 12:
-        name = "Leribe";
+        name = "莱里贝 ";
         break;
         case 13:
-        name = "Mafeteng";
+        name = "马费滕 ";
         break;
         case 14:
-        name = "Maseru";
+        name = "马塞卢 ";
         break;
         case 15:
-        name = "Mohales Hoek";
+        name = "莫哈莱斯胡克 ";
         break;
         case 16:
-        name = "Mokhotlong";
+        name = "莫霍特隆 ";
         break;
         case 17:
-        name = "Qachas Nek";
+        name = "Qachas NEK ";
         break;
         case 18:
-        name = "Quthing";
+        name = "古廷 ";
         break;
         case 19:
-        name = "Thaba-Tseka";
+        name = "塔巴 - 采卡 ";
         break;
       }
     }
     if (country_code.equals("LT") == true) {
       switch (region_code2) {
         case 56:
-        name = "Alytaus Apskritis";
+        name = "阿利图斯Apskritis ";
         break;
         case 57:
-        name = "Kauno Apskritis";
+        name = "考纳斯Apskritis ";
         break;
         case 58:
-        name = "Klaipedos Apskritis";
+        name = "Klaipedos Apskritis ";
         break;
         case 59:
-        name = "Marijampoles Apskritis";
+        name = "Marijampoles Apskritis ";
         break;
         case 60:
-        name = "Panevezio Apskritis";
+        name = "帕涅韦日斯Apskritis ";
         break;
         case 61:
-        name = "Siauliu Apskritis";
+        name = "啸琉Apskritis ";
         break;
         case 62:
-        name = "Taurages Apskritis";
+        name = "陶拉盖Apskritis ";
         break;
         case 63:
-        name = "Telsiu Apskritis";
+        name = "泰尔希艾县Apskritis ";
         break;
         case 64:
-        name = "Utenos Apskritis";
+        name = "乌特诺Apskritis ";
         break;
         case 65:
-        name = "Vilniaus Apskritis";
+        name = "维尔纽斯Apskritis ";
         break;
       }
     }
     if (country_code.equals("LU") == true) {
       switch (region_code2) {
         case 1:
-        name = "Diekirch";
+        name = "迪基希 ";
         break;
         case 2:
-        name = "Grevenmacher";
+        name = "格雷文马赫 ";
         break;
         case 3:
-        name = "Luxembourg";
+        name = "卢森堡 ";
         break;
       }
     }
     if (country_code.equals("LV") == true) {
       switch (region_code2) {
         case 1:
-        name = "Aizkraukles";
+        name = "Aizkraukles ";
         break;
         case 2:
-        name = "Aluksnes";
+        name = "阿卢克斯内 ";
         break;
         case 3:
-        name = "Balvu";
+        name = "巴尔维 ";
         break;
         case 4:
-        name = "Bauskas";
+        name = "包乌斯卡 ";
         break;
         case 5:
-        name = "Cesu";
+        name = "CESU ";
         break;
         case 6:
-        name = "Daugavpils";
+        name = "陶格夫匹尔斯 ";
         break;
         case 7:
-        name = "Daugavpils";
+        name = "陶格夫匹尔斯 ";
         break;
         case 8:
-        name = "Dobeles";
+        name = "多贝莱 ";
         break;
         case 9:
-        name = "Gulbenes";
+        name = "古尔贝 ";
         break;
         case 10:
-        name = "Jekabpils";
+        name = "杰卡布皮尔斯 ";
         break;
         case 11:
-        name = "Jelgava";
+        name = "叶尔加瓦 ";
         break;
         case 12:
-        name = "Jelgavas";
+        name = "叶尔加瓦 ";
         break;
         case 13:
-        name = "Jurmala";
+        name = "尤尔马拉 ";
         break;
         case 14:
-        name = "Kraslavas";
+        name = "克拉斯拉瓦 ";
         break;
         case 15:
-        name = "Kuldigas";
+        name = "库尔迪加 ";
         break;
         case 16:
-        name = "Liepaja";
+        name = "利耶帕亚 ";
         break;
         case 17:
-        name = "Liepajas";
+        name = "利帕亚斯 ";
         break;
         case 18:
-        name = "Limbazu";
+        name = "林巴济 ";
         break;
         case 19:
-        name = "Ludzas";
+        name = "卢扎 ";
         break;
         case 20:
-        name = "Madonas";
+        name = "马多纳 ";
         break;
         case 21:
-        name = "Ogres";
+        name = "食人魔 ";
         break;
         case 22:
-        name = "Preilu";
+        name = "Preilu ";
         break;
         case 23:
-        name = "Rezekne";
+        name = "雷泽克 ";
         break;
         case 24:
-        name = "Rezeknes";
+        name = "雷泽克内 ";
         break;
         case 25:
-        name = "Riga";
+        name = "里加 ";
         break;
         case 26:
-        name = "Rigas";
+        name = "里加斯 ";
         break;
         case 27:
-        name = "Saldus";
+        name = "萨尔杜斯 ";
         break;
         case 28:
-        name = "Talsu";
+        name = "塔尔西 ";
         break;
         case 29:
-        name = "Tukuma";
+        name = "图库马 ";
         break;
         case 30:
-        name = "Valkas";
+        name = "瓦尔加 ";
         break;
         case 31:
-        name = "Valmieras";
+        name = "Valmieras ";
         break;
         case 32:
-        name = "Ventspils";
+        name = "文茨皮尔斯 ";
         break;
         case 33:
-        name = "Ventspils";
+        name = "文茨皮尔斯 ";
         break;
       }
     }
     if (country_code.equals("LY") == true) {
       switch (region_code2) {
         case 3:
-        name = "Al Aziziyah";
+        name = "阿齐济耶 ";
         break;
         case 5:
-        name = "Al Jufrah";
+        name = "胡夫拉 ";
         break;
         case 8:
-        name = "Al Kufrah";
+        name = "库夫拉 ";
         break;
         case 13:
-        name = "Ash Shati'";
+        name = "沙提 ";
         break;
         case 30:
-        name = "Murzuq";
+        name = "穆尔祖格 ";
         break;
         case 34:
-        name = "Sabha";
+        name = "塞卜哈 ";
         break;
         case 41:
-        name = "Tarhunah";
+        name = "泰尔胡奈 ";
         break;
         case 42:
-        name = "Tubruq";
+        name = "Tubruq ";
         break;
         case 45:
-        name = "Zlitan";
+        name = "Zlitan ";
         break;
         case 47:
-        name = "Ajdabiya";
+        name = "艾季达比亚 ";
         break;
         case 48:
-        name = "Al Fatih";
+        name = "铝法提赫 ";
         break;
         case 49:
-        name = "Al Jabal al Akhdar";
+        name = "绿山 ";
         break;
         case 50:
-        name = "Al Khums";
+        name = "胡姆斯 ";
         break;
         case 51:
-        name = "An Nuqat al Khams";
+        name = "一个人Nuqat印日玛线 ";
         break;
         case 52:
-        name = "Awbari";
+        name = "奥巴里 ";
         break;
         case 53:
-        name = "Az Zawiyah";
+        name = "扎维耶 ";
         break;
         case 54:
-        name = "Banghazi";
+        name = "班加西 ";
         break;
         case 55:
-        name = "Darnah";
+        name = "德尔纳 ";
         break;
         case 56:
-        name = "Ghadamis";
+        name = "古达米斯 ";
         break;
         case 57:
-        name = "Gharyan";
+        name = "盖尔扬 ";
         break;
         case 58:
-        name = "Misratah";
+        name = "米苏拉塔 ";
         break;
         case 59:
-        name = "Sawfajjin";
+        name = "Sawfajjin ";
         break;
         case 60:
-        name = "Surt";
+        name = "苏尔特 ";
         break;
         case 61:
-        name = "Tarabulus";
+        name = "Tarabulus ";
         break;
         case 62:
-        name = "Yafran";
+        name = "耶夫兰 ";
         break;
       }
     }
     if (country_code.equals("MA") == true) {
       switch (region_code2) {
         case 1:
-        name = "Agadir";
+        name = "阿加迪尔 ";
         break;
         case 2:
-        name = "Al Hoceima";
+        name = "胡塞马 ";
         break;
         case 3:
-        name = "Azilal";
+        name = "拉勒 ";
         break;
         case 4:
-        name = "Ben Slimane";
+        name = "本苏莱曼 ";
         break;
         case 5:
-        name = "Beni Mellal";
+        name = "贝尼迈拉勒 ";
         break;
         case 6:
-        name = "Boulemane";
+        name = "布勒曼 ";
         break;
         case 7:
-        name = "Casablanca";
+        name = "卡萨布兰卡 ";
         break;
         case 8:
-        name = "Chaouen";
+        name = "沙万 ";
         break;
         case 9:
-        name = "El Jadida";
+        name = "杰迪代 ";
         break;
         case 10:
-        name = "El Kelaa des Srarhna";
+        name = "克拉德斯斯Srarhna ";
         break;
         case 11:
-        name = "Er Rachidia";
+        name = "拉希迪耶 ";
         break;
         case 12:
-        name = "Essaouira";
+        name = "索维拉 ";
         break;
         case 13:
-        name = "Fes";
+        name = "非斯 ";
         break;
         case 14:
-        name = "Figuig";
+        name = "菲吉格 ";
         break;
         case 15:
-        name = "Kenitra";
+        name = "盖尼特拉 ";
         break;
         case 16:
-        name = "Khemisset";
+        name = "海米萨特 ";
         break;
         case 17:
-        name = "Khenifra";
+        name = "海尼夫拉 ";
         break;
         case 18:
-        name = "Khouribga";
+        name = "胡里卜盖 ";
         break;
         case 19:
-        name = "Marrakech";
+        name = "马拉喀什 ";
         break;
         case 20:
-        name = "Meknes";
+        name = "梅克内斯 ";
         break;
         case 21:
-        name = "Nador";
+        name = "纳多尔 ";
         break;
         case 22:
-        name = "Ouarzazate";
+        name = "瓦尔扎扎特 ";
         break;
         case 23:
-        name = "Oujda";
+        name = "乌季达 ";
         break;
         case 24:
-        name = "Rabat-Sale";
+        name = "拉巴特 - 销售 ";
         break;
         case 25:
-        name = "Safi";
+        name = "萨菲 ";
         break;
         case 26:
-        name = "Settat";
+        name = "塞塔特 ";
         break;
         case 27:
-        name = "Tanger";
+        name = "丹吉尔 ";
         break;
         case 29:
-        name = "Tata";
+        name = "塔塔 ";
         break;
         case 30:
-        name = "Taza";
+        name = "塔扎 ";
         break;
         case 32:
-        name = "Tiznit";
+        name = "提兹尼特 ";
         break;
         case 33:
-        name = "Guelmim";
+        name = "盖勒敏 ";
         break;
         case 34:
-        name = "Ifrane";
+        name = "伊夫兰 ";
         break;
         case 35:
-        name = "Laayoune";
+        name = "阿尤恩 ";
         break;
         case 36:
-        name = "Tan-Tan";
+        name = "坦坦 ";
         break;
         case 37:
-        name = "Taounate";
+        name = "陶纳特 ";
         break;
         case 38:
-        name = "Sidi Kacem";
+        name = "西迪卡塞姆 ";
         break;
         case 39:
-        name = "Taroudannt";
+        name = "塔鲁丹特 ";
         break;
         case 40:
-        name = "Tetouan";
+        name = "得土安 ";
         break;
         case 41:
-        name = "Larache";
+        name = "拉腊 ";
         break;
         case 45:
-        name = "Grand Casablanca";
+        name = "大卡萨布兰卡大区 ";
         break;
         case 46:
-        name = "Fes-Boulemane";
+        name = "菲斯 ";
         break;
         case 47:
-        name = "Marrakech-Tensift-Al Haouz";
+        name = "马拉喀什 - 豪兹 ";
         break;
         case 48:
-        name = "Meknes-Tafilalet";
+        name = "梅克内斯 - 塔菲拉勒特大 ";
         break;
         case 49:
-        name = "Rabat-Sale-Zemmour-Zaer";
+        name = "拉巴特 - 销售 - 宰穆尔 - 扎埃尔大区 ";
         break;
         case 50:
-        name = "Chaouia-Ouardigha";
+        name = "沙维雅 - 瓦拉迪格大区 ";
         break;
         case 51:
-        name = "Doukkala-Abda";
+        name = "杜卡拉 - 阿卜达 ";
         break;
         case 52:
-        name = "Gharb-Chrarda-Beni Hssen";
+        name = "西部 - 舍拉拉德贝尼贝尼赫森大区 ";
         break;
         case 53:
-        name = "Guelmim-Es Smara";
+        name = "盖勒敏-ES斯马拉 ";
         break;
         case 54:
-        name = "Oriental";
+        name = "东方的 ";
         break;
         case 55:
-        name = "Souss-Massa-Dr";
+        name = "苏斯 - 马塞 - 博士 ";
         break;
         case 56:
-        name = "Tadla-Azilal";
+        name = "塔德莱拉勒 ";
         break;
         case 57:
-        name = "Tanger-Tetouan";
+        name = "丹吉尔得土安 ";
         break;
         case 58:
-        name = "Taza-Al Hoceima-Taounate";
+        name = "塔扎 - 胡塞马 - 陶纳特 ";
         break;
         case 59:
-        name = "La";
+        name = "啦 ";
         break;
       }
     }
     if (country_code.equals("MC") == true) {
       switch (region_code2) {
         case 1:
-        name = "La Condamine";
+        name = "康达敏 ";
         break;
         case 2:
-        name = "Monaco";
+        name = "摩纳哥 ";
         break;
         case 3:
-        name = "Monte-Carlo";
+        name = "蒙特卡洛 ";
         break;
       }
     }
     if (country_code.equals("MD") == true) {
       switch (region_code2) {
         case 46:
-        name = "Balti";
+        name = "巴蒂 ";
         break;
         case 47:
-        name = "Cahul";
+        name = "卡古尔 ";
         break;
         case 48:
-        name = "Chisinau";
+        name = "基希讷乌 ";
         break;
         case 49:
-        name = "Stinga Nistrului";
+        name = "Stinga Nistrului ";
         break;
         case 50:
-        name = "Edinet";
+        name = "埃迪内茨 ";
         break;
         case 51:
-        name = "Gagauzia";
+        name = "加告兹 ";
         break;
         case 52:
-        name = "Lapusna";
+        name = "拉普斯纳 ";
         break;
         case 53:
-        name = "Orhei";
+        name = "奥尔海伊 ";
         break;
         case 54:
-        name = "Soroca";
+        name = "索罗卡 ";
         break;
         case 55:
-        name = "Tighina";
+        name = "蒂吉娜 ";
         break;
         case 56:
-        name = "Ungheni";
+        name = "温格内 ";
         break;
         case 58:
-        name = "Stinga Nistrului";
+        name = "Stinga Nistrului ";
         break;
         case 59:
-        name = "Anenii Noi";
+        name = "Anenii NOI ";
         break;
         case 60:
-        name = "Balti";
+        name = "巴蒂 ";
         break;
         case 61:
-        name = "Basarabeasca";
+        name = "Basarabeasca ";
         break;
         case 62:
-        name = "Bender";
+        name = "德尔 ";
         break;
         case 63:
-        name = "Briceni";
+        name = "Briceni ";
         break;
         case 64:
-        name = "Cahul";
+        name = "卡古尔 ";
         break;
         case 65:
-        name = "Cantemir";
+        name = "坎泰米尔 ";
         break;
         case 66:
-        name = "Calarasi";
+        name = "克勒拉希 ";
         break;
         case 67:
-        name = "Causeni";
+        name = "Causeni ";
         break;
         case 68:
-        name = "Cimislia";
+        name = "Cimislia ";
         break;
         case 69:
-        name = "Criuleni";
+        name = "Criuleni ";
         break;
         case 70:
-        name = "Donduseni";
+        name = "Donduseni ";
         break;
         case 71:
-        name = "Drochia";
+        name = "德罗基亚 ";
         break;
         case 72:
-        name = "Dubasari";
+        name = "杜伯萨里 ";
         break;
         case 73:
-        name = "Edinet";
+        name = "埃迪内茨 ";
         break;
         case 74:
-        name = "Falesti";
+        name = "Falesti ";
         break;
         case 75:
-        name = "Floresti";
+        name = "弗洛雷什蒂 ";
         break;
         case 76:
-        name = "Glodeni";
+        name = "Glodeni ";
         break;
         case 77:
-        name = "Hincesti";
+        name = "都是百翠庄园 ";
         break;
         case 78:
-        name = "Ialoveni";
+        name = "Ialoveni ";
         break;
         case 79:
-        name = "Leova";
+        name = "Leova ";
         break;
         case 80:
-        name = "Nisporeni";
+        name = "Nisporeni ";
         break;
         case 81:
-        name = "Ocnita";
+        name = "Ocnita ";
         break;
         case 83:
-        name = "Rezina";
+        name = "Rezina ";
         break;
         case 84:
-        name = "Riscani";
+        name = "Riscani ";
         break;
         case 85:
-        name = "Singerei";
+        name = "Singerei ";
         break;
         case 86:
-        name = "Soldanesti";
+        name = "Soldanesti ";
         break;
         case 87:
-        name = "Soroca";
+        name = "索罗卡 ";
         break;
         case 88:
-        name = "Stefan-Voda";
+        name = "斯特凡 - 沃达 ";
         break;
         case 89:
-        name = "Straseni";
+        name = "Straseni ";
         break;
         case 90:
-        name = "Taraclia";
+        name = "塔拉克利亚 ";
         break;
         case 91:
-        name = "Telenesti";
+        name = "Telenesti ";
         break;
         case 92:
-        name = "Ungheni";
+        name = "温格内 ";
         break;
       }
     }
     if (country_code.equals("MG") == true) {
       switch (region_code2) {
         case 1:
-        name = "Antsiranana";
+        name = "安齐拉纳纳 ";
         break;
         case 2:
-        name = "Fianarantsoa";
+        name = "菲亚纳兰楚阿 ";
         break;
         case 3:
-        name = "Mahajanga";
+        name = "马哈赞加 ";
         break;
         case 4:
-        name = "Toamasina";
+        name = "图阿马西纳 ";
         break;
         case 5:
-        name = "Antananarivo";
+        name = "塔那那利佛 ";
         break;
         case 6:
-        name = "Toliara";
+        name = "图利亚拉 ";
         break;
       }
     }
     if (country_code.equals("MK") == true) {
       switch (region_code2) {
         case 1:
-        name = "Aracinovo";
+        name = "阿拉津诺沃 ";
         break;
         case 2:
-        name = "Bac";
+        name = "薄 ";
         break;
         case 3:
-        name = "Belcista";
+        name = "Belcista ";
         break;
         case 4:
-        name = "Berovo";
+        name = "贝罗沃 ";
         break;
         case 5:
-        name = "Bistrica";
+        name = "比斯特里察 ";
         break;
         case 6:
-        name = "Bitola";
+        name = "比托拉 ";
         break;
         case 7:
-        name = "Blatec";
+        name = "布拉泰茨 ";
         break;
         case 8:
-        name = "Bogdanci";
+        name = "博丹奇 ";
         break;
         case 9:
-        name = "Bogomila";
+        name = "Bogomila ";
         break;
         case 10:
-        name = "Bogovinje";
+        name = "博戈维尼耶 ";
         break;
         case 11:
-        name = "Bosilovo";
+        name = "博西洛沃 ";
         break;
         case 12:
-        name = "Brvenica";
+        name = "布尔文尼卡 ";
         break;
         case 13:
-        name = "Cair";
+        name = "CAIR ";
         break;
         case 14:
-        name = "Capari";
+        name = "Capari ";
         break;
         case 15:
-        name = "Caska";
+        name = "卡仕达 ";
         break;
         case 16:
-        name = "Cegrane";
+        name = "Cegrane ";
         break;
         case 17:
-        name = "Centar";
+        name = "CENTAR ";
         break;
         case 18:
-        name = "Centar Zupa";
+        name = "辛塔尔祖帕 ";
         break;
         case 19:
-        name = "Cesinovo";
+        name = "塞辛诺沃 ";
         break;
         case 20:
-        name = "Cucer-Sandevo";
+        name = "Cucer Sandevo ";
         break;
         case 21:
-        name = "Debar";
+        name = "取消比赛资格 ";
         break;
         case 22:
-        name = "Delcevo";
+        name = "德尔塞沃 ";
         break;
         case 23:
-        name = "Delogozdi";
+        name = "Delogozdi ";
         break;
         case 24:
-        name = "Demir Hisar";
+        name = "德米尔希萨尔 ";
         break;
         case 25:
-        name = "Demir Kapija";
+        name = "德米尔卡皮雅 ";
         break;
         case 26:
-        name = "Dobrusevo";
+        name = "Dobrusevo ";
         break;
         case 27:
-        name = "Dolna Banjica";
+        name = "下，下Banjica ";
         break;
         case 28:
-        name = "Dolneni";
+        name = "多尔涅尼 ";
         break;
         case 29:
-        name = "Dorce Petrov";
+        name = "彼得罗夫Dorce ";
         break;
         case 30:
-        name = "Drugovo";
+        name = "德鲁戈沃 ";
         break;
         case 31:
-        name = "Dzepciste";
+        name = "Dzepciste ";
         break;
         case 32:
-        name = "Gazi Baba";
+        name = "嘎子巴巴 ";
         break;
         case 33:
-        name = "Gevgelija";
+        name = "杰夫格里雅 ";
         break;
         case 34:
-        name = "Gostivar";
+        name = "戈斯蒂瓦尔 ";
         break;
         case 35:
-        name = "Gradsko";
+        name = "格拉兹科 ";
         break;
         case 36:
-        name = "Ilinden";
+        name = "伊林登 ";
         break;
         case 37:
-        name = "Izvor";
+        name = "泉镇 ";
         break;
         case 38:
-        name = "Jegunovce";
+        name = "耶古诺维切 ";
         break;
         case 39:
-        name = "Kamenjane";
+        name = "Kamenjane ";
         break;
         case 40:
-        name = "Karbinci";
+        name = "卡尔宾奇 ";
         break;
         case 41:
-        name = "Karpos";
+        name = "卡尔波什 ";
         break;
         case 42:
-        name = "Kavadarci";
+        name = "卡瓦达尔齐 ";
         break;
         case 43:
-        name = "Kicevo";
+        name = "基切沃 ";
         break;
         case 44:
-        name = "Kisela Voda";
+        name = "沃达 ";
         break;
         case 45:
-        name = "Klecevce";
+        name = "Klecevce ";
         break;
         case 46:
-        name = "Kocani";
+        name = "科查尼 ";
         break;
         case 47:
-        name = "Konce";
+        name = "孔塞 ";
         break;
         case 48:
-        name = "Kondovo";
+        name = "Kondovo ";
         break;
         case 49:
-        name = "Konopiste";
+        name = "科诺皮什切 ";
         break;
         case 50:
-        name = "Kosel";
+        name = "Kosel的 ";
         break;
         case 51:
-        name = "Kratovo";
+        name = "克拉托沃 ";
         break;
         case 52:
-        name = "Kriva Palanka";
+        name = "克里瓦帕兰卡 ";
         break;
         case 53:
-        name = "Krivogastani";
+        name = "克里沃加斯塔尼 ";
         break;
         case 54:
-        name = "Krusevo";
+        name = "克鲁舍沃 ";
         break;
         case 55:
-        name = "Kuklis";
+        name = "Kuklis ";
         break;
         case 56:
-        name = "Kukurecani";
+        name = "Kukurecani ";
         break;
         case 57:
-        name = "Kumanovo";
+        name = "库马诺沃 ";
         break;
         case 58:
-        name = "Labunista";
+        name = "Labunista ";
         break;
         case 59:
-        name = "Lipkovo";
+        name = "里普科沃 ";
         break;
         case 60:
-        name = "Lozovo";
+        name = "洛佐沃 ";
         break;
         case 61:
-        name = "Lukovo";
+        name = "Lukovo ";
         break;
         case 62:
-        name = "Makedonska Kamenica";
+        name = "马其顿卡梅尼察 ";
         break;
         case 63:
-        name = "Makedonski Brod";
+        name = "布罗德 ";
         break;
         case 64:
-        name = "Mavrovi Anovi";
+        name = "Mavrovi Anovi ";
         break;
         case 65:
-        name = "Meseista";
+        name = "Meseista ";
         break;
         case 66:
-        name = "Miravci";
+        name = "Miravci ";
         break;
         case 67:
-        name = "Mogila";
+        name = "莫吉拉 ";
         break;
         case 68:
-        name = "Murtino";
+        name = "Murtino ";
         break;
         case 69:
-        name = "Negotino";
+        name = "内戈蒂诺 ";
         break;
         case 70:
-        name = "Negotino-Polosko";
+        name = "内戈蒂诺Polosko ";
         break;
         case 71:
-        name = "Novaci";
+        name = "Novaci ";
         break;
         case 72:
-        name = "Novo Selo";
+        name = "诺沃塞洛 ";
         break;
         case 73:
-        name = "Oblesevo";
+        name = "奥布勒塞沃 ";
         break;
         case 74:
-        name = "Ohrid";
+        name = "奥赫里德 ";
         break;
         case 75:
-        name = "Orasac";
+        name = "Orasac（克罗地亚） ";
         break;
         case 76:
-        name = "Orizari";
+        name = "Orizari ";
         break;
         case 77:
-        name = "Oslomej";
+        name = "奥斯洛梅 ";
         break;
         case 78:
-        name = "Pehcevo";
+        name = "佩赫塞沃 ";
         break;
         case 79:
-        name = "Petrovec";
+        name = "气象站 ";
         break;
         case 80:
-        name = "Plasnica";
+        name = "普拉什尼查 ";
         break;
         case 81:
-        name = "Podares";
+        name = "Podares ";
         break;
         case 82:
-        name = "Prilep";
+        name = "普里莱普 ";
         break;
         case 83:
-        name = "Probistip";
+        name = "普罗比什提普 ";
         break;
         case 84:
-        name = "Radovis";
+        name = "拉多维什 ";
         break;
         case 85:
-        name = "Rankovce";
+        name = "兰科夫塞 ";
         break;
         case 86:
-        name = "Resen";
+        name = "里森 ";
         break;
         case 87:
-        name = "Rosoman";
+        name = "罗索曼 ";
         break;
         case 88:
-        name = "Rostusa";
+        name = "Rostusa ";
         break;
         case 89:
-        name = "Samokov";
+        name = "萨莫科夫 ";
         break;
         case 90:
-        name = "Saraj";
+        name = "萨拉伊 ";
         break;
         case 91:
-        name = "Sipkovica";
+        name = "Sipkovica ";
         break;
         case 92:
-        name = "Sopiste";
+        name = "苏皮什特 ";
         break;
         case 93:
-        name = "Sopotnica";
+        name = "Sopotnica ";
         break;
         case 94:
-        name = "Srbinovo";
+        name = "Srbinovo ";
         break;
         case 95:
-        name = "Staravina";
+        name = "Staravina ";
         break;
         case 96:
-        name = "Star Dojran";
+        name = "星多伊兰 ";
         break;
         case 97:
-        name = "Staro Nagoricane";
+        name = "纳戈里查 ";
         break;
         case 98:
-        name = "Stip";
+        name = "什蒂普 ";
         break;
         case 99:
-        name = "Struga";
+        name = "斯特鲁加 ";
         break;
         case 832:
-        name = "Strumica";
+        name = "斯特鲁米察 ";
         break;
         case 833:
-        name = "Studenicani";
+        name = "斯图登尼 ";
         break;
         case 834:
-        name = "Suto Orizari";
+        name = "奥里扎里 ";
         break;
         case 835:
-        name = "Sveti Nikole";
+        name = "尼科列 ";
         break;
         case 836:
-        name = "Tearce";
+        name = "特阿尔塞 ";
         break;
         case 837:
-        name = "Tetovo";
+        name = "泰托沃 ";
         break;
         case 838:
-        name = "Topolcani";
+        name = "Topolcani ";
         break;
         case 839:
-        name = "Valandovo";
+        name = "瓦兰多沃 ";
         break;
         case 840:
-        name = "Vasilevo";
+        name = "瓦西列沃 ";
         break;
         case 875:
-        name = "Veles";
+        name = "韦莱斯 ";
         break;
         case 876:
-        name = "Velesta";
+        name = "Velesta ";
         break;
         case 877:
-        name = "Vevcani";
+        name = "维夫查尼 ";
         break;
         case 878:
-        name = "Vinica";
+        name = "维尼卡 ";
         break;
         case 879:
-        name = "Vitoliste";
+        name = "Vitoliste ";
         break;
         case 880:
-        name = "Vranestica";
+        name = "弗兰尼斯提卡 ";
         break;
         case 881:
-        name = "Vrapciste";
+        name = "Vrapciste ";
         break;
         case 882:
-        name = "Vratnica";
+        name = "Vratnica ";
         break;
         case 883:
-        name = "Vrutok";
+        name = "Vrutok ";
         break;
         case 918:
-        name = "Zajas";
+        name = "扎雅斯 ";
         break;
         case 919:
-        name = "Zelenikovo";
+        name = "泽伦尼科沃 ";
         break;
         case 920:
-        name = "Zelino";
+        name = "泽林诺 ";
         break;
         case 921:
-        name = "Zitose";
+        name = "Zitose ";
         break;
         case 922:
-        name = "Zletovo";
+        name = "Zletovo ";
         break;
         case 923:
-        name = "Zrnovci";
+        name = "日尔诺维奇 ";
         break;
       }
     }
     if (country_code.equals("ML") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bamako";
+        name = "巴马科 ";
         break;
         case 3:
-        name = "Kayes";
+        name = "卡耶大 ";
         break;
         case 4:
-        name = "Mopti";
+        name = "莫普提 ";
         break;
         case 5:
-        name = "Segou";
+        name = "塞古 ";
         break;
         case 6:
-        name = "Sikasso";
+        name = "锡卡索 ";
         break;
         case 7:
-        name = "Koulikoro";
+        name = "库里科罗 ";
         break;
         case 8:
-        name = "Tombouctou";
+        name = "通布图 ";
         break;
         case 9:
-        name = "Gao";
+        name = "高 ";
         break;
         case 10:
-        name = "Kidal";
+        name = "基达尔 ";
         break;
       }
     }
     if (country_code.equals("MM") == true) {
       switch (region_code2) {
         case 1:
-        name = "Rakhine State";
+        name = "若开邦 ";
         break;
         case 2:
-        name = "Chin State";
+        name = "钦邦 ";
         break;
         case 3:
-        name = "Irrawaddy";
+        name = "伊洛瓦底江 ";
         break;
         case 4:
-        name = "Kachin State";
+        name = "克钦邦 ";
         break;
         case 5:
-        name = "Karan State";
+        name = "卡兰州 ";
         break;
         case 6:
-        name = "Kayah State";
+        name = "克耶邦 ";
         break;
         case 7:
-        name = "Magwe";
+        name = "马圭 ";
         break;
         case 8:
-        name = "Mandalay";
+        name = "曼德勒 ";
         break;
         case 9:
-        name = "Pegu";
+        name = "勃固 ";
         break;
         case 10:
-        name = "Sagaing";
+        name = "实皆 ";
         break;
         case 11:
-        name = "Shan State";
+        name = "掸邦 ";
         break;
         case 12:
-        name = "Tenasserim";
+        name = "德林达依 ";
         break;
         case 13:
-        name = "Mon State";
+        name = "孟邦 ";
         break;
         case 14:
-        name = "Rangoon";
+        name = "仰光 ";
         break;
         case 17:
-        name = "Yangon";
+        name = "仰光 ";
         break;
       }
     }
     if (country_code.equals("MN") == true) {
       switch (region_code2) {
         case 1:
-        name = "Arhangay";
+        name = "杭爱 ";
         break;
         case 2:
-        name = "Bayanhongor";
+        name = "巴彦洪戈尔 ";
         break;
         case 3:
-        name = "Bayan-Olgiy";
+        name = "巴彦乌勒盖 ";
         break;
         case 5:
-        name = "Darhan";
+        name = "达尔罕茂 ";
         break;
         case 6:
-        name = "Dornod";
+        name = "东方省 ";
         break;
         case 7:
-        name = "Dornogovi";
+        name = "东戈壁 ";
         break;
         case 8:
-        name = "Dundgovi";
+        name = "戈壁 ";
         break;
         case 9:
-        name = "Dzavhan";
+        name = "扎布汗 ";
         break;
         case 10:
-        name = "Govi-Altay";
+        name = "戈壁阿尔泰 ";
         break;
         case 11:
-        name = "Hentiy";
+        name = "Hentiy ";
         break;
         case 12:
-        name = "Hovd";
+        name = "科布多 ";
         break;
         case 13:
-        name = "Hovsgol";
+        name = "库苏古尔 ";
         break;
         case 14:
-        name = "Omnogovi";
+        name = "南戈壁 ";
         break;
         case 15:
-        name = "Ovorhangay";
+        name = "前杭爱 ";
         break;
         case 16:
-        name = "Selenge";
+        name = "色楞格 ";
         break;
         case 17:
-        name = "Suhbaatar";
+        name = "苏赫巴托尔 ";
         break;
         case 18:
-        name = "Tov";
+        name = "TOV ";
         break;
         case 19:
-        name = "Uvs";
+        name = "乌布苏 ";
         break;
         case 20:
-        name = "Ulaanbaatar";
+        name = "乌兰巴托 ";
         break;
         case 21:
-        name = "Bulgan";
+        name = "布尔干 ";
         break;
         case 22:
-        name = "Erdenet";
+        name = "额尔登特 ";
         break;
         case 23:
-        name = "Darhan-Uul";
+        name = "达尔汗乌勒 ";
         break;
         case 24:
-        name = "Govisumber";
+        name = "Govisumber ";
         break;
         case 25:
-        name = "Orhon";
+        name = "鄂尔浑 ";
         break;
       }
     }
     if (country_code.equals("MO") == true) {
       switch (region_code2) {
         case 1:
-        name = "Ilhas";
+        name = "Ilhas ";
         break;
         case 2:
-        name = "Macau";
+        name = "澳门 ";
         break;
       }
     }
     if (country_code.equals("MR") == true) {
       switch (region_code2) {
         case 1:
-        name = "Hodh Ech Chargui";
+        name = "西胡德 ";
         break;
         case 2:
-        name = "Hodh El Gharbi";
+        name = "东胡德 ";
         break;
         case 3:
-        name = "Assaba";
+        name = "阿萨巴 ";
         break;
         case 4:
-        name = "Gorgol";
+        name = "戈尔戈勒 ";
         break;
         case 5:
-        name = "Brakna";
+        name = "卜拉克纳 ";
         break;
         case 6:
-        name = "Trarza";
+        name = "特拉扎 ";
         break;
         case 7:
-        name = "Adrar";
+        name = "阿德拉尔 ";
         break;
         case 8:
-        name = "Dakhlet Nouadhibou";
+        name = "努瓦迪布 ";
         break;
         case 9:
-        name = "Tagant";
+        name = "塔甘特区 ";
         break;
         case 10:
-        name = "Guidimaka";
+        name = "吉迪马卡 ";
         break;
         case 11:
-        name = "Tiris Zemmour";
+        name = "提里斯宰 ";
         break;
         case 12:
-        name = "Inchiri";
+        name = "因希里 ";
         break;
       }
     }
     if (country_code.equals("MS") == true) {
       switch (region_code2) {
         case 1:
-        name = "Saint Anthony";
+        name = "圣安东尼 ";
         break;
         case 2:
-        name = "Saint Georges";
+        name = "圣乔治 ";
         break;
         case 3:
-        name = "Saint Peter";
+        name = "圣彼得 ";
         break;
       }
     }
     if (country_code.equals("MU") == true) {
       switch (region_code2) {
         case 12:
-        name = "Black River";
+        name = "黑河 ";
         break;
         case 13:
-        name = "Flacq";
+        name = "弗拉克 ";
         break;
         case 14:
-        name = "Grand Port";
+        name = "大港 ";
         break;
         case 15:
-        name = "Moka";
+        name = "摩卡 ";
         break;
         case 16:
-        name = "Pamplemousses";
+        name = "庞普勒穆斯 ";
         break;
         case 17:
-        name = "Plaines Wilhems";
+        name = "威廉平原 ";
         break;
         case 18:
-        name = "Port Louis";
+        name = "路易港 ";
         break;
         case 19:
-        name = "Riviere du Rempart";
+        name = "里维耶尔 - 迪朗帕 ";
         break;
         case 20:
-        name = "Savanne";
+        name = "萨凡纳 ";
         break;
         case 21:
-        name = "Agalega Islands";
+        name = "阿加莱加群岛 ";
         break;
         case 22:
-        name = "Cargados Carajos";
+        name = "卡加多斯卡拉若斯 ";
         break;
         case 23:
-        name = "Rodrigues";
+        name = "罗德里格斯 ";
         break;
       }
     }
     if (country_code.equals("MV") == true) {
       switch (region_code2) {
         case 1:
-        name = "Seenu";
+        name = "西努 ";
         break;
         case 2:
-        name = "Aliff";
+        name = "Aliff ";
         break;
         case 3:
-        name = "Laviyani";
+        name = "Laviyani ";
         break;
         case 4:
-        name = "Waavu";
+        name = "Waavu ";
         break;
         case 5:
-        name = "Laamu";
+        name = "拉姆 ";
         break;
         case 7:
-        name = "Haa Aliff";
+        name = "蒂拉杜马蒂 ";
         break;
         case 8:
-        name = "Thaa";
+        name = "THAA ";
         break;
         case 12:
-        name = "Meemu";
+        name = "美慕 ";
         break;
         case 13:
-        name = "Raa";
+        name = "拉加 ";
         break;
         case 14:
-        name = "Faafu";
+        name = "法弗 ";
         break;
         case 17:
-        name = "Daalu";
+        name = "Daalu ";
         break;
         case 20:
-        name = "Baa";
+        name = "巴阿 ";
         break;
         case 23:
-        name = "Haa Daalu";
+        name = "哈阿Daalu的 ";
         break;
         case 24:
-        name = "Shaviyani";
+        name = "沙维亚尼 ";
         break;
         case 25:
-        name = "Noonu";
+        name = "诺鲁 ";
         break;
         case 26:
-        name = "Kaafu";
+        name = "卡夫 ";
         break;
         case 27:
-        name = "Gaafu Aliff";
+        name = "加福Aliff的 ";
         break;
         case 28:
-        name = "Gaafu Daalu";
+        name = "加福Daalu的 ";
         break;
         case 29:
-        name = "Naviyani";
+        name = "Naviyani ";
         break;
         case 40:
-        name = "Male";
+        name = "男性 ";
         break;
       }
     }
     if (country_code.equals("MW") == true) {
       switch (region_code2) {
         case 2:
-        name = "Chikwawa";
+        name = "奇克瓦瓦 ";
         break;
         case 3:
-        name = "Chiradzulu";
+        name = "奇拉祖鲁 ";
         break;
         case 4:
-        name = "Chitipa";
+        name = "奇蒂帕 ";
         break;
         case 5:
-        name = "Thyolo";
+        name = "乔洛 ";
         break;
         case 6:
-        name = "Dedza";
+        name = "代扎 ";
         break;
         case 7:
-        name = "Dowa";
+        name = "同和 ";
         break;
         case 8:
-        name = "Karonga";
+        name = "卡隆加 ";
         break;
         case 9:
-        name = "Kasungu";
+        name = "卡松古 ";
         break;
         case 11:
-        name = "Lilongwe";
+        name = "利隆圭 ";
         break;
         case 12:
-        name = "Mangochi";
+        name = "曼戈切 ";
         break;
         case 13:
-        name = "Mchinji";
+        name = "姆钦吉 ";
         break;
         case 15:
-        name = "Mzimba";
+        name = "姆津巴 ";
         break;
         case 16:
-        name = "Ntcheu";
+        name = "恩彻乌 ";
         break;
         case 17:
-        name = "Nkhata Bay";
+        name = "恩卡塔湾 ";
         break;
         case 18:
-        name = "Nkhotakota";
+        name = "恩科塔科塔 ";
         break;
         case 19:
-        name = "Nsanje";
+        name = "恩桑杰 ";
         break;
         case 20:
-        name = "Ntchisi";
+        name = "恩奇斯 ";
         break;
         case 21:
-        name = "Rumphi";
+        name = "Rumphi ";
         break;
         case 22:
-        name = "Salima";
+        name = "萨利马 ";
         break;
         case 23:
-        name = "Zomba";
+        name = "松巴 ";
         break;
         case 24:
-        name = "Blantyre";
+        name = "布兰太尔 ";
         break;
         case 25:
-        name = "Mwanza";
+        name = "姆万扎 ";
         break;
         case 26:
-        name = "Balaka";
+        name = "巴拉卡 ";
         break;
         case 27:
-        name = "Likoma";
+        name = "利科马 ";
         break;
         case 28:
-        name = "Machinga";
+        name = "马钦加 ";
         break;
         case 29:
-        name = "Mulanje";
+        name = "姆兰杰 ";
         break;
         case 30:
-        name = "Phalombe";
+        name = "法隆贝 ";
         break;
       }
     }
     if (country_code.equals("MX") == true) {
       switch (region_code2) {
         case 1:
-        name = "Aguascalientes";
+        name = "阿瓜斯卡连特斯 ";
         break;
         case 2:
-        name = "Baja California";
+        name = "下加利福尼亚州 ";
         break;
         case 3:
-        name = "Baja California Sur";
+        name = "南下加利福尼亚州 ";
         break;
         case 4:
-        name = "Campeche";
+        name = "坎佩切 ";
         break;
         case 5:
-        name = "Chiapas";
+        name = "恰帕斯州 ";
         break;
         case 6:
-        name = "Chihuahua";
+        name = "奇瓦瓦 ";
         break;
         case 7:
-        name = "Coahuila de Zaragoza";
+        name = "科阿韦拉州去萨拉戈萨 ";
         break;
         case 8:
-        name = "Colima";
+        name = "科利马 ";
         break;
         case 9:
-        name = "Distrito Federal";
+        name = "联邦首都区 ";
         break;
         case 10:
-        name = "Durango";
+        name = "杜兰戈 ";
         break;
         case 11:
-        name = "Guanajuato";
+        name = "瓜纳华托 ";
         break;
         case 12:
-        name = "Guerrero";
+        name = "格雷罗 ";
         break;
         case 13:
-        name = "Hidalgo";
+        name = "伊达尔戈 ";
         break;
         case 14:
-        name = "Jalisco";
+        name = "哈利斯科州 ";
         break;
         case 15:
-        name = "Mexico";
+        name = "墨西哥 ";
         break;
         case 16:
-        name = "Michoacan de Ocampo";
+        name = "米却肯州的奥坎波 ";
         break;
         case 17:
-        name = "Morelos";
+        name = "莫雷洛斯 ";
         break;
         case 18:
-        name = "Nayarit";
+        name = "纳亚里特 ";
         break;
         case 19:
-        name = "Nuevo Leon";
+        name = "新莱昂州 ";
         break;
         case 20:
-        name = "Oaxaca";
+        name = "瓦哈卡 ";
         break;
         case 21:
-        name = "Puebla";
+        name = "普埃布拉 ";
         break;
         case 22:
-        name = "Queretaro de Arteaga";
+        name = "克雷塔罗的亚特嘉的 ";
         break;
         case 23:
-        name = "Quintana Roo";
+        name = "金塔纳罗奥 ";
         break;
         case 24:
-        name = "San Luis Potosi";
+        name = "圣路易斯波托西 ";
         break;
         case 25:
-        name = "Sinaloa";
+        name = "锡那罗亚州 ";
         break;
         case 26:
-        name = "Sonora";
+        name = "索诺拉 ";
         break;
         case 27:
-        name = "Tabasco";
+        name = "塔巴斯科 ";
         break;
         case 28:
-        name = "Tamaulipas";
+        name = "塔毛利帕斯州 ";
         break;
         case 29:
-        name = "Tlaxcala";
+        name = "特拉斯卡拉 ";
         break;
         case 30:
-        name = "Veracruz-Llave";
+        name = "韦拉克鲁斯Llave ";
         break;
         case 31:
-        name = "Yucatan";
+        name = "尤卡坦半岛 ";
         break;
         case 32:
-        name = "Zacatecas";
+        name = "萨卡特卡斯 ";
         break;
       }
     }
     if (country_code.equals("MY") == true) {
       switch (region_code2) {
         case 1:
-        name = "Johor";
+        name = "柔佛 ";
         break;
         case 2:
-        name = "Kedah";
+        name = "吉打 ";
         break;
         case 3:
-        name = "Kelantan";
+        name = "吉兰丹 ";
         break;
         case 4:
-        name = "Melaka";
+        name = "马六甲 ";
         break;
         case 5:
-        name = "Negeri Sembilan";
+        name = "森美兰 ";
         break;
         case 6:
-        name = "Pahang";
+        name = "彭亨 ";
         break;
         case 7:
-        name = "Perak";
+        name = "霹雳 ";
         break;
         case 8:
-        name = "Perlis";
+        name = "玻璃市 ";
         break;
         case 9:
-        name = "Pulau Pinang";
+        name = "槟城 ";
         break;
         case 11:
-        name = "Sarawak";
+        name = "沙捞越 ";
         break;
         case 12:
-        name = "Selangor";
+        name = "雪兰莪 ";
         break;
         case 13:
-        name = "Terengganu";
+        name = "登嘉楼 ";
         break;
         case 14:
-        name = "Kuala Lumpur";
+        name = "吉隆坡 ";
         break;
         case 15:
-        name = "Labuan";
+        name = "纳闽 ";
         break;
         case 16:
-        name = "Sabah";
+        name = "沙巴 ";
         break;
         case 17:
-        name = "Putrajaya";
+        name = "普特拉贾亚 ";
         break;
       }
     }
     if (country_code.equals("MZ") == true) {
       switch (region_code2) {
         case 1:
-        name = "Cabo Delgado";
+        name = "德尔加杜角 ";
         break;
         case 2:
-        name = "Gaza";
+        name = "加沙 ";
         break;
         case 3:
-        name = "Inhambane";
+        name = "伊尼扬巴内 ";
         break;
         case 4:
-        name = "Maputo";
+        name = "马普托 ";
         break;
         case 5:
-        name = "Sofala";
+        name = "索法拉 ";
         break;
         case 6:
-        name = "Nampula";
+        name = "楠普拉 ";
         break;
         case 7:
-        name = "Niassa";
+        name = "尼亚萨 ";
         break;
         case 8:
-        name = "Tete";
+        name = "太特 ";
         break;
         case 9:
-        name = "Zambezia";
+        name = "赞比西亚 ";
         break;
         case 10:
-        name = "Manica";
+        name = "马尼卡 ";
         break;
         case 11:
-        name = "Maputo";
+        name = "马普托 ";
         break;
       }
     }
     if (country_code.equals("NA") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bethanien";
+        name = "Bethanien ";
         break;
         case 2:
-        name = "Caprivi Oos";
+        name = "卡普里维OOS ";
         break;
         case 3:
-        name = "Boesmanland";
+        name = "Boesmanland ";
         break;
         case 4:
-        name = "Gobabis";
+        name = "戈巴比斯 ";
         break;
         case 5:
-        name = "Grootfontein";
+        name = "赫鲁特方丹 ";
         break;
         case 6:
-        name = "Kaokoland";
+        name = "卡奥科兰 ";
         break;
         case 7:
-        name = "Karibib";
+        name = "Karibib ";
         break;
         case 8:
-        name = "Keetmanshoop";
+        name = "基特曼斯胡 ";
         break;
         case 9:
-        name = "Luderitz";
+        name = "吕德里茨 ";
         break;
         case 10:
-        name = "Maltahohe";
+        name = "Maltahohe ";
         break;
         case 11:
-        name = "Okahandja";
+        name = "奥卡汉贾 ";
         break;
         case 12:
-        name = "Omaruru";
+        name = "奥马鲁鲁 ";
         break;
         case 13:
-        name = "Otjiwarongo";
+        name = "Otjiwarongo的 ";
         break;
         case 14:
-        name = "Outjo";
+        name = "奥乔 ";
         break;
         case 15:
-        name = "Owambo";
+        name = "Owambo ";
         break;
         case 16:
-        name = "Rehoboth";
+        name = "里霍博斯 ";
         break;
         case 17:
-        name = "Swakopmund";
+        name = "斯瓦科普蒙 ";
         break;
         case 18:
-        name = "Tsumeb";
+        name = "楚梅布 ";
         break;
         case 20:
-        name = "Karasburg";
+        name = "Karasburg ";
         break;
         case 21:
-        name = "Windhoek";
+        name = "温得和克 ";
         break;
         case 22:
-        name = "Damaraland";
+        name = "达马拉兰 ";
         break;
         case 23:
-        name = "Hereroland Oos";
+        name = "Hereroland OOS ";
         break;
         case 24:
-        name = "Hereroland Wes";
+        name = "Hereroland韦斯 ";
         break;
         case 25:
-        name = "Kavango";
+        name = "奥卡万戈 ";
         break;
         case 26:
-        name = "Mariental";
+        name = "马林塔尔 ";
         break;
         case 27:
-        name = "Namaland";
+        name = "纳马兰 ";
         break;
         case 28:
-        name = "Caprivi";
+        name = "卡普里维 ";
         break;
         case 29:
-        name = "Erongo";
+        name = "埃龙戈 ";
         break;
         case 30:
-        name = "Hardap";
+        name = "哈达普 ";
         break;
         case 31:
-        name = "Karas";
+        name = "卡拉斯 ";
         break;
         case 32:
-        name = "Kunene";
+        name = "库内 ";
         break;
         case 33:
-        name = "Ohangwena";
+        name = "奥汉圭纳 ";
         break;
         case 34:
-        name = "Okavango";
+        name = "奥卡万戈 ";
         break;
         case 35:
-        name = "Omaheke";
+        name = "奥马赫科 ";
         break;
         case 36:
-        name = "Omusati";
+        name = "奥姆沙蒂 ";
         break;
         case 37:
-        name = "Oshana";
+        name = "奥沙纳 ";
         break;
         case 38:
-        name = "Oshikoto";
+        name = "奥希科托 ";
         break;
         case 39:
-        name = "Otjozondjupa";
+        name = "奥乔宗朱帕区 ";
         break;
       }
     }
     if (country_code.equals("NE") == true) {
       switch (region_code2) {
         case 1:
-        name = "Agadez";
+        name = "阿加德兹 ";
         break;
         case 2:
-        name = "Diffa";
+        name = "迪法 ";
         break;
         case 3:
-        name = "Dosso";
+        name = "多索 ";
         break;
         case 4:
-        name = "Maradi";
+        name = "马拉迪 ";
         break;
         case 5:
-        name = "Niamey";
+        name = "尼亚美 ";
         break;
         case 6:
-        name = "Tahoua";
+        name = "塔瓦 ";
         break;
         case 7:
-        name = "Zinder";
+        name = "津德尔 ";
         break;
         case 8:
-        name = "Niamey";
+        name = "尼亚美 ";
         break;
       }
     }
     if (country_code.equals("NG") == true) {
       switch (region_code2) {
         case 5:
-        name = "Lagos";
+        name = "拉各斯 ";
         break;
         case 10:
-        name = "Rivers";
+        name = "里弗斯 ";
         break;
         case 11:
-        name = "Federal Capital Territory";
+        name = "联邦首都区 ";
         break;
         case 12:
-        name = "Gongola";
+        name = "贡戈拉 ";
         break;
         case 16:
-        name = "Ogun";
+        name = "奥贡 ";
         break;
         case 17:
-        name = "Ondo";
+        name = "翁 ";
         break;
         case 18:
-        name = "Oyo";
+        name = "奥约 ";
         break;
         case 21:
-        name = "Akwa Ibom";
+        name = "阿夸伊博姆 ";
         break;
         case 22:
-        name = "Cross River";
+        name = "克罗斯河 ";
         break;
         case 23:
-        name = "Kaduna";
+        name = "卡杜纳 ";
         break;
         case 24:
-        name = "Katsina";
+        name = "卡齐纳 ";
         break;
         case 25:
-        name = "Anambra";
+        name = "阿南布拉 ";
         break;
         case 26:
-        name = "Benue";
+        name = "贝努埃 ";
         break;
         case 27:
-        name = "Borno";
+        name = "博尔诺 ";
         break;
         case 28:
-        name = "Imo";
+        name = "伊莫 ";
         break;
         case 29:
-        name = "Kano";
+        name = "卡诺 ";
         break;
         case 30:
-        name = "Kwara";
+        name = "夸拉 ";
         break;
         case 31:
-        name = "Niger";
+        name = "尼日尔 ";
         break;
         case 32:
-        name = "Oyo";
+        name = "奥约 ";
         break;
         case 35:
-        name = "Adamawa";
+        name = "阿达马瓦 ";
         break;
         case 36:
-        name = "Delta";
+        name = "三角洲 ";
         break;
         case 37:
-        name = "Edo";
+        name = "江户 ";
         break;
         case 39:
-        name = "Jigawa";
+        name = "吉加瓦 ";
         break;
         case 40:
-        name = "Kebbi";
+        name = "凯比 ";
         break;
         case 41:
-        name = "Kogi";
+        name = "科吉 ";
         break;
         case 42:
-        name = "Osun";
+        name = "奥逊 ";
         break;
         case 43:
-        name = "Taraba";
+        name = "塔拉巴 ";
         break;
         case 44:
-        name = "Yobe";
+        name = "约贝 ";
         break;
         case 45:
-        name = "Abia";
+        name = "阿比亚 ";
         break;
         case 46:
-        name = "Bauchi";
+        name = "博契 ";
         break;
         case 47:
-        name = "Enugu";
+        name = "埃努古 ";
         break;
         case 48:
-        name = "Ondo";
+        name = "翁 ";
         break;
         case 49:
-        name = "Plateau";
+        name = "高原 ";
         break;
         case 50:
-        name = "Rivers";
+        name = "里弗斯 ";
         break;
         case 51:
-        name = "Sokoto";
+        name = "索科托 ";
         break;
         case 52:
-        name = "Bayelsa";
+        name = "巴耶尔萨 ";
         break;
         case 53:
-        name = "Ebonyi";
+        name = "埃邦伊 ";
         break;
         case 54:
-        name = "Ekiti";
+        name = "埃基蒂 ";
         break;
         case 55:
-        name = "Gombe";
+        name = "贡贝 ";
         break;
         case 56:
-        name = "Nassarawa";
+        name = "纳萨拉瓦 ";
         break;
         case 57:
-        name = "Zamfara";
+        name = "扎姆法拉 ";
         break;
       }
     }
     if (country_code.equals("NI") == true) {
       switch (region_code2) {
         case 1:
-        name = "Boaco";
+        name = "博阿科 ";
         break;
         case 2:
-        name = "Carazo";
+        name = "卡拉索 ";
         break;
         case 3:
-        name = "Chinandega";
+        name = "奇南德加 ";
         break;
         case 4:
-        name = "Chontales";
+        name = "琼塔莱斯 ";
         break;
         case 5:
-        name = "Esteli";
+        name = "埃斯特利 ";
         break;
         case 6:
-        name = "Granada";
+        name = "格拉纳达 ";
         break;
         case 7:
-        name = "Jinotega";
+        name = "希诺特加 ";
         break;
         case 8:
-        name = "Leon";
+        name = "莱昂 ";
         break;
         case 9:
-        name = "Madriz";
+        name = "马德里斯 ";
         break;
         case 10:
-        name = "Managua";
+        name = "马那瓜 ";
         break;
         case 11:
-        name = "Masaya";
+        name = "马萨亚 ";
         break;
         case 12:
-        name = "Matagalpa";
+        name = "马塔加尔帕 ";
         break;
         case 13:
-        name = "Nueva Segovia";
+        name = "新塞哥维亚 ";
         break;
         case 14:
-        name = "Rio San Juan";
+        name = "圣胡安 ";
         break;
         case 15:
-        name = "Rivas";
+        name = "里瓦斯 ";
         break;
         case 16:
-        name = "Zelaya";
+        name = "塞拉亚 ";
         break;
         case 17:
-        name = "Autonoma Atlantico Norte";
+        name = "北大西洋自治区自治 ";
         break;
         case 18:
-        name = "Region Autonoma Atlantico Sur";
+        name = "南大西洋地区自治 ";
         break;
       }
     }
     if (country_code.equals("NL") == true) {
       switch (region_code2) {
         case 1:
-        name = "Drenthe";
+        name = "德伦特 ";
         break;
         case 2:
-        name = "Friesland";
+        name = "弗里斯兰 ";
         break;
         case 3:
-        name = "Gelderland";
+        name = "海尔德兰 ";
         break;
         case 4:
-        name = "Groningen";
+        name = "格罗宁根 ";
         break;
         case 5:
-        name = "Limburg";
+        name = "林堡省 ";
         break;
         case 6:
-        name = "Noord-Brabant";
+        name = "北布拉邦 ";
         break;
         case 7:
-        name = "Noord-Holland";
+        name = "北荷兰省 ";
         break;
         case 8:
-        name = "Overijssel";
+        name = "艾瑟尔 ";
         break;
         case 9:
-        name = "Utrecht";
+        name = "乌得勒支 ";
         break;
         case 10:
-        name = "Zeeland";
+        name = "泽兰 ";
         break;
         case 11:
-        name = "Zuid-Holland";
+        name = "南荷兰省 ";
         break;
         case 12:
-        name = "Dronten";
+        name = "的Dronten ";
         break;
         case 13:
-        name = "Zuidelijke IJsselmeerpolders";
+        name = "Zuidelijke IJsselmeerpolders ";
         break;
         case 14:
-        name = "Lelystad";
+        name = "莱利斯塔德 ";
         break;
         case 15:
-        name = "Overijssel";
+        name = "艾瑟尔 ";
         break;
         case 16:
-        name = "Flevoland";
+        name = "弗勒沃兰 ";
         break;
       }
     }
     if (country_code.equals("NO") == true) {
       switch (region_code2) {
         case 1:
-        name = "Akershus";
+        name = "阿克斯胡斯 ";
         break;
         case 2:
-        name = "Aust-Agder";
+        name = "东阿格德尔 ";
         break;
         case 4:
-        name = "Buskerud";
+        name = "布斯克吕 ";
         break;
         case 5:
-        name = "Finnmark";
+        name = "芬马克 ";
         break;
         case 6:
-        name = "Hedmark";
+        name = "海德马克 ";
         break;
         case 7:
-        name = "Hordaland";
+        name = "霍达兰 ";
         break;
         case 8:
-        name = "More og Romsdal";
+        name = "鲁姆斯达尔 ";
         break;
         case 9:
-        name = "Nordland";
+        name = "诺德兰 ";
         break;
         case 10:
-        name = "Nord-Trondelag";
+        name = "北特伦德拉格 ";
         break;
         case 11:
-        name = "Oppland";
+        name = "奥普兰 ";
         break;
         case 12:
-        name = "Oslo";
+        name = "奥斯陆 ";
         break;
         case 13:
-        name = "Ostfold";
+        name = "奥斯特福 ";
         break;
         case 14:
-        name = "Rogaland";
+        name = "斯塔万格 ";
         break;
         case 15:
-        name = "Sogn og Fjordane";
+        name = "松恩 - 菲尤拉讷 ";
         break;
         case 16:
-        name = "Sor-Trondelag";
+        name = "南特伦德拉格 ";
         break;
         case 17:
-        name = "Telemark";
+        name = "泰勒马克 ";
         break;
         case 18:
-        name = "Troms";
+        name = "特罗姆斯 ";
         break;
         case 19:
-        name = "Vest-Agder";
+        name = "西阿格德尔 ";
         break;
         case 20:
-        name = "Vestfold";
+        name = "西福尔 ";
         break;
       }
     }
     if (country_code.equals("NP") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bagmati";
+        name = "巴格马蒂 ";
         break;
         case 2:
-        name = "Bheri";
+        name = "Bheri ";
         break;
         case 3:
-        name = "Dhawalagiri";
+        name = "道拉吉里 ";
         break;
         case 4:
-        name = "Gandaki";
+        name = "甘达基 ";
         break;
         case 5:
-        name = "Janakpur";
+        name = "贾纳克布尔 ";
         break;
         case 6:
-        name = "Karnali";
+        name = "卡纳利 ";
         break;
         case 7:
-        name = "Kosi";
+        name = "戈西 ";
         break;
         case 8:
-        name = "Lumbini";
+        name = "蓝毗尼 ";
         break;
         case 9:
-        name = "Mahakali";
+        name = "马哈卡里 ";
         break;
         case 10:
-        name = "Mechi";
+        name = "梅吉 ";
         break;
         case 11:
-        name = "Narayani";
+        name = "纳拉亚尼 ";
         break;
         case 12:
-        name = "Rapti";
+        name = "拉布蒂 ";
         break;
         case 13:
-        name = "Sagarmatha";
+        name = "萨加玛塔 ";
         break;
         case 14:
-        name = "Seti";
+        name = "塞提 ";
         break;
       }
     }
     if (country_code.equals("NR") == true) {
       switch (region_code2) {
         case 1:
-        name = "Aiwo";
+        name = "艾沃 ";
         break;
         case 2:
-        name = "Anabar";
+        name = "阿纳巴尔 ";
         break;
         case 3:
-        name = "Anetan";
+        name = "安塞巴 ";
         break;
         case 4:
-        name = "Anibare";
+        name = "安巴尔 ";
         break;
         case 5:
-        name = "Baiti";
+        name = "文Baiti ";
         break;
         case 6:
-        name = "Boe";
+        name = "京东方 ";
         break;
         case 7:
-        name = "Buada";
+        name = "布亚达 ";
         break;
         case 8:
-        name = "Denigomodu";
+        name = "丹尼果莫杜 ";
         break;
         case 9:
-        name = "Ewa";
+        name = "埃瓦 ";
         break;
         case 10:
-        name = "Ijuw";
+        name = "艾珠 ";
         break;
         case 11:
-        name = "Meneng";
+        name = "湄泞 ";
         break;
         case 12:
-        name = "Nibok";
+        name = "尼柏 ";
         break;
         case 13:
-        name = "Uaboe";
+        name = "优雅布 ";
         break;
         case 14:
-        name = "Yaren";
+        name = "亚伦 ";
         break;
       }
     }
     if (country_code.equals("NZ") == true) {
       switch (region_code2) {
         case 10:
-        name = "Chatham Islands";
+        name = "查塔姆群岛 ";
         break;
         case 1010:
-        name = "Auckland";
+        name = "奥克兰 ";
         break;
         case 1011:
-        name = "Bay of Plenty";
+        name = "丰盛湾 ";
         break;
         case 1012:
-        name = "Canterbury";
+        name = "坎特伯雷 ";
         break;
         case 1047:
-        name = "Gisborne";
+        name = "吉斯伯恩 ";
         break;
         case 1048:
-        name = "Hawke's Bay";
+        name = "霍克斯湾 ";
         break;
         case 1049:
-        name = "Manawatu-Wanganui";
+        name = "马纳瓦图 - 旺加努伊 ";
         break;
         case 1050:
-        name = "Marlborough";
+        name = "马尔堡 ";
         break;
         case 1051:
-        name = "Nelson";
+        name = "尼尔森 ";
         break;
         case 1052:
-        name = "Northland";
+        name = "北国 ";
         break;
         case 1053:
-        name = "Otago";
+        name = "奥塔哥 ";
         break;
         case 1054:
-        name = "Southland";
+        name = "南国 ";
         break;
         case 1055:
-        name = "Taranaki";
+        name = "塔拉纳基 ";
         break;
         case 1090:
-        name = "Waikato";
+        name = "怀卡托 ";
         break;
         case 1091:
-        name = "Wellington";
+        name = "惠灵顿 ";
         break;
         case 1092:
-        name = "West Coast";
+        name = "西海岸 ";
         break;
         case 85:
-        name = "Waikato";
+        name = "怀卡托 ";
         break;
       }
     }
     if (country_code.equals("OM") == true) {
       switch (region_code2) {
         case 1:
-        name = "Ad Dakhiliyah";
+        name = "内地区 ";
         break;
         case 2:
-        name = "Al Batinah";
+        name = "巴提奈 ";
         break;
         case 3:
-        name = "Al Wusta";
+        name = "Al Wusta的 ";
         break;
         case 4:
-        name = "Ash Sharqiyah";
+        name = "东部省 ";
         break;
         case 5:
-        name = "Az Zahirah";
+        name = "达希莱 ";
         break;
         case 6:
-        name = "Masqat";
+        name = "马斯喀特 ";
         break;
         case 7:
-        name = "Musandam";
+        name = "穆桑达姆 ";
         break;
         case 8:
-        name = "Zufar";
+        name = "Zufar ";
         break;
       }
     }
     if (country_code.equals("PA") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bocas del Toro";
+        name = "博卡斯 - 德尔托罗 ";
         break;
         case 2:
-        name = "Chiriqui";
+        name = "奇里基 ";
         break;
         case 3:
-        name = "Cocle";
+        name = "科克莱 ";
         break;
         case 4:
-        name = "Colon";
+        name = "冒号 ";
         break;
         case 5:
-        name = "Darien";
+        name = "达里恩 ";
         break;
         case 6:
-        name = "Herrera";
+        name = "埃雷拉 ";
         break;
         case 7:
-        name = "Los Santos";
+        name = "洛斯桑托斯 ";
         break;
         case 8:
-        name = "Panama";
+        name = "巴拿马 ";
         break;
         case 9:
-        name = "San Blas";
+        name = "圣布拉斯 ";
         break;
         case 10:
-        name = "Veraguas";
+        name = "贝拉瓜斯 ";
         break;
       }
     }
     if (country_code.equals("PE") == true) {
       switch (region_code2) {
         case 1:
-        name = "Amazonas";
+        name = "亚马孙 ";
         break;
         case 2:
-        name = "Ancash";
+        name = "安卡什 ";
         break;
         case 3:
-        name = "Apurimac";
+        name = "阿普里马克 ";
         break;
         case 4:
-        name = "Arequipa";
+        name = "阿雷基帕 ";
         break;
         case 5:
-        name = "Ayacucho";
+        name = "阿亚库乔 ";
         break;
         case 6:
-        name = "Cajamarca";
+        name = "卡哈马卡 ";
         break;
         case 7:
-        name = "Callao";
+        name = "卡亚俄 ";
         break;
         case 8:
-        name = "Cusco";
+        name = "库斯科 ";
         break;
         case 9:
-        name = "Huancavelica";
+        name = "利卡 ";
         break;
         case 10:
-        name = "Huanuco";
+        name = "瓦努科 ";
         break;
         case 11:
-        name = "Ica";
+        name = "伊卡 ";
         break;
         case 12:
-        name = "Junin";
+        name = "胡宁 ";
         break;
         case 13:
-        name = "La Libertad";
+        name = "拉利伯塔德 ";
         break;
         case 14:
-        name = "Lambayeque";
+        name = "兰巴耶克 ";
         break;
         case 15:
-        name = "Lima";
+        name = "利马 ";
         break;
         case 16:
-        name = "Loreto";
+        name = "洛雷托 ";
         break;
         case 17:
-        name = "Madre de Dios";
+        name = "马德雷德迪奥斯 ";
         break;
         case 18:
-        name = "Moquegua";
+        name = "莫克瓜 ";
         break;
         case 19:
-        name = "Pasco";
+        name = "帕斯科 ";
         break;
         case 20:
-        name = "Piura";
+        name = "皮乌拉 ";
         break;
         case 21:
-        name = "Puno";
+        name = "普诺 ";
         break;
         case 22:
-        name = "San Martin";
+        name = "圣马丁 ";
         break;
         case 23:
-        name = "Tacna";
+        name = "塔克纳 ";
         break;
         case 24:
-        name = "Tumbes";
+        name = "通贝斯 ";
         break;
         case 25:
-        name = "Ucayali";
+        name = "乌卡亚利 ";
         break;
       }
     }
     if (country_code.equals("PG") == true) {
       switch (region_code2) {
         case 1:
-        name = "Central";
+        name = "中央 ";
         break;
         case 2:
-        name = "Gulf";
+        name = "海湾 ";
         break;
         case 3:
-        name = "Milne Bay";
+        name = "米尔恩湾 ";
         break;
         case 4:
-        name = "Northern";
+        name = "北方 ";
         break;
         case 5:
-        name = "Southern Highlands";
+        name = "南部高地 ";
         break;
         case 6:
-        name = "Western";
+        name = "西 ";
         break;
         case 7:
-        name = "North Solomons";
+        name = "北所罗门 ";
         break;
         case 8:
-        name = "Chimbu";
+        name = "钦布 ";
         break;
         case 9:
-        name = "Eastern Highlands";
+        name = "东高地 ";
         break;
         case 10:
-        name = "East New Britain";
+        name = "东新不列颠 ";
         break;
         case 11:
-        name = "East Sepik";
+        name = "东塞皮克 ";
         break;
         case 12:
-        name = "Madang";
+        name = "马丹 ";
         break;
         case 13:
-        name = "Manus";
+        name = "马努斯 ";
         break;
         case 14:
-        name = "Morobe";
+        name = "莫罗贝 ";
         break;
         case 15:
-        name = "New Ireland";
+        name = "新爱尔兰 ";
         break;
         case 16:
-        name = "Western Highlands";
+        name = "西高地 ";
         break;
         case 17:
-        name = "West New Britain";
+        name = "西新不列颠 ";
         break;
         case 18:
-        name = "Sandaun";
+        name = "桑道恩 ";
         break;
         case 19:
-        name = "Enga";
+        name = "恩加 ";
         break;
         case 20:
-        name = "National Capital";
+        name = "国家首都 ";
         break;
       }
     }
     if (country_code.equals("PH") == true) {
       switch (region_code2) {
         case 1:
-        name = "Abra";
+        name = "阿布拉 ";
         break;
         case 2:
-        name = "Agusan del Norte";
+        name = "北阿古桑 ";
         break;
         case 3:
-        name = "Agusan del Sur";
+        name = "南阿古桑 ";
         break;
         case 4:
-        name = "Aklan";
+        name = "阿卡兰 ";
         break;
         case 5:
-        name = "Albay";
+        name = "阿尔拜 ";
         break;
         case 6:
-        name = "Antique";
+        name = "古董 ";
         break;
         case 7:
-        name = "Bataan";
+        name = "巴丹 ";
         break;
         case 8:
-        name = "Batanes";
+        name = "巴丹 ";
         break;
         case 9:
-        name = "Batangas";
+        name = "八打雁 ";
         break;
         case 10:
-        name = "Benguet";
+        name = "本格特 ";
         break;
         case 11:
-        name = "Bohol";
+        name = "波荷 ";
         break;
         case 12:
-        name = "Bukidnon";
+        name = "布基农 ";
         break;
         case 13:
-        name = "Bulacan";
+        name = "布拉干 ";
         break;
         case 14:
-        name = "Cagayan";
+        name = "卡加延 ";
         break;
         case 15:
-        name = "Camarines Norte";
+        name = "北甘马粦 ";
         break;
         case 16:
-        name = "Camarines Sur";
+        name = "卡马里内斯苏尔 ";
         break;
         case 17:
-        name = "Camiguin";
+        name = "甘米银 ";
         break;
         case 18:
-        name = "Capiz";
+        name = "卡皮斯 ";
         break;
         case 19:
-        name = "Catanduanes";
+        name = "卡坦端内斯 ";
         break;
         case 20:
-        name = "Cavite";
+        name = "卡维特 ";
         break;
         case 21:
-        name = "Cebu";
+        name = "宿雾 ";
         break;
         case 22:
-        name = "Basilan";
+        name = "巴西兰岛 ";
         break;
         case 23:
-        name = "Eastern Samar";
+        name = "东萨马 ";
         break;
         case 24:
-        name = "Davao";
+        name = "达沃 ";
         break;
         case 25:
-        name = "Davao del Sur";
+        name = "南达沃 ";
         break;
         case 26:
-        name = "Davao Oriental";
+        name = "达沃东方 ";
         break;
         case 27:
-        name = "Ifugao";
+        name = "伊富高 ";
         break;
         case 28:
-        name = "Ilocos Norte";
+        name = "北伊罗戈 ";
         break;
         case 29:
-        name = "Ilocos Sur";
+        name = "南伊罗戈 ";
         break;
         case 30:
-        name = "Iloilo";
+        name = "伊洛伊洛 ";
         break;
         case 31:
-        name = "Isabela";
+        name = "伊莎贝拉 ";
         break;
         case 32:
-        name = "Kalinga-Apayao";
+        name = "卡林阿 - 阿巴尧 ";
         break;
         case 33:
-        name = "Laguna";
+        name = "拉古纳 ";
         break;
         case 34:
-        name = "Lanao del Norte";
+        name = "北拉瑙 ";
         break;
         case 35:
-        name = "Lanao del Sur";
+        name = "南拉瑙 ";
         break;
         case 36:
-        name = "La Union";
+        name = "拉乌尼翁 ";
         break;
         case 37:
-        name = "Leyte";
+        name = "莱特 ";
         break;
         case 38:
-        name = "Marinduque";
+        name = "马林杜克 ";
         break;
         case 39:
-        name = "Masbate";
+        name = "马斯巴特 ";
         break;
         case 40:
-        name = "Mindoro Occidental";
+        name = "西民都洛 ";
         break;
         case 41:
-        name = "Mindoro Oriental";
+        name = "东方民都洛岛 ";
         break;
         case 42:
-        name = "Misamis Occidental";
+        name = "西米萨米斯 ";
         break;
         case 43:
-        name = "Misamis Oriental";
+        name = "东米萨米斯 ";
         break;
         case 44:
-        name = "Mountain";
+        name = "山 ";
         break;
         case 45:
-        name = "Negros Occidental";
+        name = "西内格罗斯 ";
         break;
         case 46:
-        name = "Negros Oriental";
+        name = "东内格罗斯 ";
         break;
         case 47:
-        name = "Nueva Ecija";
+        name = "新怡诗夏 ";
         break;
         case 48:
-        name = "Nueva Vizcaya";
+        name = "新比斯开 ";
         break;
         case 49:
-        name = "Palawan";
+        name = "巴拉望岛 ";
         break;
         case 50:
-        name = "Pampanga";
+        name = "邦板牙 ";
         break;
         case 51:
-        name = "Pangasinan";
+        name = "邦阿西 ";
         break;
         case 53:
-        name = "Rizal";
+        name = "黎刹 ";
         break;
         case 54:
-        name = "Romblon";
+        name = "朗布隆 ";
         break;
         case 55:
-        name = "Samar";
+        name = "萨马 ";
         break;
         case 56:
-        name = "Maguindanao";
+        name = "马京达瑙省 ";
         break;
         case 57:
-        name = "North Cotabato";
+        name = "北哥打巴托省 ";
         break;
         case 58:
-        name = "Sorsogon";
+        name = "索索贡 ";
         break;
         case 59:
-        name = "Southern Leyte";
+        name = "南莱特 ";
         break;
         case 60:
-        name = "Sulu";
+        name = "苏鲁 ";
         break;
         case 61:
-        name = "Surigao del Norte";
+        name = "北苏里高 ";
         break;
         case 62:
-        name = "Surigao del Sur";
+        name = "南苏里高 ";
         break;
         case 63:
-        name = "Tarlac";
+        name = "塔拉克 ";
         break;
         case 64:
-        name = "Zambales";
+        name = "三描礼士 ";
         break;
         case 65:
-        name = "Zamboanga del Norte";
+        name = "北三宝颜 ";
         break;
         case 66:
-        name = "Zamboanga del Sur";
+        name = "三宝颜 ";
         break;
         case 67:
-        name = "Northern Samar";
+        name = "北萨马 ";
         break;
         case 68:
-        name = "Quirino";
+        name = "基里诺 ";
         break;
         case 69:
-        name = "Siquijor";
+        name = "锡基霍尔 ";
         break;
         case 70:
-        name = "South Cotabato";
+        name = "南哥打巴托 ";
         break;
         case 71:
-        name = "Sultan Kudarat";
+        name = "苏丹库达拉 ";
         break;
         case 72:
-        name = "Tawitawi";
+        name = "塔威塔威 ";
         break;
         case 832:
-        name = "Angeles";
+        name = "洛杉矶 ";
         break;
         case 833:
-        name = "Bacolod";
+        name = "巴科洛德 ";
         break;
         case 834:
-        name = "Bago";
+        name = "巴戈 ";
         break;
         case 835:
-        name = "Baguio";
+        name = "碧瑶 ";
         break;
         case 836:
-        name = "Bais";
+        name = "白族 ";
         break;
         case 837:
-        name = "Basilan City";
+        name = "巴西兰市 ";
         break;
         case 838:
-        name = "Batangas City";
+        name = "八打雁市 ";
         break;
         case 839:
-        name = "Butuan";
+        name = "武端 ";
         break;
         case 840:
-        name = "Cabanatuan";
+        name = "那端 ";
         break;
         case 875:
-        name = "Cadiz";
+        name = "加的斯 ";
         break;
         case 876:
-        name = "Cagayan de Oro";
+        name = "卡加延德奥罗 ";
         break;
         case 877:
-        name = "Calbayog";
+        name = "甲描育 ";
         break;
         case 878:
-        name = "Caloocan";
+        name = "卡洛奥坎 ";
         break;
         case 879:
-        name = "Canlaon";
+        name = "坎拉翁 ";
         break;
         case 880:
-        name = "Cavite City";
+        name = "甲米地市 ";
         break;
         case 881:
-        name = "Cebu City";
+        name = "宿雾市 ";
         break;
         case 882:
-        name = "Cotabato";
+        name = "哥打巴托 ";
         break;
         case 883:
-        name = "Dagupan";
+        name = "拉牛 ";
         break;
         case 918:
-        name = "Danao";
+        name = "达瑙 ";
         break;
         case 919:
-        name = "Dapitan";
+        name = "Dapitan ";
         break;
         case 920:
-        name = "Davao City";
+        name = "达沃市 ";
         break;
         case 921:
-        name = "Dipolog";
+        name = "波罗 ";
         break;
         case 922:
-        name = "Dumaguete";
+        name = "杜马格特 ";
         break;
         case 923:
-        name = "General Santos";
+        name = "桑托斯将军城 ";
         break;
         case 924:
-        name = "Gingoog";
+        name = "Gingoog ";
         break;
         case 925:
-        name = "Iligan";
+        name = "伊利甘 ";
         break;
         case 926:
-        name = "Iloilo City";
+        name = "怡朗市 ";
         break;
         case 961:
-        name = "Iriga";
+        name = "伊里加 ";
         break;
         case 962:
-        name = "La Carlota";
+        name = "拉卡洛塔 ";
         break;
         case 963:
-        name = "Laoag";
+        name = "拉瓦格 ";
         break;
         case 964:
-        name = "Lapu-Lapu";
+        name = "拉普拉普 ";
         break;
         case 965:
-        name = "Legaspi";
+        name = "黎牙实比 ";
         break;
         case 966:
-        name = "Lipa";
+        name = "利帕 ";
         break;
         case 967:
-        name = "Lucena";
+        name = "卢塞纳 ";
         break;
         case 968:
-        name = "Mandaue";
+        name = "曼达韦 ";
         break;
         case 969:
-        name = "Manila";
+        name = "马尼拉 ";
         break;
         case 1004:
-        name = "Marawi";
+        name = "Marawi ";
         break;
         case 1005:
-        name = "Naga";
+        name = "娜迦 ";
         break;
         case 1006:
-        name = "Olongapo";
+        name = "奥隆阿波 ";
         break;
         case 1007:
-        name = "Ormoc";
+        name = "Ormoc的 ";
         break;
         case 1008:
-        name = "Oroquieta";
+        name = "Oroquieta的 ";
         break;
         case 1009:
-        name = "Ozamis";
+        name = "奥萨米斯 ";
         break;
         case 1010:
-        name = "Pagadian";
+        name = "帕加迪安 ";
         break;
         case 1011:
-        name = "Palayan";
+        name = "Palayan ";
         break;
         case 1012:
-        name = "Pasay";
+        name = "帕 ";
         break;
         case 1047:
-        name = "Puerto Princesa";
+        name = "普林塞萨港 ";
         break;
         case 1048:
-        name = "Quezon City";
+        name = "奎松市 ";
         break;
         case 1049:
-        name = "Roxas";
+        name = "罗哈斯 ";
         break;
         case 1050:
-        name = "San Carlos";
+        name = "圣卡洛斯 ";
         break;
         case 1051:
-        name = "San Carlos";
+        name = "圣卡洛斯 ";
         break;
         case 1052:
-        name = "San Jose";
+        name = "圣何塞 ";
         break;
         case 1053:
-        name = "San Pablo";
+        name = "圣巴勃罗 ";
         break;
         case 1054:
-        name = "Silay";
+        name = "Silay ";
         break;
         case 1055:
-        name = "Surigao";
+        name = "苏里高 ";
         break;
         case 1090:
-        name = "Tacloban";
+        name = "塔克洛班 ";
         break;
         case 1091:
-        name = "Tagaytay";
+        name = "大雅台 ";
         break;
         case 1092:
-        name = "Tagbilaran";
+        name = "塔比拉兰 ";
         break;
         case 1093:
-        name = "Tangub";
+        name = "Tangub ";
         break;
         case 1094:
-        name = "Toledo";
+        name = "托莱多 ";
         break;
         case 1095:
-        name = "Trece Martires";
+        name = "Trece雷斯 ";
         break;
         case 1096:
-        name = "Zamboanga";
+        name = "三宝颜 ";
         break;
         case 1097:
-        name = "Aurora";
+        name = "极光 ";
         break;
         case 1134:
-        name = "Quezon";
+        name = "奎松 ";
         break;
         case 1135:
-        name = "Negros Occidental";
+        name = "西内格罗斯 ";
         break;
       }
     }
     if (country_code.equals("PK") == true) {
       switch (region_code2) {
         case 1:
-        name = "Federally Administered Tribal Areas";
+        name = "联邦直辖部落地区 ";
         break;
         case 2:
-        name = "Balochistan";
+        name = "俾路支 ";
         break;
         case 3:
-        name = "North-West Frontier";
+        name = "西北边境 ";
         break;
         case 4:
-        name = "Punjab";
+        name = "旁遮普 ";
         break;
         case 5:
-        name = "Sindh";
+        name = "信德省 ";
         break;
         case 6:
-        name = "Azad Kashmir";
+        name = "阿扎德克什米尔 ";
         break;
         case 7:
-        name = "Northern Areas";
+        name = "北部地区 ";
         break;
         case 8:
-        name = "Islamabad";
+        name = "伊斯兰堡 ";
         break;
       }
     }
     if (country_code.equals("PL") == true) {
       switch (region_code2) {
         case 72:
-        name = "Dolnoslaskie";
+        name = "希隆斯克 ";
         break;
         case 73:
-        name = "Kujawsko-Pomorskie";
+        name = "库亚瓦波美拉尼亚 ";
         break;
         case 74:
-        name = "Lodzkie";
+        name = "罗兹 ";
         break;
         case 75:
-        name = "Lubelskie";
+        name = "卢布林 ";
         break;
         case 76:
-        name = "Lubuskie";
+        name = "鲁布斯卡 ";
         break;
         case 77:
-        name = "Malopolskie";
+        name = "小波兰 ";
         break;
         case 78:
-        name = "Mazowieckie";
+        name = "马佐夫舍 ";
         break;
         case 79:
-        name = "Opolskie";
+        name = "奥波莱 ";
         break;
         case 80:
-        name = "Podkarpackie";
+        name = "喀尔巴阡山 ";
         break;
         case 81:
-        name = "Podlaskie";
+        name = "波德拉谢 ";
         break;
         case 82:
-        name = "Pomorskie";
+        name = "滨海省 ";
         break;
         case 83:
-        name = "Slaskie";
+        name = "希隆斯克 ";
         break;
         case 84:
-        name = "Swietokrzyskie";
+        name = "圣十字 ";
         break;
         case 85:
-        name = "Warminsko-Mazurskie";
+        name = "瓦尔米亚马祖尔 ";
         break;
         case 86:
-        name = "Wielkopolskie";
+        name = "大波兰省 ";
         break;
         case 87:
-        name = "Zachodniopomorskie";
+        name = "西滨海 ";
         break;
       }
     }
     if (country_code.equals("PS") == true) {
       switch (region_code2) {
         case 1131:
-        name = "Gaza";
+        name = "加沙 ";
         break;
         case 1798:
-        name = "West Bank";
+        name = "西岸 ";
         break;
       }
     }
     if (country_code.equals("PT") == true) {
       switch (region_code2) {
         case 2:
-        name = "Aveiro";
+        name = "阿威罗 ";
         break;
         case 3:
-        name = "Beja";
+        name = "贝雅 ";
         break;
         case 4:
-        name = "Braga";
+        name = "布拉加 ";
         break;
         case 5:
-        name = "Braganca";
+        name = "布拉干萨 ";
         break;
         case 6:
-        name = "Castelo Branco";
+        name = "卡斯特洛·布兰科 ";
         break;
         case 7:
-        name = "Coimbra";
+        name = "科英布拉 ";
         break;
         case 8:
-        name = "Evora";
+        name = "埃武拉 ";
         break;
         case 9:
-        name = "Faro";
+        name = "鲁 ";
         break;
         case 10:
-        name = "Madeira";
+        name = "马德拉 ";
         break;
         case 11:
-        name = "Guarda";
+        name = "瓜尔达 ";
         break;
         case 13:
-        name = "Leiria";
+        name = "莱里亚 ";
         break;
         case 14:
-        name = "Lisboa";
+        name = "新葡京 ";
         break;
         case 16:
-        name = "Portalegre";
+        name = "波塔莱格雷 ";
         break;
         case 17:
-        name = "Porto";
+        name = "波尔图 ";
         break;
         case 18:
-        name = "Santarem";
+        name = "圣塔伦 ";
         break;
         case 19:
-        name = "Setubal";
+        name = "塞图巴尔 ";
         break;
         case 20:
-        name = "Viana do Castelo";
+        name = "维亚纳堡 ";
         break;
         case 21:
-        name = "Vila Real";
+        name = "雷阿尔 ";
         break;
         case 22:
-        name = "Viseu";
+        name = "维塞乌 ";
         break;
         case 23:
-        name = "Azores";
+        name = "亚速尔群岛 ";
         break;
       }
     }
     if (country_code.equals("PY") == true) {
       switch (region_code2) {
         case 1:
-        name = "Alto Parana";
+        name = "上巴拉那 ";
         break;
         case 2:
-        name = "Amambay";
+        name = "阿曼拜 ";
         break;
         case 3:
-        name = "Boqueron";
+        name = "博克 ";
         break;
         case 4:
-        name = "Caaguazu";
+        name = "卡瓜苏 ";
         break;
         case 5:
-        name = "Caazapa";
+        name = "卡萨帕 ";
         break;
         case 6:
-        name = "Central";
+        name = "中央 ";
         break;
         case 7:
-        name = "Concepcion";
+        name = "康塞普西翁 ";
         break;
         case 8:
-        name = "Cordillera";
+        name = "科迪勒拉 ";
         break;
         case 10:
-        name = "Guaira";
+        name = "瓜伊拉 ";
         break;
         case 11:
-        name = "Itapua";
+        name = "伊塔普亚 ";
         break;
         case 12:
-        name = "Misiones";
+        name = "米西奥内斯 ";
         break;
         case 13:
-        name = "Neembucu";
+        name = "涅恩布库 ";
         break;
         case 15:
-        name = "Paraguari";
+        name = "巴拉瓜 ";
         break;
         case 16:
-        name = "Presidente Hayes";
+        name = "阿耶斯总统 ";
         break;
         case 17:
-        name = "San Pedro";
+        name = "圣佩德罗 ";
         break;
         case 19:
-        name = "Canindeyu";
+        name = "卡宁德尤 ";
         break;
         case 20:
-        name = "Chaco";
+        name = "查科 ";
         break;
         case 21:
-        name = "Nueva Asuncion";
+        name = "努埃瓦亚松森 ";
         break;
         case 23:
-        name = "Alto Paraguay";
+        name = "上巴拉圭 ";
         break;
       }
     }
     if (country_code.equals("QA") == true) {
       switch (region_code2) {
         case 1:
-        name = "Ad Dawhah";
+        name = "多哈 ";
         break;
         case 2:
-        name = "Al Ghuwariyah";
+        name = "古韦里耶 ";
         break;
         case 3:
-        name = "Al Jumaliyah";
+        name = "朱迈利耶 ";
         break;
         case 4:
-        name = "Al Khawr";
+        name = "豪尔 ";
         break;
         case 5:
-        name = "Al Wakrah Municipality";
+        name = "艾尔瓦克拉市 ";
         break;
         case 6:
-        name = "Ar Rayyan";
+        name = "赖扬 ";
         break;
         case 8:
-        name = "Madinat ach Shamal";
+        name = "古城ACH夏马尔 ";
         break;
         case 9:
-        name = "Umm Salal";
+        name = "乌姆锡拉勒 ";
         break;
         case 10:
-        name = "Al Wakrah";
+        name = "艾尔瓦克拉 ";
         break;
         case 11:
-        name = "Jariyan al Batnah";
+        name = "Jariyan人Batnah ";
         break;
         case 12:
-        name = "Umm Sa'id";
+        name = "乌姆赛义德 ";
         break;
       }
     }
     if (country_code.equals("RO") == true) {
       switch (region_code2) {
         case 1:
-        name = "Alba";
+        name = "阿尔巴 ";
         break;
         case 2:
-        name = "Arad";
+        name = "阿拉德 ";
         break;
         case 3:
-        name = "Arges";
+        name = "阿尔杰什 ";
         break;
         case 4:
-        name = "Bacau";
+        name = "巴克乌国际 ";
         break;
         case 5:
-        name = "Bihor";
+        name = "比霍尔 ";
         break;
         case 6:
-        name = "Bistrita-Nasaud";
+        name = "比斯特里察 - 讷瑟乌德的 ";
         break;
         case 7:
-        name = "Botosani";
+        name = "博托沙尼 ";
         break;
         case 8:
-        name = "Braila";
+        name = "布勒伊拉 ";
         break;
         case 9:
-        name = "Brasov";
+        name = "布拉索夫 ";
         break;
         case 10:
-        name = "Bucuresti";
+        name = "布加勒斯特 ";
         break;
         case 11:
-        name = "Buzau";
+        name = "布泽乌 ";
         break;
         case 12:
-        name = "Caras-Severin";
+        name = "卡拉什 - 塞维林 ";
         break;
         case 13:
-        name = "Cluj";
+        name = "克卢日 ";
         break;
         case 14:
-        name = "Constanta";
+        name = "康斯坦察 ";
         break;
         case 15:
-        name = "Covasna";
+        name = "科瓦斯纳 ";
         break;
         case 16:
-        name = "Dambovita";
+        name = "登博维察 ";
         break;
         case 17:
-        name = "Dolj";
+        name = "多尔日 ";
         break;
         case 18:
-        name = "Galati";
+        name = "加拉茨 ";
         break;
         case 19:
-        name = "Gorj";
+        name = "戈尔日 ";
         break;
         case 20:
-        name = "Harghita";
+        name = "哈尔吉塔 ";
         break;
         case 21:
-        name = "Hunedoara";
+        name = "胡内多阿拉 ";
         break;
         case 22:
-        name = "Ialomita";
+        name = "雅洛米察 ";
         break;
         case 23:
-        name = "Iasi";
+        name = "雅西 ";
         break;
         case 25:
-        name = "Maramures";
+        name = "马拉穆列什 ";
         break;
         case 26:
-        name = "Mehedinti";
+        name = "梅赫丁茨 ";
         break;
         case 27:
-        name = "Mures";
+        name = "穆列什 ";
         break;
         case 28:
-        name = "Neamt";
+        name = "尼亚姆茨 ";
         break;
         case 29:
-        name = "Olt";
+        name = "奥尔特 ";
         break;
         case 30:
-        name = "Prahova";
+        name = "普拉霍瓦 ";
         break;
         case 31:
-        name = "Salaj";
+        name = "瑟拉 ";
         break;
         case 32:
-        name = "Satu Mare";
+        name = "萨图马雷 ";
         break;
         case 33:
-        name = "Sibiu";
+        name = "锡比乌 ";
         break;
         case 34:
-        name = "Suceava";
+        name = "苏恰瓦 ";
         break;
         case 35:
-        name = "Teleorman";
+        name = "泰莱奥尔曼 ";
         break;
         case 36:
-        name = "Timis";
+        name = "蒂米什 ";
         break;
         case 37:
-        name = "Tulcea";
+        name = "图尔恰 ";
         break;
         case 38:
-        name = "Vaslui";
+        name = "瓦斯卢伊 ";
         break;
         case 39:
-        name = "Valcea";
+        name = "沃尔恰 ";
         break;
         case 40:
-        name = "Vrancea";
+        name = "弗朗恰 ";
         break;
         case 41:
-        name = "Calarasi";
+        name = "克勒拉希 ";
         break;
         case 42:
-        name = "Giurgiu";
+        name = "久尔久 ";
         break;
         case 43:
-        name = "Ilfov";
+        name = "伊尔福夫 ";
         break;
       }
     }
     if (country_code.equals("RS") == true) {
       switch (region_code2) {
         case 1:
-        name = "Kosovo";
+        name = "科索沃 ";
         break;
         case 2:
-        name = "Vojvodina";
+        name = "伏伊伏丁那 ";
         break;
       }
     }
     if (country_code.equals("RU") == true) {
       switch (region_code2) {
         case 1:
-        name = "Adygeya";
+        name = "阿迪格 ";
         break;
         case 2:
-        name = "Aginsky Buryatsky AO";
+        name = "阿金斯科布里雅Buryatsky AO ";
         break;
         case 3:
-        name = "Gorno-Altay";
+        name = "戈尔诺 - 阿尔泰 ";
         break;
         case 4:
-        name = "Altaisky krai";
+        name = "Altaisky边疆区 ";
         break;
         case 5:
-        name = "Amur";
+        name = "阿穆尔 ";
         break;
         case 6:
-        name = "Arkhangel'sk";
+        name = "Arkhangel'sk ";
         break;
         case 7:
-        name = "Astrakhan'";
+        name = "阿斯特拉罕' ";
         break;
         case 8:
-        name = "Bashkortostan";
+        name = "巴什科尔托斯坦共和国 ";
         break;
         case 9:
-        name = "Belgorod";
+        name = "别尔哥罗德 ";
         break;
         case 10:
-        name = "Bryansk";
+        name = "布良斯克 ";
         break;
         case 11:
-        name = "Buryat";
+        name = "布里亚特 ";
         break;
         case 12:
-        name = "Chechnya";
+        name = "车臣 ";
         break;
         case 13:
-        name = "Chelyabinsk";
+        name = "车里雅宾斯克 ";
         break;
         case 14:
-        name = "Chita";
+        name = "赤塔 ";
         break;
         case 15:
-        name = "Chukot";
+        name = "楚克奇 ";
         break;
         case 16:
-        name = "Chuvashia";
+        name = "楚瓦什 ";
         break;
         case 17:
-        name = "Dagestan";
+        name = "达吉斯坦 ";
         break;
         case 18:
-        name = "Evenk";
+        name = "鄂温克族自治旗 ";
         break;
         case 19:
-        name = "Ingush";
+        name = "印古什 ";
         break;
         case 20:
-        name = "Irkutsk";
+        name = "伊尔库茨克 ";
         break;
         case 21:
-        name = "Ivanovo";
+        name = "伊万诺沃 ";
         break;
         case 22:
-        name = "Kabardin-Balkar";
+        name = "卡巴尔达 - 巴尔卡尔 ";
         break;
         case 23:
-        name = "Kaliningrad";
+        name = "加里宁格勒 ";
         break;
         case 24:
-        name = "Kalmyk";
+        name = "卡尔梅克 ";
         break;
         case 25:
-        name = "Kaluga";
+        name = "卡卢加 ";
         break;
         case 26:
-        name = "Kamchatka";
+        name = "堪察加 ";
         break;
         case 27:
-        name = "Karachay-Cherkess";
+        name = "卡拉恰伊Cherkess的 ";
         break;
         case 28:
-        name = "Karelia";
+        name = "卡累利阿 ";
         break;
         case 29:
-        name = "Kemerovo";
+        name = "克麦罗沃 ";
         break;
         case 30:
-        name = "Khabarovsk";
+        name = "哈巴罗夫斯克 ";
         break;
         case 31:
-        name = "Khakass";
+        name = "哈卡斯 ";
         break;
         case 32:
-        name = "Khanty-Mansiy";
+        name = "汉特 - Mansiy ";
         break;
         case 33:
-        name = "Kirov";
+        name = "基洛夫 ";
         break;
         case 34:
-        name = "Komi";
+        name = "科米 ";
         break;
         case 35:
-        name = "Komi-Permyak";
+        name = "科米Permyak的 ";
         break;
         case 36:
-        name = "Koryak";
+        name = "科里亚克 ";
         break;
         case 37:
-        name = "Kostroma";
+        name = "科斯特罗马 ";
         break;
         case 38:
-        name = "Krasnodar";
+        name = "克拉斯诺达尔 ";
         break;
         case 39:
-        name = "Krasnoyarsk";
+        name = "克拉斯诺亚尔斯克 ";
         break;
         case 40:
-        name = "Kurgan";
+        name = "库尔干 ";
         break;
         case 41:
-        name = "Kursk";
+        name = "库尔斯克 ";
         break;
         case 42:
-        name = "Leningrad";
+        name = "列宁格勒 ";
         break;
         case 43:
-        name = "Lipetsk";
+        name = "利佩茨克 ";
         break;
         case 44:
-        name = "Magadan";
+        name = "马加丹 ";
         break;
         case 45:
-        name = "Mariy-El";
+        name = "马里 - 萨尔瓦多 ";
         break;
         case 46:
-        name = "Mordovia";
+        name = "莫尔多瓦 ";
         break;
         case 47:
-        name = "Moskva";
+        name = "莫斯科 ";
         break;
         case 48:
-        name = "Moscow City";
+        name = "莫斯科市 ";
         break;
         case 49:
-        name = "Murmansk";
+        name = "摩尔曼斯克 ";
         break;
         case 50:
-        name = "Nenets";
+        name = "涅涅茨 ";
         break;
         case 51:
-        name = "Nizhegorod";
+        name = "哥罗德 ";
         break;
         case 52:
-        name = "Novgorod";
+        name = "诺夫哥罗德 ";
         break;
         case 53:
-        name = "Novosibirsk";
+        name = "新西伯利亚 ";
         break;
         case 54:
-        name = "Omsk";
+        name = "鄂木斯克 ";
         break;
         case 55:
-        name = "Orenburg";
+        name = "奥伦堡 ";
         break;
         case 56:
-        name = "Orel";
+        name = "奥勒尔 ";
         break;
         case 57:
-        name = "Penza";
+        name = "奔萨 ";
         break;
         case 58:
-        name = "Perm'";
+        name = "彼尔姆 ";
         break;
         case 59:
-        name = "Primor'ye";
+        name = "Primor'ye ";
         break;
         case 60:
-        name = "Pskov";
+        name = "普斯科夫 ";
         break;
         case 61:
-        name = "Rostov";
+        name = "罗斯托夫 ";
         break;
         case 62:
-        name = "Ryazan'";
+        name = "梁赞 ";
         break;
         case 63:
-        name = "Sakha";
+        name = "萨哈 ";
         break;
         case 64:
-        name = "Sakhalin";
+        name = "萨哈林 ";
         break;
         case 65:
-        name = "Samara";
+        name = "萨马拉 ";
         break;
         case 66:
-        name = "Saint Petersburg City";
+        name = "圣彼得堡市 ";
         break;
         case 67:
-        name = "Saratov";
+        name = "萨拉托夫 ";
         break;
         case 68:
-        name = "North Ossetia";
+        name = "北奥塞梯 ";
         break;
         case 69:
-        name = "Smolensk";
+        name = "斯摩棱斯克 ";
         break;
         case 70:
-        name = "Stavropol'";
+        name = "斯塔夫罗波尔' ";
         break;
         case 71:
-        name = "Sverdlovsk";
+        name = "斯维尔德洛夫斯克 ";
         break;
         case 72:
-        name = "Tambovskaya oblast";
+        name = "坦波夫州 ";
         break;
         case 73:
-        name = "Tatarstan";
+        name = "鞑靼斯坦 ";
         break;
         case 74:
-        name = "Taymyr";
+        name = "海泰梅尔 ";
         break;
         case 75:
-        name = "Tomsk";
+        name = "托木斯克 ";
         break;
         case 76:
-        name = "Tula";
+        name = "图拉 ";
         break;
         case 77:
-        name = "Tver'";
+        name = "特维尔' ";
         break;
         case 78:
-        name = "Tyumen'";
+        name = "秋明' ";
         break;
         case 79:
-        name = "Tuva";
+        name = "图瓦 ";
         break;
         case 80:
-        name = "Udmurt";
+        name = "乌德穆尔特 ";
         break;
         case 81:
-        name = "Ul'yanovsk";
+        name = "Ul'yanovsk ";
         break;
         case 82:
-        name = "Ust-Orda Buryat";
+        name = "乌斯季奥尔达布里亚特 ";
         break;
         case 83:
-        name = "Vladimir";
+        name = "弗拉基米尔 ";
         break;
         case 84:
-        name = "Volgograd";
+        name = "伏尔加格勒 ";
         break;
         case 85:
-        name = "Vologda";
+        name = "沃洛格达 ";
         break;
         case 86:
-        name = "Voronezh";
+        name = "沃罗涅日 ";
         break;
         case 87:
-        name = "Yamal-Nenets";
+        name = "亚马尔 - 涅涅茨 ";
         break;
         case 88:
-        name = "Yaroslavl'";
+        name = "雅罗斯拉夫尔 ";
         break;
         case 89:
-        name = "Yevrey";
+        name = "Yevrey ";
         break;
         case 90:
-        name = "Permskiy Kray";
+        name = "彼尔姆边疆区 ";
         break;
         case 91:
-        name = "Krasnoyarskiy Kray";
+        name = "克拉斯诺亚尔斯克边疆区 ";
         break;
         case 942:
-        name = "Chechnya Republic";
+        name = "车臣共和国 ";
         break;
       }
     }
     if (country_code.equals("RW") == true) {
       switch (region_code2) {
         case 1:
-        name = "Butare";
+        name = "布塔雷 ";
         break;
         case 6:
-        name = "Gitarama";
+        name = "吉塔拉马 ";
         break;
         case 7:
-        name = "Kibungo";
+        name = "基本古 ";
         break;
         case 9:
-        name = "Kigali";
+        name = "基加利 ";
         break;
         case 11:
-        name = "Est";
+        name = "预计 ";
         break;
         case 12:
-        name = "Kigali";
+        name = "基加利 ";
         break;
         case 13:
-        name = "Nord";
+        name = "北 ";
         break;
         case 14:
-        name = "Ouest";
+        name = "西部省 ";
         break;
         case 15:
-        name = "Sud";
+        name = "南基 ";
         break;
       }
     }
     if (country_code.equals("SA") == true) {
       switch (region_code2) {
         case 2:
-        name = "Al Bahah";
+        name = "巴哈 ";
         break;
         case 3:
-        name = "Al Jawf";
+        name = "焦夫 ";
         break;
         case 5:
-        name = "Al Madinah";
+        name = "麦地那 ";
         break;
         case 6:
-        name = "Ash Sharqiyah";
+        name = "东部省 ";
         break;
         case 8:
-        name = "Al Qasim";
+        name = "卡西姆 ";
         break;
         case 9:
-        name = "Al Qurayyat";
+        name = "Al Qurayyat的 ";
         break;
         case 10:
-        name = "Ar Riyad";
+        name = "利雅得 ";
         break;
         case 13:
-        name = "Ha'il";
+        name = "哈伊勒 ";
         break;
         case 14:
-        name = "Makkah";
+        name = "麦加 ";
         break;
         case 15:
-        name = "Al Hudud ash Shamaliyah";
+        name = "铝灰回教刑法Shamaliyah ";
         break;
         case 16:
-        name = "Najran";
+        name = "纳兰 ";
         break;
         case 17:
-        name = "Jizan";
+        name = "吉赞 ";
         break;
         case 19:
-        name = "Tabuk";
+        name = "塔布克 ";
         break;
         case 20:
-        name = "Al Jawf";
+        name = "焦夫 ";
         break;
       }
     }
     if (country_code.equals("SB") == true) {
       switch (region_code2) {
         case 3:
-        name = "Malaita";
+        name = "马莱塔 ";
         break;
         case 6:
-        name = "Guadalcanal";
+        name = "瓜达尔卡纳尔岛 ";
         break;
         case 7:
-        name = "Isabel";
+        name = "伊莎贝尔 ";
         break;
         case 8:
-        name = "Makira";
+        name = "马基拉 ";
         break;
         case 9:
-        name = "Temotu";
+        name = "泰莫图 ";
         break;
         case 10:
-        name = "Central";
+        name = "中央 ";
         break;
         case 11:
-        name = "Western";
+        name = "西 ";
         break;
         case 12:
-        name = "Choiseul";
+        name = "舒瓦瑟尔 ";
         break;
         case 13:
-        name = "Rennell and Bellona";
+        name = "伦内尔和贝罗纳 ";
         break;
       }
     }
     if (country_code.equals("SC") == true) {
       switch (region_code2) {
         case 1:
-        name = "Anse aux Pins";
+        name = "安塞辅助销 ";
         break;
         case 2:
-        name = "Anse Boileau";
+        name = "安塞布瓦洛 ";
         break;
         case 3:
-        name = "Anse Etoile";
+        name = "安塞Etoile酒店 ";
         break;
         case 4:
-        name = "Anse Louis";
+        name = "安塞路易斯 ";
         break;
         case 5:
-        name = "Anse Royale";
+        name = "安塞罗瓦尔 ";
         break;
         case 6:
-        name = "Baie Lazare";
+        name = "拜伊拉札尔 ";
         break;
         case 7:
-        name = "Baie Sainte Anne";
+        name = "贝圣安安妮 ";
         break;
         case 8:
-        name = "Beau Vallon";
+        name = "博瓦隆 ";
         break;
         case 9:
-        name = "Bel Air";
+        name = "贝莱尔 ";
         break;
         case 10:
-        name = "Bel Ombre";
+        name = "贝尔欧布莱 ";
         break;
         case 11:
-        name = "Cascade";
+        name = "级联 ";
         break;
         case 12:
-        name = "Glacis";
+        name = "缓慢倾斜 ";
         break;
         case 13:
-        name = "Grand' Anse";
+        name = "安塞 ";
         break;
         case 14:
-        name = "Grand' Anse";
+        name = "安塞 ";
         break;
         case 15:
-        name = "La Digue";
+        name = "拉迪格 ";
         break;
         case 16:
-        name = "La Riviere Anglaise";
+        name = "La Riviere的釉的 ";
         break;
         case 17:
-        name = "Mont Buxton";
+        name = "布克斯顿山 ";
         break;
         case 18:
-        name = "Mont Fleuri";
+        name = "弗雷里山 ";
         break;
         case 19:
-        name = "Plaisance";
+        name = "皮亚琴察 ";
         break;
         case 20:
-        name = "Pointe La Rue";
+        name = "鲁埃 ";
         break;
         case 21:
-        name = "Port Glaud";
+        name = "格罗港 ";
         break;
         case 22:
-        name = "Saint Louis";
+        name = "圣路易 ";
         break;
         case 23:
-        name = "Takamaka";
+        name = "塔卡马卡 ";
         break;
       }
     }
     if (country_code.equals("SD") == true) {
       switch (region_code2) {
         case 27:
-        name = "Al Wusta";
+        name = "Al Wusta的 ";
         break;
         case 28:
-        name = "Al Istiwa'iyah";
+        name = "Al Istiwa'iyah的 ";
         break;
         case 29:
-        name = "Al Khartum";
+        name = "喀土穆 ";
         break;
         case 30:
-        name = "Ash Shamaliyah";
+        name = "北部省 ";
         break;
         case 31:
-        name = "Ash Sharqiyah";
+        name = "东部省 ";
         break;
         case 32:
-        name = "Bahr al Ghazal";
+        name = "加扎勒河 ";
         break;
         case 33:
-        name = "Darfur";
+        name = "达尔富尔 ";
         break;
         case 34:
-        name = "Kurdufan";
+        name = "科尔多凡 ";
         break;
         case 35:
-        name = "Upper Nile";
+        name = "尼罗河上游 ";
         break;
         case 40:
-        name = "Al Wahadah State";
+        name = "Al Wahadah的国家 ";
         break;
         case 44:
-        name = "Central Equatoria State";
+        name = "中赤道州 ";
         break;
       }
     }
     if (country_code.equals("SE") == true) {
       switch (region_code2) {
         case 1:
-        name = "Alvsborgs Lan";
+        name = "Alvsborgs兰 ";
         break;
         case 2:
-        name = "Blekinge Lan";
+        name = "布莱金厄 ";
         break;
         case 3:
-        name = "Gavleborgs Lan";
+        name = "耶夫勒堡省 ";
         break;
         case 4:
-        name = "Goteborgs och Bohus Lan";
+        name = "哥德堡OCH布胡斯兰 ";
         break;
         case 5:
-        name = "Gotlands Lan";
+        name = "哥德兰 ";
         break;
         case 6:
-        name = "Hallands Lan";
+        name = "哈兰 ";
         break;
         case 7:
-        name = "Jamtlands Lan";
+        name = "耶姆特兰 ";
         break;
         case 8:
-        name = "Jonkopings Lan";
+        name = "延雪平 ";
         break;
         case 9:
-        name = "Kalmar Lan";
+        name = "卡尔玛 ";
         break;
         case 10:
-        name = "Dalarnas Lan";
+        name = "达拉纳 ";
         break;
         case 11:
-        name = "Kristianstads Lan";
+        name = "Kristianstads兰 ";
         break;
         case 12:
-        name = "Kronobergs Lan";
+        name = "克鲁努贝里 ";
         break;
         case 13:
-        name = "Malmohus Lan";
+        name = "兰的Malmöhus ";
         break;
         case 14:
-        name = "Norrbottens Lan";
+        name = "北博滕省 ";
         break;
         case 15:
-        name = "Orebro Lan";
+        name = "厄勒布鲁 ";
         break;
         case 16:
-        name = "Ostergotlands Lan";
+        name = "东约特兰 ";
         break;
         case 17:
-        name = "Skaraborgs Lan";
+        name = "Skaraborgs兰 ";
         break;
         case 18:
-        name = "Sodermanlands Lan";
+        name = "南曼兰 ";
         break;
         case 21:
-        name = "Uppsala Lan";
+        name = "乌普萨拉 ";
         break;
         case 22:
-        name = "Varmlands Lan";
+        name = "韦姆兰 ";
         break;
         case 23:
-        name = "Vasterbottens Lan";
+        name = "西博滕省 ";
         break;
         case 24:
-        name = "Vasternorrlands Lan";
+        name = "西诺尔兰 ";
         break;
         case 25:
-        name = "Vastmanlands Lan";
+        name = "西曼兰 ";
         break;
         case 26:
-        name = "Stockholms Lan";
+        name = "斯德哥尔摩兰 ";
         break;
         case 27:
-        name = "Skane Lan";
+        name = "斯科纳 ";
         break;
         case 28:
-        name = "Vastra Gotaland";
+        name = "西约特兰省 ";
         break;
       }
     }
     if (country_code.equals("SH") == true) {
       switch (region_code2) {
         case 1:
-        name = "Ascension";
+        name = "上升 ";
         break;
         case 2:
-        name = "Saint Helena";
+        name = "圣赫勒拿 ";
         break;
         case 3:
-        name = "Tristan da Cunha";
+        name = "特里斯坦达库尼亚 ";
         break;
       }
     }
     if (country_code.equals("SI") == true) {
       switch (region_code2) {
         case 1:
-        name = "Ajdovscina";
+        name = "Ajdovscina（斯洛文尼亚） ";
         break;
         case 2:
-        name = "Beltinci";
+        name = "Beltinci ";
         break;
         case 3:
-        name = "Bled";
+        name = "布莱德 ";
         break;
         case 4:
-        name = "Bohinj";
+        name = "渤兴 ";
         break;
         case 5:
-        name = "Borovnica";
+        name = "博罗夫尼察 ";
         break;
         case 6:
-        name = "Bovec";
+        name = "博夫克 ";
         break;
         case 7:
-        name = "Brda";
+        name = "Brda先生 ";
         break;
         case 8:
-        name = "Brezice";
+        name = "布雷日采 ";
         break;
         case 9:
-        name = "Brezovica";
+        name = "Brezovica ";
         break;
         case 11:
-        name = "Celje";
+        name = "采列 ";
         break;
         case 12:
-        name = "Cerklje na Gorenjskem";
+        name = "Cerklje的na Gorenjskem的 ";
         break;
         case 13:
-        name = "Cerknica";
+        name = "Cerknica ";
         break;
         case 14:
-        name = "Cerkno";
+        name = "Cerkno ";
         break;
         case 15:
-        name = "Crensovci";
+        name = "Crensovci ";
         break;
         case 16:
-        name = "Crna na Koroskem";
+        name = "CRNA NA Koroskem ";
         break;
         case 17:
-        name = "Crnomelj";
+        name = "Crnomelj ";
         break;
         case 19:
-        name = "Divaca";
+        name = "位于Divaca ";
         break;
         case 20:
-        name = "Dobrepolje";
+        name = "Dobrepolje ";
         break;
         case 22:
-        name = "Dol pri Ljubljani";
+        name = "芘优先Ljubljani的 ";
         break;
         case 24:
-        name = "Dornava";
+        name = "Dornava ";
         break;
         case 25:
-        name = "Dravograd";
+        name = "Dravograd镇 ";
         break;
         case 26:
-        name = "Duplek";
+        name = "Duplek ";
         break;
         case 27:
-        name = "Gorenja Vas-Poljane";
+        name = "Gorenja VAS Poljane ";
         break;
         case 28:
-        name = "Gorisnica";
+        name = "Gorisnica ";
         break;
         case 29:
-        name = "Gornja Radgona";
+        name = "Gornja Radgona的 ";
         break;
         case 30:
-        name = "Gornji Grad";
+        name = "上瓦毕业 ";
         break;
         case 31:
-        name = "Gornji Petrovci";
+        name = "勾基Petrovci的 ";
         break;
         case 32:
-        name = "Grosuplje";
+        name = "格罗苏普列 ";
         break;
         case 34:
-        name = "Hrastnik";
+        name = "Hrastnik ";
         break;
         case 35:
-        name = "Hrpelje-Kozina";
+        name = "Hrpelje Kozina的 ";
         break;
         case 36:
-        name = "Idrija";
+        name = "伊德里亚 ";
         break;
         case 37:
-        name = "Ig";
+        name = "免疫球蛋白 ";
         break;
         case 38:
-        name = "Ilirska Bistrica";
+        name = "Ilirska比斯特里察 ";
         break;
         case 39:
-        name = "Ivancna Gorica";
+        name = "Ivancna戈里察 ";
         break;
         case 40:
-        name = "Izola-Isola";
+        name = "伊佐拉伊索拉 ";
         break;
         case 42:
-        name = "Jursinci";
+        name = "Jursinci ";
         break;
         case 44:
-        name = "Kanal";
+        name = "凯纳 ";
         break;
         case 45:
-        name = "Kidricevo";
+        name = "基德里切沃 ";
         break;
         case 46:
-        name = "Kobarid";
+        name = "Kobarid（斯洛文尼亚） ";
         break;
         case 47:
-        name = "Kobilje";
+        name = "Kobilje ";
         break;
         case 49:
-        name = "Komen";
+        name = "科曼 ";
         break;
         case 50:
-        name = "Koper-Capodistria";
+        name = "科佩尔Capodistria的 ";
         break;
         case 51:
-        name = "Kozje";
+        name = "Kozje ";
         break;
         case 52:
-        name = "Kranj";
+        name = "克拉尼 ";
         break;
         case 53:
-        name = "Kranjska Gora";
+        name = "克拉尼斯卡戈拉 ";
         break;
         case 54:
-        name = "Krsko";
+        name = "克尔斯科 ";
         break;
         case 55:
-        name = "Kungota";
+        name = "Kungota ";
         break;
         case 57:
-        name = "Lasko";
+        name = "拉斯科 ";
         break;
         case 61:
-        name = "Ljubljana";
+        name = "卢布尔雅那 ";
         break;
         case 62:
-        name = "Ljubno";
+        name = "Ljubno ";
         break;
         case 64:
-        name = "Logatec";
+        name = "LOGATEC ";
         break;
         case 66:
-        name = "Loski Potok";
+        name = "Loski Potok的 ";
         break;
         case 68:
-        name = "Lukovica";
+        name = "Lukovica ";
         break;
         case 71:
-        name = "Medvode";
+        name = "梅德沃德 ";
         break;
         case 72:
-        name = "Menges";
+        name = "杰斯 ";
         break;
         case 73:
-        name = "Metlika";
+        name = "Metlika ";
         break;
         case 74:
-        name = "Mezica";
+        name = "Mezica ";
         break;
         case 76:
-        name = "Mislinja";
+        name = "Mislinja ";
         break;
         case 77:
-        name = "Moravce";
+        name = "Moravce ";
         break;
         case 78:
-        name = "Moravske Toplice";
+        name = "摩拉瓦托采 ";
         break;
         case 79:
-        name = "Mozirje";
+        name = "Mozirje ";
         break;
         case 80:
-        name = "Murska Sobota";
+        name = "穆尔斯卡索博塔 ";
         break;
         case 81:
-        name = "Muta";
+        name = "墓塔 ";
         break;
         case 82:
-        name = "Naklo";
+        name = "纳克洛 ";
         break;
         case 83:
-        name = "Nazarje";
+        name = "Nazarje利用 ";
         break;
         case 84:
-        name = "Nova Gorica";
+        name = "新戈里察 ";
         break;
         case 86:
-        name = "Odranci";
+        name = "Odranci ";
         break;
         case 87:
-        name = "Ormoz";
+        name = "Ormoz ";
         break;
         case 88:
-        name = "Osilnica";
+        name = "Osilnica ";
         break;
         case 89:
-        name = "Pesnica";
+        name = "Pesnica ";
         break;
         case 91:
-        name = "Pivka";
+        name = "PIVKA ";
         break;
         case 92:
-        name = "Podcetrtek";
+        name = "博德森特克 ";
         break;
         case 94:
-        name = "Postojna";
+        name = "波斯托伊纳 ";
         break;
         case 97:
-        name = "Puconci";
+        name = "Puconci ";
         break;
         case 98:
-        name = "Racam";
+        name = "Racam ";
         break;
         case 99:
-        name = "Radece";
+        name = "Radece ";
         break;
         case 832:
-        name = "Radenci";
+        name = "拉登齐 ";
         break;
         case 833:
-        name = "Radlje ob Dravi";
+        name = "Radlje OB Dravi ";
         break;
         case 834:
-        name = "Radovljica";
+        name = "拉多夫吉卡 ";
         break;
         case 837:
-        name = "Rogasovci";
+        name = "Rogasovci ";
         break;
         case 838:
-        name = "Rogaska Slatina";
+        name = "罗加斯卡斯斯拉蒂纳 ";
         break;
         case 839:
-        name = "Rogatec";
+        name = "Rogatec ";
         break;
         case 875:
-        name = "Semic";
+        name = "SEMIC ";
         break;
         case 876:
-        name = "Sencur";
+        name = "Sencur ";
         break;
         case 877:
-        name = "Sentilj";
+        name = "Sentilj ";
         break;
         case 878:
-        name = "Sentjernej";
+        name = "Sentjernej ";
         break;
         case 880:
-        name = "Sevnica";
+        name = "Sevnica ";
         break;
         case 881:
-        name = "Sezana";
+        name = "塞扎纳 ";
         break;
         case 882:
-        name = "Skocjan";
+        name = "斯科契扬 ";
         break;
         case 883:
-        name = "Skofja Loka";
+        name = "什科菲亚洛洛卡 ";
         break;
         case 918:
-        name = "Skofljica";
+        name = "Skofljica ";
         break;
         case 919:
-        name = "Slovenj Gradec";
+        name = "斯洛文尼亚格拉代茨 ";
         break;
         case 921:
-        name = "Slovenske Konjice";
+        name = "的Slovenske Konjice的 ";
         break;
         case 922:
-        name = "Smarje pri Jelsah";
+        name = "pri Jelsah的Smarje ";
         break;
         case 923:
-        name = "Smartno ob Paki";
+        name = "Smartno OB帕基 ";
         break;
         case 924:
-        name = "Sostanj";
+        name = "Sostanj ";
         break;
         case 925:
-        name = "Starse";
+        name = "STARSE ";
         break;
         case 926:
-        name = "Store";
+        name = "存储 ";
         break;
         case 961:
-        name = "Sveti Jurij";
+        name = "尤里·圣斯特 ";
         break;
         case 962:
-        name = "Tolmin";
+        name = "TOLMIN ";
         break;
         case 963:
-        name = "Trbovlje";
+        name = "Trbovlje ";
         break;
         case 964:
-        name = "Trebnje";
+        name = "Trebnje ";
         break;
         case 965:
-        name = "Trzic";
+        name = "旅游Trzic ";
         break;
         case 966:
-        name = "Turnisce";
+        name = "Turnisce ";
         break;
         case 967:
-        name = "Velenje";
+        name = "韦莱涅 ";
         break;
         case 968:
-        name = "Velike Lasce";
+        name = "Velike Lasce ";
         break;
         case 1004:
-        name = "Vipava";
+        name = "维帕瓦 ";
         break;
         case 1005:
-        name = "Vitanje";
+        name = "Vitanje ";
         break;
         case 1006:
-        name = "Vodice";
+        name = "沃迪斯 ";
         break;
         case 1008:
-        name = "Vrhnika";
+        name = "Vrhnika ";
         break;
         case 1009:
-        name = "Vuzenica";
+        name = "Vuzenica ";
         break;
         case 1010:
-        name = "Zagorje ob Savi";
+        name = "扎戈列OB萨维 ";
         break;
         case 1012:
-        name = "Zavrc";
+        name = "Zavrc ";
         break;
         case 1047:
-        name = "Zelezniki";
+        name = "Zelezniki ";
         break;
         case 1048:
-        name = "Ziri";
+        name = "紫日 ";
         break;
         case 1049:
-        name = "Zrece";
+        name = "Zrece ";
         break;
         case 1093:
-        name = "Dobrova-Horjul-Polhov Gradec";
+        name = "Dobrova Horjul Polhov格拉代茨 ";
         break;
         case 1096:
-        name = "Domzale";
+        name = "Domžale的 ";
         break;
         case 1136:
-        name = "Jesenice";
+        name = "耶塞尼采 ";
         break;
         case 1138:
-        name = "Kamnik";
+        name = "卡姆尼克 ";
         break;
         case 1139:
-        name = "Kocevje";
+        name = "Kocevje ";
         break;
         case 1177:
-        name = "Kuzma";
+        name = "库兹马 ";
         break;
         case 1178:
-        name = "Lenart";
+        name = "LENART ";
         break;
         case 1180:
-        name = "Litija";
+        name = "Litija ";
         break;
         case 1181:
-        name = "Ljutomer";
+        name = "Ljutomer ";
         break;
         case 1182:
-        name = "Loska Dolina";
+        name = "Loska DOLINA ";
         break;
         case 1184:
-        name = "Luce";
+        name = "卢斯 ";
         break;
         case 1219:
-        name = "Majsperk";
+        name = "Majsperk ";
         break;
         case 1220:
-        name = "Maribor";
+        name = "马里博尔 ";
         break;
         case 1223:
-        name = "Miren-Kostanjevica";
+        name = "MIREN Kostanjevica ";
         break;
         case 1225:
-        name = "Novo Mesto";
+        name = "新梅斯托 ";
         break;
         case 1227:
-        name = "Piran";
+        name = "皮兰 ";
         break;
         case 1266:
-        name = "Preddvor";
+        name = "位于Preddvor ";
         break;
         case 1268:
-        name = "Ptuj";
+        name = "普图杰 ";
         break;
         case 1305:
-        name = "Ribnica";
+        name = "Ribnica的 ";
         break;
         case 1307:
-        name = "Ruse";
+        name = "谋略 ";
         break;
         case 1311:
-        name = "Sentjur pri Celju";
+        name = "pri Celju的Sentjur ";
         break;
         case 1312:
-        name = "Slovenska Bistrica";
+        name = "斯洛文尼亚比斯特里察 ";
         break;
         case 1392:
-        name = "Videm";
+        name = "Videm ";
         break;
         case 1393:
-        name = "Vojnik";
+        name = "Vojnik ";
         break;
         case 1395:
-        name = "Zalec";
+        name = "ZALEC ";
         break;
       }
     }
     if (country_code.equals("SK") == true) {
       switch (region_code2) {
         case 1:
-        name = "Banska Bystrica";
+        name = "班斯卡 - 比斯特里察 ";
         break;
         case 2:
-        name = "Bratislava";
+        name = "布拉迪斯拉发 ";
         break;
         case 3:
-        name = "Kosice";
+        name = "科希策 ";
         break;
         case 4:
-        name = "Nitra";
+        name = "尼特拉 ";
         break;
         case 5:
-        name = "Presov";
+        name = "普雷绍夫 ";
         break;
         case 6:
-        name = "Trencin";
+        name = "特伦钦 ";
         break;
         case 7:
-        name = "Trnava";
+        name = "特尔纳瓦 ";
         break;
         case 8:
-        name = "Zilina";
+        name = "日利纳 ";
         break;
       }
     }
     if (country_code.equals("SL") == true) {
       switch (region_code2) {
         case 1:
-        name = "Eastern";
+        name = "东 ";
         break;
         case 2:
-        name = "Northern";
+        name = "北方 ";
         break;
         case 3:
-        name = "Southern";
+        name = "南部的 ";
         break;
         case 4:
-        name = "Western Area";
+        name = "西部地区 ";
         break;
       }
     }
     if (country_code.equals("SM") == true) {
       switch (region_code2) {
         case 1:
-        name = "Acquaviva";
+        name = "阿夸 ";
         break;
         case 2:
-        name = "Chiesanuova";
+        name = "Chiesanuova ";
         break;
         case 3:
-        name = "Domagnano";
+        name = "Domagnano（圣马力诺） ";
         break;
         case 4:
-        name = "Faetano";
+        name = "Faetano（圣马力诺） ";
         break;
         case 5:
-        name = "Fiorentino";
+        name = "提诺 ";
         break;
         case 6:
-        name = "Borgo Maggiore";
+        name = "马焦雷镇 ";
         break;
         case 7:
-        name = "San Marino";
+        name = "圣马力诺 ";
         break;
         case 8:
-        name = "Monte Giardino";
+        name = "蒙Giardino酒店 ";
         break;
         case 9:
-        name = "Serravalle";
+        name = "塞拉瓦莱斯 ";
         break;
       }
     }
     if (country_code.equals("SN") == true) {
       switch (region_code2) {
         case 1:
-        name = "Dakar";
+        name = "达喀尔 ";
         break;
         case 3:
-        name = "Diourbel";
+        name = "迪乌贝尔 ";
         break;
         case 4:
-        name = "Saint-Louis";
+        name = "圣路易 ";
         break;
         case 5:
-        name = "Tambacounda";
+        name = "坦巴昆达 ";
         break;
         case 7:
-        name = "Thies";
+        name = "捷斯 ";
         break;
         case 8:
-        name = "Louga";
+        name = "卢加 ";
         break;
         case 9:
-        name = "Fatick";
+        name = "法蒂克 ";
         break;
         case 10:
-        name = "Kaolack";
+        name = "拉克 ";
         break;
         case 11:
-        name = "Kolda";
+        name = "科尔达 ";
         break;
         case 12:
-        name = "Ziguinchor";
+        name = "济金绍尔 ";
         break;
         case 13:
-        name = "Louga";
+        name = "卢加 ";
         break;
         case 14:
-        name = "Saint-Louis";
+        name = "圣路易 ";
         break;
         case 15:
-        name = "Matam";
+        name = "马塔姆 ";
         break;
       }
     }
     if (country_code.equals("SO") == true) {
       switch (region_code2) {
         case 1:
-        name = "Bakool";
+        name = "巴科勒 ";
         break;
         case 2:
-        name = "Banaadir";
+        name = "巴纳迪尔 ";
         break;
         case 3:
-        name = "Bari";
+        name = "巴里 ";
         break;
         case 4:
-        name = "Bay";
+        name = "海湾 ";
         break;
         case 5:
-        name = "Galguduud";
+        name = "加尔古杜德 ";
         break;
         case 6:
-        name = "Gedo";
+        name = "盖多 ";
         break;
         case 7:
-        name = "Hiiraan";
+        name = "希兰 ";
         break;
         case 8:
-        name = "Jubbada Dhexe";
+        name = "朱伯 ";
         break;
         case 9:
-        name = "Jubbada Hoose";
+        name = "下朱伯 ";
         break;
         case 10:
-        name = "Mudug";
+        name = "穆杜格 ";
         break;
         case 11:
-        name = "Nugaal";
+        name = "努加尔 ";
         break;
         case 12:
-        name = "Sanaag";
+        name = "萨纳格 ";
         break;
         case 13:
-        name = "Shabeellaha Dhexe";
+        name = "沙贝勒 ";
         break;
         case 14:
-        name = "Shabeellaha Hoose";
+        name = "下沙贝勒 ";
         break;
         case 16:
-        name = "Woqooyi Galbeed";
+        name = "沃库宜Galbeed的 ";
         break;
         case 18:
-        name = "Nugaal";
+        name = "努加尔 ";
         break;
         case 19:
-        name = "Togdheer";
+        name = "托德希尔 ";
         break;
         case 20:
-        name = "Woqooyi Galbeed";
+        name = "沃库宜Galbeed的 ";
         break;
         case 21:
-        name = "Awdal";
+        name = "Awdal ";
         break;
         case 22:
-        name = "Sool";
+        name = "苏尔 ";
         break;
       }
     }
     if (country_code.equals("SR") == true) {
       switch (region_code2) {
         case 10:
-        name = "Brokopondo";
+        name = "布罗科蓬多 ";
         break;
         case 11:
-        name = "Commewijne";
+        name = "科默韦讷 ";
         break;
         case 12:
-        name = "Coronie";
+        name = "科罗尼 ";
         break;
         case 13:
-        name = "Marowijne";
+        name = "马罗韦纳 ";
         break;
         case 14:
-        name = "Nickerie";
+        name = "尼克里 ";
         break;
         case 15:
-        name = "Para";
+        name = "帕拉 ";
         break;
         case 16:
-        name = "Paramaribo";
+        name = "帕拉马里博 ";
         break;
         case 17:
-        name = "Saramacca";
+        name = "萨拉马卡 ";
         break;
         case 18:
-        name = "Sipaliwini";
+        name = "锡帕利维尼 ";
         break;
         case 19:
-        name = "Wanica";
+        name = "瓦尼卡 ";
         break;
       }
     }
     if (country_code.equals("ST") == true) {
       switch (region_code2) {
         case 1:
-        name = "Principe";
+        name = "普林西 ";
         break;
         case 2:
-        name = "Sao Tome";
+        name = "圣多美和普林西比 ";
         break;
       }
     }
     if (country_code.equals("SV") == true) {
       switch (region_code2) {
         case 1:
-        name = "Ahuachapan";
+        name = "阿瓦查潘 ";
         break;
         case 2:
-        name = "Cabanas";
+        name = "卡巴纳斯 ";
         break;
         case 3:
-        name = "Chalatenango";
+        name = "查拉特南戈 ";
         break;
         case 4:
-        name = "Cuscatlan";
+        name = "库斯卡特兰 ";
         break;
         case 5:
-        name = "La Libertad";
+        name = "拉利伯塔德 ";
         break;
         case 6:
-        name = "La Paz";
+        name = "拉巴斯 ";
         break;
         case 7:
-        name = "La Union";
+        name = "拉乌尼翁 ";
         break;
         case 8:
-        name = "Morazan";
+        name = "莫拉桑 ";
         break;
         case 9:
-        name = "San Miguel";
+        name = "圣米格尔 ";
         break;
         case 10:
-        name = "San Salvador";
+        name = "圣萨尔瓦多 ";
         break;
         case 11:
-        name = "Santa Ana";
+        name = "圣安娜 ";
         break;
         case 12:
-        name = "San Vicente";
+        name = "圣维森特 ";
         break;
         case 13:
-        name = "Sonsonate";
+        name = "松索纳特 ";
         break;
         case 14:
-        name = "Usulutan";
+        name = "乌苏卢坦 ";
         break;
       }
     }
     if (country_code.equals("SY") == true) {
       switch (region_code2) {
         case 1:
-        name = "Al Hasakah";
+        name = "哈塞克 ";
         break;
         case 2:
-        name = "Al Ladhiqiyah";
+        name = "拉塔基亚 ";
         break;
         case 3:
-        name = "Al Qunaytirah";
+        name = "库奈特拉 ";
         break;
         case 4:
-        name = "Ar Raqqah";
+        name = "拉卡 ";
         break;
         case 5:
-        name = "As Suwayda'";
+        name = "由于苏韦达' ";
         break;
         case 6:
-        name = "Dar";
+        name = "达累斯萨拉姆 ";
         break;
         case 7:
-        name = "Dayr az Zawr";
+        name = "代尔祖尔 ";
         break;
         case 8:
-        name = "Rif Dimashq";
+        name = "大马士革 ";
         break;
         case 9:
-        name = "Halab";
+        name = "阿勒颇 ";
         break;
         case 10:
-        name = "Hamah";
+        name = "哈马 ";
         break;
         case 11:
-        name = "Hims";
+        name = "霍姆斯 ";
         break;
         case 12:
-        name = "Idlib";
+        name = "伊德利卜 ";
         break;
         case 13:
-        name = "Dimashq";
+        name = "Dimashq ";
         break;
         case 14:
-        name = "Tartus";
+        name = "塔尔图斯 ";
         break;
       }
     }
     if (country_code.equals("SZ") == true) {
       switch (region_code2) {
         case 1:
-        name = "Hhohho";
+        name = "霍霍 ";
         break;
         case 2:
-        name = "Lubombo";
+        name = "卢邦博 ";
         break;
         case 3:
-        name = "Manzini";
+        name = "曼齐尼 ";
         break;
         case 4:
-        name = "Shiselweni";
+        name = "希塞卢韦尼 ";
         break;
         case 5:
-        name = "Praslin";
+        name = "普拉兰 ";
         break;
       }
     }
     if (country_code.equals("TD") == true) {
       switch (region_code2) {
         case 1:
-        name = "Batha";
+        name = "巴塔 ";
         break;
         case 2:
-        name = "Biltine";
+        name = "比尔廷 ";
         break;
         case 3:
-        name = "Borkou-Ennedi-Tibesti";
+        name = "博尔库 - 恩内迪 - 提贝斯提 ";
         break;
         case 4:
-        name = "Chari-Baguirmi";
+        name = "沙里 - 巴吉尔米 ";
         break;
         case 5:
-        name = "Guera";
+        name = "盖拉 ";
         break;
         case 6:
-        name = "Kanem";
+        name = "卡内姆 ";
         break;
         case 7:
-        name = "Lac";
+        name = "紫胶 ";
         break;
         case 8:
-        name = "Logone Occidental";
+        name = "西洛贡 ";
         break;
         case 9:
-        name = "Logone Oriental";
+        name = "洛贡东方 ";
         break;
         case 10:
-        name = "Mayo-Kebbi";
+        name = "梅奥凯比 ";
         break;
         case 11:
-        name = "Moyen-Chari";
+        name = "沙里 ";
         break;
         case 12:
-        name = "Ouaddai";
+        name = "瓦达伊 ";
         break;
         case 13:
-        name = "Salamat";
+        name = "萨拉马特 ";
         break;
         case 14:
-        name = "Tandjile";
+        name = "坦吉莱 ";
         break;
       }
     }
     if (country_code.equals("TG") == true) {
       switch (region_code2) {
         case 9:
-        name = "Lama-Kara";
+        name = "达赖喇嘛卡拉 ";
         break;
         case 18:
-        name = "Tsevie";
+        name = "Tsevie ";
         break;
         case 22:
-        name = "Centrale";
+        name = "中央 ";
         break;
         case 23:
-        name = "Kara";
+        name = "卡拉 ";
         break;
         case 24:
-        name = "Maritime";
+        name = "海上 ";
         break;
         case 25:
-        name = "Plateaux";
+        name = "高原 ";
         break;
         case 26:
-        name = "Savanes";
+        name = "萨瓦纳 ";
         break;
       }
     }
     if (country_code.equals("TH") == true) {
       switch (region_code2) {
         case 1:
-        name = "Mae Hong Son";
+        name = "湄宏顺 ";
         break;
         case 2:
-        name = "Chiang Mai";
+        name = "清迈 ";
         break;
         case 3:
-        name = "Chiang Rai";
+        name = "清莱 ";
         break;
         case 4:
-        name = "Nan";
+        name = "南 ";
         break;
         case 5:
-        name = "Lamphun";
+        name = "南奔 ";
         break;
         case 6:
-        name = "Lampang";
+        name = "南邦 ";
         break;
         case 7:
-        name = "Phrae";
+        name = "帕 ";
         break;
         case 8:
-        name = "Tak";
+        name = "德 ";
         break;
         case 9:
-        name = "Sukhothai";
+        name = "素可泰 ";
         break;
         case 10:
-        name = "Uttaradit";
+        name = "逸 ";
         break;
         case 11:
-        name = "Kamphaeng Phet";
+        name = "甘烹碧 ";
         break;
         case 12:
-        name = "Phitsanulok";
+        name = "彭世洛 ";
         break;
         case 13:
-        name = "Phichit";
+        name = "披集府 ";
         break;
         case 14:
-        name = "Phetchabun";
+        name = "碧差汶 ";
         break;
         case 15:
-        name = "Uthai Thani";
+        name = "乌泰他尼 ";
         break;
         case 16:
-        name = "Nakhon Sawan";
+        name = "那空沙旺 ";
         break;
         case 17:
-        name = "Nong Khai";
+        name = "农凯 ";
         break;
         case 18:
-        name = "Loei";
+        name = "黎 ";
         break;
         case 20:
-        name = "Sakon Nakhon";
+        name = "沙功那空 ";
         break;
         case 21:
-        name = "Nakhon Phanom";
+        name = "那空拍侬 ";
         break;
         case 22:
-        name = "Khon Kaen";
+        name = "孔敬 ";
         break;
         case 23:
-        name = "Kalasin";
+        name = "加拉信 ";
         break;
         case 24:
-        name = "Maha Sarakham";
+        name = "玛哈沙拉堪 ";
         break;
         case 25:
-        name = "Roi Et";
+        name = "黎逸 ";
         break;
         case 26:
-        name = "Chaiyaphum";
+        name = "猜也蓬 ";
         break;
         case 27:
-        name = "Nakhon Ratchasima";
+        name = "呵叻府（Nakhon Ratchasima） ";
         break;
         case 28:
-        name = "Buriram";
+        name = "武里南 ";
         break;
         case 29:
-        name = "Surin";
+        name = "苏林 ";
         break;
         case 30:
-        name = "Sisaket";
+        name = "四色菊 ";
         break;
         case 31:
-        name = "Narathiwat";
+        name = "那拉提瓦 ";
         break;
         case 32:
-        name = "Chai Nat";
+        name = "猜 ";
         break;
         case 33:
-        name = "Sing Buri";
+        name = "唱武里 ";
         break;
         case 34:
-        name = "Lop Buri";
+        name = "华富里（Lop Buri） ";
         break;
         case 35:
-        name = "Ang Thong";
+        name = "安通 ";
         break;
         case 36:
-        name = "Phra Nakhon Si Ayutthaya";
+        name = "大城 ";
         break;
         case 37:
-        name = "Saraburi";
+        name = "沙拉武里 ";
         break;
         case 38:
-        name = "Nonthaburi";
+        name = "暖武里府 ";
         break;
         case 39:
-        name = "Pathum Thani";
+        name = "巴吞他尼 ";
         break;
         case 40:
-        name = "Krung Thep";
+        name = "克伦德普 ";
         break;
         case 41:
-        name = "Phayao";
+        name = "帕尧 ";
         break;
         case 42:
-        name = "Samut Prakan";
+        name = "北榄府 ";
         break;
         case 43:
-        name = "Nakhon Nayok";
+        name = "那空那育 ";
         break;
         case 44:
-        name = "Chachoengsao";
+        name = "北柳 ";
         break;
         case 45:
-        name = "Prachin Buri";
+        name = "巴真武里 ";
         break;
         case 46:
-        name = "Chon Buri";
+        name = "春武里府 ";
         break;
         case 47:
-        name = "Rayong";
+        name = "罗勇 ";
         break;
         case 48:
-        name = "Chanthaburi";
+        name = "尖竹汶府 ";
         break;
         case 49:
-        name = "Trat";
+        name = "达勒 ";
         break;
         case 50:
-        name = "Kanchanaburi";
+        name = "北碧府 ";
         break;
         case 51:
-        name = "Suphan Buri";
+        name = "素攀武里 ";
         break;
         case 52:
-        name = "Ratchaburi";
+        name = "叻丕府 ";
         break;
         case 53:
-        name = "Nakhon Pathom";
+        name = "佛统 ";
         break;
         case 54:
-        name = "Samut Songkhram";
+        name = "沙没颂堪 ";
         break;
         case 55:
-        name = "Samut Sakhon";
+        name = "龙仔厝 ";
         break;
         case 56:
-        name = "Phetchaburi";
+        name = "佛丕府 ";
         break;
         case 57:
-        name = "Prachuap Khiri Khan";
+        name = "巴蜀 ";
         break;
         case 58:
-        name = "Chumphon";
+        name = "春蓬 ";
         break;
         case 59:
-        name = "Ranong";
+        name = "拉廊 ";
         break;
         case 60:
-        name = "Surat Thani";
+        name = "素叻他尼 ";
         break;
         case 61:
-        name = "Phangnga";
+        name = "攀牙 ";
         break;
         case 62:
-        name = "Phuket";
+        name = "普吉岛 ";
         break;
         case 63:
-        name = "Krabi";
+        name = "喀比 ";
         break;
         case 64:
-        name = "Nakhon Si Thammarat";
+        name = "洛坤府 ";
         break;
         case 65:
-        name = "Trang";
+        name = "庄 ";
         break;
         case 66:
-        name = "Phatthalung";
+        name = "博达伦 ";
         break;
         case 67:
-        name = "Satun";
+        name = "沙敦 ";
         break;
         case 68:
-        name = "Songkhla";
+        name = "宋卡 ";
         break;
         case 69:
-        name = "Pattani";
+        name = "北大 ";
         break;
         case 70:
-        name = "Yala";
+        name = "雅拉 ";
         break;
         case 71:
-        name = "Ubon Ratchathani";
+        name = "乌汶 ";
         break;
         case 72:
-        name = "Yasothon";
+        name = "益梭通 ";
         break;
         case 73:
-        name = "Nakhon Phanom";
+        name = "那空拍侬 ";
         break;
         case 75:
-        name = "Ubon Ratchathani";
+        name = "乌汶 ";
         break;
         case 76:
-        name = "Udon Thani";
+        name = "乌隆 ";
         break;
         case 77:
-        name = "Amnat Charoen";
+        name = "安纳乍能 ";
         break;
         case 78:
-        name = "Mukdahan";
+        name = "穆达汉 ";
         break;
         case 79:
-        name = "Nong Bua Lamphu";
+        name = "农磨兰普 ";
         break;
         case 80:
-        name = "Sa Kaeo";
+        name = "沙缴 ";
         break;
       }
     }
     if (country_code.equals("TJ") == true) {
       switch (region_code2) {
         case 1:
-        name = "Kuhistoni Badakhshon";
+        name = "Kuhistoni Badakhshon ";
         break;
         case 2:
-        name = "Khatlon";
+        name = "哈特隆 ";
         break;
         case 3:
-        name = "Sughd";
+        name = "索格特州 ";
         break;
       }
     }
     if (country_code.equals("TM") == true) {
       switch (region_code2) {
         case 1:
-        name = "Ahal";
+        name = "阿哈尔 ";
         break;
         case 2:
-        name = "Balkan";
+        name = "巴尔干 ";
         break;
         case 3:
-        name = "Dashoguz";
+        name = "达沙古兹 ";
         break;
         case 4:
-        name = "Lebap";
+        name = "列巴普 ";
         break;
         case 5:
-        name = "Mary";
+        name = "玛丽 ";
         break;
       }
     }
     if (country_code.equals("TN") == true) {
       switch (region_code2) {
         case 2:
-        name = "Kasserine";
+        name = "卡塞林 ";
         break;
         case 3:
-        name = "Kairouan";
+        name = "凯鲁万 ";
         break;
         case 6:
-        name = "Jendouba";
+        name = "坚杜拜 ";
         break;
         case 14:
-        name = "El Kef";
+        name = "卡夫 ";
         break;
         case 15:
-        name = "Al Mahdia";
+        name = "铝马赫迪耶 ";
         break;
         case 16:
-        name = "Al Munastir";
+        name = "Al Munastir的 ";
         break;
         case 17:
-        name = "Bajah";
+        name = "Bajah ";
         break;
         case 18:
-        name = "Bizerte";
+        name = "比塞大 ";
         break;
         case 19:
-        name = "Nabeul";
+        name = "纳布勒 ";
         break;
         case 22:
-        name = "Siliana";
+        name = "锡勒亚奈 ";
         break;
         case 23:
-        name = "Sousse";
+        name = "苏塞 ";
         break;
         case 26:
-        name = "Ariana";
+        name = "阿丽亚娜 ";
         break;
         case 27:
-        name = "Ben Arous";
+        name = "本阿鲁斯 ";
         break;
         case 28:
-        name = "Madanin";
+        name = "Madanin ";
         break;
         case 29:
-        name = "Gabes";
+        name = "加贝斯 ";
         break;
         case 30:
-        name = "Gafsa";
+        name = "加夫萨 ";
         break;
         case 31:
-        name = "Kebili";
+        name = "凯比利 ";
         break;
         case 32:
-        name = "Sfax";
+        name = "斯法克斯 ";
         break;
         case 33:
-        name = "Sidi Bou Zid";
+        name = "西迪布济德 ";
         break;
         case 34:
-        name = "Tataouine";
+        name = "泰塔 ";
         break;
         case 35:
-        name = "Tozeur";
+        name = "托泽尔 ";
         break;
         case 36:
-        name = "Tunis";
+        name = "突尼斯 ";
         break;
         case 37:
-        name = "Zaghouan";
+        name = "宰格万 ";
         break;
         case 38:
-        name = "Aiana";
+        name = "Aiana ";
         break;
         case 39:
-        name = "Manouba";
+        name = "马努巴 ";
         break;
       }
     }
     if (country_code.equals("TO") == true) {
       switch (region_code2) {
         case 1:
-        name = "Ha";
+        name = "哈 ";
         break;
         case 2:
-        name = "Tongatapu";
+        name = "汤加塔布 ";
         break;
         case 3:
-        name = "Vava";
+        name = "瓦瓦 ";
         break;
       }
     }
     if (country_code.equals("TR") == true) {
       switch (region_code2) {
         case 2:
-        name = "Adiyaman";
+        name = "阿德亚曼 ";
         break;
         case 3:
-        name = "Afyonkarahisar";
+        name = "阿菲永 ";
         break;
         case 4:
-        name = "Agri";
+        name = "粮油 ";
         break;
         case 5:
-        name = "Amasya";
+        name = "阿马西亚 ";
         break;
         case 7:
-        name = "Antalya";
+        name = "安塔利亚 ";
         break;
         case 8:
-        name = "Artvin";
+        name = "阿尔特温 ";
         break;
         case 9:
-        name = "Aydin";
+        name = "艾登 ";
         break;
         case 10:
-        name = "Balikesir";
+        name = "巴勒克希尔 ";
         break;
         case 11:
-        name = "Bilecik";
+        name = "比莱吉克 ";
         break;
         case 12:
-        name = "Bingol";
+        name = "宾格尔 ";
         break;
         case 13:
-        name = "Bitlis";
+        name = "比特利斯 ";
         break;
         case 14:
-        name = "Bolu";
+        name = "博卢 ";
         break;
         case 15:
-        name = "Burdur";
+        name = "布尔杜尔 ";
         break;
         case 16:
-        name = "Bursa";
+        name = "囊 ";
         break;
         case 17:
-        name = "Canakkale";
+        name = "恰纳卡莱 ";
         break;
         case 19:
-        name = "Corum";
+        name = "乔鲁 ";
         break;
         case 20:
-        name = "Denizli";
+        name = "德尼兹利 ";
         break;
         case 21:
-        name = "Diyarbakir";
+        name = "迪亚巴克尔 ";
         break;
         case 22:
-        name = "Edirne";
+        name = "埃迪尔 ";
         break;
         case 23:
-        name = "Elazig";
+        name = "埃拉泽 ";
         break;
         case 24:
-        name = "Erzincan";
+        name = "埃尔津詹 ";
         break;
         case 25:
-        name = "Erzurum";
+        name = "埃尔祖鲁姆 ";
         break;
         case 26:
-        name = "Eskisehir";
+        name = "埃斯基谢希尔 ";
         break;
         case 28:
-        name = "Giresun";
+        name = "吉雷松 ";
         break;
         case 31:
-        name = "Hatay";
+        name = "哈塔伊 ";
         break;
         case 32:
-        name = "Mersin";
+        name = "梅尔辛 ";
         break;
         case 33:
-        name = "Isparta";
+        name = "伊斯帕尔塔 ";
         break;
         case 34:
-        name = "Istanbul";
+        name = "伊斯坦布尔 ";
         break;
         case 35:
-        name = "Izmir";
+        name = "伊兹密尔 ";
         break;
         case 37:
-        name = "Kastamonu";
+        name = "卡斯塔莫努 ";
         break;
         case 38:
-        name = "Kayseri";
+        name = "开塞利 ";
         break;
         case 39:
-        name = "Kirklareli";
+        name = "克尔克拉雷 ";
         break;
         case 40:
-        name = "Kirsehir";
+        name = "克尔谢希尔 ";
         break;
         case 41:
-        name = "Kocaeli";
+        name = "科贾埃利 ";
         break;
         case 43:
-        name = "Kutahya";
+        name = "屈塔希亚 ";
         break;
         case 44:
-        name = "Malatya";
+        name = "马拉蒂亚 ";
         break;
         case 45:
-        name = "Manisa";
+        name = "马尼萨 ";
         break;
         case 46:
-        name = "Kahramanmaras";
+        name = "卡赫拉曼马拉什 ";
         break;
         case 48:
-        name = "Mugla";
+        name = "穆拉 ";
         break;
         case 49:
-        name = "Mus";
+        name = "亩 ";
         break;
         case 50:
-        name = "Nevsehir";
+        name = "内夫谢希尔 ";
         break;
         case 52:
-        name = "Ordu";
+        name = "奥尔杜 ";
         break;
         case 53:
-        name = "Rize";
+        name = "里泽 ";
         break;
         case 54:
-        name = "Sakarya";
+        name = "萨卡里亚 ";
         break;
         case 55:
-        name = "Samsun";
+        name = "萨姆松 ";
         break;
         case 57:
-        name = "Sinop";
+        name = "锡诺普 ";
         break;
         case 58:
-        name = "Sivas";
+        name = "锡瓦斯 ";
         break;
         case 59:
-        name = "Tekirdag";
+        name = "泰基尔达 ";
         break;
         case 60:
-        name = "Tokat";
+        name = "托卡特 ";
         break;
         case 61:
-        name = "Trabzon";
+        name = "特拉布宗 ";
         break;
         case 62:
-        name = "Tunceli";
+        name = "通杰利 ";
         break;
         case 63:
-        name = "Sanliurfa";
+        name = "桑尼乌法 ";
         break;
         case 64:
-        name = "Usak";
+        name = "乌沙克 ";
         break;
         case 65:
-        name = "Van";
+        name = "货车 ";
         break;
         case 66:
-        name = "Yozgat";
+        name = "约兹加特 ";
         break;
         case 68:
-        name = "Ankara";
+        name = "安卡拉 ";
         break;
         case 69:
-        name = "Gumushane";
+        name = "居米什哈 ";
         break;
         case 70:
-        name = "Hakkari";
+        name = "哈卡里 ";
         break;
         case 71:
-        name = "Konya";
+        name = "科尼亚 ";
         break;
         case 72:
-        name = "Mardin";
+        name = "马尔丁 ";
         break;
         case 73:
-        name = "Nigde";
+        name = "尼代 ";
         break;
         case 74:
-        name = "Siirt";
+        name = "锡尔特 ";
         break;
         case 75:
-        name = "Aksaray";
+        name = "阿克萨赖 ";
         break;
         case 76:
-        name = "Batman";
+        name = "蝙蝠侠 ";
         break;
         case 77:
-        name = "Bayburt";
+        name = "巴伊布尔特 ";
         break;
         case 78:
-        name = "Karaman";
+        name = "卡拉曼 ";
         break;
         case 79:
-        name = "Kirikkale";
+        name = "克勒克卡莱 ";
         break;
         case 80:
-        name = "Sirnak";
+        name = "舍尔纳克 ";
         break;
         case 81:
-        name = "Adana";
+        name = "阿达纳 ";
         break;
         case 82:
-        name = "Cankiri";
+        name = "昌克勒 ";
         break;
         case 83:
-        name = "Gaziantep";
+        name = "加济安泰普 ";
         break;
         case 84:
-        name = "Kars";
+        name = "卡尔斯 ";
         break;
         case 85:
-        name = "Zonguldak";
+        name = "宗古尔达克 ";
         break;
         case 86:
-        name = "Ardahan";
+        name = "阿尔达汉 ";
         break;
         case 87:
-        name = "Bartin";
+        name = "巴尔腾 ";
         break;
         case 88:
-        name = "Igdir";
+        name = "伊迪尔 ";
         break;
         case 89:
-        name = "Karabuk";
+        name = "卡拉比克 ";
         break;
         case 90:
-        name = "Kilis";
+        name = "基利斯 ";
         break;
         case 91:
-        name = "Osmaniye";
+        name = "奥斯曼尼耶 ";
         break;
         case 92:
-        name = "Yalova";
+        name = "亚洛瓦 ";
         break;
         case 93:
-        name = "Duzce";
+        name = "迪兹杰 ";
         break;
       }
     }
     if (country_code.equals("TT") == true) {
       switch (region_code2) {
         case 1:
-        name = "Arima";
+        name = "华宇 ";
         break;
         case 2:
-        name = "Caroni";
+        name = "卡罗尼 ";
         break;
         case 3:
-        name = "Mayaro";
+        name = "马亚罗 ";
         break;
         case 4:
-        name = "Nariva";
+        name = "Nariva ";
         break;
         case 5:
-        name = "Port-of-Spain";
+        name = "港，西班牙 ";
         break;
         case 6:
-        name = "Saint Andrew";
+        name = "圣安德鲁 ";
         break;
         case 7:
-        name = "Saint David";
+        name = "圣大卫 ";
         break;
         case 8:
-        name = "Saint George";
+        name = "圣乔治 ";
         break;
         case 9:
-        name = "Saint Patrick";
+        name = "圣帕特里克节 ";
         break;
         case 10:
-        name = "San Fernando";
+        name = "圣费尔南多 ";
         break;
         case 11:
-        name = "Tobago";
+        name = "多巴哥 ";
         break;
         case 12:
-        name = "Victoria";
+        name = "维多利亚 ";
         break;
       }
     }
     if (country_code.equals("TW") == true) {
       switch (region_code2) {
         case 1:
-        name = "Fu-chien";
+        name = "福谦 ";
         break;
         case 2:
-        name = "Kao-hsiung";
+        name = "高雄 ";
         break;
         case 3:
-        name = "T'ai-pei";
+        name = "台培 ";
         break;
         case 4:
-        name = "T'ai-wan";
+        name = "台婉 ";
         break;
       }
     }
     if (country_code.equals("TZ") == true) {
       switch (region_code2) {
         case 2:
-        name = "Pwani";
+        name = "滨海区 ";
         break;
         case 3:
-        name = "Dodoma";
+        name = "多多马 ";
         break;
         case 4:
-        name = "Iringa";
+        name = "伊林加 ";
         break;
         case 5:
-        name = "Kigoma";
+        name = "基戈马 ";
         break;
         case 6:
-        name = "Kilimanjaro";
+        name = "乞力马扎罗山 ";
         break;
         case 7:
-        name = "Lindi";
+        name = "临敌 ";
         break;
         case 8:
-        name = "Mara";
+        name = "马拉 ";
         break;
         case 9:
-        name = "Mbeya";
+        name = "姆贝亚 ";
         break;
         case 10:
-        name = "Morogoro";
+        name = "莫罗戈罗 ";
         break;
         case 11:
-        name = "Mtwara";
+        name = "姆特瓦拉 ";
         break;
         case 12:
-        name = "Mwanza";
+        name = "姆万扎 ";
         break;
         case 13:
-        name = "Pemba North";
+        name = "北奔巴岛 ";
         break;
         case 14:
-        name = "Ruvuma";
+        name = "鲁伍马 ";
         break;
         case 15:
-        name = "Shinyanga";
+        name = "希尼安加 ";
         break;
         case 16:
-        name = "Singida";
+        name = "辛吉达 ";
         break;
         case 17:
-        name = "Tabora";
+        name = "塔波拉 ";
         break;
         case 18:
-        name = "Tanga";
+        name = "坦噶 ";
         break;
         case 19:
-        name = "Kagera";
+        name = "卡盖拉 ";
         break;
         case 20:
-        name = "Pemba South";
+        name = "奔巴岛南 ";
         break;
         case 21:
-        name = "Zanzibar Central";
+        name = "桑给巴尔中央 ";
         break;
         case 22:
-        name = "Zanzibar North";
+        name = "桑给巴尔北 ";
         break;
         case 23:
-        name = "Dar es Salaam";
+        name = "达累斯萨拉姆 ";
         break;
         case 24:
-        name = "Rukwa";
+        name = "鲁夸 ";
         break;
         case 25:
-        name = "Zanzibar Urban";
+        name = "桑给巴尔城市 ";
         break;
         case 26:
-        name = "Arusha";
+        name = "阿鲁沙 ";
         break;
         case 27:
-        name = "Manyara";
+        name = "马尼亚拉 ";
         break;
       }
     }
     if (country_code.equals("UA") == true) {
       switch (region_code2) {
         case 1:
-        name = "Cherkas'ka Oblast'";
+        name = "切尔卡瑟州' ";
         break;
         case 2:
-        name = "Chernihivs'ka Oblast'";
+        name = "切尔尼戈夫州' ";
         break;
         case 3:
-        name = "Chernivets'ka Oblast'";
+        name = "切尔诺夫策州' ";
         break;
         case 4:
-        name = "Dnipropetrovs'ka Oblast'";
+        name = "第聂伯罗波得罗夫斯克州' ";
         break;
         case 5:
-        name = "Donets'ka Oblast'";
+        name = "顿涅茨克州' ";
         break;
         case 6:
-        name = "Ivano-Frankivs'ka Oblast'";
+        name = "的伊万诺 - 佛兰科夫州' ";
         break;
         case 7:
-        name = "Kharkivs'ka Oblast'";
+        name = "哈尔科夫州' ";
         break;
         case 8:
-        name = "Khersons'ka Oblast'";
+        name = "赫尔松州' ";
         break;
         case 9:
-        name = "Khmel'nyts'ka Oblast'";
+        name = "赫梅利尼茨基州' ";
         break;
         case 10:
-        name = "Kirovohrads'ka Oblast'";
+        name = "基洛夫格勒州' ";
         break;
         case 11:
-        name = "Krym";
+        name = "克里木 ";
         break;
         case 12:
-        name = "Kyyiv";
+        name = "省份Kyyiv ";
         break;
         case 13:
-        name = "Kyyivs'ka Oblast'";
+        name = "Kyyivs'ka州' ";
         break;
         case 14:
-        name = "Luhans'ka Oblast'";
+        name = "卢甘斯克州' ";
         break;
         case 15:
-        name = "L'vivs'ka Oblast'";
+        name = "利沃夫州' ";
         break;
         case 16:
-        name = "Mykolayivs'ka Oblast'";
+        name = "Mykolayivs'ka州' ";
         break;
         case 17:
-        name = "Odes'ka Oblast'";
+        name = "Odes'ka州' ";
         break;
         case 18:
-        name = "Poltavs'ka Oblast'";
+        name = "波尔塔瓦州' ";
         break;
         case 19:
-        name = "Rivnens'ka Oblast'";
+        name = "洛夫诺州' ";
         break;
         case 20:
-        name = "Sevastopol'";
+        name = "塞瓦斯托波尔' ";
         break;
         case 21:
-        name = "Sums'ka Oblast'";
+        name = "Sums'ka州' ";
         break;
         case 22:
-        name = "Ternopil's'ka Oblast'";
+        name = "捷尔诺波尔州' ";
         break;
         case 23:
-        name = "Vinnyts'ka Oblast'";
+        name = "文尼察州' ";
         break;
         case 24:
-        name = "Volyns'ka Oblast'";
+        name = "Volyns'ka州' ";
         break;
         case 25:
-        name = "Zakarpats'ka Oblast'";
+        name = "外喀尔巴阡州' ";
         break;
         case 26:
-        name = "Zaporiz'ka Oblast'";
+        name = "扎波罗热州“ ";
         break;
         case 27:
-        name = "Zhytomyrs'ka Oblast'";
+        name = "日托米尔州' ";
         break;
       }
     }
     if (country_code.equals("UG") == true) {
       switch (region_code2) {
         case 5:
-        name = "Busoga";
+        name = "布索加 ";
         break;
         case 8:
-        name = "Karamoja";
+        name = "卡拉莫贾 ";
         break;
         case 12:
-        name = "South Buganda";
+        name = "南布干达 ";
         break;
         case 18:
-        name = "Central";
+        name = "中央 ";
         break;
         case 20:
-        name = "Eastern";
+        name = "东 ";
         break;
         case 21:
-        name = "Nile";
+        name = "尼罗河 ";
         break;
         case 22:
-        name = "North Buganda";
+        name = "北布干达 ";
         break;
         case 23:
-        name = "Northern";
+        name = "北方 ";
         break;
         case 24:
-        name = "Southern";
+        name = "南部的 ";
         break;
         case 25:
-        name = "Western";
+        name = "西 ";
         break;
         case 33:
-        name = "Jinja";
+        name = "神社 ";
         break;
         case 36:
-        name = "Kalangala";
+        name = "卡兰加拉 ";
         break;
         case 37:
-        name = "Kampala";
+        name = "坎帕拉 ";
         break;
         case 42:
-        name = "Kiboga";
+        name = "基博加 ";
         break;
         case 52:
-        name = "Mbarara";
+        name = "姆巴拉拉 ";
         break;
         case 56:
-        name = "Mubende";
+        name = "穆本德 ";
         break;
         case 65:
-        name = "Adjumani";
+        name = "阿朱马尼 ";
         break;
         case 66:
-        name = "Bugiri";
+        name = "布吉里 ";
         break;
         case 67:
-        name = "Busia";
+        name = "布西亚 ";
         break;
         case 69:
-        name = "Katakwi";
+        name = "卡塔奎 ";
         break;
         case 71:
-        name = "Masaka";
+        name = "马萨卡 ";
         break;
         case 73:
-        name = "Nakasongola";
+        name = "纳卡松戈拉 ";
         break;
         case 74:
-        name = "Sembabule";
+        name = "森巴布莱 ";
         break;
         case 77:
-        name = "Arua";
+        name = "阿鲁阿 ";
         break;
         case 78:
-        name = "Iganga";
+        name = "伊甘加 ";
         break;
         case 79:
-        name = "Kabarole";
+        name = "卡巴罗莱 ";
         break;
         case 80:
-        name = "Kaberamaido";
+        name = "卡贝拉马伊多 ";
         break;
         case 81:
-        name = "Kamwenge";
+        name = "卡姆文盖 ";
         break;
         case 82:
-        name = "Kanungu";
+        name = "卡农古 ";
         break;
         case 83:
-        name = "Kayunga";
+        name = "卡永加 ";
         break;
         case 84:
-        name = "Kitgum";
+        name = "基特古姆 ";
         break;
         case 85:
-        name = "Kyenjojo";
+        name = "基恩乔乔 ";
         break;
         case 86:
-        name = "Mayuge";
+        name = "马尤盖 ";
         break;
         case 87:
-        name = "Mbale";
+        name = "姆巴莱 ";
         break;
         case 88:
-        name = "Moroto";
+        name = "诸元 ";
         break;
         case 89:
-        name = "Mpigi";
+        name = "姆皮吉 ";
         break;
         case 90:
-        name = "Mukono";
+        name = "穆科诺 ";
         break;
         case 91:
-        name = "Nakapiripirit";
+        name = "纳卡皮里皮里特 ";
         break;
         case 92:
-        name = "Pader";
+        name = "帕德尔 ";
         break;
         case 93:
-        name = "Rukungiri";
+        name = "鲁昆吉里 ";
         break;
         case 94:
-        name = "Sironko";
+        name = "锡龙科 ";
         break;
         case 95:
-        name = "Soroti";
+        name = "索罗提 ";
         break;
         case 96:
-        name = "Wakiso";
+        name = "瓦基索 ";
         break;
         case 97:
-        name = "Yumbe";
+        name = "永贝 ";
         break;
       }
     }
     if (country_code.equals("UY") == true) {
       switch (region_code2) {
         case 1:
-        name = "Artigas";
+        name = "阿蒂加斯 ";
         break;
         case 2:
-        name = "Canelones";
+        name = "卡内洛内斯 ";
         break;
         case 3:
-        name = "Cerro Largo";
+        name = "塞罗拉尔戈 ";
         break;
         case 4:
-        name = "Colonia";
+        name = "科洛尼亚 ";
         break;
         case 5:
-        name = "Durazno";
+        name = "杜拉斯诺 ";
         break;
         case 6:
-        name = "Flores";
+        name = "弗洛雷斯 ";
         break;
         case 7:
-        name = "Florida";
+        name = "佛罗里达 ";
         break;
         case 8:
-        name = "Lavalleja";
+        name = "拉瓦耶哈 ";
         break;
         case 9:
-        name = "Maldonado";
+        name = "马尔多纳多 ";
         break;
         case 10:
-        name = "Montevideo";
+        name = "蒙得维的亚 ";
         break;
         case 11:
-        name = "Paysandu";
+        name = "派桑杜 ";
         break;
         case 12:
-        name = "Rio Negro";
+        name = "里奥内格罗 ";
         break;
         case 13:
-        name = "Rivera";
+        name = "里维拉 ";
         break;
         case 14:
-        name = "Rocha";
+        name = "罗恰 ";
         break;
         case 15:
-        name = "Salto";
+        name = "萨尔托 ";
         break;
         case 16:
-        name = "San Jose";
+        name = "圣何塞 ";
         break;
         case 17:
-        name = "Soriano";
+        name = "索里亚诺 ";
         break;
         case 18:
-        name = "Tacuarembo";
+        name = "塔夸伦博 ";
         break;
         case 19:
-        name = "Treinta y Tres";
+        name = "Ÿ特雷斯Treinta ";
         break;
       }
     }
     if (country_code.equals("UZ") == true) {
       switch (region_code2) {
         case 1:
-        name = "Andijon";
+        name = "安集延 ";
         break;
         case 2:
-        name = "Bukhoro";
+        name = "Bukhoro ";
         break;
         case 3:
-        name = "Farghona";
+        name = "Farghona ";
         break;
         case 4:
-        name = "Jizzakh";
+        name = "Jizzakh ";
         break;
         case 5:
-        name = "Khorazm";
+        name = "Khorazm ";
         break;
         case 6:
-        name = "Namangan";
+        name = "纳曼干 ";
         break;
         case 7:
-        name = "Nawoiy";
+        name = "Nawoiy ";
         break;
         case 8:
-        name = "Qashqadaryo";
+        name = "卡什卡达里亚 ";
         break;
         case 9:
-        name = "Qoraqalpoghiston";
+        name = "Qoraqalpoghiston ";
         break;
         case 10:
-        name = "Samarqand";
+        name = "撒马尔罕 ";
         break;
         case 11:
-        name = "Sirdaryo";
+        name = "锡尔河 ";
         break;
         case 12:
-        name = "Surkhondaryo";
+        name = "Surkhondaryo ";
         break;
         case 13:
-        name = "Toshkent";
+        name = "塔什干 ";
         break;
         case 14:
-        name = "Toshkent";
+        name = "塔什干 ";
         break;
       }
     }
     if (country_code.equals("VC") == true) {
       switch (region_code2) {
         case 1:
-        name = "Charlotte";
+        name = "夏洛特 ";
         break;
         case 2:
-        name = "Saint Andrew";
+        name = "圣安德鲁 ";
         break;
         case 3:
-        name = "Saint David";
+        name = "圣大卫 ";
         break;
         case 4:
-        name = "Saint George";
+        name = "圣乔治 ";
         break;
         case 5:
-        name = "Saint Patrick";
+        name = "圣帕特里克节 ";
         break;
         case 6:
-        name = "Grenadines";
+        name = "格林纳丁斯 ";
         break;
       }
     }
     if (country_code.equals("VE") == true) {
       switch (region_code2) {
         case 1:
-        name = "Amazonas";
+        name = "亚马孙 ";
         break;
         case 2:
-        name = "Anzoategui";
+        name = "安索阿特吉 ";
         break;
         case 3:
-        name = "Apure";
+        name = "阿普雷 ";
         break;
         case 4:
-        name = "Aragua";
+        name = "阿拉瓜州 ";
         break;
         case 5:
-        name = "Barinas";
+        name = "巴里纳斯 ";
         break;
         case 6:
-        name = "Bolivar";
+        name = "玻利瓦尔 ";
         break;
         case 7:
-        name = "Carabobo";
+        name = "卡拉沃沃 ";
         break;
         case 8:
-        name = "Cojedes";
+        name = "科赫德斯 ";
         break;
         case 9:
-        name = "Delta Amacuro";
+        name = "阿马库罗三角洲 ";
         break;
         case 11:
-        name = "Falcon";
+        name = "鹘 ";
         break;
         case 12:
-        name = "Guarico";
+        name = "瓜里科 ";
         break;
         case 13:
-        name = "Lara";
+        name = "拉拉 ";
         break;
         case 14:
-        name = "Merida";
+        name = "梅里达 ";
         break;
         case 15:
-        name = "Miranda";
+        name = "米兰达 ";
         break;
         case 16:
-        name = "Monagas";
+        name = "莫纳加斯 ";
         break;
         case 17:
-        name = "Nueva Esparta";
+        name = "新埃斯帕塔 ";
         break;
         case 18:
-        name = "Portuguesa";
+        name = "波图格萨 ";
         break;
         case 19:
-        name = "Sucre";
+        name = "苏克雷 ";
         break;
         case 20:
-        name = "Tachira";
+        name = "塔奇拉 ";
         break;
         case 21:
-        name = "Trujillo";
+        name = "特鲁希略 ";
         break;
         case 22:
-        name = "Yaracuy";
+        name = "亚拉奎 ";
         break;
         case 23:
-        name = "Zulia";
+        name = "苏利亚 ";
         break;
         case 24:
-        name = "Dependencias Federales";
+        name = "联邦属地 ";
         break;
         case 25:
-        name = "Distrito Federal";
+        name = "联邦首都区 ";
         break;
         case 26:
-        name = "Vargas";
+        name = "巴尔加斯 ";
         break;
       }
     }
     if (country_code.equals("VN") == true) {
       switch (region_code2) {
         case 1:
-        name = "An Giang";
+        name = "安江 ";
         break;
         case 2:
-        name = "Bac Thai";
+        name = "BAC泰国 ";
         break;
         case 3:
-        name = "Ben Tre";
+        name = "槟 ";
         break;
         case 4:
-        name = "Binh Tri Thien";
+        name = "平阳三添 ";
         break;
         case 5:
-        name = "Cao Bang";
+        name = "高平 ";
         break;
         case 6:
-        name = "Cuu Long";
+        name = "九龙江 ";
         break;
         case 7:
-        name = "Dac Lac";
+        name = "DAC紫胶 ";
         break;
         case 9:
-        name = "Dong Thap";
+        name = "同塔 ";
         break;
         case 11:
-        name = "Ha Bac";
+        name = "哈BAC ";
         break;
         case 12:
-        name = "Hai Hung";
+        name = "海红 ";
         break;
         case 13:
-        name = "Hai Phong";
+        name = "海防 ";
         break;
         case 14:
-        name = "Ha Nam Ninh";
+        name = "哈越南广宁 ";
         break;
         case 15:
-        name = "Ha Noi";
+        name = "河内 ";
         break;
         case 16:
-        name = "Ha Son Binh";
+        name = "哈子平 ";
         break;
         case 17:
-        name = "Ha Tuyen";
+        name = "哈宣 ";
         break;
         case 19:
-        name = "Hoang Lien Son";
+        name = "黄连山 ";
         break;
         case 20:
-        name = "Ho Chi Minh";
+        name = "胡志明市 ";
         break;
         case 21:
-        name = "Kien Giang";
+        name = "坚江 ";
         break;
         case 22:
-        name = "Lai Chau";
+        name = "莱洲 ";
         break;
         case 23:
-        name = "Lam Dong";
+        name = "林东 ";
         break;
         case 24:
-        name = "Long An";
+        name = "龙安 ";
         break;
         case 25:
-        name = "Minh Hai";
+        name = "明海 ";
         break;
         case 26:
-        name = "Nghe Tinh";
+        name = "义安静省 ";
         break;
         case 27:
-        name = "Nghia Binh";
+        name = "义平 ";
         break;
         case 28:
-        name = "Phu Khanh";
+        name = "富庆 ";
         break;
         case 29:
-        name = "Quang Nam-Da Nang";
+        name = "广南岘港 ";
         break;
         case 30:
-        name = "Quang Ninh";
+        name = "广宁 ";
         break;
         case 31:
-        name = "Song Be";
+        name = "宋BE ";
         break;
         case 32:
-        name = "Son La";
+        name = "儿子拉 ";
         break;
         case 33:
-        name = "Tay Ninh";
+        name = "西宁 ";
         break;
         case 34:
-        name = "Thanh Hoa";
+        name = "清化 ";
         break;
         case 35:
-        name = "Thai Binh";
+        name = "泰平 ";
         break;
         case 36:
-        name = "Thuan Hai";
+        name = "顺海 ";
         break;
         case 37:
-        name = "Tien Giang";
+        name = "田江 ";
         break;
         case 38:
-        name = "Vinh Phu";
+        name = "富永 ";
         break;
         case 39:
-        name = "Lang Son";
+        name = "谅山 ";
         break;
         case 40:
-        name = "Dong Nai";
+        name = "同奈省 ";
         break;
         case 43:
-        name = "An Giang";
+        name = "安江 ";
         break;
         case 44:
-        name = "Dac Lac";
+        name = "DAC紫胶 ";
         break;
         case 45:
-        name = "Dong Nai";
+        name = "同奈省 ";
         break;
         case 46:
-        name = "Dong Thap";
+        name = "同塔 ";
         break;
         case 47:
-        name = "Kien Giang";
+        name = "坚江 ";
         break;
         case 48:
-        name = "Minh Hai";
+        name = "明海 ";
         break;
         case 49:
-        name = "Song Be";
+        name = "宋BE ";
         break;
         case 50:
-        name = "Vinh Phu";
+        name = "富永 ";
         break;
         case 51:
-        name = "Ha Noi";
+        name = "河内 ";
         break;
         case 52:
-        name = "Ho Chi Minh";
+        name = "胡志明市 ";
         break;
         case 53:
-        name = "Ba Ria-Vung Tau";
+        name = "巴地 - 头顿 ";
         break;
         case 54:
-        name = "Binh Dinh";
+        name = "平定 ";
         break;
         case 55:
-        name = "Binh Thuan";
+        name = "平顺 ";
         break;
         case 56:
-        name = "Can Tho";
+        name = "芹苴 ";
         break;
         case 57:
-        name = "Gia Lai";
+        name = "嘉莱 ";
         break;
         case 58:
-        name = "Ha Giang";
+        name = "河江 ";
         break;
         case 59:
-        name = "Ha Tay";
+        name = "河西 ";
         break;
         case 60:
-        name = "Ha Tinh";
+        name = "河静 ";
         break;
         case 61:
-        name = "Hoa Binh";
+        name = "华平 ";
         break;
         case 62:
-        name = "Khanh Hoa";
+        name = "庆和省 ";
         break;
         case 63:
-        name = "Kon Tum";
+        name = "昆嵩 ";
         break;
         case 64:
-        name = "Quang Tri";
+        name = "广治 ";
         break;
         case 65:
-        name = "Nam Ha";
+        name = "南河 ";
         break;
         case 66:
-        name = "Nghe An";
+        name = "义安 ";
         break;
         case 67:
-        name = "Ninh Binh";
+        name = "宁平 ";
         break;
         case 68:
-        name = "Ninh Thuan";
+        name = "宁顺 ";
         break;
         case 69:
-        name = "Phu Yen";
+        name = "富安 ";
         break;
         case 70:
-        name = "Quang Binh";
+        name = "广平 ";
         break;
         case 71:
-        name = "Quang Ngai";
+        name = "Quang Ngai的 ";
         break;
         case 72:
-        name = "Quang Tri";
+        name = "广治 ";
         break;
         case 73:
-        name = "Soc Trang";
+        name = "朔庄 ";
         break;
         case 74:
-        name = "Thua Thien";
+        name = "承天 ";
         break;
         case 75:
-        name = "Tra Vinh";
+        name = "茶荣 ";
         break;
         case 76:
-        name = "Tuyen Quang";
+        name = "宣光 ";
         break;
         case 77:
-        name = "Vinh Long";
+        name = "永隆 ";
         break;
         case 78:
-        name = "Da Nang";
+        name = "岘港 ";
         break;
         case 79:
-        name = "Hai Duong";
+        name = "海阳 ";
         break;
         case 80:
-        name = "Ha Nam";
+        name = "哈南 ";
         break;
         case 81:
-        name = "Hung Yen";
+        name = "兴安 ";
         break;
         case 82:
-        name = "Nam Dinh";
+        name = "南定省 ";
         break;
         case 83:
-        name = "Phu Tho";
+        name = "富寿 ";
         break;
         case 84:
-        name = "Quang Nam";
+        name = "广南 ";
         break;
         case 85:
-        name = "Thai Nguyen";
+        name = "泰国阮 ";
         break;
         case 86:
-        name = "Vinh Puc Province";
+        name = "荣市局省 ";
         break;
         case 87:
-        name = "Can Tho";
+        name = "芹苴 ";
         break;
         case 88:
-        name = "Dak Lak";
+        name = "多乐 ";
         break;
         case 89:
-        name = "Lai Chau";
+        name = "莱洲 ";
         break;
         case 90:
-        name = "Lao Cai";
+        name = "老财 ";
         break;
         case 91:
-        name = "Dak Nong";
+        name = "达农 ";
         break;
         case 92:
-        name = "Dien Bien";
+        name = "奠边府 ";
         break;
         case 93:
-        name = "Hau Giang";
+        name = "后江 ";
         break;
       }
     }
     if (country_code.equals("VU") == true) {
       switch (region_code2) {
         case 5:
-        name = "Ambrym";
+        name = "Ambrym ";
         break;
         case 6:
-        name = "Aoba";
+        name = "青叶 ";
         break;
         case 7:
-        name = "Torba";
+        name = "托尔巴 ";
         break;
         case 8:
-        name = "Efate";
+        name = "埃法特岛 ";
         break;
         case 9:
-        name = "Epi";
+        name = "外延 ";
         break;
         case 10:
-        name = "Malakula";
+        name = "Malakula ";
         break;
         case 11:
-        name = "Paama";
+        name = "帕阿马 ";
         break;
         case 12:
-        name = "Pentecote";
+        name = "庞特科特 ";
         break;
         case 13:
-        name = "Sanma";
+        name = "秋刀鱼 ";
         break;
         case 14:
-        name = "Shepherd";
+        name = "牧羊人 ";
         break;
         case 15:
-        name = "Tafea";
+        name = "塔菲阿 ";
         break;
         case 16:
-        name = "Malampa";
+        name = "马朗帕 ";
         break;
         case 17:
-        name = "Penama";
+        name = "彭纳马 ";
         break;
         case 18:
-        name = "Shefa";
+        name = "谢法 ";
         break;
       }
     }
     if (country_code.equals("WS") == true) {
       switch (region_code2) {
         case 2:
-        name = "Aiga-i-le-Tai";
+        name = "艾加-I-LE-大 ";
         break;
         case 3:
-        name = "Atua";
+        name = "阿图阿 ";
         break;
         case 4:
-        name = "Fa";
+        name = "发 ";
         break;
         case 5:
-        name = "Gaga";
+        name = "加加 ";
         break;
         case 6:
-        name = "Va";
+        name = "VA ";
         break;
         case 7:
-        name = "Gagaifomauga";
+        name = "加盖福毛加 ";
         break;
         case 8:
-        name = "Palauli";
+        name = "帕劳利 ";
         break;
         case 9:
-        name = "Satupa";
+        name = "Satupa ";
         break;
         case 10:
-        name = "Tuamasaga";
+        name = "图阿马萨加 ";
         break;
         case 11:
-        name = "Vaisigano";
+        name = "韦西加诺 ";
         break;
       }
     }
     if (country_code.equals("YE") == true) {
       switch (region_code2) {
         case 1:
-        name = "Abyan";
+        name = "阿比扬 ";
         break;
         case 2:
-        name = "Adan";
+        name = "阿丹 ";
         break;
         case 3:
-        name = "Al Mahrah";
+        name = "Al Mahrah的 ";
         break;
         case 4:
-        name = "Hadramawt";
+        name = "哈达拉毛 ";
         break;
         case 5:
-        name = "Shabwah";
+        name = "夏布瓦 ";
         break;
         case 6:
-        name = "Al Ghaydah";
+        name = "艾尔格哈达 ";
         break;
         case 8:
-        name = "Al Hudaydah";
+        name = "荷台达 ";
         break;
         case 10:
-        name = "Al Mahwit";
+        name = "迈赫维特 ";
         break;
         case 11:
-        name = "Dhamar";
+        name = "扎马尔 ";
         break;
         case 14:
-        name = "Ma'rib";
+        name = "马里卜 ";
         break;
         case 15:
-        name = "Sa";
+        name = "萨 ";
         break;
         case 16:
-        name = "San";
+        name = "圣 ";
         break;
         case 20:
-        name = "Al Bayda'";
+        name = "贝达 ";
         break;
         case 21:
-        name = "Al Jawf";
+        name = "焦夫 ";
         break;
         case 22:
-        name = "Hajjah";
+        name = "哈杰 ";
         break;
         case 23:
-        name = "Ibb";
+        name = "伊布 ";
         break;
         case 24:
-        name = "Lahij";
+        name = "拉赫季 ";
         break;
         case 25:
-        name = "Ta";
+        name = "大 ";
         break;
       }
     }
     if (country_code.equals("ZA") == true) {
       switch (region_code2) {
         case 1:
-        name = "North-Western Province";
+        name = "西北省 ";
         break;
         case 2:
-        name = "KwaZulu-Natal";
+        name = "夸祖鲁 - 纳塔尔省 ";
         break;
         case 3:
-        name = "Free State";
+        name = "自由州 ";
         break;
         case 5:
-        name = "Eastern Cape";
+        name = "东开普省 ";
         break;
         case 6:
-        name = "Gauteng";
+        name = "电话 ";
         break;
         case 7:
-        name = "Mpumalanga";
+        name = "姆普马兰加 ";
         break;
         case 8:
-        name = "Northern Cape";
+        name = "北开普省 ";
         break;
         case 9:
-        name = "Limpopo";
+        name = "林波波 ";
         break;
         case 10:
-        name = "North-West";
+        name = "西北 ";
         break;
         case 11:
-        name = "Western Cape";
+        name = "西开普省 ";
         break;
       }
     }
     if (country_code.equals("ZM") == true) {
       switch (region_code2) {
         case 1:
-        name = "Western";
+        name = "西 ";
         break;
         case 2:
-        name = "Central";
+        name = "中央 ";
         break;
         case 3:
-        name = "Eastern";
+        name = "东 ";
         break;
         case 4:
-        name = "Luapula";
+        name = "卢阿普拉 ";
         break;
         case 5:
-        name = "Northern";
+        name = "北方 ";
         break;
         case 6:
-        name = "North-Western";
+        name = "北西方 ";
         break;
         case 7:
-        name = "Southern";
+        name = "南部的 ";
         break;
         case 8:
-        name = "Copperbelt";
+        name = "铜带 ";
         break;
         case 9:
-        name = "Lusaka";
+        name = "卢萨卡 ";
         break;
       }
     }
     if (country_code.equals("ZW") == true) {
       switch (region_code2) {
         case 1:
-        name = "Manicaland";
+        name = "马尼卡​​兰 ";
         break;
         case 2:
-        name = "Midlands";
+        name = "米德兰 ";
         break;
         case 3:
-        name = "Mashonaland Central";
+        name = "马绍纳兰 ";
         break;
         case 4:
-        name = "Mashonaland East";
+        name = "东马绍纳兰 ";
         break;
         case 5:
-        name = "Mashonaland West";
+        name = "西马绍纳兰 ";
         break;
         case 6:
-        name = "Matabeleland North";
+        name = "北马塔贝莱兰省 ";
         break;
         case 7:
-        name = "Matabeleland South";
+        name = "南马塔贝莱兰省 ";
         break;
         case 8:
-        name = "Masvingo";
+        name = "马斯温戈 ";
         break;
         case 9:
-        name = "Bulawayo";
+        name = "布拉瓦约 ";
         break;
         case 10:
-        name = "Harare";
+        name = "哈拉雷";
         break;
       }
     }

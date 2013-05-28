@@ -1,6 +1,7 @@
 package com.earth2me.essentials;
 
 import java.io.File;
+import java.math.BigDecimal;
 import java.util.Locale;
 import java.util.logging.Logger;
 import org.bukkit.inventory.ItemStack;
@@ -18,22 +19,26 @@ public class Worth implements IConf
 		config.load();
 	}
 
-	public double getPrice(ItemStack itemStack)
+	public BigDecimal getPrice(ItemStack itemStack)
 	{
 		String itemname = itemStack.getType().toString().toLowerCase(Locale.ENGLISH).replace("_", "");
-		double result;
-		result = config.getDouble("worth." + itemname + "." + itemStack.getDurability(), Double.NaN);
-		if (Double.isNaN(result))
+		BigDecimal result;
+		result = config.getBigDecimal("worth." + itemname + "." + itemStack.getDurability(), BigDecimal.ONE.negate());
+		if (result.signum() < 0)
 		{
-			result = config.getDouble("worth." + itemname + ".0", Double.NaN);
+			result = config.getBigDecimal("worth." + itemname + ".0", BigDecimal.ONE.negate());
 		}
-		if (Double.isNaN(result))
+		if (result.signum() < 0)
 		{
-			result = config.getDouble("worth." + itemname, Double.NaN);
+			result = config.getBigDecimal("worth." + itemname, BigDecimal.ONE.negate());
 		}
-		if (Double.isNaN(result))
+		if (result.signum() < 0)
 		{
-			result = config.getDouble("worth-" + itemStack.getTypeId(), Double.NaN);
+			result = config.getBigDecimal("worth-" + itemStack.getTypeId(), BigDecimal.ONE.negate());
+		}
+		if (result.signum() < 0)
+		{
+			return null;
 		}
 		return result;
 	}

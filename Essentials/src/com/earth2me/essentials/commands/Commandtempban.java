@@ -46,7 +46,8 @@ public class Commandtempban extends EssentialsCommand
 		final long banTimestamp = Util.parseDateDiff(time, true);
 
 		final long maxBanLength = ess.getSettings().getMaxTempban() * 1000;
-		if (maxBanLength > 0 && ((banTimestamp - GregorianCalendar.getInstance().getTimeInMillis()) > maxBanLength) && !(ess.getUser(sender).isAuthorized("essentials.tempban.unlimited")))
+		if (maxBanLength > 0 && ((banTimestamp - GregorianCalendar.getInstance().getTimeInMillis()) > maxBanLength) 
+			&& sender instanceof Player && !(ess.getUser(sender).isAuthorized("essentials.tempban.unlimited")))
 		{
 			sender.sendMessage(_("oversizedTempban"));
 			throw new NoChargeException();
@@ -58,14 +59,7 @@ public class Commandtempban extends EssentialsCommand
 		user.setBanTimeout(banTimestamp);
 		user.setBanned(true);
 		user.kickPlayer(banReason);
-
-		for (Player onlinePlayer : server.getOnlinePlayers())
-		{
-			final User player = ess.getUser(onlinePlayer);
-			if (player.isAuthorized("essentials.ban.notify"))
-			{
-				onlinePlayer.sendMessage(_("playerBanned", senderName, user.getName(), banReason));
-			}
-		}
+		
+		ess.broadcastMessage(sender, "essentials.ban.notify", _("playerBanned", senderName, user.getName(), banReason));
 	}
 }

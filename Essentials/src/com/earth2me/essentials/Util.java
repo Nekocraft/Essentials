@@ -1,6 +1,7 @@
 package com.earth2me.essentials;
 
 import static com.earth2me.essentials.I18n._;
+import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
@@ -273,7 +274,6 @@ public class Util
 		AIR_MATERIALS.add(Material.VINE.getId());
 		AIR_MATERIALS.add(Material.FENCE_GATE.getId());
 		AIR_MATERIALS.add(Material.WATER_LILY.getId());
-		AIR_MATERIALS.add(Material.NETHER_FENCE.getId());
 		AIR_MATERIALS.add(Material.NETHER_WARTS.getId());
 
 		for (Integer integer : AIR_MATERIALS)
@@ -356,6 +356,12 @@ public class Util
 				y = origY;
 				break;
 			}
+		}
+
+		if (isBlockUnsafe(world, x, y, z))
+		{
+			x = Math.round(loc.getX()) == origX ? x - 1 : x + 1;
+			z = Math.round(loc.getZ()) == origZ ? z - 1 : z + 1;
 		}
 
 		int i = 0;
@@ -521,12 +527,12 @@ public class Util
 		}
 		return is;
 	}
-	private static DecimalFormat dFormat = new DecimalFormat("#0.00", DecimalFormatSymbols.getInstance(Locale.US));
+	private static DecimalFormat currencyFormat = new DecimalFormat("#0.00", DecimalFormatSymbols.getInstance(Locale.US));
 
-	public static String formatAsCurrency(final double value)
+	public static String formatAsCurrency(final BigDecimal value)
 	{
-		dFormat.setRoundingMode(RoundingMode.FLOOR);
-		String str = dFormat.format(value);
+		currencyFormat.setRoundingMode(RoundingMode.FLOOR);
+		String str = currencyFormat.format(value);
 		if (str.endsWith(".00"))
 		{
 			str = str.substring(0, str.length() - 3);
@@ -534,14 +540,21 @@ public class Util
 		return str;
 	}
 
-	public static String displayCurrency(final double value, final IEssentials ess)
+	public static String displayCurrency(final BigDecimal value, final IEssentials ess)
 	{
 		return _("currency", ess.getSettings().getCurrencySymbol(), formatAsCurrency(value));
 	}
 
-	public static String shortCurrency(final double value, final IEssentials ess)
+	public static String shortCurrency(final BigDecimal value, final IEssentials ess)
 	{
 		return ess.getSettings().getCurrencySymbol() + formatAsCurrency(value);
+	}
+	private static DecimalFormat threeDPlaces = new DecimalFormat("#,###.###");
+
+	public static String formatDouble(final double value)
+	{
+		threeDPlaces.setRoundingMode(RoundingMode.HALF_UP);
+		return threeDPlaces.format(value);
 	}
 
 	public static boolean isInt(final String sInt)
@@ -714,10 +727,11 @@ public class Util
 		return pattern.matcher(input).replaceAll("\u00a7$1");
 	}
 	private static final Pattern IPPATTERN = Pattern.compile(
-			"^([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\.([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\." +
-			"([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\.([01]?\\d\\d?|2[0-4]\\d|25[0-5])$");
-	
-	public static boolean validIP(String ipAddress) {
+			"^([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\.([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\."
+			+ "([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\.([01]?\\d\\d?|2[0-4]\\d|25[0-5])$");
+
+	public static boolean validIP(String ipAddress)
+	{
 		return IPPATTERN.matcher(ipAddress).matches();
 	}
 }

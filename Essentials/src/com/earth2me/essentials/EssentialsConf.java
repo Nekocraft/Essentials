@@ -1,8 +1,12 @@
 package com.earth2me.essentials;
 
 import static com.earth2me.essentials.I18n._;
+
+import com.earth2me.essentials.api.InvalidWorldException;
 import com.google.common.io.Files;
 import java.io.*;
+import java.math.BigDecimal;
+import java.math.MathContext;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
@@ -112,14 +116,26 @@ public class EssentialsConf extends YamlConfiguration
 			final FileInputStream inputStream = new FileInputStream(configFile);
 			try
 			{
-				final ByteBuffer buffer = ByteBuffer.allocate((int)configFile.length());
+				long startSize = configFile.length();
+				if (startSize > Integer.MAX_VALUE) {
+					throw new InvalidConfigurationException("File too big");
+				}
+				ByteBuffer buffer = ByteBuffer.allocate((int)startSize);
 				int length;
 				while ((length = inputStream.read(bytebuffer)) != -1)
 				{
+					if (length > buffer.remaining()) {
+						ByteBuffer resize = ByteBuffer.allocate(buffer.capacity()+length-buffer.remaining());
+						int resizePosition = buffer.position();
+						buffer.rewind();
+						resize.put(buffer);
+						resize.position(resizePosition);
+						buffer = resize;
+					}
 					buffer.put(bytebuffer, 0, length);
 				}
 				buffer.rewind();
-				final CharBuffer data = CharBuffer.allocate((int)configFile.length());
+				final CharBuffer data = CharBuffer.allocate(buffer.capacity());
 				CharsetDecoder decoder = UTF8.newDecoder();
 				CoderResult result = decoder.decode(buffer, data, true);
 				if (result.isError())
@@ -295,7 +311,7 @@ public class EssentialsConf extends YamlConfiguration
 		Future<?> future = EXECUTOR_SERVICE.submit(new WriteRunner(configFile, data, pendingDiskWrites));
 
 		//LOGGER.log(Level.INFO, configFile + " prepared for writing in " + (System.nanoTime() - startTime) + " nsec.");
-		
+
 		return future;
 	}
 
@@ -349,16 +365,23 @@ public class EssentialsConf extends YamlConfiguration
 						}
 					}
 
-
-					final OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(configFile), UTF8);
-
+					final FileOutputStream fos = new FileOutputStream(configFile);
 					try
 					{
-						writer.write(data);
+						final OutputStreamWriter writer = new OutputStreamWriter(fos, UTF8);
+
+						try
+						{
+							writer.write(data);
+						}
+						finally
+						{
+							writer.close();
+						}
 					}
 					finally
 					{
-						writer.close();
+						fos.close();
 					}
 				}
 				catch (IOException e)
@@ -379,7 +402,7 @@ public class EssentialsConf extends YamlConfiguration
 		return isSet(path);
 	}
 
-	public Location getLocation(final String path, final Server server) throws Exception
+	public Location getLocation(final String path, final Server server) throws InvalidWorldException
 	{
 		final String worldName = getString((path == null ? "" : path + ".") + "world");
 		if (worldName == null || worldName.isEmpty())
@@ -389,7 +412,7 @@ public class EssentialsConf extends YamlConfiguration
 		final World world = server.getWorld(worldName);
 		if (world == null)
 		{
-			throw new Exception(_("invalidWorld"));
+			throw new InvalidWorldException(worldName);
 		}
 		return new Location(world,
 							getDouble((path == null ? "" : path + ".") + "x", 0),
@@ -472,6 +495,11 @@ public class EssentialsConf extends YamlConfiguration
 	{
 		return get(path);
 	}
+	
+	public void setProperty(final String path, final BigDecimal bigDecimal)
+	{
+		set(path, bigDecimal.toString());
+	}
 
 	public void setProperty(String path, Object object)
 	{
@@ -493,6 +521,36 @@ public class EssentialsConf extends YamlConfiguration
 	public synchronized Object get(String path, Object def)
 	{
 		return super.get(path, def);
+	}
+	
+	
+	public synchronized BigDecimal getBigDecimal(final String path, final BigDecimal def)
+	{
+		final String input = super.getString(path);
+		return toBigDecimal(input, def);
+	}
+	
+	public static BigDecimal toBigDecimal(final String input, final BigDecimal def)
+	{
+		if (input == null || input.isEmpty())
+		{
+			return def;
+		}
+		else
+		{
+			try
+			{
+				return new BigDecimal(input, MathContext.DECIMAL128);
+			}
+			catch (NumberFormatException e)
+			{
+				return def;
+			}
+			catch (ArithmeticException e)
+			{
+				return def;
+			}
+		}
 	}
 
 	@Override
@@ -751,4 +809,5 @@ public class EssentialsConf extends YamlConfiguration
 	{
 		super.set(path, value);
 	}
+
 }

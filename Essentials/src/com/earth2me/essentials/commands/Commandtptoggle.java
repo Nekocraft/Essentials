@@ -29,8 +29,12 @@ public class Commandtptoggle extends EssentialsCommand
 	@Override
 	public void run(final Server server, final User user, final String commandLabel, final String[] args) throws Exception
 	{
-		if (args.length > 0 && args[0].trim().length() > 2 && user.isAuthorized("essentials.tptoggle.others"))
+		if (args.length > 0 && user.isAuthorized("essentials.tptoggle.others"))
 		{
+			if (args[0].trim().length() < 2)
+			{
+				throw new Exception(_("playerNotFound"));
+			}
 			toggleOtherPlayers(server, user, args);
 			return;
 		}
@@ -40,7 +44,7 @@ public class Commandtptoggle extends EssentialsCommand
 
 	private void toggleOtherPlayers(final Server server, final CommandSender sender, final String[] args) throws NotEnoughArgumentsException
 	{
-		boolean skipHidden = sender instanceof Player && !ess.getUser(sender).isAuthorized("essentials.teleport.hidden");
+		boolean skipHidden = sender instanceof Player && !ess.getUser(sender).isAuthorized("essentials.vanish.interact");
 		boolean foundUser = false;
 		final List<Player> matchedPlayers = server.matchPlayer(args[0]);
 		for (Player matchPlayer : matchedPlayers)

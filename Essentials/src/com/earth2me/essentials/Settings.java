@@ -7,6 +7,7 @@ import com.earth2me.essentials.signs.Signs;
 import com.earth2me.essentials.textreader.IText;
 import com.earth2me.essentials.textreader.SimpleTextInput;
 import java.io.File;
+import java.math.BigDecimal;
 import java.text.MessageFormat;
 import java.util.*;
 import java.util.logging.Level;
@@ -112,9 +113,9 @@ public class Settings implements ISettings
 	}
 
 	@Override
-	public int getStartingBalance()
+	public BigDecimal getStartingBalance()
 	{
-		return config.getInt("starting-balance", 0);
+		return config.getBigDecimal("starting-balance", BigDecimal.ZERO);
 	}
 
 	@Override
@@ -177,12 +178,12 @@ public class Settings implements ISettings
 	private ConfigurationSection commandCosts;
 
 	@Override
-	public double getCommandCost(IEssentialsCommand cmd)
+	public BigDecimal getCommandCost(IEssentialsCommand cmd)
 	{
 		return getCommandCost(cmd.getName());
 	}
 
-	public ConfigurationSection _getCommandCosts()
+	private ConfigurationSection _getCommandCosts()
 	{
 		if (config.isConfigurationSection("command-costs"))
 		{
@@ -228,18 +229,18 @@ public class Settings implements ISettings
 	}
 
 	@Override
-	public double getCommandCost(String name)
+	public BigDecimal getCommandCost(String name)
 	{
 		name = name.replace('.', '_').replace('/', '_');
 		if (commandCosts != null)
 		{
-			return commandCosts.getDouble(name, 0.0);
+			return EssentialsConf.toBigDecimal(commandCosts.getString(name), BigDecimal.ZERO);
 		}
-		return 0.0;
+		return BigDecimal.ZERO;
 	}
 	private Set<String> socialSpyCommands = new HashSet<String>();
 
-	public Set<String> _getSocialSpyCommands()
+	private Set<String> _getSocialSpyCommands()
 	{
 		Set<String> socialspyCommands = new HashSet<String>();
 
@@ -289,7 +290,7 @@ public class Settings implements ISettings
 	}
 	private ConfigurationSection kits;
 
-	public ConfigurationSection _getKits()
+	private ConfigurationSection _getKits()
 	{
 		if (config.isConfigurationSection("kits"))
 		{
@@ -409,7 +410,7 @@ public class Settings implements ISettings
 		if (mFormat == null)
 		{
 			String format = config.getString("chat.group-formats." + (group == null ? "Default" : group),
-											 config.getString("chat.format", "&7[{GROUP}]&f {DISPLAYNAME}&7:&f {MESSAGE}"));
+											 config.getString("chat.format", "&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}"));
 			format = Util.replaceFormat(format);
 			format = format.replace("{DISPLAYNAME}", "%1$s");
 			format = format.replace("{GROUP}", "{0}");
@@ -453,22 +454,25 @@ public class Settings implements ISettings
 	{
 		return config.getBoolean("per-warp-permission", false);
 	}
-	
+
 	@Override
 	public Map<String, Object> getListGroupConfig()
 	{
 		if (config.isConfigurationSection("list"))
-		{ 
+		{
 			Map<String, Object> values = config.getConfigurationSection("list").getValues(false);
-			if (!values.isEmpty()) {
+			if (!values.isEmpty())
+			{
 				return values;
 			}
 		}
 		Map<String, Object> defaultMap = new HashMap<String, Object>();
-		if (config.getBoolean("sort-list-by-groups", false)) {
+		if (config.getBoolean("sort-list-by-groups", false))
+		{
 			defaultMap.put("ListByGroup", "ListByGroup");
 		}
-		else {
+		else
+		{
 			defaultMap.put("Players", "*");
 		}
 		return defaultMap;
@@ -507,6 +511,11 @@ public class Settings implements ISettings
 		socialSpyCommands = _getSocialSpyCommands();
 		warnOnBuildDisallow = _warnOnBuildDisallow();
 		mailsPerMinute = _getMailsPerMinute();
+		maxMoney = _getMaxMoney();
+		minMoney = _getMinMoney();
+		economyLagWarning = _getEconomyLagWarning();
+		economyLog = _isEcoLogEnabled();
+		economyLogUpdate = _isEcoLogUpdateEnabled();
 	}
 	private List<Integer> itemSpawnBl = new ArrayList<Integer>();
 
@@ -633,12 +642,14 @@ public class Settings implements ISettings
 		return config.getString("currency-symbol", "$").concat("$").substring(0, 1).replaceAll("[0-9]", "$");
 	}
 
+	// #easteregg
 	@Override
 	public boolean isTradeInStacks(int id)
 	{
 		return config.getBoolean("trade-in-stacks-" + id, false);
 	}
 
+	// #easteregg
 	@Override
 	public boolean isEcoDisabled()
 	{
@@ -687,43 +698,59 @@ public class Settings implements ISettings
 	{
 		return config.getBoolean(configName, def);
 	}
-	private final static double MAXMONEY = 10000000000000.0;
+	private final static BigDecimal MAXMONEY = new BigDecimal("10000000000000");
+	private BigDecimal maxMoney = MAXMONEY;
 
-	@Override
-	public double getMaxMoney()
+	private BigDecimal _getMaxMoney()
 	{
-		double max = config.getDouble("max-money", MAXMONEY);
-		if (Math.abs(max) > MAXMONEY)
-		{
-			max = max < 0 ? -MAXMONEY : MAXMONEY;
-		}
-		return max;
+		return config.getBigDecimal("max-money", MAXMONEY);
 	}
-	private final static double MINMONEY = -10000000000000.0;
 
 	@Override
-	public double getMinMoney()
+	public BigDecimal getMaxMoney()
 	{
-		double min = config.getDouble("min-money", MINMONEY);
-		if (min > 0)
+		return maxMoney;
+	}
+	private final static BigDecimal MINMONEY = new BigDecimal("-10000000000000");
+	private BigDecimal minMoney = MINMONEY;
+
+	private BigDecimal _getMinMoney()
+	{
+		BigDecimal min = config.getBigDecimal("min-money", MINMONEY);
+		if (min.signum() > 0)
 		{
-			min = -min;
-		}
-		if (min < MINMONEY)
-		{
-			min = MINMONEY;
+			min = min.negate();
 		}
 		return min;
 	}
 
 	@Override
+	public BigDecimal getMinMoney()
+	{
+		return minMoney;
+	}
+	private boolean economyLog = false;
+
+	@Override
 	public boolean isEcoLogEnabled()
+	{
+		return economyLog;
+	}
+
+	public boolean _isEcoLogEnabled()
 	{
 		return config.getBoolean("economy-log-enabled", false);
 	}
+	// #easteregg	
+	private boolean economyLogUpdate = false;
 
 	@Override
 	public boolean isEcoLogUpdateEnabled()
+	{
+		return economyLogUpdate;
+	}
+
+	public boolean _isEcoLogUpdateEnabled()
 	{
 		return config.getBoolean("economy-log-update-enabled", false);
 	}
@@ -788,6 +815,7 @@ public class Settings implements ISettings
 	{
 		return prefixsuffixconfigured ? addprefixsuffix : essentialsChatActive;
 	}
+	// #easteregg
 	private boolean disablePrefix = false;
 
 	private boolean _disablePrefix()
@@ -800,6 +828,7 @@ public class Settings implements ISettings
 	{
 		return disablePrefix;
 	}
+	// #easteregg
 	private boolean disableSuffix = false;
 
 	private boolean _disableSuffix()
@@ -974,7 +1003,7 @@ public class Settings implements ISettings
 	}
 	private long teleportInvulnerabilityTime;
 
-	public long _getTeleportInvulnerability()
+	private long _getTeleportInvulnerability()
 	{
 		return config.getLong("teleport-invulnerability", 0) * 1000;
 	}
@@ -1029,8 +1058,6 @@ public class Settings implements ISettings
 		return maxSpeed > 1.0 ? 1.0 : Math.abs(maxSpeed);
 	}
 
-	//This option does not exist in the config.yml because it wasn't yet implemented in bukkit
-	//The code was commented out in the /speed command
 	@Override
 	public double getMaxWalkSpeed()
 	{
@@ -1048,6 +1075,21 @@ public class Settings implements ISettings
 	public int getMailsPerMinute()
 	{
 		return mailsPerMinute;
+	}
+	// #easteregg
+	private long economyLagWarning;
+
+	private long _getEconomyLagWarning()
+	{
+		// Default to 20ms
+		final long value = (long)(config.getDouble("economy-lag-warning", 20.0) * 1000000);
+		return value;
+	}
+
+	@Override
+	public long getEconomyLagWarning()
+	{
+		return economyLagWarning;
 	}
 
 	@Override

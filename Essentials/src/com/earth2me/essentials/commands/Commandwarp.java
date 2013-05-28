@@ -5,6 +5,7 @@ import com.earth2me.essentials.Trade;
 import com.earth2me.essentials.User;
 import com.earth2me.essentials.Util;
 import com.earth2me.essentials.Warps;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -41,7 +42,7 @@ public class Commandwarp extends EssentialsCommand
 			User otherUser = null;
 			if (args.length == 2 && (user.isAuthorized("essentials.warp.otherplayers") || user.isAuthorized("essentials.warp.others")))
 			{
-				otherUser = getPlayer(server, args, 1, user.isAuthorized("essentials.teleport.hidden"), false);
+				otherUser = getPlayer(server, user, args, 1);
 				warpUser(user, otherUser, args[0]);
 				throw new NoChargeException();
 			}
@@ -110,7 +111,7 @@ public class Commandwarp extends EssentialsCommand
 	{
 		final Trade chargeWarp = new Trade("warp-" + name.toLowerCase(Locale.ENGLISH).replace('_', '-'), ess);
 		final Trade chargeCmd = new Trade(this.getName(), ess);
-		final double fullCharge = chargeWarp.getCommandCost(user) + chargeCmd.getCommandCost(user);
+		final BigDecimal fullCharge = chargeWarp.getCommandCost(user).add(chargeCmd.getCommandCost(user));
 		final Trade charge = new Trade(fullCharge, ess);
 		charge.isAffordableFor(owner);
 		if (ess.getSettings().getPerWarpPermission() && !owner.isAuthorized("essentials.warps." + name))

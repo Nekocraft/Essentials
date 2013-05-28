@@ -77,6 +77,13 @@ public class EssentialsPlayerListener implements Listener
 	@EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
 	public void onPlayerMove(final PlayerMoveEvent event)
 	{
+		if (event.getFrom().getBlockX() == event.getTo().getBlockX()
+			&& event.getFrom().getBlockZ() == event.getTo().getBlockZ()
+			&& event.getFrom().getBlockY() == event.getTo().getBlockY())
+		{
+			return;
+		}
+
 		if (!ess.getSettings().cancelAfkOnMove() && !ess.getSettings().getFreezeAfkPlayers())
 		{
 			event.getHandlers().unregister(this);
@@ -86,12 +93,6 @@ public class EssentialsPlayerListener implements Listener
 				LOGGER.log(Level.INFO, "Unregistering move listener");
 			}
 
-			return;
-		}
-		if (event.getFrom().getBlockX() == event.getTo().getBlockX()
-			&& event.getFrom().getBlockZ() == event.getTo().getBlockZ()
-			&& event.getFrom().getBlockY() == event.getTo().getBlockY())
-		{
 			return;
 		}
 
@@ -621,11 +622,13 @@ public class EssentialsPlayerListener implements Listener
 		{
 			final User user = ess.getUser(event.getPlayer());
 			user.setInvSee(false);
+			user.updateInventory();
 		}
 		else if (type == InventoryType.ENDER_CHEST)
 		{
 			final User user = ess.getUser(event.getPlayer());
 			user.setEnderSee(false);
+			user.updateInventory();
 		}
 		else if (type == InventoryType.WORKBENCH)
 		{
@@ -634,6 +637,7 @@ public class EssentialsPlayerListener implements Listener
 			{
 				user.setRecipeSee(false);
 				event.getView().getTopInventory().clear();
+				user.updateInventory();
 			}
 		}
 		else if (type == InventoryType.CHEST && top.getSize() == 9)
@@ -643,6 +647,7 @@ public class EssentialsPlayerListener implements Listener
 			{
 				final User user = ess.getUser(event.getPlayer());
 				user.setInvSee(false);
+				user.updateInventory();
 			}
 		}
 	}

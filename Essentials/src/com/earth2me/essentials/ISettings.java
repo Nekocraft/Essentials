@@ -3,6 +3,7 @@ package com.earth2me.essentials;
 import com.earth2me.essentials.commands.IEssentialsCommand;
 import com.earth2me.essentials.signs.EssentialsSign;
 import com.earth2me.essentials.textreader.IText;
+import java.math.BigDecimal;
 import java.text.MessageFormat;
 import java.util.List;
 import java.util.Map;
@@ -30,9 +31,9 @@ public interface ISettings extends IConf
 
 	int getChatRadius();
 
-	double getCommandCost(IEssentialsCommand cmd);
+	BigDecimal getCommandCost(IEssentialsCommand cmd);
 
-	double getCommandCost(String label);
+	BigDecimal getCommandCost(String label);
 
 	String getCurrencySymbol();
 
@@ -43,7 +44,7 @@ public interface ISettings extends IConf
 	double getHealCooldown();
 
 	Set<String> getSocialSpyCommands();
-	
+
 	Map<String, Object> getKit(String name);
 
 	ConfigurationSection getKits();
@@ -78,7 +79,7 @@ public interface ISettings extends IConf
 
 	int getSpawnMobLimit();
 
-	int getStartingBalance();
+	BigDecimal getStartingBalance();
 
 	double getTeleportCooldown();
 
@@ -110,9 +111,9 @@ public interface ISettings extends IConf
 
 	boolean warnOnSmite();
 
-	double getMaxMoney();
+	BigDecimal getMaxMoney();
 
-	double getMinMoney();
+	BigDecimal getMinMoney();
 
 	boolean isEcoLogEnabled();
 
@@ -141,7 +142,7 @@ public interface ISettings extends IConf
 	boolean getFreezeAfkPlayers();
 
 	boolean cancelAfkOnMove();
-	
+
 	boolean cancelAfkOnInteract();
 
 	boolean areDeathMessagesEnabled();
@@ -151,7 +152,7 @@ public interface ISettings extends IConf
 	Set<String> getNoGodWorlds();
 
 	boolean getUpdateBedAtDaytime();
-	
+
 	boolean allowUnsafeEnchantments();
 
 	boolean getRepairEnchanted();
@@ -186,9 +187,11 @@ public interface ISettings extends IConf
 
 	public int getMailsPerMinute();
 
+	public long getEconomyLagWarning();
+
 	public void setEssentialsChatActive(boolean b);
 
 	long getMaxTempban();
-	
+
 	public Map<String, Object> getListGroupConfig();
 }

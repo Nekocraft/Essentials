@@ -4,7 +4,6 @@ import static com.earth2me.essentials.I18n._;
 import com.earth2me.essentials.api.ITeleport;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-import java.util.logging.Logger;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerRespawnEvent;
@@ -43,8 +42,8 @@ public class Teleport implements Runnable, ITeleport
 			return location;
 		}
 	}
-	private IUser user;
-	private IUser teleportUser;
+	private final IUser user;
+	private String teleportUserName;
 	private int teleTimer = -1;
 	private long started;	// time this task was initiated
 	private long tpdelay;		// how long to delay the teleport
@@ -60,7 +59,6 @@ public class Teleport implements Runnable, ITeleport
 	private boolean canMove;
 	private Trade chargeFor;
 	private final IEssentials ess;
-	private static final Logger logger = Logger.getLogger("Minecraft");
 	private TeleportCause cause;
 
 	private void initTimer(long delay, Target target, Trade chargeFor, TeleportCause cause)
@@ -76,7 +74,7 @@ public class Teleport implements Runnable, ITeleport
 		this.initX = Math.round(teleportUser.getLocation().getX() * MOVE_CONSTANT);
 		this.initY = Math.round(teleportUser.getLocation().getY() * MOVE_CONSTANT);
 		this.initZ = Math.round(teleportUser.getLocation().getZ() * MOVE_CONSTANT);
-		this.teleportUser = teleportUser;
+		this.teleportUserName = teleportUser.getName();
 		this.teleportTarget = target;
 		this.chargeFor = chargeFor;
 		this.cause = cause;
@@ -84,7 +82,7 @@ public class Teleport implements Runnable, ITeleport
 
 		this.canMove = user.isAuthorized("essentials.teleport.timer.move");
 
-		teleTimer = ess.scheduleSyncRepeatingTask(this, 10, 10);
+		teleTimer = ess.scheduleSyncRepeatingTask(this, 20, 20);
 	}
 
 	@Override
@@ -96,6 +94,8 @@ public class Teleport implements Runnable, ITeleport
 			cancel(false);
 			return;
 		}
+		
+		IUser teleportUser = ess.getUser(this.teleportUserName);
 
 		if (teleportUser == null || !teleportUser.isOnline())
 		{
@@ -218,9 +218,9 @@ public class Teleport implements Runnable, ITeleport
 			if (notifyUser)
 			{
 				user.sendMessage(_("pendingTeleportCancelled"));
-				if (teleportUser != user)
+				if (teleportUserName != null && !teleportUserName.equals(user.getName()))
 				{
-					teleportUser.sendMessage(_("pendingTeleportCancelled"));
+					ess.getUser(teleportUserName).sendMessage(_("pendingTeleportCancelled"));
 				}
 			}
 		}
@@ -231,6 +231,7 @@ public class Teleport implements Runnable, ITeleport
 	}
 
 	//The now function is used when you want to skip tp delay when teleporting someone to a location or player.
+	@Override
 	public void now(Location loc, boolean cooldown, TeleportCause cause) throws Exception
 	{
 		if (cooldown)
@@ -387,7 +388,7 @@ public class Teleport implements Runnable, ITeleport
 		teleport(new Target(loc), chargeFor, cause);
 	}
 
-	//The back function is a wrapper used to teleport a player /back to their previous location.	
+	//The back function is a wrapper used to teleport a player /back to their previous location.
 	public void back(Trade chargeFor) throws Exception
 	{
 		teleport(new Target(user.getLastLocation()), chargeFor, TeleportCause.COMMAND);

@@ -11,19 +11,20 @@ import org.bukkit.entity.Player;
 public class EssentialsTimer implements Runnable
 {
 	private final transient IEssentials ess;
-	private final transient Set<User> onlineUsers = new HashSet<User>();
+	private final transient Set<String> onlineUsers = new HashSet<String>();
 	private transient long lastPoll = System.nanoTime();
 	private final LinkedList<Double> history = new LinkedList<Double>();
 	private int skip1 = 0;
 	private int skip2 = 0;
 	private final long maxTime = 10 * 1000000;
 	private final long tickInterval = 50;
-
+	
 	EssentialsTimer(final IEssentials ess)
 	{
 		this.ess = ess;
+		history.add(20d);
 	}
-
+	
 	@Override
 	public void run()
 	{
@@ -39,7 +40,7 @@ public class EssentialsTimer implements Runnable
 			history.remove();
 		}
 		double tps = tickInterval * 1000000.0 / timeSpent;
-		if (tps <= 20)
+		if (tps <= 21)
 		{
 			history.add(tps);
 		}
@@ -64,7 +65,7 @@ public class EssentialsTimer implements Runnable
 			try
 			{
 				final User user = ess.getUser(player);
-				onlineUsers.add(user);
+				onlineUsers.add(user.getName());
 				user.setLastOnlineActivity(currentTime);
 				user.checkActivity();
 			}
@@ -73,9 +74,9 @@ public class EssentialsTimer implements Runnable
 				ess.getLogger().log(Level.WARNING, "EssentialsTimer Error:", e);
 			}
 		}
-
+		
 		count = 0;
-		final Iterator<User> iterator = onlineUsers.iterator();
+		final Iterator<String> iterator = onlineUsers.iterator();
 		while (iterator.hasNext())
 		{
 			count++;
@@ -92,7 +93,7 @@ public class EssentialsTimer implements Runnable
 					break;
 				}
 			}
-			final User user = iterator.next();
+			final User user = ess.getUser(iterator.next());
 			if (user.getLastOnlineActivity() < currentTime && user.getLastOnlineActivity() > user.getLastLogout())
 			{
 				user.setLastLogout(user.getLastOnlineActivity());
@@ -104,7 +105,7 @@ public class EssentialsTimer implements Runnable
 			user.resetInvulnerabilityAfterTeleport();
 		}
 	}
-
+	
 	public double getAverageTPS()
 	{
 		double avg = 0;
@@ -114,7 +115,7 @@ public class EssentialsTimer implements Runnable
 			{
 				avg += f;
 			}
-		}
+		}		
 		return avg / history.size();
 	}
 }

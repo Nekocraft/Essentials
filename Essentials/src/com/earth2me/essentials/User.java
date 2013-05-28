@@ -3,6 +3,7 @@ package com.earth2me.essentials;
 import static com.earth2me.essentials.I18n._;
 import com.earth2me.essentials.commands.IEssentialsCommand;
 import com.earth2me.essentials.register.payment.Method;
+import java.math.BigDecimal;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.logging.Level;
@@ -19,7 +20,7 @@ import org.bukkit.potion.PotionEffectType;
 public class User extends UserData implements Comparable<User>, IReplyTo, IUser
 {
 	private CommandSender replyTo = null;
-	private transient User teleportRequester;
+	private transient String teleportRequester;
 	private transient boolean teleportRequestHere;
 	private transient boolean vanished;
 	private transient final Teleport teleport;
@@ -120,18 +121,18 @@ public class User extends UserData implements Comparable<User>, IReplyTo, IUser
 	}
 
 	@Override
-	public void giveMoney(final double value)
+	public void giveMoney(final BigDecimal value)
 	{
 		giveMoney(value, null);
 	}
 
-	public void giveMoney(final double value, final CommandSender initiator)
+	public void giveMoney(final BigDecimal value, final CommandSender initiator)
 	{
-		if (value == 0.0d)
+		if (value.signum() == 0)
 		{
 			return;
 		}
-		setMoney(getMoney() + value);
+		setMoney(getMoney().add(value));
 		sendMessage(_("addedToAccount", Util.displayCurrency(value, ess)));
 		if (initiator != null)
 		{
@@ -139,16 +140,16 @@ public class User extends UserData implements Comparable<User>, IReplyTo, IUser
 		}
 	}
 
-	public void payUser(final User reciever, final double value) throws Exception
+	public void payUser(final User reciever, final BigDecimal value) throws Exception
 	{
-		if (value == 0.0d)
+		if (value.signum() == 0)
 		{
 			return;
 		}
 		if (canAfford(value))
 		{
-			setMoney(getMoney() - value);
-			reciever.setMoney(reciever.getMoney() + value);
+			setMoney(getMoney().subtract(value));
+			reciever.setMoney(reciever.getMoney().add(value));
 			sendMessage(_("moneySentTo", Util.displayCurrency(value, ess), reciever.getDisplayName()));
 			reciever.sendMessage(_("moneyRecievedFrom", Util.displayCurrency(value, ess), getDisplayName()));
 		}
@@ -159,18 +160,18 @@ public class User extends UserData implements Comparable<User>, IReplyTo, IUser
 	}
 
 	@Override
-	public void takeMoney(final double value)
+	public void takeMoney(final BigDecimal value)
 	{
 		takeMoney(value, null);
 	}
 
-	public void takeMoney(final double value, final CommandSender initiator)
+	public void takeMoney(final BigDecimal value, final CommandSender initiator)
 	{
-		if (value == 0.0d)
+		if (value.signum() == 0)
 		{
 			return;
 		}
-		setMoney(getMoney() - value);
+		setMoney(getMoney().subtract(value));
 		sendMessage(_("takenFromAccount", Util.displayCurrency(value, ess)));
 		if (initiator != null)
 		{
@@ -179,23 +180,23 @@ public class User extends UserData implements Comparable<User>, IReplyTo, IUser
 	}
 
 	@Override
-	public boolean canAfford(final double cost)
+	public boolean canAfford(final BigDecimal cost)
 	{
 		return canAfford(cost, true);
 	}
 
-	public boolean canAfford(final double cost, final boolean permcheck)
+	public boolean canAfford(final BigDecimal cost, final boolean permcheck)
 	{
-		if (cost <= 0.0d)
+		if (cost.signum() <= 0)
 		{
 			return true;
 		}
-		final double mon = getMoney();
+		final BigDecimal remainingBalance = getMoney().subtract(cost);
 		if (!permcheck || isAuthorized("essentials.eco.loan"))
 		{
-			return (mon - cost) >= ess.getSettings().getMinMoney();
+			return (remainingBalance.compareTo(ess.getSettings().getMinMoney()) >= 0);
 		}
-		return cost <= mon;
+		return (remainingBalance.signum() >= 0);
 	}
 
 	public void dispose()
@@ -263,11 +264,11 @@ public class User extends UserData implements Comparable<User>, IReplyTo, IUser
 	public void requestTeleport(final User player, final boolean here)
 	{
 		teleportRequestTime = System.currentTimeMillis();
-		teleportRequester = player;
+		teleportRequester = player == null ? null : player.getName();
 		teleportRequestHere = here;
 	}
 
-	public User getTeleportRequest()
+	public String getTeleportRequest()
 	{
 		return teleportRequester;
 	}
@@ -391,7 +392,19 @@ public class User extends UserData implements Comparable<User>, IReplyTo, IUser
 	}
 
 	@Override
-	public double getMoney()
+	public BigDecimal getMoney()
+	{
+		final long start = System.nanoTime();
+		final BigDecimal value = _getMoney();
+		final long elapsed = System.nanoTime() - start;
+		if (elapsed > ess.getSettings().getEconomyLagWarning())
+		{
+			ess.getLogger().log(Level.INFO, "Lag Notice - Slow Economy Response - Request took over {0}ms!", elapsed / 1000000.0);
+		}
+		return value;
+	}
+
+	private BigDecimal _getMoney()
 	{
 		if (ess.getPaymentMethod().hasMethod())
 		{
@@ -403,7 +416,7 @@ public class User extends UserData implements Comparable<User>, IReplyTo, IUser
 					throw new Exception();
 				}
 				final Method.MethodAccount account = ess.getPaymentMethod().getMethod().getAccount(this.getName());
-				return account.balance();
+				return BigDecimal.valueOf(account.balance());
 			}
 			catch (Throwable ex)
 			{
@@ -413,7 +426,7 @@ public class User extends UserData implements Comparable<User>, IReplyTo, IUser
 	}
 
 	@Override
-	public void setMoney(final double value)
+	public void setMoney(final BigDecimal value)
 	{
 		if (ess.getPaymentMethod().hasMethod())
 		{
@@ -425,7 +438,7 @@ public class User extends UserData implements Comparable<User>, IReplyTo, IUser
 					throw new Exception();
 				}
 				final Method.MethodAccount account = ess.getPaymentMethod().getMethod().getAccount(this.getName());
-				account.set(value);
+				account.set(value.doubleValue());
 			}
 			catch (Throwable ex)
 			{
@@ -435,7 +448,7 @@ public class User extends UserData implements Comparable<User>, IReplyTo, IUser
 		Trade.log("Update", "Set", "API", getName(), new Trade(value, ess), null, null, null, ess);
 	}
 
-	public void updateMoneyCache(final double value)
+	public void updateMoneyCache(final BigDecimal value)
 	{
 		if (ess.getPaymentMethod().hasMethod() && super.getMoney() != value)
 		{

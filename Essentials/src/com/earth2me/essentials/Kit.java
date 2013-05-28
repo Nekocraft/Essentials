@@ -2,11 +2,13 @@ package com.earth2me.essentials;
 
 import static com.earth2me.essentials.I18n._;
 import static com.earth2me.essentials.I18n.capitalCase;
+import com.earth2me.essentials.Trade.OverflowType;
 import com.earth2me.essentials.commands.NoChargeException;
 import com.earth2me.essentials.craftbukkit.InventoryWorkaround;
 import com.earth2me.essentials.textreader.IText;
 import com.earth2me.essentials.textreader.KeywordReplacer;
 import com.earth2me.essentials.textreader.SimpleTextInput;
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.logging.Level;
 import org.bukkit.configuration.ConfigurationSection;
@@ -22,11 +24,29 @@ public class Kit
 		{
 			final ConfigurationSection kits = ess.getSettings().getKits();
 			final StringBuilder list = new StringBuilder();
-			for (String kiteItem : kits.getKeys(false))
+			for (String kitItem : kits.getKeys(false))
 			{
-				if (user == null || user.isAuthorized("essentials.kits." + kiteItem.toLowerCase(Locale.ENGLISH)))
+				if (user == null)
 				{
-					list.append(" ").append(capitalCase(kiteItem));
+					list.append(" ").append(capitalCase(kitItem));
+				}
+				else if (user.isAuthorized("essentials.kits." + kitItem.toLowerCase(Locale.ENGLISH)))
+				{
+					String cost = "";
+					String name = capitalCase(kitItem);
+					BigDecimal costPrice = new Trade("kit-" + kitItem.toLowerCase(Locale.ENGLISH), ess).getCommandCost(user);
+					if (costPrice.signum() > 0)
+					{
+						cost = _("kitCost", Util.displayCurrency(costPrice, ess));
+					}
+					final Map<String, Object> kit = ess.getSettings().getKit(kitItem);
+
+					if (Kit.getNextUse(user, kitItem, kit) != 0)
+					{
+						name = _("kitDelay", name);
+					}
+
+					list.append(" ").append(name).append(cost);
 				}
 			}
 			return list.toString().trim();
@@ -40,64 +60,105 @@ public class Kit
 
 	public static void checkTime(final User user, final String kitName, final Map<String, Object> els) throws Exception
 	{
-		if (user.isAuthorized("essentials.kit.exemptdelay"))
-		{
-			return;
-		}
-
 		final Calendar time = new GregorianCalendar();
+		long nextUse = getNextUse(user, kitName, els);
 
-		// Take the current time, and remove the delay from it.
-		final double delay = els.containsKey("delay") ? ((Number)els.get("delay")).doubleValue() : 0.0d;
-		final Calendar earliestTime = new GregorianCalendar();
-		earliestTime.add(Calendar.SECOND, -(int)delay);
-		earliestTime.add(Calendar.MILLISECOND, -(int)((delay * 1000.0) % 1000.0));
-		// This value contains the most recent time a kit could have been used that would allow another use.
-		final long earliestLong = earliestTime.getTimeInMillis();
-
-		// When was the last kit used?
-		final long lastTime = user.getKitTimestamp(kitName);
-
-		if (lastTime < earliestLong || lastTime == 0L)
+		if (nextUse == 0L)
 		{
 			user.setKitTimestamp(kitName, time.getTimeInMillis());
 		}
-		else if (lastTime > time.getTimeInMillis())
-		{
-			// This is to make sure time didn't get messed up on last kit use.
-			// If this happens, let's give the user the benifit of the doubt.
-			user.setKitTimestamp(kitName, time.getTimeInMillis());
-		}
-		else if (earliestLong < 0L)
+		else if (nextUse < 0L)
 		{
 			user.sendMessage(_("kitOnce"));
 			throw new NoChargeException();
 		}
 		else
 		{
-			time.setTimeInMillis(lastTime);
-			time.add(Calendar.SECOND, (int)delay);
-			time.add(Calendar.MILLISECOND, (int)((delay * 1000.0) % 1000.0));
-			user.sendMessage(_("kitTimed", Util.formatDateDiff(time.getTimeInMillis())));
+			user.sendMessage(_("kitTimed", Util.formatDateDiff(nextUse)));
 			throw new NoChargeException();
 		}
 	}
 
-	public static List<String> getItems(final User user, final Map<String, Object> kit) throws Exception
+	public static long getNextUse(final User user, final String kitName, final Map<String, Object> els) throws Exception
+	{
+		if (user.isAuthorized("essentials.kit.exemptdelay"))
+		{
+			return 0L;
+		}
+
+		final Calendar time = new GregorianCalendar();
+
+		double delay = 0;
+		try
+		{
+			// Make sure delay is valid
+			delay = els.containsKey("delay") ? ((Number)els.get("delay")).doubleValue() : 0.0d;
+		}
+		catch (Exception e)
+		{
+			throw new Exception(_("kitError2"));
+		}
+
+		// When was the last kit used?
+		final long lastTime = user.getKitTimestamp(kitName);
+
+		// When can be use the kit again?
+		final Calendar delayTime = new GregorianCalendar();
+		delayTime.setTimeInMillis(lastTime);
+		delayTime.add(Calendar.SECOND, (int)delay);
+		delayTime.add(Calendar.MILLISECOND, (int)((delay * 1000.0) % 1000.0));
+
+		if (lastTime == 0L || lastTime > time.getTimeInMillis())
+		{
+			// If we have no record of kit use, or its corrupted, give them benifit of the doubt.
+			return 0L;
+		}
+		else if (delay < 0d)
+		{
+			// If the kit has a negative kit time, it can only be used once.
+			return -1;
+		}
+		else if (delayTime.before(time))
+		{
+			// If the kit was used in the past, but outside the delay time, it can be used.
+			return 0L;
+		}
+		else
+		{
+			// If the kit has been used recently, return the next time it can be used.
+			return delayTime.getTimeInMillis();
+		}
+	}
+
+	public static List<String> getItems(final IEssentials ess, final User user, final Map<String, Object> kit) throws Exception
 	{
 		if (kit == null)
 		{
 			throw new Exception(_("kitNotFound"));
 		}
-
 		try
 		{
-			return (List<String>)kit.get("items");
+			final List<String> itemList = new ArrayList<String>();
+			final Object kitItems = kit.get("items");
+			if (kitItems instanceof List)
+			{
+				for (Object item : (List)kitItems)
+				{
+					if (item instanceof String)
+					{
+						itemList.add(item.toString());
+						continue;
+					}
+					throw new Exception("Error parsing kit item: " + item.toString());
+				}
+				return itemList;
+			}
+			throw new Exception("Error parsing kit: " + kitItems.toString());
 		}
 		catch (Exception e)
 		{
-			user.sendMessage(_("kitError2"));
-			throw new Exception(_("kitErrorHelp"), e);
+			ess.getLogger().log(Level.WARNING, e.getMessage());
+			throw new Exception(_("kitError2"), e);
 		}
 	}
 
@@ -114,13 +175,13 @@ public class Kit
 			{
 				if (kitItem.startsWith(ess.getSettings().getCurrencySymbol()))
 				{
-					Double value = Double.parseDouble(kitItem.substring(ess.getSettings().getCurrencySymbol().length()).trim());
+					BigDecimal value = new BigDecimal(kitItem.substring(ess.getSettings().getCurrencySymbol().length()).trim());
 					Trade t = new Trade(value, ess);
-					t.pay(user);
+					t.pay(user, OverflowType.DROP);
 					continue;
 				}
 
-				final String[] parts = kitItem.split(" ");
+				final String[] parts = kitItem.split(" +");
 				final ItemStack parseStack = ess.getItemDb().get(parts[0], parts.length > 1 ? Integer.parseInt(parts[1]) : 1);
 				final MetaItemStack metaStack = new MetaItemStack(parseStack);
 
@@ -154,14 +215,7 @@ public class Kit
 		catch (Exception e)
 		{
 			user.updateInventory();
-			if (ess.getSettings().isDebug())
-			{
-				ess.getLogger().log(Level.WARNING, e.getMessage());
-			}
-			else
-			{
-				ess.getLogger().log(Level.WARNING, e.getMessage());
-			}
+			ess.getLogger().log(Level.WARNING, e.getMessage());
 			throw new Exception(_("kitError2"), e);
 		}
 	}

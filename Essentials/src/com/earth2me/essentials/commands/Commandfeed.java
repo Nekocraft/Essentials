@@ -6,6 +6,7 @@ import java.util.List;
 import org.bukkit.Server;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.event.entity.FoodLevelChangeEvent;
 
 
 public class Commandfeed extends EssentialsCommand
@@ -20,14 +21,43 @@ public class Commandfeed extends EssentialsCommand
 	{
 		if (args.length > 0 && user.isAuthorized("essentials.feed.others"))
 		{
+			if (args[0].trim().length() < 2)
+			{
+				throw new Exception(_("playerNotFound"));
+			}
+			if (!user.isAuthorized("essentials.heal.cooldown.bypass"))
+			{
+				user.healCooldown();
+			}
 			feedOtherPlayers(server, user, args[0]);
+			return;
 		}
-		else
+
+		if (!user.isAuthorized("essentials.heal.cooldown.bypass"))
 		{
-			user.setFoodLevel(20);
-			user.setSaturation(10);
-			user.sendMessage(_("feed"));
+			user.healCooldown();
 		}
+		try
+		{
+			feedPlayer(user, user);
+		}
+		catch (QuietAbortException e)
+		{
+			//User does not need feeding.
+		}
+
+		user.sendMessage(_("feed"));
+	}
+
+	@Override
+	protected void run(final Server server, final CommandSender sender, final String commandLabel, final String[] args) throws Exception
+	{
+		if (args.length < 1)
+		{
+			throw new NotEnoughArgumentsException();
+		}
+
+		feedOtherPlayers(server, sender, args[0]);
 	}
 
 	private void feedOtherPlayers(final Server server, final CommandSender sender, final String name) throws NotEnoughArgumentsException
@@ -43,13 +73,38 @@ public class Commandfeed extends EssentialsCommand
 				continue;
 			}
 			foundUser = true;
-			matchPlayer.setFoodLevel(20);
-			matchPlayer.setSaturation(10);
-			sender.sendMessage(_("feedOther", matchPlayer.getDisplayName()));
+			try
+			{
+				feedPlayer(sender, matchPlayer);
+			}
+			catch (QuietAbortException e)
+			{
+				//User does not need feeding.
+			}
 		}
 		if (!foundUser)
 		{
 			throw new NotEnoughArgumentsException(_("playerNotFound"));
+		}
+	}
+
+	private void feedPlayer(CommandSender sender, Player player) throws QuietAbortException
+	{
+		final int amount = 30;
+
+		final FoodLevelChangeEvent flce = new FoodLevelChangeEvent(player, amount);
+		ess.getServer().getPluginManager().callEvent(flce);
+		if (flce.isCancelled())
+		{
+			throw new QuietAbortException();
+		}
+
+		player.setFoodLevel(flce.getFoodLevel() > 20 ? 20 : flce.getFoodLevel());
+		player.setSaturation(10);
+
+		if (!sender.equals(player))
+		{
+			sender.sendMessage(_("feedOther", player.getDisplayName()));
 		}
 	}
 }

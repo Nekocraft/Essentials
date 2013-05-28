@@ -222,6 +222,7 @@ public class Commandessentials extends EssentialsCommand
 		{
 			sender.sendMessage("This sub-command will delete users who havent logged in in the last <days> days.");
 			sender.sendMessage("Optional parameters define the minium amount required to prevent deletion.");
+			sender.sendMessage("Unless you define larger default values, this command wil ignore people who have more than 0 money/homes/bans.");
 			throw new Exception("/<command> cleanup <days> [money] [homes] [ban count]");
 		}
 		sender.sendMessage(_("cleaning"));
@@ -237,6 +238,7 @@ public class Commandessentials extends EssentialsCommand
 			@Override
 			public void run()
 			{
+				Long currTime = System.currentTimeMillis();
 				for (String u : userMap.getAllUniqueUsers())
 				{
 					final User user = ess.getUserMap().getUser(u);
@@ -246,11 +248,21 @@ public class Commandessentials extends EssentialsCommand
 					}
 
 					int ban = user.getBanReason().equals("") ? 0 : 1;
+					
 					long lastLog = user.getLastLogout();
-					long timeDiff = System.currentTimeMillis() - lastLog;
+					if (lastLog == 0)
+					{
+						lastLog = user.getLastLogin();
+					}
+					if (lastLog == 0)
+					{
+						user.setLastLogin(currTime);
+					}
+					
+					long timeDiff = currTime - lastLog;
 					long milliDays = daysArg * 24L * 60L * 60L * 1000L;
 					int homeCount = user.getHomes().size();
-					double moneyCount = user.getMoney();
+					double moneyCount = user.getMoney().doubleValue();
 
 					if ((lastLog == 0) || (ban > bansArg) || (timeDiff < milliDays)
 						|| (homeCount > homesArg) || (moneyCount > moneyArg))

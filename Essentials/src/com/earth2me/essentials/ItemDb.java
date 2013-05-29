@@ -45,7 +45,7 @@ public class ItemDb implements IConf, IItemDb
 				continue;
 			}
 
-			final String[] parts = line.split("[^a-z0-9]");
+			final String[] parts = line.split(",");
 			if (parts.length < 2)
 			{
 				continue;

@@ -10,11 +10,14 @@ import java.util.Random;
 import java.util.Set;
 import org.bukkit.DyeColor;
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.Server;
 import org.bukkit.block.Block;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.*;
 import org.bukkit.entity.Skeleton.SkeletonType;
+import org.bukkit.inventory.EntityEquipment;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.material.Colorable;
 
 
@@ -161,6 +164,7 @@ public class SpawnMob
 			{
 				mob = Mob.fromName(parts.get(i));
 				spawnedMob = mob.spawn(sloc.getWorld(), server, sloc);
+				defaultMobData(mob.getType(), spawnedMob);
 
 				if (data.get(i) != null)
 				{
@@ -173,6 +177,7 @@ public class SpawnMob
 			{
 				Mob mMob = Mob.fromName(parts.get(next));
 				spawnedMount = mMob.spawn(sloc.getWorld(), server, sloc);
+				defaultMobData(mMob.getType(), spawnedMount);
 
 				if (data.get(next) != null)
 				{
@@ -224,6 +229,48 @@ public class SpawnMob
 		{
 			((Ageable)spawned).setBaby();
 			data = data.replace("baby", "");
+		}
+
+		if (spawned instanceof LivingEntity)
+		{
+			//This should match all Living Entities but most mobs will just ignore the equipment.
+			if (data.contains("armor") || data.contains("armour"))
+			{
+				final EntityEquipment invent = ((LivingEntity)spawned).getEquipment();
+				if (data.contains("diamond"))
+				{
+					invent.setBoots(new ItemStack(Material.DIAMOND_BOOTS, 1));
+					invent.setLeggings(new ItemStack(Material.DIAMOND_BOOTS, 1));
+					invent.setChestplate(new ItemStack(Material.DIAMOND_BOOTS, 1));
+					invent.setHelmet(new ItemStack(Material.DIAMOND_BOOTS, 1));
+				}
+				else if (data.contains("gold"))
+				{
+					invent.setBoots(new ItemStack(Material.GOLD_BOOTS, 1));
+					invent.setLeggings(new ItemStack(Material.GOLD_BOOTS, 1));
+					invent.setChestplate(new ItemStack(Material.GOLD_BOOTS, 1));
+					invent.setHelmet(new ItemStack(Material.GOLD_BOOTS, 1));
+				}
+				else if (data.contains("leather"))
+				{
+					invent.setBoots(new ItemStack(Material.LEATHER_BOOTS, 1));
+					invent.setLeggings(new ItemStack(Material.LEATHER_BOOTS, 1));
+					invent.setChestplate(new ItemStack(Material.LEATHER_BOOTS, 1));
+					invent.setHelmet(new ItemStack(Material.LEATHER_BOOTS, 1));
+				}
+				else
+				{
+					invent.setBoots(new ItemStack(Material.IRON_BOOTS, 1));
+					invent.setLeggings(new ItemStack(Material.IRON_BOOTS, 1));
+					invent.setChestplate(new ItemStack(Material.IRON_BOOTS, 1));
+					invent.setHelmet(new ItemStack(Material.IRON_BOOTS, 1));
+				}
+				invent.setBootsDropChance(0f);
+				invent.setLeggingsDropChance(0f);
+				invent.setChestplateDropChance(0f);
+				invent.setHelmetDropChance(0f);
+			}
+
 		}
 
 		if (spawned instanceof Colorable)
@@ -306,6 +353,31 @@ public class SpawnMob
 				((Zombie)spawned).setBaby(true);
 			}
 		}
+		
+		if (spawned instanceof Zombie || type == EntityType.SKELETON)
+		{
+			if (data.contains("sword"))
+			{
+				final EntityEquipment invent = ((LivingEntity)spawned).getEquipment();
+				if (data.contains("diamond"))
+				{
+					invent.setItemInHand(new ItemStack(Material.DIAMOND_SWORD, 1));
+				}
+				else if (data.contains("gold"))
+				{
+					invent.setItemInHand(new ItemStack(Material.GOLD_SWORD, 1));
+				}
+				else if (data.contains("iron"))
+				{
+					invent.setItemInHand(new ItemStack(Material.IRON_SWORD, 1));
+				}
+				else
+				{
+					invent.setItemInHand(new ItemStack(Material.STONE_SWORD, 1));
+				}
+				invent.setItemInHandDropChance(0.1f);
+			}
+		}
 
 		if (type == EntityType.SKELETON)
 		{
@@ -323,5 +395,36 @@ public class SpawnMob
 
 			}
 		}
+	}
+
+	private static void defaultMobData(final EntityType type, final Entity spawned)
+	{
+		if (type == EntityType.SKELETON)
+		{
+			final EntityEquipment invent = ((LivingEntity)spawned).getEquipment();
+			invent.setItemInHand(new ItemStack(Material.BOW, 1));
+			invent.setItemInHandDropChance(0.1f);
+
+			invent.setBoots(new ItemStack(Material.GOLD_BOOTS, 1));
+			invent.setBootsDropChance(0.0f);
+		}
+
+		if (type == EntityType.PIG_ZOMBIE)
+		{
+			final EntityEquipment invent = ((LivingEntity)spawned).getEquipment();
+			invent.setItemInHand(new ItemStack(Material.GOLD_SWORD, 1));
+			invent.setItemInHandDropChance(0.1f);
+
+			invent.setBoots(new ItemStack(Material.GOLD_BOOTS, 1));
+			invent.setBootsDropChance(0.0f);
+		}
+
+		if (type == EntityType.ZOMBIE)
+		{
+			final EntityEquipment invent = ((LivingEntity)spawned).getEquipment();
+			invent.setBoots(new ItemStack(Material.GOLD_BOOTS, 1));
+			invent.setBootsDropChance(0.0f);
+		}
+
 	}
 }
